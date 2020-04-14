@@ -1,0 +1,2168 @@
+.igtab_ClaymationTHControl
+{
+	overflow:hidden;
+}
+.igtab_ClaymationTHContentHolder
+{
+	border:1px solid #999999;
+	border-top-width:0px;
+	height:80%;
+	overflow:hidden;
+	position:relative;
+	background:#FFFFFF;
+}
+.igtab_ClaymationTHContent
+{
+	height:100%;
+	position:relative;
+	background-color:#FFFFFF;
+}
+.igtab_ClaymationTHHolderNoScroll
+{
+	display:block;
+	position:relative;
+	width:100%;
+}
+.igtab_ClaymationTHHolder
+{
+	background:url(./images/igtab_HolderBorder.gif) repeat-x bottom left;
+	position:relative;
+	display:block;
+	height:23px;
+	width:100%;
+	padding:0px;
+	margin:0px;
+	overflow:hidden;
+	white-space:nowrap;
+}
+.igtab_ClaymationTHRoundedForHolder
+{
+	background:none;
+	margin-left:5px;
+	height:22px;
+}
+.igtab_ClaymationTHHolderScroll
+{
+	position:relative;
+	width:100%;
+	margin-left:-45px;
+	display:block;
+	overflow:hidden;
+}
+.igtab_ClaymationTHHolderScrollInner
+{
+	position:relative;
+	display:block;
+	width:9999px;
+	left:45px;
+}
+.igtab_ClaymationTHScrollButtons
+{
+	font-size:1px;
+	position:absolute;
+	left:100%;
+	display:block;
+	margin-left:-45px;
+	width:45px;
+	z-index:20000;
+	text-align:right;
+	padding-top:2px;
+}
+.igtab_ClaymationTHRoundedForScroll
+{
+	margin-left:-66px;
+}
+.igtab_ClaymationTHImage
+{
+	vertical-align:middle;
+}
+.igtab_ClaymationTHClose
+{
+	position:absolute;
+	left:100%;
+	margin-left:-20px;
+	margin-top:6px;
+	top:0px;
+	cursor: pointer;
+}
+.igtab_ClaymationTHScrollButton
+{
+	padding:1px;
+}
+.igtab_ClaymationTHText
+{
+	vertical-align:middle;
+	padding:0px 1px 0px 1px;
+	font-family:Verdana;
+	font-size:11px;
+	white-space:nowrap;
+	border:0px;
+	line-height:22px;
+	cursor:default;
+}
+.igtab_ClaymationTHCenter
+{
+	padding:0px 1px 0px 1px;
+	display:block;
+	position:relative;
+	background:url(./images/igtab_THCenter.gif) repeat-x;
+    background-color:#f0f0f0;
+	white-space:nowrap;
+	text-align:center;
+	font:22px sans-serif;
+	line-height:22px;
+	overflow:hidden;
+}
+.igtab_ClaymationTHCloseSize
+{
+	padding-right:20px;
+}
+.igtab_ClaymationTHTail
+{
+	background: transparent url(./images/igtab_THRight.gif) no-repeat;
+	background-position: top right;
+	padding-left:0px;
+	padding-right:7px;
+	display:block;
+	margin: 0px;
+	height:100%;
+}
+.igtab_ClaymationTHTab
+{
+	display:inline;
+	position:relative;
+	padding-left:21px;
+	float:left;
+	background: transparent url(./images/igtab_THLeft.gif) top left no-repeat;
+	margin:0px;
+	overflow:hidden;
+	white-space:nowrap;
+	border-bottom:1px solid #999999;
+	height:22px;
+}
+.igtab_ClaymationTHOverlap
+{
+	margin-left:-15px;
+}
+.igtab_ClaymationTHRoundedLastTab
+{
+	margin-right:10px;
+}
+.igtab_ClaymationTHTextHov
+{
+	color: #FFFFFF;
+}
+.igtab_ClaymationTHCenterHov
+{
+	background-position: 0px -50px;
+	background-color: #0fc3ff;
+}
+.igtab_ClaymationTHTailHov
+{
+	background: transparent url(./images/igtab_THRightHov.gif) no-repeat;
+	background-position: top right;
+}
+.igtab_ClaymationTHTabHov
+{
+	background-position: 0px -27px;
+}
+.igtab_ClaymationTHTextSel
+{
+}
+.igtab_ClaymationTHCenterSel
+{
+	background-position: 0px -100px;
+}
+.igtab_ClaymationTHTailSel
+{
+	background: transparent url(./images/igtab_THRightSel.gif) no-repeat;
+	background-position: top right;
+}
+.igtab_ClaymationTHTabSel
+{
+	background-position: 0px -54px;
+}
+.igtab_ClaymationTHTextAct
+{
+	border:1px dotted #000;
+	padding:0px;
+}
+.igtab_ClaymationTHCenterAct
+{
+}
+.igtab_ClaymationTHTailAct
+{
+}
+.igtab_ClaymationTHTabAct
+{
+}
+.igtab_ClaymationTHTextDis
+{
+	color:#AAAAAA;
+}
+.igtab_ClaymationTHCenterDis
+{
+	background-position: 0px -150px;
+	background-color:#CCCCCC;
+}
+.igtab_ClaymationTHTailDis
+{
+	background-image:url(./images/igtab_THRightDis.gif);
+}
+.igtab_ClaymationTHTabDis
+{
+	background-position: 0px -81px;
+}
+.igtab_ClaymationTHTabMoving
+{
+	filter:alpha(opacity:30);
+	opacity:0.3;
+}
+.igtab_ClaymationTHTabMovingMarkUp
+{
+	filter:alpha(opacity:70);
+	opacity:0.7;
+}
+
+.igtab_ClaymationTHRoundedCorners
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundCorners.gif);
+	background-repeat:no-repeat;
+}
+.igtab_ClaymationTHRoundedTopBottom
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundTopBot.gif);
+	background-repeat:repeat-x;
+}
+.igtab_ClaymationTHRoundedLeftRight
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundLeftRight.gif);
+	background-repeat:repeat-y;
+}
+.igtab_ClaymationTHRoundedFill
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundFill.gif);
+}
+
+
+
+
+
+
+
+
+
+.igtab_ClaymationTVControl
+{
+	overflow:hidden;
+}
+.igtab_ClaymationTVContentHolder
+{
+	border:1px solid #999999;
+	border-top-width:0px;
+	height:50%;
+	overflow:hidden;
+	position:relative;
+	background:#FFFFFF;
+}
+.igtab_ClaymationTVContent
+{
+	height:100%;
+	position:relative;
+	background: #EFEFEF;
+}
+.igtab_ClaymationTVHolderNoScroll
+{
+	display:block;
+	position:relative;
+	width:100%;
+}
+.igtab_ClaymationTVHolder
+{
+	background:url(./images/igtab_HolderBorder.gif) repeat-x bottom left;
+	position:relative;
+	display:block;
+	width:100%;
+	padding:0px;
+	margin:0px;
+	overflow:hidden;
+	white-space:nowrap;
+}
+.igtab_ClaymationTVRoundedForHolder
+{
+	background:none;
+	margin-left:5px;
+}
+.igtab_ClaymationTVHolderScroll
+{
+	position:relative;
+	width:100%;
+	margin-left:-45px;
+	display:block;
+	overflow:hidden;
+}
+.igtab_ClaymationTVHolderScrollInner
+{
+	position:relative;
+	display:block;
+	width:9999px;
+	left:45px;
+}
+.igtab_ClaymationTVScrollButtons
+{
+	font-size:1px;
+	position:absolute;
+	left:100%;
+	top:100%;
+	display:block;
+	margin-left:-45px;
+	margin-top:-33px;
+	width:45px;
+	z-index:20000;
+	text-align:right;
+	padding-top:2px;
+}
+.igtab_ClaymationTVRoundedForScroll
+{
+	margin-left:-66px;
+}
+.igtab_ClaymationTVImage
+{
+	margin-left:10%;
+	display:block;
+}
+.igtab_ClaymationTVClose
+{
+	position:absolute;
+	left:100%;
+	top:100%;
+	margin-left:-24px;
+	margin-top:-14px;
+	cursor: pointer;
+}
+.igtab_ClaymationTVScrollButton
+{
+	padding:1px;
+}
+.igtab_ClaymationTVText
+{
+	margin-top:5px;
+	margin-bottom:6px;
+	font-family:Verdana;
+	font-size:11px;
+	white-space:nowrap;
+	border:0px;
+	line-height:11px;
+	display:block;
+	text-align:center;
+	overflow:hidden;
+	margin-left:5px;
+	width:20px;
+	cursor:default;
+}
+.igtab_ClaymationTVCenter
+{
+	padding-top:5px;
+	display:block;
+	position:relative;
+	overflow:hidden;
+}
+.igtab_ClaymationTVCloseSize
+{
+	padding-bottom:14px;
+}
+.igtab_ClaymationTVMirrorCenter
+{
+	background:url(./images/igtab_TVRight.gif) top right repeat-y;
+	display:block;
+	margin-top:12px;
+	width:100%;
+	height:100%;
+}
+.igtab_ClaymationTVMirror
+{
+	background:url(./images/igtab_TVRightTop.gif) top right no-repeat;
+	display:block;
+	position:absolute;
+	margin-left:8px;
+	width:26px;
+	height:100%;
+}
+.igtab_ClaymationTVTail
+{
+	background:url(./images/igtab_TVLeft.gif) repeat-y;
+	padding:0px;
+	display:block;
+	position:absolute;
+	width:12px;
+	margin-top:12px;
+	height:100%;
+}
+.igtab_ClaymationTVTab
+{
+	display:inline;
+	position:relative;
+	padding:0px;
+	float:left;
+	background:transparent url(./images/igtab_TVLeftTop.gif) no-repeat;
+	margin:0px;
+	overflow:hidden;
+	width:34px;
+	border-bottom:1px solid #999999;
+}
+.igtab_ClaymationTVOverlap
+{
+	margin-left:-4px;
+}
+.igtab_ClaymationTVRoundedLastTab
+{
+	margin-right:10px;
+}
+.igtab_ClaymationTVTextHov
+{
+}
+.igtab_ClaymationTVCenterHov
+{
+}
+.igtab_ClaymationTVMirrorCenterHov
+{
+	background-image:url(./images/igtab_TVRightHov.gif);
+}
+.igtab_ClaymationTVMirrorHov
+{
+	background-image:url(./images/igtab_TVRightTopHov.gif);
+}
+.igtab_ClaymationTVTailHov
+{
+	background-position: -50px 0px;
+}
+.igtab_ClaymationTVTabHov
+{
+	background-position: 0px -17px;
+}
+.igtab_ClaymationTVTextSel
+{
+}
+.igtab_ClaymationTVCenterSel
+{
+}
+.igtab_ClaymationTVMirrorCenterSel
+{
+	background-image:url(./images/igtab_TVRightSel.gif);
+	background-color:#C4C4C4;
+}
+.igtab_ClaymationTVMirrorSel
+{
+	background-image:url(./images/igtab_TVRightTopSel.gif);
+}
+.igtab_ClaymationTVTailSel
+{
+	background-position: -100px 0px;
+}
+.igtab_ClaymationTVTabSel
+{
+	background-position: 0px -34px;
+}
+.igtab_ClaymationTVTextAct
+{
+	margin-left:4px;
+	border:1px dotted #000;
+}
+.igtab_ClaymationTVCenterAct
+{
+}
+.igtab_ClaymationTVMirrorCenterAct
+{
+}
+.igtab_ClaymationTVMirrorAct
+{
+}
+.igtab_ClaymationTVTailAct
+{
+}
+.igtab_ClaymationTVTabAct
+{
+}
+.igtab_ClaymationTVTextDis
+{
+	color:#AAAAAA;
+}
+.igtab_ClaymationTVCenterDis
+{
+}
+.igtab_ClaymationTVMirrorCenterDis
+{
+	background-image:url(./images/igtab_TVRightDis.gif);
+}
+.igtab_ClaymationTVMirrorDis
+{
+	background-image:url(./images/igtab_TVRightTopDis.gif);
+}
+.igtab_ClaymationTVTailDis
+{
+	background-position: -150px 0px;
+}
+.igtab_ClaymationTVTabDis
+{
+	background-position: 0px -51px;
+}
+.igtab_ClaymationTVTabMoving
+{
+	filter:alpha(opacity:30);
+	opacity:0.3;
+}
+.igtab_ClaymationTVTabMovingMarkUp
+{
+	filter:alpha(opacity:70);
+	opacity:0.7;
+}
+.igtab_ClaymationTVRoundedCorners
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundCorners.gif);
+	background-repeat:no-repeat;
+}
+.igtab_ClaymationTVRoundedTopBottom
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundTopBot.gif);
+	background-repeat:repeat-x;
+}
+.igtab_ClaymationTVRoundedLeftRight
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundLeftRight.gif);
+	background-repeat:repeat-y;
+}
+.igtab_ClaymationTVRoundedFill
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundFill.gif);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.igtab_ClaymationBHControl
+{
+	overflow:hidden;
+}
+.igtab_ClaymationBHContentHolder
+{
+	border:1px solid #999999;
+	border-bottom-width: 0px;
+	height:60%;
+	overflow:hidden;
+	position:relative;
+	background:#FFFFFF;
+}
+.igtab_ClaymationBHContent
+{
+	height:100%;
+	background: #EFEFEF;
+	position:relative;
+}
+.igtab_ClaymationBHHolderNoScroll
+{
+	display:block;
+	position:relative;
+	width:100%;
+}
+.igtab_ClaymationBHHolder
+{
+	background:url(./images/igtab_HolderBorder.gif) repeat-x;
+	position:relative;
+	display:block;
+	height:23px;
+	width:100%;
+	padding:0px;
+	margin:0px;
+	overflow:hidden;
+	white-space:nowrap;
+}
+.igtab_ClaymationBHRoundedForHolder
+{
+	background:none;
+	margin-left:5px;
+	height:22px;
+}
+.igtab_ClaymationBHHolderScroll
+{
+	position:relative;
+	width:100%;
+	margin-left:-45px;
+	display:block;
+	overflow:hidden;
+}
+.igtab_ClaymationBHHolderScrollInner
+{
+	position:relative;
+	display:block;
+	width:9999px;
+	left:45px;
+}
+.igtab_ClaymationBHScrollButtons
+{
+	font-size:1px;
+	position:absolute;
+	left:100%;
+	display:block;
+	margin-left:-45px;
+	width:45px;
+	z-index:20000;
+	text-align:right;
+	padding-top:2px;
+}
+.igtab_ClaymationBHRoundedForScroll
+{
+	margin-left:-66px;
+}
+.igtab_ClaymationBHImage
+{
+	vertical-align:middle;
+}
+.igtab_ClaymationBHClose
+{
+	position:absolute;
+	left:100%;
+	margin-left:-20px;
+	margin-top:5px;
+	top:0px;
+	cursor: pointer;
+}
+.igtab_ClaymationBHScrollButton
+{
+	padding:1px;
+}
+.igtab_ClaymationBHText
+{
+	vertical-align:middle;
+	padding:0px 1px 0px 1px;
+	font-family:Verdana;
+	font-size:11px;
+	white-space:nowrap;
+	border:0px;
+	line-height:22px;
+	cursor:default;
+}
+.igtab_ClaymationBHCenter
+{
+	padding:0px 1px 0px 1px;
+	display:block;
+	position:relative;
+	/* do not use position-y:bottom, because of IE7 bugs: if tab has IMG, then background is shifted by 1-3 pixels down. */
+	background:url(./images/igtab_BHCenter.gif) top left repeat-x;
+	background-color:#f0f0f0;
+	white-space:nowrap;
+	text-align:center;
+	font:22px sans-serif;
+	line-height:22px;
+	overflow:hidden;
+}
+.igtab_ClaymationBHCloseSize
+{
+	padding-right:20px;
+}
+.igtab_ClaymationBHTail
+{
+	background:url(./images/igtab_BHRight.gif) top right no-repeat;
+	padding-left:0px;
+	padding-right:7px;
+	display:block;
+	height:100%;
+}
+.igtab_ClaymationBHTab
+{
+	display:inline;
+	position:relative;
+	padding-left:21px;
+	float:left;
+	background:transparent url(./images/igtab_BHLeft.gif) top left no-repeat;
+	margin:0px;
+	overflow:hidden;
+	white-space:nowrap;
+	border-top:1px solid #999999;
+	height:22px;
+}
+.igtab_ClaymationBHOverlap
+{
+	margin-left:-15px;
+}
+.igtab_ClaymationBHRoundedLastTab
+{
+	margin-right:10px;
+}
+.igtab_ClaymationBHTextHov
+{
+	color: #FFFFFF;
+}
+.igtab_ClaymationBHCenterHov
+{
+	background-position: 0px -27px;
+	background-color:#0fc3ff;
+}
+.igtab_ClaymationBHTailHov
+{
+	background-image:url(./images/igtab_BHRightHov.gif);
+}
+.igtab_ClaymationBHTabHov
+{
+	background-position: 0px -27px;
+}
+.igtab_ClaymationBHTextSel
+{
+}
+.igtab_ClaymationBHCenterSel
+{
+	background-position: 0px -54px;
+	background-color:#C4C4C4;
+}
+.igtab_ClaymationBHTailSel
+{
+	background-image:url(./images/igtab_BHRightSel.gif);
+}
+.igtab_ClaymationBHTabSel
+{
+	background-position: 0px -54px;
+}
+.igtab_ClaymationBHTextAct
+{
+	border:1px dotted #000;
+	padding:0px;
+}
+.igtab_ClaymationBHCenterAct
+{
+}
+.igtab_ClaymationBHTailAct
+{
+}
+.igtab_ClaymationBHTabAct
+{
+}
+.igtab_ClaymationBHTextDis
+{
+	color:#AAAAAA;
+}
+.igtab_ClaymationBHCenterDis
+{
+	background-position: 0px -81px;
+	background-color:#cccccc;
+}
+.igtab_ClaymationBHTailDis
+{
+	background-image:url(./images/igtab_BHRightDis.gif);
+}
+.igtab_ClaymationBHTabDis
+{
+	background-position: 0px -81px;
+}
+.igtab_ClaymationBHTabMoving
+{
+	filter:alpha(opacity:30);
+	opacity:0.3;
+}
+.igtab_ClaymationBHTabMovingMarkUp
+{
+	filter:alpha(opacity:70);
+	opacity:0.7;
+}
+.igtab_ClaymationBHRoundedCorners
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_BRoundCorners.gif);
+	background-repeat:no-repeat;
+}
+.igtab_ClaymationBHRoundedTopBottom
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_BRoundTopBot.gif);
+	background-repeat:repeat-x;
+}
+.igtab_ClaymationBHRoundedLeftRight
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_BRoundLeftRight.gif);
+	background-repeat:repeat-y;
+}
+.igtab_ClaymationBHRoundedFill
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_BRoundFill.gif);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.igtab_ClaymationBVControl
+{
+	overflow:hidden;
+}
+.igtab_ClaymationBVContentHolder
+{
+	border:1px solid #999999;
+	border-bottom-width: 0px;
+	height:50%;
+	overflow:hidden;
+	position:relative;
+	background:#FFFFFF;
+}
+.igtab_ClaymationBVContent
+{
+	height:100%;
+	position:relative;
+	background: #EFEFEF url(./images/igtab_THContentBackground.jpg) repeat-x;
+}
+.igtab_ClaymationBVHolderNoScroll
+{
+	display:block;
+	position:relative;
+	width:100%;
+}
+.igtab_ClaymationBVHolder
+{
+	background:url(./images/igtab_HolderBorder.gif) repeat-x top left;
+	position:relative;
+	display:block;
+	width:100%;
+	padding:0px;
+	margin:0px;
+	overflow:hidden;
+	white-space:nowrap;
+}
+.igtab_ClaymationBVRoundedForHolder
+{
+	background:none;
+	margin-left:5px;
+}
+.igtab_ClaymationBVHolderScroll
+{
+	position:relative;
+	width:100%;
+	margin-left:-45px;
+	display:block;
+	overflow:hidden;
+}
+.igtab_ClaymationBVHolderScrollInner
+{
+	position:relative;
+	display:block;
+	width:9999px;
+	left:45px;
+}
+.igtab_ClaymationBVScrollButtons
+{
+	font-size:1px;
+	position:absolute;
+	left:100%;
+	display:block;
+	margin-left:-45px;
+	margin-top:3px;
+	width:45px;
+	z-index:20000;
+	text-align:right;
+	padding-top:2px;
+}
+.igtab_ClaymationBVRoundedForScroll
+{
+	margin-left:-66px;
+}
+.igtab_ClaymationBVImage
+{
+	margin-left:10%;
+	display:block;
+}
+.igtab_ClaymationBVClose
+{
+	position:absolute;
+	left:100%;
+	top:100%;
+	margin-left:-24px;
+	margin-top:-18px;
+	cursor: pointer;
+}
+.igtab_ClaymationBVScrollButton
+{
+	padding:1px;
+}
+.igtab_ClaymationBVText
+{
+	margin-top:3px;
+	margin-bottom:5px;
+	font-family:Verdana;
+	font-size:11px;
+	white-space:nowrap;
+	border:0px;
+	line-height:11px;
+	display:block;
+	text-align:center;
+	overflow:hidden;
+	margin-left:5px;
+	width:20px;
+}
+.igtab_ClaymationBVCenter
+{
+	padding-bottom:5px;
+	display:block;
+	position:relative;
+	overflow:hidden;
+}
+.igtab_ClaymationBVCloseSize
+{
+	padding-bottom:17px;
+}
+.igtab_ClaymationBVMirrorCenter
+{
+	background:url(./images/igtab_BVRight.gif) top right repeat-y;
+	display:block;
+	margin-top:-12px;
+	width:100%;
+	height:100%;
+}
+.igtab_ClaymationBVMirror
+{
+	background:url(./images/igtab_BVRightBot.gif) bottom right no-repeat;
+	display:block;
+	position:absolute;
+	margin-left:8px;
+	width:26px;
+	height:100%;
+}
+.igtab_ClaymationBVTail
+{
+	background:url(./images/igtab_BVLeft.gif) repeat-y;
+	padding:0px;
+	display:block;
+	position:absolute;
+	width:12px;
+	margin-top:-12px;
+	height:100%;
+}
+.igtab_ClaymationBVTab
+{
+	display:inline;
+	position:relative;
+	padding:0px;
+	float:left;
+	background:url(./images/igtab_BVLeftBot.gif) bottom left no-repeat;
+	margin:0px;
+	overflow:hidden;
+	width:34px;
+	border-top:1px solid #999999;
+}
+.igtab_ClaymationBVOverlap
+{
+	margin-left:-4px;
+}
+.igtab_ClaymationBVRoundedLastTab
+{
+	margin-right:10px;
+}
+.igtab_ClaymationBVTextHov
+{
+	color: #FFFFFF;
+}
+.igtab_ClaymationBVCenterHov
+{
+}
+.igtab_ClaymationBVMirrorCenterHov
+{
+	background-image:url(./images/igtab_BVRightHov.gif);
+}
+.igtab_ClaymationBVMirrorHov
+{
+	background-image:url(./images/igtab_BVRightBotHov.gif);
+}
+.igtab_ClaymationBVTailHov
+{
+	background-position: -50px 0px;
+}
+.igtab_ClaymationBVTabHov
+{
+	background-image:url(./images/igtab_BVLeftBotHov.gif);
+}
+.igtab_ClaymationBVTextSel
+{
+}
+.igtab_ClaymationBVCenterSel
+{
+}
+.igtab_ClaymationBVMirrorCenterSel
+{
+	background-image:url(./images/igtab_BVRightSel.gif);
+}
+.igtab_ClaymationBVMirrorSel
+{
+	background-image:url(./images/igtab_BVRightBotSel.gif);
+}
+.igtab_ClaymationBVTailSel
+{
+	background-position: -100px 0px;
+}
+.igtab_ClaymationBVTabSel
+{
+	background-image:url(./images/igtab_BVLeftBotSel.gif);
+}
+.igtab_ClaymationBVTextAct
+{
+	margin: 2px 0px 0px 4px;
+	border:1px dotted #000;
+}
+.igtab_ClaymationBVCenterAct
+{
+}
+.igtab_ClaymationBVMirrorCenterAct
+{
+}
+.igtab_ClaymationBVMirrorAct
+{
+}
+.igtab_ClaymationBVTailAct
+{
+}
+.igtab_ClaymationBVTabAct
+{
+}
+.igtab_ClaymationBVTextDis
+{
+	color:#AAAAAA;
+}
+.igtab_ClaymationBVCenterDis
+{
+}
+.igtab_ClaymationBVMirrorCenterDis
+{
+	background-image:url(./images/igtab_BVRightDis.gif);
+}
+.igtab_ClaymationBVMirrorDis
+{
+	background-image:url(./images/igtab_BVRightBotDis.gif);
+}
+.igtab_ClaymationBVTailDis
+{
+	background-position: -150px 0px;
+}
+.igtab_ClaymationBVTabDis
+{
+	background-image:url(./images/igtab_BVLeftBotDis.gif);
+}
+.igtab_ClaymationBVTabMoving
+{
+	filter:alpha(opacity:30);
+	opacity:0.3;
+}
+.igtab_ClaymationBVTabMovingMarkUp
+{
+	filter:alpha(opacity:70);
+	opacity:0.7;
+}
+.igtab_ClaymationBVRoundedCorners
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_BRoundCorners.gif);
+	background-repeat:no-repeat;
+}
+.igtab_ClaymationBVRoundedTopBottom
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_BRoundTopBot.gif);
+	background-repeat:repeat-x;
+}
+.igtab_ClaymationBVRoundedLeftRight
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_BRoundLeftRight.gif);
+	background-repeat:repeat-y;
+}
+.igtab_ClaymationBVRoundedFill
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_BRoundFill.gif);
+}
+
+
+
+
+
+
+
+
+.igtab_ClaymationLVControl
+{
+	overflow:hidden;
+	position:relative;
+}
+.igtab_ClaymationLVContentHolder
+{
+	background:#FFFFFF;
+	border:1px solid #999999;
+	height:99%;
+	margin-left:24px;
+	position:relative;
+	overflow:hidden;
+	z-index:9;
+}
+.igtab_ClaymationLVContent
+{
+	height:100%;
+	position:relative;
+	background-color:#FFFFFF;
+}
+.igtab_ClaymationLVHolder
+{
+	overflow:hidden;
+	position:absolute;
+	z-index:999;
+	left:0px;
+	top:0px;
+	height:100%;
+	width:25px;
+}
+.igtab_ClaymationLVHolderScroll
+{	
+	top:-47px;
+}
+.igtab_ClaymationLVHolderScrollInner
+{
+	top:47px;
+}
+.igtab_ClaymationLVRoundedForHolder
+{
+	top:-6px;
+}
+.igtab_ClaymationLVRoundedForHolderInner
+{
+	top:12px;
+}
+.igtab_ClaymationLVRoundedForHolderScroll
+{
+	top:-53px;
+}
+.igtab_ClaymationLVRoundedForHolderScrollInner
+{
+	top:59px;
+}
+.igtab_ClaymationLVScrollButtons
+{
+	font-size:1px;
+	position:absolute;
+	top:100%;
+	margin-top:-47px;
+	margin-left:5px;	
+	z-index:20000; 
+	left:0px;
+}
+.igtab_ClaymationLVRoundedForScroll
+{
+	margin-top:-53px;
+}
+.igtab_ClaymationLVScrollButton
+{
+	display:block;
+	margin-top:2px;
+}
+.igtab_ClaymationLVClose
+{
+	position:absolute;
+	cursor:pointer;
+	margin-top:-15px;
+	margin-left:6px;
+}
+.igtab_ClaymationLVCloseSize 
+{
+	padding-bottom:14px;
+}
+.igtab_ClaymationLVImage
+{
+	vertical-align:middle;
+	position:relative;
+	display:block;
+}
+.igtab_ClaymationLVText
+{
+	vertical-align:middle;
+	line-height:14px;
+	font-family:Verdana;
+	font-size:11px;
+	display:block;
+	padding-left:6px;
+	position:relative;
+	
+	cursor:default;
+}
+.igtab_ClaymationLVCenter
+{
+	display:block;
+	position:relative;
+	overflow:hidden;	
+	background:url(./images/igtab_LVCenter.gif) repeat-y;
+	background-color:#f0f0f0;
+	padding-left:3px;
+}
+.igtab_ClaymationLVTail
+{
+	display:block;
+	background:url(./images/igtab_LVBot.gif) bottom left;
+	padding-top:3px;
+}
+.igtab_ClaymationLVTab
+{
+	background:url(./images/igtab_LVTop.gif) no-repeat top left;
+	display:block;
+	overflow:hidden;
+	position:relative;
+	padding-top:3px;
+	border-right:1px solid #999999;
+}
+.igtab_ClaymationLVOverlap
+{
+	margin-top:-5px;
+}
+.igtab_ClaymationLVTextHov
+{
+}
+.igtab_ClaymationLVCenterHov
+{
+	background-image:url(./images/igtab_LVCenterHov.gif);
+	background-color:#0fc3ff;
+}
+.igtab_ClaymationLVTailHov
+{
+	background-image:url(./images/igtab_LVBotHov.gif);
+}
+.igtab_ClaymationLVTabHov
+{
+	background-image:url(./images/igtab_LVTopHov.gif);
+	color:#ffffff;
+}
+.igtab_ClaymationLVTextSel
+{
+}
+.igtab_ClaymationLVCenterSel
+{
+	background-image:url(./images/igtab_LVCenterSel.gif);
+	background-color:#C4C4C4;
+}
+.igtab_ClaymationLVTailSel
+{
+	background-image:url(./images/igtab_LVBotSel.gif);
+	border-right-color:#C4C4C4;
+}
+.igtab_ClaymationLVTabSel
+{
+	background-image:url(./images/igtab_LVTopSel.gif);
+	border-right-color:#d1d1d1;
+}
+.igtab_ClaymationLVTextAct
+{	
+	border:1px dotted #000;
+}
+.igtab_ClaymationLVCenterAct
+{
+}
+.igtab_ClaymationLVTailAct
+{
+}
+.igtab_ClaymationLVTabAct
+{
+}
+.igtab_ClaymationLVTextDis
+{
+}
+.igtab_ClaymationLVCenterDis
+{
+	background-image:url(./images/igtab_LVCenterDis.gif);
+	background-color:#cccccc;
+}
+.igtab_ClaymationLVTailDis
+{
+	background-image:url(./images/igtab_LVBotDis.gif);
+}
+.igtab_ClaymationLVTabDis
+{
+	background-image:url(./images/igtab_LVTopDis.gif);
+}
+.igtab_ClaymationLVTabMoving
+{
+	filter:alpha(opacity:30);
+	opacity:0.3;
+}
+.igtab_ClaymationLVTabMovingMarkUp
+{
+	filter:alpha(opacity:70);
+	opacity:0.7;
+}
+.igtab_ClaymationLVRoundedCorners
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundCorners.gif);
+	background-repeat:no-repeat;
+}
+.igtab_ClaymationLVRoundedTopBottom
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundTopBot.gif);
+	background-repeat:repeat-x;
+}
+.igtab_ClaymationLVRoundedLeftRight
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundLeftRight.gif);
+	background-repeat:repeat-y;
+}
+.igtab_ClaymationLVRoundedFill
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundFill.gif);
+}
+
+
+
+.igtab_ClaymationRVControl
+{
+	overflow:hidden;
+	position:relative;
+}
+.igtab_ClaymationRVContentHolder
+{
+	background:#FFFFFF;
+	border-right:1px solid #999999;
+	border-bottom:1px solid #999999;
+	border-top:1px solid #999999;
+	height:99%;
+	margin-left:-24px;
+	position:relative;
+	overflow:hidden;
+	width:100%;
+	z-index:9;
+}
+.igtab_ClaymationRVContentHolderInner
+{
+	border-left:1px solid #999999;
+	height:100%;
+	margin-left:24px;
+	position:relative;
+	overflow:hidden;
+	z-index:9;
+}
+.igtab_ClaymationRVContent
+{
+	height:100%;
+	position:relative;
+	background-color:#FFFFFF;
+}
+.igtab_ClaymationRVHolder
+{
+	overflow:hidden;
+	position:absolute;
+	z-index:999;
+	left:100%;
+	top:0px;
+	height:100%;
+	width:24px;
+	margin-left:-24px;
+}
+.igtab_ClaymationRVHolderScroll
+{
+	top:-47px;
+}
+.igtab_ClaymationRVHolderScrollInner
+{
+	top:47px;
+}
+.igtab_ClaymationRVRoundedForHolder
+{
+	top:-6px;
+}
+.igtab_ClaymationRVRoundedForHolderInner
+{
+	top:12px;
+}
+.igtab_ClaymationRVRoundedForHolderScroll
+{
+	top:-53px;
+}
+.igtab_ClaymationRVRoundedForHolderScrollInner
+{
+	top:59px;
+}
+.igtab_ClaymationRVScrollButtons
+{
+	font-size:1px;
+	position:absolute;
+	top:100%;	
+	z-index:20000;
+	left:100%;
+	margin-top:-47px;
+	margin-left:-22px;
+}
+.igtab_ClaymationRVRoundedForScroll
+{
+	margin-top:-53px;
+}
+.igtab_ClaymationRVScrollButton
+{
+	display:block;
+	margin-top:2px;
+}
+.igtab_ClaymationRVClose
+{
+	position:absolute;
+	margin-top:-15px;
+	margin-left:4px;
+	cursor:pointer;
+}
+.igtab_ClaymationRVCloseSize
+{
+	padding-bottom:14px;
+}
+.igtab_ClaymationRVImage
+{
+	vertical-align:middle;
+	position:relative;
+	display:block;
+}
+.igtab_ClaymationRVText
+{
+	vertical-align:middle;
+	line-height:14px;
+	font-family:Verdana;
+	font-size:11px;
+	display:block;
+	padding-left:5px;
+	width:13px;
+	position:relative;
+	
+	cursor:default;
+}
+.igtab_ClaymationRVCenter
+{
+	display:block;
+	position:relative;
+	overflow:hidden;
+	background:url(./images/igtab_RVCenter.gif) repeat-y top right;
+	background-color:#f0f0f0;
+	padding-left:1px;
+}
+.igtab_ClaymationRVTail
+{
+	display:block;
+	background:url(./images/igtab_RVBot.gif) bottom right;
+	padding-top:3px;
+}
+.igtab_ClaymationRVTab
+{
+	background:url(./images/igtab_RVTop.gif) no-repeat top right;
+	display:block;
+	overflow:hidden;
+	position:relative;
+	padding-top:3px;
+	border-left:1px solid #999999;
+}
+.igtab_ClaymationRVOverlap
+{
+	margin-top:-5px;
+}
+.igtab_ClaymationRVTextHov
+{
+}
+.igtab_ClaymationRVCenterHov
+{
+	background-image:url(./images/igtab_RVCenterHov.gif);
+	background-color:#0fc3ff;
+}
+.igtab_ClaymationRVTailHov
+{
+	background-image:url(./images/igtab_RVBotHov.gif);
+}
+.igtab_ClaymationRVTabHov
+{
+	background-image:url(./images/igtab_RVTopHov.gif);
+	color:#ffffff;
+}
+.igtab_ClaymationRVTextSel
+{
+}
+.igtab_ClaymationRVCenterSel
+{
+	background-image:url(./images/igtab_RVCenterSel.gif);
+	background-color:#C4C4C4;
+}
+.igtab_ClaymationRVTailSel
+{
+	background-image:url(./images/igtab_RVBotSel.gif);
+	border-left-color:#C4C4C4;
+}
+.igtab_ClaymationRVTabSel
+{
+	background-image:url(./images/igtab_RVTopSel.gif);
+	border-left-color:#d1d1d1;
+}
+.igtab_ClaymationRVTextAct
+{
+	border:1px dotted #000;
+}
+.igtab_ClaymationRVCenterAct
+{
+}
+.igtab_ClaymationRVTailAct
+{
+}
+.igtab_ClaymationRVTabAct
+{
+}
+.igtab_ClaymationRVTextDis
+{
+}
+.igtab_ClaymationRVCenterDis
+{
+	background-image:url(./images/igtab_RVCenterDis.gif);
+	background-color:#cccccc;
+}
+.igtab_ClaymationRVTailDis
+{
+	background-image:url(./images/igtab_RVBotDis.gif);
+}
+.igtab_ClaymationRVTabDis
+{
+	background-image:url(./images/igtab_RVTopDis.gif);
+}
+.igtab_ClaymationRVTabMoving
+{
+	filter:alpha(opacity:30);
+	opacity:0.3;
+}
+.igtab_ClaymationRVTabMovingMarkUp
+{
+	filter:alpha(opacity:70);
+	opacity:0.7;
+}
+.igtab_ClaymationRVRoundedCorners
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundCorners.gif);
+	background-repeat:no-repeat;
+}
+.igtab_ClaymationRVRoundedTopBottom
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundTopBot.gif);
+	background-repeat:repeat-x;
+}
+.igtab_ClaymationRVRoundedLeftRight
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundLeftRight.gif);
+	background-repeat:repeat-y;
+}
+.igtab_ClaymationRVRoundedFill
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundFill.gif);
+}
+
+
+
+
+
+
+
+.igtab_ClaymationLHControl
+{
+	overflow:hidden;
+	position:relative;
+}
+.igtab_ClaymationLHContentHolder
+{
+	background:#FFFFFF;
+	border:1px solid #999999;
+	height:99%;
+	left:-1px;
+	position:relative;
+	overflow:hidden;
+	z-index:9;
+}
+.igtab_ClaymationLHContent
+{
+	height:100%;
+	position:relative;
+	background-color:#FFFFFF;
+}
+.igtab_ClaymationLHHolder
+{
+	overflow:hidden;
+	position:absolute;
+	z-index:999;
+	left:0px;
+	top:0px;
+	height:100%;
+}
+.igtab_ClaymationLHHolderScroll
+{
+	top:-47px;
+}
+.igtab_ClaymationLHHolderScrollInner
+{
+	top:47px;
+}
+.igtab_ClaymationLHRoundedForHolder
+{
+	top:-6px;
+}
+.igtab_ClaymationLHRoundedForHolderInner
+{
+	top:12px;
+}
+.igtab_ClaymationLHRoundedForHolderScroll
+{
+	top:-53px;
+}
+.igtab_ClaymationLHRoundedForHolderScrollInner
+{
+	top:59px;
+}
+.igtab_ClaymationLHScrollButtons
+{
+	font-size:1px;
+	position:absolute;
+	top:100%;
+	margin-top:-47px;
+	margin-left:-21px;
+	z-index:20000;
+}
+.igtab_ClaymationLHRoundedForScroll
+{
+	margin-top:-53px;
+}
+.igtab_ClaymationLHScrollButton
+{
+	display:block;
+	margin-top:2px;
+}
+.igtab_ClaymationLHClose
+{
+	position:absolute;
+	left:100%;
+	top:12px;
+	margin-left:-17px;
+	cursor:pointer;
+}
+.igtab_ClaymationLHCloseSize
+{
+	padding-right:10px;
+}
+.igtab_ClaymationLHImage
+{
+	vertical-align:middle;
+	position:relative;
+	margin-top:2px;
+}
+.igtab_ClaymationLHText
+{
+	vertical-align:middle;	
+	line-height:24px;
+	font-family:Verdana;
+	font-size:11px;
+	white-space:nowrap;
+	position:relative;
+	cursor:default;
+}
+.igtab_ClaymationLHCenter
+{
+	display:block;
+	background:url(./images/igtab_LHTop.gif) repeat-x;
+	background-color:#f0f0f0;
+	font:1px verdana;
+	line-height:1px;
+	height:100%;
+}
+.igtab_ClaymationLHTail
+{
+	display:block;
+	background:url(./images/igtab_LHTopLeft.gif) no-repeat;
+	padding-left:10px;
+	white-space:nowrap;
+	border-right:1px solid #999999;
+	height:24px;
+}
+.igtab_ClaymationLHMirror
+{
+	display:block;
+	padding-left:10px;
+	background:url(./images/igtab_LHBotLeft.gif) bottom left no-repeat;
+	border-right:1px solid #999999;
+	height:3px;
+}
+.igtab_ClaymationLHMirrorCenter
+{
+	display:block;
+	background:url(./images/igtab_LHBot.gif) bottom left repeat-x;
+	font:1px verdana;
+	line-height:1px;
+	height:100%;
+}
+.igtab_ClaymationLHTab
+{
+	display:block;
+	overflow:hidden;
+	position:relative;
+}
+.igtab_ClaymationLHOverlap
+{
+	margin-top:-5px;
+}
+.igtab_ClaymationLHTextHov
+{
+}
+.igtab_ClaymationLHCenterHov
+{
+	background-image:url(./images/igtab_LHTopHov.gif);
+	background-color:#0fc3ff;
+}
+.igtab_ClaymationLHTailHov
+{
+	background-image:url(./images/igtab_LHTopLeftHov.gif);
+}
+.igtab_ClaymationLHMirrorHov
+{
+	background-image:url(./images/igtab_LHBotLeftHov.gif);
+}
+.igtab_ClaymationLHMirrorCenterHov
+{
+	background-image:url(./images/igtab_LHBotHov.gif);
+}
+.igtab_ClaymationLHTabHov
+{
+}
+.igtab_ClaymationLHTextSel
+{
+}
+.igtab_ClaymationLHCenterSel
+{
+	background-image:url(./images/igtab_LHTopSel.gif);
+	background-color:#C4C4C4;
+}
+.igtab_ClaymationLHTailSel
+{
+	background-image:url(./images/igtab_LHTopLeftSel.gif);
+	border-right-color:#C4C4C4;
+}
+.igtab_ClaymationLHMirrorSel
+{
+	background-image:url(./images/igtab_LHBotLeftSel.gif);
+	border-right-color:#C4C4C4;
+}
+.igtab_ClaymationLHMirrorCenterSel
+{
+	background-image:url(./images/igtab_LHBotSel.gif);
+}
+.igtab_ClaymationLHTabSel
+{
+}
+.igtab_ClaymationLHTextAct
+{
+	border:1px dotted blue;
+}
+.igtab_ClaymationLHCenterAct
+{
+}
+.igtab_ClaymationLHTailAct
+{
+}
+.igtab_ClaymationLHMirrorAct
+{
+}
+.igtab_ClaymationLHMirrorCenterAct
+{
+}
+.igtab_ClaymationLHTabAct
+{
+}
+.igtab_ClaymationLHTextDis
+{
+}
+.igtab_ClaymationLHCenterDis
+{
+	background-image:url(./images/igtab_LHTopDis.gif);
+	background-color:#cccccc;
+}
+.igtab_ClaymationLHTailDis
+{
+	background-image:url(./images/igtab_LHTopLeftDis.gif);
+}
+.igtab_ClaymationLHMirrorDis
+{
+	background-image:url(./images/igtab_LHBotLeftDis.gif);
+}
+.igtab_ClaymationLHMirrorCenterDis
+{
+	background-image:url(./images/igtab_LHBotDis.gif);
+}
+.igtab_ClaymationLHTabDis
+{
+}
+.igtab_ClaymationLHTabMoving
+{
+	filter:alpha(opacity:30);
+	opacity:0.3;
+}
+.igtab_ClaymationLHTabMovingMarkUp
+{
+	filter:alpha(opacity:70);
+	opacity:0.7;
+}
+.igtab_ClaymationLHRoundedCorners
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundCorners.gif);
+	background-repeat:no-repeat;
+}
+.igtab_ClaymationLHRoundedTopBottom
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundTopBot.gif);
+	background-repeat:repeat-x;
+}
+.igtab_ClaymationLHRoundedLeftRight
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundLeftRight.gif);
+	background-repeat:repeat-y;
+}
+.igtab_ClaymationLHRoundedFill
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundFill.gif);
+}
+
+
+
+
+
+
+
+.igtab_ClaymationRHControl
+{
+	overflow:hidden;
+	position:relative;
+}
+.igtab_ClaymationRHContentHolder
+{
+	background:#FFFFFF;
+	border-right:1px solid #999999;
+	border-bottom:1px solid #999999;
+	border-top:1px solid #999999;
+	height:99%;
+	position:relative;
+	overflow:hidden;
+	width:100%;
+	z-index:9;
+}
+.igtab_ClaymationRHContentHolderInner
+{
+	border-left:1px solid #999999;
+	height:100%;
+	position:relative;
+	overflow:hidden;
+	z-index:9;
+}
+.igtab_ClaymationRHContent
+{
+	height:100%;
+	position:relative;
+	background-color:#FFFFFF;
+}
+.igtab_ClaymationRHHolder
+{
+	overflow:hidden;
+	position:absolute;
+	z-index:999;
+	left:100%;
+	top:0px;
+	height:100%;
+}
+.igtab_ClaymationRHHolderScroll
+{
+	top:-47px;
+}
+.igtab_ClaymationRHHolderScrollInner
+{
+	top:47px;
+}
+.igtab_ClaymationRHRoundedForHolder
+{
+	top:-6px;
+}
+.igtab_ClaymationRHRoundedForHolderInner
+{
+	top:12px;
+}
+.igtab_ClaymationRHRoundedForHolderScroll
+{
+	top:-53px;
+}
+.igtab_ClaymationRHRoundedForHolderScrollInner
+{
+	top:59px;
+}
+.igtab_ClaymationRHScrollButtons
+{
+	font-size:1px;
+	position:absolute;
+	top:100%;
+	margin-top:-47px;
+	z-index:20000;
+	left:100%;
+}
+.igtab_ClaymationRHRoundedForScroll
+{
+	margin-top:-53px;
+}
+.igtab_ClaymationRHScrollButton
+{
+	display:block;
+	margin-top:2px;
+	margin-left:3px;
+}
+.igtab_ClaymationRHClose
+{
+	position:absolute;
+	top:12px;
+	margin-left:3px;
+	cursor:pointer;
+}
+.igtab_ClaymationRHCloseSize
+{
+	padding-left:10px;
+}
+.igtab_ClaymationRHImage
+{
+	vertical-align:middle;
+	position:relative;
+	margin-top:2px;
+}
+.igtab_ClaymationRHText
+{
+	vertical-align:middle;
+	line-height:24px;
+	font-family:Verdana;
+	font-size:11px;
+	white-space:nowrap;
+	position:relative;
+	cursor:default;
+}
+.igtab_ClaymationRHCenter
+{
+	display:block;
+	background:url(./images/igtab_RHTop.gif) repeat-x;
+	background-color:#f0f0f0;
+	line-height:20px;
+	font:22px sans-serif;
+	text-align:right;
+	white-space:nowrap;
+	overflow:hidden;
+}
+.igtab_ClaymationRHTail
+{
+	display:block;
+	padding-right:10px;
+	background:url(./images/igtab_RHTopRight.gif) top right no-repeat;
+	white-space:nowrap;
+	border-left:1px solid #999999;
+	height:24px;
+}
+.igtab_ClaymationRHMirror
+{
+	display:block;
+	padding-right:10px;
+	background:url(./images/igtab_RHBotRight.gif) bottom right no-repeat;
+	border-left:1px solid #999999;
+	height:3px;
+}
+.igtab_ClaymationRHMirrorCenter
+{
+	display:block;
+	background:url(./images/igtab_RHBot.gif) bottom left repeat-x;
+	font:1px verdana;
+	line-height:1px;
+	height:100%;
+}
+.igtab_ClaymationRHTab
+{
+	display:block;
+	overflow:hidden;
+	position:relative;
+}
+.igtab_ClaymationRHOverlap
+{
+	margin-top:-5px;
+}
+.igtab_ClaymationRHTextHov
+{
+}
+.igtab_ClaymationRHCenterHov
+{
+	background-image:url(./images/igtab_RHTopHov.gif);
+	background-color:#0fc3ff;
+}
+.igtab_ClaymationRHTailHov
+{
+	background-image:url(./images/igtab_RHTopRightHov.gif);
+}
+.igtab_ClaymationRHMirrorHov
+{
+	background-image:url(./images/igtab_RHBotRightHov.gif);
+}
+.igtab_ClaymationRHMirrorCenterHov
+{
+	background-image:url(./images/igtab_RHBotHov.gif);
+}
+.igtab_ClaymationRHTabHov
+{
+}
+.igtab_ClaymationRHTextSel
+{
+}
+.igtab_ClaymationRHCenterSel
+{
+	background-image:url(./images/igtab_RHTopSel.gif);
+	background-color:#C4C4C4;
+}
+.igtab_ClaymationRHTailSel
+{
+	background-image:url(./images/igtab_RHTopRightSel.gif);
+	border-left-color:#C4C4C4;
+}
+.igtab_ClaymationRHMirrorSel
+{
+	background-image:url(./images/igtab_RHBotRightSel.gif);
+	border-left-color:#C4C4C4;
+}
+.igtab_ClaymationRHMirrorCenterSel
+{
+	background-image:url(./images/igtab_RHBotSel.gif);
+}
+.igtab_ClaymationRHTabSel
+{
+}
+.igtab_ClaymationRHTextAct
+{
+	border:1px dotted blue;
+}
+.igtab_ClaymationRHCenterAct
+{
+}
+.igtab_ClaymationRHTailAct
+{
+}
+.igtab_ClaymationRHMirrorAct
+{
+}
+.igtab_ClaymationRHMirrorCenterAct
+{
+}
+.igtab_ClaymationRHTabAct
+{
+}
+.igtab_ClaymationRHTextDis
+{
+}
+.igtab_ClaymationRHCenterDis
+{
+	background-image:url(./images/igtab_RHTopDis.gif);
+	background-color:#cccccc;
+}
+.igtab_ClaymationRHTailDis
+{
+	background-image:url(./images/igtab_RHTopRightDis.gif);
+}
+.igtab_ClaymationRHMirrorDis
+{
+	background-image:url(./images/igtab_RHBotRightDis.gif);
+}
+.igtab_ClaymationRHMirrorCenterDis
+{
+	background-image:url(./images/igtab_RHBotDis.gif);
+}
+.igtab_ClaymationRHTabDis
+{
+}
+.igtab_ClaymationRHRoundedCorners
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundCorners.gif);
+	background-repeat:no-repeat;
+}
+.igtab_ClaymationRHRoundedTopBottom
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundTopBot.gif);
+	background-repeat:repeat-x;
+}
+.igtab_ClaymationRHRoundedLeftRight
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundLeftRight.gif);
+	background-repeat:repeat-y;
+}
+.igtab_ClaymationRHRoundedFill
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundFill.gif);
+}

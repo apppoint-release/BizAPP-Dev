@@ -1,0 +1,390 @@
+.igtab_PearControl
+{
+	background-color:#EEF5DD;
+	border:solid 1px #809B37;
+}
+
+
+.igtab_PearControl_Outer
+{
+	border-left-width:0px;
+	border-left-style:solid;
+}
+
+
+.igtab_PearDefaultTab_Top
+{
+	background-color:#F2F7E8;
+	font-size:9pt;
+	font-family: Tahoma;
+	border:solid 1px #809B37;
+	padding:2px;
+	text-align:center;
+}
+
+
+.igtab_PearDefaultTab_Top_Rounded
+{
+	background-color:Transparent !important;
+	background-image: url(images/tab_top_normal.gif);
+	font-size:10pt;
+	font-family: Tahoma;
+	border-style:solid;
+	border-width:0px;
+	border-bottom-width:1px;
+	border-bottom-color:#809B37;
+	padding:2px 0px 1px 10px;
+	height: 100%;
+	cursor:pointer;
+	color:#809B37;
+	text-align:center;
+}
+
+
+.igtab_PearDefaultTab_Top_Edge
+{
+	background-position:right top ;
+	font-size:2px;
+	padding:0px;
+}
+
+
+.igtab_PearButton
+{
+}
+
+
+.igtab_PearDefaultTab_Bottom
+{
+	background-color:#F2F7E8;
+	font-size:9pt;
+	font-family: Tahoma;
+	border:solid 1px #809B37;
+	padding:2px;
+}
+
+
+.igtab_PearDefaultTab_Bottom_Rounded
+{
+	background-color:Transparent !important;
+	background-repeat:no-repeat;
+	background-position:left bottom ;
+	background-image: url(images/tab_bottom_normal.gif);
+	font-size:9pt;
+	font-family: Tahoma;
+	border:solid 1px #535353;
+	border-right-width:0px;
+	border-bottom-width:0px;
+	border-left-width:0px;
+	padding:0px 10px 4px 15px;
+	height: 100%;
+	cursor:pointer;
+	color:#809B37;
+}
+
+
+.igtab_PearDefaultTab_Bottom_Edge
+{
+	background-position:right bottom ;
+	font-size:2px;
+	padding:0px;
+}
+
+
+.igtab_PearDefaultTab_Left
+{
+	background-color:#F2F7E8;
+	font-size:9pt;
+	font-family: Tahoma;
+	border:solid 1px #809B37;
+	padding:2px;
+}
+
+
+.igtab_PearDefaultTab_Left_Rounded
+{
+	background-color:Transparent !important;
+	background-repeat:no-repeat;
+	background-position:left top ;
+	background-image: url(images/tab_left_normal.gif);
+	font-size:9pt;
+	font-family: Tahoma;
+	border:solid 1px #535353;
+	border-top-width:0px;
+	border-bottom-width:0px;
+	border-left-width:0px;
+	margin-top:0px;
+	margin-right:5px;
+	margin-bottom:0px;
+	padding:12px 0px 5px 4px;
+	cursor:pointer;
+	color:#809B37;
+	text-align:left;
+}
+
+
+.igtab_PearDefaultTab_Left_Edge
+{
+	background-position:left bottom ;
+	font-size:2px;
+	padding:3px;
+}
+
+
+.igtab_PearDefaultTab_Right
+{
+	background-color:#F2F7E8;
+	font-size:9pt;
+	font-family: Tahoma;
+	border:solid 1px #809B37;
+	padding:2px;
+}
+
+
+.igtab_PearDefaultTab_Right_Rounded
+{
+	background-color:Transparent !important;
+	background-repeat:no-repeat;
+	background-position:right top ;
+	background-image: url(images/tab_right_normal.gif);
+	font-size:9pt;
+	font-family: Tahoma;
+	border:solid 1px #535353;
+	border-top-width:0px;
+	border-right-width:0px;
+	border-bottom-width:0px;
+	padding:12px 4px 5px 0px;
+	cursor:pointer;
+	color:#809B37;
+	text-align:right;
+}
+
+
+.igtab_PearDefaultTab_Right_Edge
+{
+	background-position:right bottom ;
+	font-size:2px;
+	padding:0px;
+}
+
+
+.igtab_PearButtonHover
+{
+}
+
+
+.igtab_PearButtonPressed
+{
+}
+
+
+.igtab_PearButtonDisabled
+{
+}
+
+
+.igtab_PearHoverTab_Top
+{
+	background-color:#636A4C;
+	color:White;
+}
+
+
+.igtab_PearSeparator_Top
+{
+	border-bottom:solid 1px #809B37;
+	border-top-width:0px;
+	border-right-width:0px;
+	border-left-width:0px;
+}
+
+
+.igtab_PearHoverTab_Top_Rounded
+{
+	background-image: url(images/tab_top_hover.gif);
+	border-bottom:solid 1px #535353;
+	color:White;
+}
+
+
+.igtab_PearHoverTab_Bottom
+{
+	background-color:#636A4C;
+	color:White;
+}
+
+
+.igtab_PearSeparator_Bottom
+{
+	border-top:solid 1px #535353;
+	border-right-width:0px;
+	border-bottom-width:0px;
+	border-left-width:0px;
+}
+
+
+.igtab_PearHoverTab_Bottom_Rounded
+{
+	background-image: url(images/tab_bottom_hover.gif);
+	color:White;
+}
+
+
+.igtab_PearHoverTab_Left
+{
+	background-color:#636A4C;
+	color:White;
+}
+
+
+.igtab_PearSeparator_Left
+{
+	border-right:solid 1px #535353;
+	border-top-width:0px;
+	border-bottom-width:0px;
+	border-left-width:0px;
+}
+
+
+.igtab_PearHoverTab_Left_Rounded
+{
+	background-image: url(images/tab_left_hover.gif);
+	color:White;
+}
+
+
+.igtab_PearHoverTab_Right
+{
+	background-color:#636A4C;
+	color:White;
+}
+
+
+.igtab_PearSeparator_Right
+{
+	border-left:solid 1px #535353;
+	border-top-width:0px;
+	border-right-width:0px;
+	border-bottom-width:0px;
+}
+
+
+.igtab_PearHoverTab_Right_Rounded
+{
+	background-image: url(images/tab_right_hover.gif);
+	color:White;
+}
+
+
+.igtab_PearSelectedTab_Top
+{
+	background-color:#809B37;
+	border-bottom-color:#535353;
+	color:White;
+}
+
+
+.igtab_PearSelectedTab_Top_Rounded
+{
+	background-image: url(images/tab_top.gif);
+	border-width:0px;
+	border-bottom:solid 1px #809B37;
+	cursor:default;
+	color:Black;
+}
+
+
+.igtab_PearSelectedTab_Bottom
+{
+	background-color:#809B37;
+	color:White;
+}
+
+
+.igtab_PearSelectedTab_Bottom_Rounded
+{
+	background-image: url(images/tab_bottom.gif);
+	cursor:default;
+	color:Black;
+}
+
+
+.igtab_PearSelectedTab_Left
+{
+	background-color:#809B37;
+	color:White;
+}
+
+
+.igtab_PearSelectedTab_Left_Rounded
+{
+	background-image: url(images/tab_left.gif);
+	border-color:#535353;
+	cursor:default;
+	color:Black;
+}
+
+
+.igtab_PearSelectedTab_Right
+{
+	background-color:#809B37;
+	color:White;
+}
+
+
+.igtab_PearSelectedTab_Right_Rounded
+{
+	background-image: url(images/tab_right.gif);
+	cursor:default;
+	color:Black;
+}
+
+
+.igtab_PearDisabledTab_Top
+{
+	color:Gainsboro;
+}
+
+
+.igtab_PearDisabledTab_Top_Rounded
+{
+	color:Gainsboro;
+}
+
+
+.igtab_PearDisabledTab_Bottom
+{
+	color:Gainsboro;
+}
+
+
+.igtab_PearDisabledTab_Bottom_Rounded
+{
+	color:Gainsboro;
+}
+
+
+.igtab_PearDisabledTab_Left
+{
+	color:Gainsboro;
+}
+
+
+.igtab_PearDisabledTab_Left_Rounded
+{
+	color:Gainsboro;
+}
+
+
+.igtab_PearDisabledTab_Right
+{
+	color:Gainsboro;
+}
+
+
+.igtab_PearDisabledTab_Right_Rounded
+{
+	color:Gainsboro;
+}
+
+

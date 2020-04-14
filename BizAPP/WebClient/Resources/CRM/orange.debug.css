@@ -1,0 +1,325 @@
+.viewheader, .boxheader, .right,.notesday, .viewheader, .container,.contextMenu, .contextMenuHighlighted, .viewheaderimgless,.vcpopupviewgroupmenucontentsselected,td.ob_t3
+{
+	background-color: #E39321;
+}
+.contextMenu, .cboxbody,.boxbody, .container, .viewbody, .viewheader, .notesmonth, legend, .formnavigationcontrol, .viewbody
+{
+	border-color:#E39321;
+}
+select, .select, .formtextbox, .formmultilinetextbox, .formnavigatabletextbox, formtextboxlabel
+{
+	border-color:#FFD987;
+}
+.alertdetailspopuptopbottomimage,.viewcollectiontoolbarlistitem, .viewcollectiontoolbarlistitem:hover, .viewcollectiontoolbarlistseperator, legend
+{
+	color: #E39321;
+}
+.relatedheader, fieldset 
+{
+	border-top-color:#E39321;
+}
+.mainheader
+{
+	border-top-color: #E39321;
+	border-right-color: #E39321;
+}
+.cbody
+{
+	border-bottom-color: #E39321;
+	border-right-color: #E39321;
+}
+.tabLeftSelected, .tabbeddocumentLeftSelected
+{
+	background-position: left -4160px;
+}
+.tabRightSelected, .tabbeddocumentRightSelected
+{
+	background-position: right -8626px;
+}
+.viewtab
+{
+	background-image: url( '../images/App_Orange/menu/tabBGOrange.gif' );
+}
+.loginbutton
+{
+	background-image: url( '../images/app_red/login/login.png' );
+}
+
+/*********************************************/
+/* ViewCollection */
+/*********************************************/
+
+.vcpopupviewgroupmenucontents
+{
+	background-image: url(../Images/common/Topmenu_selected.png);
+	color:#000000;
+}
+
+.vcpopupviewgroupmenucontentsselected,td.ob_t3
+{
+	color:#ffffff;
+}
+
+.vcpopupmenucontents
+{
+	
+}
+
+/*********************************************/
+/* Alert Control */
+/*********************************************/
+
+.configure
+{
+	background-image: url(../Images/App_Blue/icons/configure.png);
+}
+
+.configurepopup
+{
+	background-color: #FCDCB3; 
+}
+
+.alertimage
+{
+	background-image: url(../Images/App_Orange/alert/alert.png);
+}
+
+.alertimagetext
+{
+	color:Black;
+}
+.alertdetailspopuptopbottomimage
+{
+	background-image: url(../Images/common/alert/alerttopbottomheader.png);
+}
+
+.alertnewnotecontainer
+{
+	background-image: url(../Images/common/alert/alerttopbottomheader.png);
+	color:#A5261D ;
+}
+
+.alertshowallcontainer
+{
+	background-image: url(../Images/common/alert/alerttopbottomheader.png);
+	color:#A5261D ;
+}
+
+.alertdetailspopupnewnoteimage
+{
+	background-image: url(../Images/App_Orange/alert/newnote.png);
+}
+
+.alertmessageheader
+{
+	background-image: url(../Images/common/alert/noteheader.png);
+	color: #E39321;
+}
+
+.alertmessagetextstyle
+{
+}
+
+.alertnotebody
+{
+	background-image: url(../Images/App_Orange/alert/notebody.png);
+	background-repeat: repeat;
+}
+
+.alertmessage
+{
+	background-image: url(../Images/App_Orange/alert/message.png);
+}
+
+.alertnonotesavailable
+{
+	background-image: url(../Images/App_Orange/alert/notebody.png);
+}
+
+.alertseperator
+{
+	background-image: url(../Images/App_Orange/alert/seperator.png);
+}
+
+.alertdelete
+{
+	background-image: url(../Images/App_Orange/alert/delete.png);
+}
+
+.alertedit
+{
+	background-image: url(../Images/App_Orange/alert/reply.png);
+}
+
+.alertshowallmessages
+{
+	background-image: url(../Images/App_Orange/alert/all.png);
+}
+
+.alertmarkallasread
+{
+	background-image: url(../Images/App_Orange/alert/markallread.png);
+}
+
+.alertdetailspopup
+{
+	background-color: White; 
+}
+
+.alertdetailspopuponmoving
+{
+}
+
+
+.alertdeletecontainer
+{
+}
+
+.alerteditcontainer
+{
+}
+
+.alertrequest
+{
+}
+
+.alertdescription
+{
+}
+
+.alertnextpage
+{
+	background-image: url(../Images/App_Orange/alert/next.png);
+}
+
+.alertpreviouspage
+{
+	background-image: url(../Images/App_Orange/alert/previous.png);
+}
+
+.alertmessagecenter
+{
+	background-image: url(../Images/App_Orange/alert/mail.png);
+}
+
+.alertmessagecentercontainer
+{
+}
+
+/*********************************************/
+/* Processing control */
+/*********************************************/
+.processingimage
+{
+	background-image: url(../Images/common/Processing.gif);
+}
+
+/*********************************************/
+/* Job Control */
+/*********************************************/
+.sidebar
+{
+	border-color : #E39321; 
+}
+
+.jobtitle
+{
+	  
+}
+
+.jobprocessing
+{
+
+}
+.scbtnclosetext
+{
+	background-image: url(../Images/App_red/HTML/button_back.jpg);
+	background-repeat: repeat;
+}
+
+.alljobresults
+{
+}
+
+/*********************************************/
+/* Calendar Control */
+/*********************************************/
+
+.calendarweekenddaystyle
+{
+	background-color:#EEECD1;
+}
+.calendardayheaderstyle
+{
+	background-color:#E39321;
+	color:White;
+}
+.calendarselectorstyle
+{
+	background-color:#E39321;
+	color:White;
+}
+.calendartodaydaystyle
+{
+	background-color:#E39321;
+	color:White;
+}
+.calendartitlestyle
+{
+	background-color:#EEECD1;
+}
+.calanderselecteddaystyle
+{
+	background-color:#72B4D6;
+}
+/*********************************************/
+/* Context Menu */
+/*********************************************/
+.contextMenu
+{
+	background: url('../images/app_red/gradient.gif') repeat-y white; 
+}
+
+/*********************************************/
+/* Search Page */
+/*********************************************/
+.searchpage
+{
+}
+.searchpageheader
+{
+	background-image: url(../Images/App_Orange/grid/search.gif);
+	background-repeat:no-repeat;
+}
+
+.searchcaption
+{
+}
+.searchtypecaption
+{
+}
+.searchcaptionrow
+{
+	background-color: #E39321;
+}
+/*menucontrol*/
+.menuControl a:link, .menuControl a:active, .menuControl a:visited
+{
+	border: 1px solid #E39321;
+	color: #fff;
+	background-color: #E39321;
+}
+.menuControl a:hover
+{
+	background-color: #fff;
+	color: #E39321;
+}
+/*custom drop down*/
+.menuControl .m-c a, .menuControl .m-i a
+{
+	background-color: Transparent;
+	color: black;
+	border: 0px;
+}
+/*custom drop down*/
+/*menucontrol*/

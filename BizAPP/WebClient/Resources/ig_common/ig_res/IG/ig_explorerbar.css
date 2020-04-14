@@ -1,0 +1,249 @@
+.igeb_IGControl
+{
+	background-color:Transparent;
+	font-size:xx-small;
+	font-family: Segoe UI, Verdana, Helvetica, sans-serif;
+	border:solid 1px #B1B1B1;
+	border-top-width:0px;
+	overflow-x: hidden;
+	_overflow: hidden!important;
+	color:#333333;
+}
+
+
+.igeb_IGGroup
+{
+	background-repeat:repeat-x;
+	background-color:#4F4F4F;
+	background-position: 0 0;
+	background-image: url(images/igeb_Sprite.png);	
+	display: block;
+	height: 30px;
+	overflow: hidden;
+	line-height: 30px;
+	color:#333333;
+	vertical-align:middle;
+}
+
+.igeb_IGGroupActive
+{
+	background-repeat:repeat-x;
+	background-position:0px -202px;
+	background-color:#333333;
+	background-image: url(images/igeb_Sprite.png);
+	color:White;
+}
+
+
+.igeb_IGGroupHover
+{
+	background-repeat:repeat-x;
+	background-position:0px -40px;
+	background-color:#2686AE;
+	background-image: url(images/igeb_Sprite.png);
+	color:White;
+}
+
+.igeb_IGGroupSelected
+{
+	background-repeat:repeat-x;
+	background-position:0px -80px;
+	background-color:#E9E9E9;
+	background-image: url(images/igeb_Sprite.png);	
+	color:#333333;
+}
+
+.igeb_IGItem
+{
+	background-color:transparent;
+	line-height: 22px;
+}
+
+
+.igeb_IGItemImage
+{
+	padding-top:5px;
+	padding-right:5px;
+	padding-left:0px;
+}
+
+
+.igeb_IGItemSelected
+{
+	background-color:#94D7F3;
+	color:White;
+}
+
+
+.igeb_IGItemActive
+{
+	background-color:#94D7F3;
+	color:White;
+}
+
+
+.igeb_IGItemHover
+{
+	background-color:#3BB7EB;
+}
+
+.igeb_IGItemDisabled
+{   
+    opacity:0.5;
+    zoom: 1;
+    filter: alpha(opacity = 50);
+    background-color:#fff;
+}
+
+
+.igeb_IGGroupContents
+{
+	margin-top:0px;
+	margin-bottom:0px;
+	margin-left:0px;
+	padding-top:0px;
+	padding-bottom:0px;
+	padding-left:0px;
+	list-style: none;
+}
+
+
+.igeb_IGGroupLabel
+{
+	font-weight:bold;
+	font-size:12px;
+	font-family: Segoe UI, Verdana, Sans-Serif;
+	margin-left:5px;
+	padding-left:5px;
+	text-decoration:none;
+}
+
+
+.igeb_IGGroupDisabled
+{
+	background-repeat:repeat-x;
+	background-position:0px -120px;
+	background-color:#B5B5B5;
+	background-image: url(images/igeb_Sprite.png);
+	color:Gray;
+}
+
+
+.igeb_IGGroupExpanderImage
+{
+	margin-top:5px;
+	margin-right:5px;
+	float: right;
+}
+
+
+.igeb_IGItemLabel
+{
+	font-weight:normal;
+	font-size:12px;
+	font-family: Segoe UI, Verdana, Arial, Sans-Serif;
+	display: block;
+	color:#333333;
+}
+
+
+.igeb_IGHolder
+{
+    clear:left;
+	/*background-repeat:repeat-x;
+	background-position:0 0;
+	background-color:#B5B5B5;
+	background-image: url(images/igeb_Sprite.png);*/
+}
+
+
+.igeb_IGGroupLink
+{
+	margin-bottom:0px;
+	padding-bottom:0px;
+	padding-left:6px;
+	display: block;
+	color: inherit;
+	text-decoration:none;
+}
+
+
+.igeb_IGItemLink
+{
+	padding-top:2px;
+	padding-bottom:2px;
+	display: block;
+	color:#333333;
+	text-decoration:none;
+	
+	padding-left:10px;
+}
+
+
+.igeb_IGItemParent
+{
+	background-repeat:no-repeat;
+	background-image: url(images/igeb_Sprite.png);
+	background-position: 15px -238px;
+}
+
+
+/* IE 7 Disabled item fix */
+.igeb_IGItemDisabled a visited, .igeb_IGItemDisabled a
+{
+	color:Gray;
+}
+
+
+.igeb_IGGroup a:visited
+{
+	color:White;
+}
+
+
+/* IE 7 fix to icon bad alignment*/
+.igeb_IGItem ,.igeb_IGItemActive ,.igeb_IGItemSelected
+{
+	min-height: 30px;
+	_height: 30px;
+}
+
+.igeb_IGGroup a:link, .igeb_IGGroup a:visited, .igeb_IGGroup a:hover, .igeb_IGGroup a:active
+{
+	color:White;
+}
+
+.igeb_IGGroupActive a:link, .igeb_IGGroupActive a:visited, .igeb_IGGroupActive a:hover, .igeb_IGGroupActive a:active
+{
+	color:#333333;
+}
+
+
+.igeb_IGGroupHover a:link, .igeb_IGGroupHover a:hover, .igeb_IGGroupHover a:visited, .igeb_IGGroupHover a:active
+{
+	color:White;
+}
+
+.igeb_IGGroupSelected a:link, .igeb_IGGroupSelected a:hover, .igeb_IGGroupSelected a:visited, .igeb_IGGroupSelected a:active
+{
+	color:#333333;
+}
+
+
+
+.igeb_IGItemHolder img
+{
+	vertical-align:middle;
+}
+
+.igeb_IGItemHolder
+{
+}
+
+
+.igeb_IGItemContents
+{
+	margin-left:0px;
+	padding-left:0px;
+	list-style: none;
+}

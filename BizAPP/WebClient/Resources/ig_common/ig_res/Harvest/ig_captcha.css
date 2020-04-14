@@ -1,0 +1,110 @@
+﻿.igc_HarvestControl
+{
+	border:solid 1px #97482E;
+	background-color:#ffffff;
+	padding:10px;
+	margin:0px;
+	font-family:Segoe UI,Verdana,Arial,Sans-Serif;
+    font-size:12px;
+}
+
+.igc_HarvestControlActive
+{
+	
+}
+
+.igc_HarvestCaptchaInput
+{
+    border:1px solid #97482E;
+    display:block;
+    padding:5px 0;
+    
+    margin-bottom:10px;
+    /*IE6 and IE7 specific hack*/
+    *margin-bottom:0;
+    
+}
+
+.igc_HarvestRefreshAndAudioButtonsArea
+{
+    margin-left:10px;
+	border-width:0;
+	text-decoration:none;
+    display:block;
+}
+
+    .igc_HarvestRefreshAndAudioButtonsArea img
+    {
+	    border-width:0px;
+	    text-decoration:none;
+	    margin-bottom:3px;
+    }
+
+.igc_HarvestSubmitButton {
+    background:#E98A0C url(./images/igc_submitButtonBg.png) repeat-x left top;
+    border:1px solid #97472D;
+    clear:left;
+    display:block;
+    height:30px;
+    width:177px;
+    cursor:pointer;
+    color:#ffffff;
+    margin-top:10px;
+    font-family:Segoe UI,Verdana,Arial,Sans-Serif;
+    font-size:12px;
+    font-weight:bold;
+    padding:0px;
+}
+
+.igc_HarvestErrorLabel
+{
+    background-color:#FF6666;
+    color:white;
+    padding:3px;
+}
+
+.igc_HarvestCaptchaImageLabel
+{
+	border:1px solid #97482E;
+}
+
+.igc_HarvestCaptchaInputLabel{
+}
+
+.igc_HarvestCaptchaInfoTextLabel
+{
+    display:block;
+    margin:10px 0 5px 0;
+}
+
+.igc_HarvestCaptchaImage
+{
+    display:block;
+    margin-bottom:10px;
+}
+
+.igc_HarvestCaptchaImageArea
+{
+    display:block;
+    float:left;
+    padding:0;
+    margin:0;
+}
+    .igc_HarvestCaptchaImageArea label 
+    {
+        display:block
+    }
+	    
+.igc_HarvestRefreshAndAudioButtonsArea 
+{
+    float:left;
+}
+    .igc_HarvestRefreshAndAudioButtonsArea a 
+    {
+        display:block
+    }
+    .igc_HarvestRefreshAndAudioButtonsArea a,
+    .igc_HarvestRefreshAndAudioButtonsArea img 
+    {
+        cursor:pointer
+    }

@@ -1,0 +1,111 @@
+﻿.igc_IGControl
+{
+	border:solid 1px #B1B1B1;
+	background:#E0E0E0 url(images/igc_Sprite.png) repeat-x 0 -122px;
+	padding:10px;
+	margin:0px;
+	font-family:Segoe UI,Verdana,Arial,Sans-Serif;
+    font-size:12px;
+}
+
+.igc_IGControlActive
+{
+	
+}
+
+.igc_IGCaptchaInput
+{
+    border:1px solid #B1B1B1;
+	background:White url(images/igc_Sprite.png) repeat-x 0 0;
+    display:block;
+    padding:5px 0;
+    
+    margin-bottom:10px;
+    /*IE6 and IE7 specific hack*/
+    *margin-bottom:0;
+    
+}
+
+.igc_IGRefreshAndAudioButtonsArea
+{
+    margin-left:10px;
+	border-width:0;
+	text-decoration:none;
+    display:block;
+}
+
+    .igc_IGRefreshAndAudioButtonsArea img
+    {
+	    border-width:0px;
+	    text-decoration:none;
+	    margin-bottom:3px;
+    }
+
+.igc_IGSubmitButton {
+    background:#78BAE5 url(./images/igc_submitButtonBg.png) repeat-x 0 0;
+    border:1px solid #535353;
+    clear:left;
+    display:block;
+    height:30px;
+    width:177px;
+    cursor:pointer;
+    color:#ffffff;
+    margin-top:10px;
+    font-family:Segoe UI,Verdana,Arial,Sans-Serif;
+    font-size:12px;
+    font-weight:bold;
+    padding:0px;
+}
+
+.igc_IGErrorLabel
+{
+    background-color:#FF6666;
+    color:white;
+    padding:3px;
+}
+
+.igc_IGCaptchaImageLabel
+{
+	border:1px solid #bbbbbb;
+}
+
+.igc_IGCaptchaInputLabel{
+}
+
+.igc_IGCaptchaInfoTextLabel
+{
+    display:block;
+    margin:10px 0 5px 0;
+}
+
+.igc_IGCaptchaImage
+{
+    display:block;
+    margin-bottom:10px;
+} 
+
+.igc_IGCaptchaImageArea
+{
+    display:block;
+    float:left;
+    padding:0;
+    margin:0;
+}
+    .igc_IGCaptchaImageArea label 
+    {
+        display:block
+    }
+	    
+.igc_IGRefreshAndAudioButtonsArea 
+{
+    float:left;
+}
+    .igc_IGRefreshAndAudioButtonsArea a 
+    {
+        display:block;
+    }
+    .igc_IGRefreshAndAudioButtonsArea a,
+    .igc_IGRefreshAndAudioButtonsArea img 
+	{
+        cursor:pointer
+    }

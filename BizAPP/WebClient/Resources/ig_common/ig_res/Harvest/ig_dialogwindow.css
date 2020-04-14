@@ -1,0 +1,178 @@
+.igdw_HarvestControl
+{
+	background-color:Transparent;
+	border-width:0px;
+}
+
+
+.igdw_HarvestHeaderArea
+{
+	background-color:Transparent;
+	font-weight:bold;
+	border-width:0px;
+	height: 30px;
+	cursor:default;
+}
+
+
+.igdw_HarvestBodyContent
+{
+	border:solid 0px #999999;
+}
+
+
+.igdw_HarvestHeaderButton
+{
+	margin:4px 3px 3px 3px;
+	cursor:pointer;
+}
+
+
+.igdw_HarvestHeaderCaption
+{
+	margin-top:16px;
+	margin-left:6px;
+	padding-top:10px;
+	color:White;
+}
+
+
+.igdw_HarvestHeaderButtonArea
+{
+	width: 120px;
+	vertical-align:middle;
+}
+
+
+.igdw_HarvestHeaderImage
+{
+	cursor:default;
+}
+
+
+.igdw_HarvestModalBackground
+{
+	background-color: #FFFFFF;
+	filter: alpha(opacity : 50);
+	opacity: 0.5;
+	z-index: 99999;
+}
+
+
+.igdw_HarvestResizingHandle
+{
+	cursor:se-resize;
+}
+
+
+/* used only when header visible */
+.igdw_HarvestHeaderCornerLeft
+{
+	background-color:Transparent;
+	background-position:top left ;
+	background-image: url(./images/igdw_TopLeft.gif);
+	font-size:1px;
+	width: 9px;
+}
+
+
+/* used only when header visible */
+.igdw_HarvestHeaderContent
+{
+	background-image: url(./images/igdw_top.gif);
+}
+
+
+/* used only when header visible */
+.igdw_HarvestHeaderCornerRight
+{
+	background-position:top right ;
+	background-image: url(./images/igdw_TopRight.gif);
+	font-size:1px;
+	width: 9px;
+}
+
+
+/* used only when header hidden */
+.igdw_HarvestBodyCornerTopLeft
+{
+	background-position:top left ;
+	background-image: url(./images/igdw_TopLeftHidden.gif);
+	font-size:1px;
+	height: 4px;
+	width: 4px;
+}
+
+
+/* used only when header hidden */
+.igdw_HarvestBodyEdgeTop
+{
+	background-image: url(./images/igdw_topHidden.gif);
+	font-size:1px;
+	height: 4px;
+}
+
+
+/* used only when header hidden */
+.igdw_HarvestBodyCornerTopRight
+{
+	background-position:top right ;
+	background-image: url(./images/igdw_TopRightHidden.gif);
+	font-size:1px;
+	height: 4px;
+	width: 4px;
+}
+
+
+.igdw_HarvestBodyEdgeLeft
+{
+	background-position:top left ;
+	background-image: url(./images/igdw_EdgeLeft.gif);
+	font-size:1px;
+	width: 4px;
+}
+
+
+.igdw_HarvestBodyEdgeRight
+{
+	background-position:top right ;
+	background-image: url(./images/igdw_EdgeRight.gif);
+	font-size:1px;
+	width: 4px;
+}
+
+
+.igdw_HarvestBodyCornerBottomLeft
+{
+	background-image: url(./images/igdw_BottomLeft.gif);
+	font-size:1px;
+	width: 4px;
+	height: 4px;
+}
+
+
+.igdw_HarvestBodyContentArea
+{
+	background-color:White;
+	vertical-align:top;
+}
+
+
+.igdw_HarvestBodyCornerBottomRight
+{
+	background-image: url(./images/igdw_BottomRight.gif);
+	background-position:right top;	
+	font-size:1px;
+	width: 4px;
+	height: 4px;
+}
+
+
+.igdw_HarvestBodyEdgeBottom
+{
+	background-image: url(./images/igdw_Bottom.gif);
+	font-size:1px;
+	height: 4px;
+}
+
+

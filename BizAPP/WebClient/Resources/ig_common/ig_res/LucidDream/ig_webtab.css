@@ -1,0 +1,2152 @@
+.igtab_LucidDreamTHControl
+{
+	overflow:hidden;
+}
+.igtab_LucidDreamTHContentHolder
+{
+	border:1px solid #4679A6;
+	border-top-width:0px;
+	height:80%;
+	overflow:hidden;
+	position:relative;
+	background:#FFFFFF;
+}
+.igtab_LucidDreamTHContent
+{
+	height:100%;
+	position:relative;
+	background-color:#FFFFFF;
+}
+.igtab_LucidDreamTHHolderNoScroll
+{
+	display:block;
+	position:relative;
+	width:100%;
+}
+.igtab_LucidDreamTHHolder
+{
+	background:url(./images/igtab_HolderBorder.gif) repeat-x bottom left;
+	position:relative;
+	display:block;
+	height:23px;
+	width:100%;
+	padding:0px;
+	margin:0px;
+	overflow:hidden;
+	white-space:nowrap;
+}
+.igtab_LucidDreamTHRoundedForHolder
+{
+	background:none;
+	margin-left:5px;
+	height:22px;
+}
+.igtab_LucidDreamTHHolderScroll
+{
+	position:relative;
+	width:100%;
+	margin-left:-50px;
+	display:block;
+	overflow:hidden;
+}
+.igtab_LucidDreamTHHolderScrollInner
+{
+	position:relative;
+	display:block;
+	width:9999px;
+	left:50px;
+}
+.igtab_LucidDreamTHScrollButtons
+{
+	font-size:1px;
+	position:absolute;
+	left:100%;
+	display:block;
+	margin-left:-50px;
+	width:50px;
+	z-index:20000;
+	text-align:right;
+	padding-top:2px;
+}
+.igtab_LucidDreamTHRoundedForScroll
+{
+	margin-left:-56px;
+}
+.igtab_LucidDreamTHImage
+{
+	vertical-align:middle;
+}
+.igtab_LucidDreamTHClose
+{
+	position:absolute;
+	left:100%;
+	margin-left:-20px;
+	margin-top:6px;
+	top:0px;
+	cursor: pointer;
+}
+.igtab_LucidDreamTHScrollButton
+{
+	padding:1px;
+}
+.igtab_LucidDreamTHText
+{
+	vertical-align:middle;
+	padding:0px 1px 0px 1px;
+	font-family:Verdana;
+	font-size:11px;
+	white-space:nowrap;
+	border:0px;
+	line-height:22px;
+	cursor:default;
+}
+.igtab_LucidDreamTHCenter
+{
+	padding:0px 1px 0px 1px;
+	display:block;
+	position:relative;    
+    background:url(./images/igtab_THCenter.jpg) repeat-x;	
+    background-color:#f0f0f0;
+	white-space:nowrap;
+	text-align:center;
+	font:22px sans-serif;
+	line-height:22px;
+	overflow:hidden;
+}
+.igtab_LucidDreamTHCloseSize
+{
+	padding-right:20px;
+}
+.igtab_LucidDreamTHTail
+{
+	background: transparent url(./images/igtab_THRight.gif) no-repeat;
+	background-position: top right;
+	padding-left:0px;
+	padding-right:7px;
+	display:block;
+	margin: 0px;
+	height:100%;
+}
+.igtab_LucidDreamTHTab
+{
+	display:inline;
+	position:relative;
+	padding-left:7px;
+	float:left;
+	background: transparent url(./images/igtab_THLeft.png) top left no-repeat;
+	margin:0px;
+	overflow:hidden;
+	white-space:nowrap;
+	border-bottom:1px solid #4679A6;
+	height:22px;
+}
+.igtab_LucidDreamTHOverlap
+{
+	margin-left:-5px;
+}
+.igtab_LucidDreamTHTextHov
+{
+	color: #FFFFFF;
+}
+.igtab_LucidDreamTHCenterHov
+{
+	background-position: 0px -50px;
+	background-color: #ff9e33;
+}
+.igtab_LucidDreamTHTailHov
+{
+	background: transparent url(./images/igtab_THRightHov.gif) no-repeat;
+	background-position: top right;
+}
+.igtab_LucidDreamTHTabHov
+{
+	background-position: 0px -50px;
+}
+.igtab_LucidDreamTHTextSel
+{
+}
+.igtab_LucidDreamTHCenterSel
+{
+	background-position: 0px -100px;
+	background-color:#8fc6ea;
+}
+.igtab_LucidDreamTHTailSel
+{
+	background: transparent url(./images/igtab_THRightSel.gif) no-repeat;
+	background-position: top right;
+}
+.igtab_LucidDreamTHTabSel
+{
+	background-position: 0px -100px;
+}
+.igtab_LucidDreamTHTextAct
+{
+	border:1px dotted #000;
+	padding:0px;
+}
+.igtab_LucidDreamTHCenterAct
+{
+}
+.igtab_LucidDreamTHTailAct
+{
+}
+.igtab_LucidDreamTHTabAct
+{
+}
+.igtab_LucidDreamTHTextDis
+{
+	color:#AAAAAA;
+}
+.igtab_LucidDreamTHCenterDis
+{
+	background-position: 0px -150px;
+	background-color:#CCCCCC;
+}
+.igtab_LucidDreamTHTailDis
+{
+	background-image:url(./images/igtab_THRightDis.gif);
+}
+.igtab_LucidDreamTHTabDis
+{
+	background-position: 0px -150px;
+}
+.igtab_LucidDreamTHTabMoving
+{
+	filter:alpha(opacity:30);
+	opacity:0.3;
+}
+.igtab_LucidDreamTHTabMovingMarkUp
+{
+	filter:alpha(opacity:70);
+	opacity:0.7;
+}
+
+.igtab_LucidDreamTHRoundedCorners
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundCorners.gif);
+	background-repeat:no-repeat;
+}
+.igtab_LucidDreamTHRoundedTopBottom
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundTopBot.gif);
+	background-repeat:repeat-x;
+}
+.igtab_LucidDreamTHRoundedLeftRight
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundLeftRight.gif);
+	background-repeat:repeat-y;
+}
+.igtab_LucidDreamTHRoundedFill
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundFill.gif);
+}
+
+
+
+
+
+
+
+
+
+.igtab_LucidDreamTVControl
+{
+	overflow:hidden;
+}
+.igtab_LucidDreamTVContentHolder
+{
+	border:1px solid #4679A6;
+	border-top-width:0px;
+	height:50%;
+	overflow:hidden;
+	position:relative;
+	background:#FFFFFF;
+}
+.igtab_LucidDreamTVContent
+{
+	height:100%;
+	position:relative;
+	background: #EFEFEF url(./images/igtab_THContentBackground.jpg) repeat-x;
+}
+.igtab_LucidDreamTVHolderNoScroll
+{
+	display:block;
+	position:relative;
+	width:100%;
+}
+.igtab_LucidDreamTVHolder
+{
+	background:url(./images/igtab_HolderBorder.gif) repeat-x bottom left;
+	position:relative;
+	display:block;
+	width:100%;
+	padding:0px;
+	margin:0px;
+	overflow:hidden;
+	white-space:nowrap;
+}
+.igtab_LucidDreamTVRoundedForHolder
+{
+	background:none;
+	margin-left:5px;
+}
+.igtab_LucidDreamTVHolderScroll
+{
+	position:relative;
+	width:100%;
+	margin-left:-50px;
+	display:block;
+	overflow:hidden;
+}
+.igtab_LucidDreamTVHolderScrollInner
+{
+	position:relative;
+	display:block;
+	width:9999px;
+	left:50px;
+}
+.igtab_LucidDreamTVScrollButtons
+{
+	font-size:1px;
+	position:absolute;
+	left:100%;
+	top:100%;
+	display:block;
+	margin-left:-50px;
+	margin-top:-23px;
+	width:50px;
+	z-index:20000;
+	text-align:right;
+	padding-top:2px;
+}
+.igtab_LucidDreamTVRoundedForScroll
+{
+	margin-left:-56px;
+}
+.igtab_LucidDreamTVImage
+{
+	margin-left:10%;
+	display:block;
+}
+.igtab_LucidDreamTVClose
+{
+	position:absolute;
+	left:12px;
+	top:100%;
+	margin-top:-13px;
+	cursor: pointer;
+}
+.igtab_LucidDreamTVScrollButton
+{
+	padding:1px;
+}
+.igtab_LucidDreamTVText
+{
+	margin-top:5px;
+	margin-bottom:6px;
+	font-family:Verdana;
+	font-size:11px;
+	white-space:nowrap;
+	border:0px;
+	line-height:11px;
+	display:block;
+	text-align:center;
+	overflow:hidden;
+	margin-left:5px;
+	width:20px;
+	cursor:default;
+}
+.igtab_LucidDreamTVCenter
+{
+	padding-top:5px;
+	display:block;
+	position:relative;
+	overflow:hidden;
+}
+.igtab_LucidDreamTVCloseSize
+{
+	padding-bottom:12px;
+}
+.igtab_LucidDreamTVMirrorCenter
+{
+	background:url(./images/igtab_TVRight.gif) top right repeat-y;
+	display:block;
+	margin-top:12px;
+	width:100%;
+	height:100%;
+}
+.igtab_LucidDreamTVMirror
+{
+	background:url(./images/igtab_TVRightTop.gif) top right no-repeat;
+	display:block;
+	position:absolute;
+	margin-left:8px;
+	width:22px;
+	height:100%;
+}
+.igtab_LucidDreamTVTail
+{
+	background:url(./images/igtab_TVLeft.jpg) repeat-y;
+	padding:0px;
+	display:block;
+	position:absolute;
+	width:12px;
+	margin-top:12px;
+	height:100%;
+}
+.igtab_LucidDreamTVTab
+{
+	display:inline;
+	position:relative;
+	padding:0px;
+	float:left;
+	background:url(./images/igtab_TVLeftTop.gif) no-repeat;
+	margin:0px;
+	overflow:hidden;
+	width:30px;
+	border-bottom:1px solid #4679A6;
+}
+.igtab_LucidDreamTVOverlap
+{
+	margin-left:-5px;
+}
+.igtab_LucidDreamTVTextHov
+{
+	color: #FFFFFF;
+}
+.igtab_LucidDreamTVCenterHov
+{
+}
+.igtab_LucidDreamTVMirrorCenterHov
+{
+	background-image:url(./images/igtab_TVRightHov.gif);
+}
+.igtab_LucidDreamTVMirrorHov
+{
+	background-image:url(./images/igtab_TVRightTopHov.gif);
+}
+.igtab_LucidDreamTVTailHov
+{
+	background-position: -50px 0px;
+}
+.igtab_LucidDreamTVTabHov
+{
+	background-position: 0px -19px;
+}
+.igtab_LucidDreamTVTextSel
+{
+}
+.igtab_LucidDreamTVCenterSel
+{
+}
+.igtab_LucidDreamTVMirrorCenterSel
+{
+	background-image:url(./images/igtab_TVRightSel.gif);
+	background-color:#FFFFFF;
+}
+.igtab_LucidDreamTVMirrorSel
+{
+	background-image:url(./images/igtab_TVRightTopSel.gif);
+}
+.igtab_LucidDreamTVTailSel
+{
+	background-position: -100px 0px;
+}
+.igtab_LucidDreamTVTabSel
+{
+	background-position: 0px -38px;
+}
+.igtab_LucidDreamTVTextAct
+{
+	margin-left:4px;
+	border:1px dotted #000;
+}
+.igtab_LucidDreamTVCenterAct
+{
+}
+.igtab_LucidDreamTVMirrorCenterAct
+{
+}
+.igtab_LucidDreamTVMirrorAct
+{
+}
+.igtab_LucidDreamTVTailAct
+{
+}
+.igtab_LucidDreamTVTabAct
+{
+}
+.igtab_LucidDreamTVTextDis
+{
+	color:#AAAAAA;
+}
+.igtab_LucidDreamTVCenterDis
+{
+}
+.igtab_LucidDreamTVMirrorCenterDis
+{
+	background-image:url(./images/igtab_TVRightDis.gif);
+}
+.igtab_LucidDreamTVMirrorDis
+{
+	background-image:url(./images/igtab_TVRightTopDis.gif);
+}
+.igtab_LucidDreamTVTailDis
+{
+	background-position: -150px 0px;
+}
+.igtab_LucidDreamTVTabDis
+{
+	background-position: 0px -57px;
+}
+.igtab_LucidDreamTVTabMoving
+{
+	filter:alpha(opacity:30);
+	opacity:0.3;
+}
+.igtab_LucidDreamTVTabMovingMarkUp
+{
+	filter:alpha(opacity:70);
+	opacity:0.7;
+}
+.igtab_LucidDreamTVRoundedCorners
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundCorners.gif);
+	background-repeat:no-repeat;
+}
+.igtab_LucidDreamTVRoundedTopBottom
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundTopBot.gif);
+	background-repeat:repeat-x;
+}
+.igtab_LucidDreamTVRoundedLeftRight
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundLeftRight.gif);
+	background-repeat:repeat-y;
+}
+.igtab_LucidDreamTVRoundedFill
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundFill.gif);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.igtab_LucidDreamBHControl
+{
+	overflow:hidden;
+}
+.igtab_LucidDreamBHContentHolder
+{
+	border:1px solid #4679A6;
+	border-bottom-width: 0px;
+	height:60%;
+	overflow:hidden;
+	position:relative;
+	background:#FFFFFF;
+}
+.igtab_LucidDreamBHContent
+{
+	height:100%;
+	background: #EFEFEF url(./images/igtab_THContentBackground.jpg) repeat-x;
+	position:relative;
+}
+.igtab_LucidDreamBHHolderNoScroll
+{
+	display:block;
+	position:relative;
+	width:100%;
+}
+.igtab_LucidDreamBHHolder
+{
+	background:url(./images/igtab_HolderBorder.gif) repeat-x;
+	position:relative;
+	display:block;
+	height:23px;
+	width:100%;
+	padding:0px;
+	margin:0px;
+	overflow:hidden;
+	white-space:nowrap;
+}
+.igtab_LucidDreamBHRoundedForHolder
+{
+	background:none;
+	margin-left:5px;
+	height:22px;
+}
+.igtab_LucidDreamBHHolderScroll
+{
+	position:relative;
+	width:100%;
+	margin-left:-50px;
+	display:block;
+	overflow:hidden;
+}
+.igtab_LucidDreamBHHolderScrollInner
+{
+	position:relative;
+	display:block;
+	width:9999px;
+	left:50px;
+}
+.igtab_LucidDreamBHScrollButtons
+{
+	font-size:1px;
+	position:absolute;
+	left:100%;
+	display:block;
+	margin-left:-50px;
+	width:50px;
+	z-index:20000;
+	text-align:right;
+	padding-top:2px;
+}
+.igtab_LucidDreamBHRoundedForScroll
+{
+	margin-left:-56px;
+}
+.igtab_LucidDreamBHImage
+{
+	vertical-align:middle;
+}
+.igtab_LucidDreamBHClose
+{
+	position:absolute;
+	left:100%;
+	margin-left:-20px;
+	margin-top:5px;
+	top:0px;
+	cursor: pointer;
+}
+.igtab_LucidDreamBHScrollButton
+{
+	padding:1px;
+}
+.igtab_LucidDreamBHText
+{
+	vertical-align:middle;
+	padding:0px 1px 0px 1px;
+	font-family:Verdana;
+	font-size:11px;
+	white-space:nowrap;
+	border:0px;
+	line-height:22px;
+	cursor:default;
+}
+.igtab_LucidDreamBHCenter
+{
+	display:block;
+	position:relative;
+	background:url(./images/igtab_BHCenter.gif) top left repeat-x;
+	background-color:#f0f0f0;
+	white-space:nowrap;
+	text-align:center;
+	font:22px sans-serif;
+	line-height:22px;
+	overflow:hidden;
+}
+.igtab_LucidDreamBHCloseSize
+{
+	padding-right:20px;
+}
+.igtab_LucidDreamBHTail
+{
+	background:url(./images/igtab_BHRight.gif) top right no-repeat;
+	padding-left:0px;
+	padding-right:7px;
+	display:block;
+	height:100%;
+}
+.igtab_LucidDreamBHTab
+{
+	display:inline;
+	position:relative;
+	padding-left:7px;
+	float:left;
+	background:transparent url(./images/igtab_BHLeft.gif) top left no-repeat;
+	margin:0px;
+	overflow:hidden;
+	white-space:nowrap;
+	border-top:1px solid #4679A6;
+	height:22px;
+}
+.igtab_LucidDreamBHOverlap
+{
+	margin-left:-5px;
+}
+.igtab_LucidDreamBHTextHov
+{
+	color: #FFFFFF;
+}
+.igtab_LucidDreamBHCenterHov
+{
+	background-position: 0px -27px;
+	background-color:#ff9e33;
+}
+.igtab_LucidDreamBHTailHov
+{
+	background-image:url(./images/igtab_BHRightHov.gif);
+}
+.igtab_LucidDreamBHTabHov
+{
+	background-position: 0px -27px;
+}
+.igtab_LucidDreamBHTextSel
+{
+}
+.igtab_LucidDreamBHCenterSel
+{
+	background-position: 0px -54px;
+	background-color:#8fc6ea;
+}
+.igtab_LucidDreamBHTailSel
+{
+	background-image:url(./images/igtab_BHRightSel.gif);
+}
+.igtab_LucidDreamBHTabSel
+{
+	background-position: 0px -54px;
+}
+.igtab_LucidDreamBHTextAct
+{
+	border:1px dotted #000;
+	padding:0px;
+}
+.igtab_LucidDreamBHCenterAct
+{
+}
+.igtab_LucidDreamBHTailAct
+{
+}
+.igtab_LucidDreamBHTabAct
+{
+}
+.igtab_LucidDreamBHTextDis
+{
+	color:#AAAAAA;
+}
+.igtab_LucidDreamBHCenterDis
+{
+	background-position: 0px -81px;
+	background-color:#cccccc;
+}
+.igtab_LucidDreamBHTailDis
+{
+	background-image:url(./images/igtab_BHRightDis.gif);
+}
+.igtab_LucidDreamBHTabDis
+{
+	background-position: 0px -81px;
+}
+.igtab_LucidDreamBHTabMoving
+{
+	filter:alpha(opacity:30);
+	opacity:0.3;
+}
+.igtab_LucidDreamBHTabMovingMarkUp
+{
+	filter:alpha(opacity:70);
+	opacity:0.7;
+}
+.igtab_LucidDreamBHRoundedCorners
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_BRoundCorners.gif);
+	background-repeat:no-repeat;
+}
+.igtab_LucidDreamBHRoundedTopBottom
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_BRoundTopBot.gif);
+	background-repeat:repeat-x;
+}
+.igtab_LucidDreamBHRoundedLeftRight
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_BRoundLeftRight.gif);
+	background-repeat:repeat-y;
+}
+.igtab_LucidDreamBHRoundedFill
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_BRoundFill.gif);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.igtab_LucidDreamBVControl
+{
+	overflow:hidden;
+}
+.igtab_LucidDreamBVContentHolder
+{
+	border:1px solid #4679A6;
+	border-bottom-width: 0px;
+	height:50%;
+	overflow:hidden;
+	position:relative;
+	background:#FFFFFF;
+}
+.igtab_LucidDreamBVContent
+{
+	height:100%;
+	position:relative;
+	background: #EFEFEF url(./images/igtab_THContentBackground.jpg) repeat-x;
+}
+.igtab_LucidDreamBVHolderNoScroll
+{
+	display:block;
+	position:relative;
+	width:100%;
+}
+.igtab_LucidDreamBVHolder
+{
+	background:url(./images/igtab_HolderBorder.gif) repeat-x top left;
+	position:relative;
+	display:block;
+	width:100%;
+	padding:0px;
+	margin:0px;
+	overflow:hidden;
+	white-space:nowrap;
+}
+.igtab_LucidDreamBVRoundedForHolder
+{
+	background:none;
+	margin-left:5px;
+}
+.igtab_LucidDreamBVHolderScroll
+{
+	position:relative;
+	width:100%;
+	margin-left:-50px;
+	display:block;
+	overflow:hidden;
+}
+.igtab_LucidDreamBVHolderScrollInner
+{
+	position:relative;
+	display:block;
+	width:9999px;
+	left:50px;
+}
+.igtab_LucidDreamBVScrollButtons
+{
+	font-size:1px;
+	position:absolute;
+	left:100%;
+	display:block;
+	margin-left:-50px;
+	width:50px;
+	z-index:20000;
+	text-align:right;
+	padding-top:1px;
+}
+.igtab_LucidDreamBVRoundedForScroll
+{
+	margin-left:-56px;
+}
+.igtab_LucidDreamBVImage
+{
+	margin-left:3px;
+	margin-top:2px;
+	display:block;
+}
+.igtab_LucidDreamBVClose
+{
+	position:absolute;
+	left:100%;
+	top:100%;
+	margin-left:-18px;
+	margin-top:-16px;
+	cursor:pointer;
+}
+.igtab_LucidDreamBVScrollButton
+{
+	padding:1px;
+}
+.igtab_LucidDreamBVText
+{
+	margin-top:3px;
+	margin-bottom:5px;
+	font-family:Verdana;
+	font-size:11px;
+	white-space:nowrap;
+	border:0px;
+	line-height:11px;
+	display:block;
+	text-align:center;
+	overflow:hidden;
+	margin-left:4px;
+	width:20px;
+	cursor:default;
+}
+.igtab_LucidDreamBVCenter
+{
+	padding-bottom:5px;
+	display:block;
+	position:relative;
+	overflow:hidden;
+}
+.igtab_LucidDreamBVCloseSize
+{
+	padding-bottom:14px;
+}
+.igtab_LucidDreamBVMirrorCenter
+{
+	background:url(./images/igtab_BVRight.gif) top right repeat-y;
+	display:block;
+	margin-top:-12px;
+	width:100%;
+	height:100%;
+}
+.igtab_LucidDreamBVMirror
+{
+	background:url(./images/igtab_BVRightBot.gif) bottom right no-repeat;
+	display:block;
+	position:absolute;
+	margin-left:8px;
+	width:22px;
+	height:100%;
+}
+.igtab_LucidDreamBVTail
+{
+	background:url(./images/igtab_BVLeft.jpg) repeat-y;
+	padding:0px;
+	display:block;
+	position:absolute;
+	width:12px;
+	margin-top:-12px;
+	height:100%;
+}
+.igtab_LucidDreamBVTab
+{
+	display:inline;
+	position:relative;
+	padding:0px;
+	float:left;
+	background:url(./images/igtab_BVLeftBot.gif) bottom left no-repeat;
+	margin:0px;
+	overflow:hidden;
+	width:30px;
+	border-top:1px solid #4679A6;
+}
+.igtab_LucidDreamBVOverlap
+{
+	margin-left:-5px;
+}
+.igtab_LucidDreamBVTextHov
+{
+	color: #FFFFFF;
+}
+.igtab_LucidDreamBVCenterHov
+{
+}
+.igtab_LucidDreamBVMirrorCenterHov
+{
+	background-image:url(./images/igtab_BVRightHov.gif);
+}
+.igtab_LucidDreamBVMirrorHov
+{
+	background-image:url(./images/igtab_BVRightBotHov.gif);
+}
+.igtab_LucidDreamBVTailHov
+{
+	background-position: -50px 0px;
+}
+.igtab_LucidDreamBVTabHov
+{
+	background-image:url(./images/igtab_BVLeftBotHov.gif);
+}
+.igtab_LucidDreamBVTextSel
+{
+}
+.igtab_LucidDreamBVCenterSel
+{
+}
+.igtab_LucidDreamBVMirrorCenterSel
+{
+	background-image:url(./images/igtab_BVRightSel.gif);
+}
+.igtab_LucidDreamBVMirrorSel
+{
+	background-image:url(./images/igtab_BVRightBotSel.gif);
+}
+.igtab_LucidDreamBVTailSel
+{
+	background-position: -100px 0px;
+}
+.igtab_LucidDreamBVTabSel
+{
+	background-image:url(./images/igtab_BVLeftBotSel.gif);
+}
+.igtab_LucidDreamBVTextAct
+{
+	margin: 2px 0px 0px 4px;
+	border:1px dotted #000;
+}
+.igtab_LucidDreamBVCenterAct
+{
+}
+.igtab_LucidDreamBVMirrorCenterAct
+{
+}
+.igtab_LucidDreamBVMirrorAct
+{
+}
+.igtab_LucidDreamBVTailAct
+{
+}
+.igtab_LucidDreamBVTabAct
+{
+}
+.igtab_LucidDreamBVTextDis
+{
+	color:#AAAAAA;
+}
+.igtab_LucidDreamBVCenterDis
+{
+}
+.igtab_LucidDreamBVMirrorCenterDis
+{
+	background-image:url(./images/igtab_BVRightDis.gif);
+}
+.igtab_LucidDreamBVMirrorDis
+{
+	background-image:url(./images/igtab_BVRightBotDis.gif);
+}
+.igtab_LucidDreamBVTailDis
+{
+	background-position: -150px 0px;
+}
+.igtab_LucidDreamBVTabDis
+{
+	background-image:url(./images/igtab_BVLeftBotDis.gif);
+}
+.igtab_LucidDreamBVTabMoving
+{
+	filter:alpha(opacity:30);
+	opacity:0.3;
+}
+.igtab_LucidDreamBVTabMovingMarkUp
+{
+	filter:alpha(opacity:70);
+	opacity:0.7;
+}
+.igtab_LucidDreamBVRoundedCorners
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_BRoundCorners.gif);
+	background-repeat:no-repeat;
+}
+.igtab_LucidDreamBVRoundedTopBottom
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_BRoundTopBot.gif);
+	background-repeat:repeat-x;
+}
+.igtab_LucidDreamBVRoundedLeftRight
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_BRoundLeftRight.gif);
+	background-repeat:repeat-y;
+}
+.igtab_LucidDreamBVRoundedFill
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_BRoundFill.gif);
+}
+
+
+
+
+
+
+
+
+.igtab_LucidDreamLVControl
+{
+	overflow:hidden;
+	position:relative;
+}
+.igtab_LucidDreamLVContentHolder
+{
+	background:#FFFFFF;
+	border:1px solid #4679A6;
+	height:99%;
+	margin-left:24px;
+	position:relative;
+	overflow:hidden;
+	z-index:9;
+}
+.igtab_LucidDreamLVContent
+{
+	height:100%;
+	position:relative;
+	background-color:#FFFFFF;
+}
+.igtab_LucidDreamLVHolder
+{
+	overflow:hidden;
+	position:absolute;
+	z-index:999;
+	left:0px;
+	top:0px;
+	height:100%;
+	width:25px;
+}
+.igtab_LucidDreamLVHolderScroll
+{	
+	top:-47px;
+}
+.igtab_LucidDreamLVHolderScrollInner
+{
+	top:47px;
+}
+.igtab_LucidDreamLVRoundedForHolder
+{
+	top:-6px;
+}
+.igtab_LucidDreamLVRoundedForHolderInner
+{
+	top:12px;
+}
+.igtab_LucidDreamLVRoundedForHolderScroll
+{
+	top:-53px;
+}
+.igtab_LucidDreamLVRoundedForHolderScrollInner
+{
+	top:59px;
+}
+.igtab_LucidDreamLVScrollButtons
+{
+	font-size:1px;
+	position:absolute;
+	top:100%;
+	margin-top:-47px;
+	margin-left:5px;	
+	z-index:20000; 
+	left:0px;
+}
+.igtab_LucidDreamLVRoundedForScroll
+{
+	margin-top:-53px;
+}
+.igtab_LucidDreamLVScrollButton
+{
+	display:block;
+	margin-top:2px;
+}
+.igtab_LucidDreamLVClose
+{
+	position:absolute;
+	cursor:pointer;
+	margin-top:-15px;
+	margin-left:6px;
+}
+.igtab_LucidDreamLVCloseSize 
+{
+	padding-bottom:14px;
+}
+.igtab_LucidDreamLVImage
+{
+	vertical-align:middle;
+	position:relative;
+	display:block;
+}
+.igtab_LucidDreamLVText
+{
+	vertical-align:middle;
+	line-height:14px;
+	font-family:Verdana;
+	font-size:11px;
+	display:block;
+	padding-left:6px;
+	position:relative;
+	
+	cursor:default;
+}
+.igtab_LucidDreamLVCenter
+{
+	display:block;
+	position:relative;
+	overflow:hidden;	
+	background:url(./images/igtab_LVCenter.gif) repeat-y;
+	background-color:#f0f0f0;
+	padding-left:3px;
+}
+.igtab_LucidDreamLVTail
+{
+	display:block;
+	background:url(./images/igtab_LVBot.gif) bottom left;
+	padding-top:3px;
+}
+.igtab_LucidDreamLVTab
+{
+	background:url(./images/igtab_LVTop.gif) no-repeat top left;
+	display:block;
+	overflow:hidden;
+	position:relative;
+	padding-top:3px;
+	border-right:1px solid #4679A6;
+}
+.igtab_LucidDreamLVOverlap
+{
+	margin-top:-5px;
+}
+.igtab_LucidDreamLVTextHov
+{
+}
+.igtab_LucidDreamLVCenterHov
+{
+	background-image:url(./images/igtab_LVCenterHov.gif);
+	background-color:#ff9e33;
+}
+.igtab_LucidDreamLVTailHov
+{
+	background-image:url(./images/igtab_LVBotHov.gif);
+}
+.igtab_LucidDreamLVTabHov
+{
+	background-image:url(./images/igtab_LVTopHov.gif);
+	color:#ffffff;
+}
+.igtab_LucidDreamLVTextSel
+{
+}
+.igtab_LucidDreamLVCenterSel
+{
+	background-image:url(./images/igtab_LVCenterSel.gif);
+	background-color:#8fc6ea;
+}
+.igtab_LucidDreamLVTailSel
+{
+	background-image:url(./images/igtab_LVBotSel.gif);
+	border-right-color:#00D0D0;
+}
+.igtab_LucidDreamLVTabSel
+{
+	background-image:url(./images/igtab_LVTopSel.gif);
+	border-right-color:#94c8eb;
+}
+.igtab_LucidDreamLVTextAct
+{	
+	border:1px dotted #000;
+}
+.igtab_LucidDreamLVCenterAct
+{
+}
+.igtab_LucidDreamLVTailAct
+{
+}
+.igtab_LucidDreamLVTabAct
+{
+}
+.igtab_LucidDreamLVTextDis
+{
+}
+.igtab_LucidDreamLVCenterDis
+{
+	background-image:url(./images/igtab_LVCenterDis.gif);
+	background-color:#cccccc;
+}
+.igtab_LucidDreamLVTailDis
+{
+	background-image:url(./images/igtab_LVBotDis.gif);
+}
+.igtab_LucidDreamLVTabDis
+{
+	background-image:url(./images/igtab_LVTopDis.gif);
+}
+.igtab_LucidDreamLVTabMoving
+{
+	filter:alpha(opacity:30);
+	opacity:0.3;
+}
+.igtab_LucidDreamLVTabMovingMarkUp
+{
+	filter:alpha(opacity:70);
+	opacity:0.7;
+}
+.igtab_LucidDreamLVRoundedCorners
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundCorners.gif);
+	background-repeat:no-repeat;
+}
+.igtab_LucidDreamLVRoundedTopBottom
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundTopBot.gif);
+	background-repeat:repeat-x;
+}
+.igtab_LucidDreamLVRoundedLeftRight
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundLeftRight.gif);
+	background-repeat:repeat-y;
+}
+.igtab_LucidDreamLVRoundedFill
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundFill.gif);
+}
+
+
+
+.igtab_LucidDreamRVControl
+{
+	overflow:hidden;
+	position:relative;
+}
+.igtab_LucidDreamRVContentHolder
+{
+	background:#FFFFFF;
+	border-right:1px solid #4679A6;
+	border-bottom:1px solid #4679A6;
+	border-top:1px solid #4679A6;
+	height:99%;
+	margin-left:-24px;
+	position:relative;
+	overflow:hidden;
+	width:100%;
+	z-index:9;
+}
+.igtab_LucidDreamRVContentHolderInner
+{
+	border-left:1px solid #4679A6;
+	height:100%;
+	margin-left:24px;
+	position:relative;
+	overflow:hidden;
+	z-index:9;
+}
+.igtab_LucidDreamRVContent
+{
+	height:100%;
+	position:relative;
+	background-color:#FFFFFF;
+}
+.igtab_LucidDreamRVHolder
+{
+	overflow:hidden;
+	position:absolute;
+	z-index:999;
+	left:100%;
+	top:0px;
+	height:100%;
+	width:24px;
+	margin-left:-24px;
+}
+.igtab_LucidDreamRVHolderScroll
+{
+	top:-47px;
+}
+.igtab_LucidDreamRVHolderScrollInner
+{
+	top:47px;
+}
+.igtab_LucidDreamRVRoundedForHolder
+{
+	top:-6px;
+}
+.igtab_LucidDreamRVRoundedForHolderInner
+{
+	top:12px;
+}
+.igtab_LucidDreamRVRoundedForHolderScroll
+{
+	top:-53px;
+}
+.igtab_LucidDreamRVRoundedForHolderScrollInner
+{
+	top:59px;
+}
+.igtab_LucidDreamRVScrollButtons
+{
+	font-size:1px;
+	position:absolute;
+	top:100%;	
+	z-index:20000;
+	left:100%;
+	margin-top:-47px;
+	margin-left:-22px;
+}
+.igtab_LucidDreamRVRoundedForScroll
+{
+	margin-top:-53px;
+}
+.igtab_LucidDreamRVScrollButton
+{
+	display:block;
+	margin-top:2px;
+}
+.igtab_LucidDreamRVClose
+{
+	position:absolute;
+	margin-top:-15px;
+	margin-left:4px;
+	cursor:pointer;
+}
+.igtab_LucidDreamRVCloseSize
+{
+	padding-bottom:14px;
+}
+.igtab_LucidDreamRVImage
+{
+	vertical-align:middle;
+	position:relative;
+	display:block;
+}
+.igtab_LucidDreamRVText
+{
+	vertical-align:middle;
+	line-height:14px;
+	font-family:Verdana;
+	font-size:11px;
+	display:block;
+	padding-left:5px;
+	width:13px;
+	position:relative;
+	
+	cursor:default;
+}
+.igtab_LucidDreamRVCenter
+{
+	display:block;
+	position:relative;
+	overflow:hidden;
+	background:url(./images/igtab_RVCenter.gif) repeat-y top right;
+	background-color:#f0f0f0;
+	padding-left:1px;
+}
+.igtab_LucidDreamRVTail
+{
+	display:block;
+	background:url(./images/igtab_RVBot.gif) bottom right;
+	padding-top:3px;
+}
+.igtab_LucidDreamRVTab
+{
+	background:url(./images/igtab_RVTop.gif) no-repeat top right;
+	display:block;
+	overflow:hidden;
+	position:relative;
+	padding-top:3px;
+	border-left:1px solid #4679A6;
+}
+.igtab_LucidDreamRVOverlap
+{
+	margin-top:-5px;
+}
+.igtab_LucidDreamRVTextHov
+{
+}
+.igtab_LucidDreamRVCenterHov
+{
+	background-image:url(./images/igtab_RVCenterHov.gif);
+	background-color:#ff9e33;
+}
+.igtab_LucidDreamRVTailHov
+{
+	background-image:url(./images/igtab_RVBotHov.gif);
+}
+.igtab_LucidDreamRVTabHov
+{
+	background-image:url(./images/igtab_RVTopHov.gif);
+	color:#ffffff;
+}
+.igtab_LucidDreamRVTextSel
+{
+}
+.igtab_LucidDreamRVCenterSel
+{
+	background-image:url(./images/igtab_RVCenterSel.gif);
+	background-color:#8fc6ea;
+}
+.igtab_LucidDreamRVTailSel
+{
+	background-image:url(./images/igtab_RVBotSel.gif);
+	border-left-color:#00D0D0;
+}
+.igtab_LucidDreamRVTabSel
+{
+	background-image:url(./images/igtab_RVTopSel.gif);
+	border-left-color:#94c8eb;
+}
+.igtab_LucidDreamRVTextAct
+{
+	border:1px dotted #000;
+}
+.igtab_LucidDreamRVCenterAct
+{
+}
+.igtab_LucidDreamRVTailAct
+{
+}
+.igtab_LucidDreamRVTabAct
+{
+}
+.igtab_LucidDreamRVTextDis
+{
+}
+.igtab_LucidDreamRVCenterDis
+{
+	background-image:url(./images/igtab_RVCenterDis.gif);
+	background-color:#cccccc;
+}
+.igtab_LucidDreamRVTailDis
+{
+	background-image:url(./images/igtab_RVBotDis.gif);
+}
+.igtab_LucidDreamRVTabDis
+{
+	background-image:url(./images/igtab_RVTopDis.gif);
+}
+.igtab_LucidDreamRVTabMoving
+{
+	filter:alpha(opacity:30);
+	opacity:0.3;
+}
+.igtab_LucidDreamRVTabMovingMarkUp
+{
+	filter:alpha(opacity:70);
+	opacity:0.7;
+}
+.igtab_LucidDreamRVRoundedCorners
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundCorners.gif);
+	background-repeat:no-repeat;
+}
+.igtab_LucidDreamRVRoundedTopBottom
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundTopBot.gif);
+	background-repeat:repeat-x;
+}
+.igtab_LucidDreamRVRoundedLeftRight
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundLeftRight.gif);
+	background-repeat:repeat-y;
+}
+.igtab_LucidDreamRVRoundedFill
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundFill.gif);
+}
+
+
+
+
+
+
+
+.igtab_LucidDreamLHControl
+{
+	overflow:hidden;
+	position:relative;
+}
+.igtab_LucidDreamLHContentHolder
+{
+	background:#FFFFFF;
+	border:1px solid #4679A6;
+	height:99%;
+	left:-1px;
+	position:relative;
+	overflow:hidden;
+	z-index:9;
+}
+.igtab_LucidDreamLHContent
+{
+	height:100%;
+	position:relative;
+	background-color:#FFFFFF;
+}
+.igtab_LucidDreamLHHolder
+{
+	overflow:hidden;
+	position:absolute;
+	z-index:999;
+	left:0px;
+	top:0px;
+	height:100%;
+}
+.igtab_LucidDreamLHHolderScroll
+{
+	top:-47px;
+}
+.igtab_LucidDreamLHHolderScrollInner
+{
+	top:47px;
+}
+.igtab_LucidDreamLHRoundedForHolder
+{
+	top:-6px;
+}
+.igtab_LucidDreamLHRoundedForHolderInner
+{
+	top:12px;
+}
+.igtab_LucidDreamLHRoundedForHolderScroll
+{
+	top:-53px;
+}
+.igtab_LucidDreamLHRoundedForHolderScrollInner
+{
+	top:59px;
+}
+.igtab_LucidDreamLHScrollButtons
+{
+	font-size:1px;
+	position:absolute;
+	top:100%;
+	margin-top:-47px;
+	margin-left:-21px;
+	z-index:20000;
+}
+.igtab_LucidDreamLHRoundedForScroll
+{
+	margin-top:-53px;
+}
+.igtab_LucidDreamLHScrollButton
+{
+	display:block;
+	margin-top:2px;
+}
+.igtab_LucidDreamLHClose
+{
+	position:absolute;
+	left:100%;
+	top:12px;
+	margin-left:-17px;
+	cursor:pointer;
+}
+.igtab_LucidDreamLHCloseSize
+{
+	padding-right:10px;
+}
+.igtab_LucidDreamLHImage
+{
+	vertical-align:middle;
+	position:relative;
+	margin-top:2px;
+}
+.igtab_LucidDreamLHText
+{
+	vertical-align:middle;	
+	line-height:24px;
+	font-family:Verdana;
+	font-size:11px;
+	white-space:nowrap;
+	position:relative;
+	cursor:default;
+}
+.igtab_LucidDreamLHCenter
+{
+	display:block;
+	background:url(./images/igtab_LHTop.gif) repeat-x;
+	background-color:#f0f0f0;
+	font:1px verdana;
+	line-height:1px;
+	height:100%;
+}
+.igtab_LucidDreamLHTail
+{
+	display:block;
+	background:url(./images/igtab_LHTopLeft.gif) no-repeat;
+	padding-left:10px;
+	white-space:nowrap;
+	border-right:1px solid #4679A6;
+	height:24px;
+}
+.igtab_LucidDreamLHMirror
+{
+	display:block;
+	padding-left:10px;
+	background:url(./images/igtab_LHBotLeft.gif) bottom left no-repeat;
+	border-right:1px solid #4679A6;
+	height:3px;
+}
+.igtab_LucidDreamLHMirrorCenter
+{
+	display:block;
+	background:url(./images/igtab_LHBot.gif) bottom left repeat-x;
+	font:1px verdana;
+	line-height:1px;
+	height:100%;
+}
+.igtab_LucidDreamLHTab
+{
+	display:block;
+	overflow:hidden;
+	position:relative;
+}
+.igtab_LucidDreamLHOverlap
+{
+	margin-top:-5px;
+}
+.igtab_LucidDreamLHTextHov
+{
+}
+.igtab_LucidDreamLHCenterHov
+{
+	background-image:url(./images/igtab_LHTopHov.gif);
+	background-color:#ff9e33;
+}
+.igtab_LucidDreamLHTailHov
+{
+	background-image:url(./images/igtab_LHTopLeftHov.gif);
+}
+.igtab_LucidDreamLHMirrorHov
+{
+	background-image:url(./images/igtab_LHBotLeftHov.gif);
+}
+.igtab_LucidDreamLHMirrorCenterHov
+{
+	background-image:url(./images/igtab_LHBotHov.gif);
+}
+.igtab_LucidDreamLHTabHov
+{
+}
+.igtab_LucidDreamLHTextSel
+{
+}
+.igtab_LucidDreamLHCenterSel
+{
+	background-image:url(./images/igtab_LHTopSel.gif);
+	background-color:#8fc6ea;
+}
+.igtab_LucidDreamLHTailSel
+{
+	background-image:url(./images/igtab_LHTopLeftSel.gif);
+	border-right-color:#00D0D0;
+}
+.igtab_LucidDreamLHMirrorSel
+{
+	background-image:url(./images/igtab_LHBotLeftSel.gif);
+	border-right-color:#00D0D0;
+}
+.igtab_LucidDreamLHMirrorCenterSel
+{
+	background-image:url(./images/igtab_LHBotSel.gif);
+}
+.igtab_LucidDreamLHTabSel
+{
+}
+.igtab_LucidDreamLHTextAct
+{
+	border:1px dotted blue;
+}
+.igtab_LucidDreamLHCenterAct
+{
+}
+.igtab_LucidDreamLHTailAct
+{
+}
+.igtab_LucidDreamLHMirrorAct
+{
+}
+.igtab_LucidDreamLHMirrorCenterAct
+{
+}
+.igtab_LucidDreamLHTabAct
+{
+}
+.igtab_LucidDreamLHTextDis
+{
+}
+.igtab_LucidDreamLHCenterDis
+{
+	background-image:url(./images/igtab_LHTopDis.gif);
+	background-color:#cccccc;
+}
+.igtab_LucidDreamLHTailDis
+{
+	background-image:url(./images/igtab_LHTopLeftDis.gif);
+}
+.igtab_LucidDreamLHMirrorDis
+{
+	background-image:url(./images/igtab_LHBotLeftDis.gif);
+}
+.igtab_LucidDreamLHMirrorCenterDis
+{
+	background-image:url(./images/igtab_LHBotDis.gif);
+}
+.igtab_LucidDreamLHTabDis
+{
+}
+.igtab_LucidDreamLHTabMoving
+{
+	filter:alpha(opacity:30);
+	opacity:0.3;
+}
+.igtab_LucidDreamLHTabMovingMarkUp
+{
+	filter:alpha(opacity:70);
+	opacity:0.7;
+}
+.igtab_LucidDreamLHRoundedCorners
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundCorners.gif);
+	background-repeat:no-repeat;
+}
+.igtab_LucidDreamLHRoundedTopBottom
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundTopBot.gif);
+	background-repeat:repeat-x;
+}
+.igtab_LucidDreamLHRoundedLeftRight
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundLeftRight.gif);
+	background-repeat:repeat-y;
+}
+.igtab_LucidDreamLHRoundedFill
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundFill.gif);
+}
+
+
+
+
+
+
+
+.igtab_LucidDreamRHControl
+{
+	overflow:hidden;
+	position:relative;
+}
+.igtab_LucidDreamRHContentHolder
+{
+	background:#FFFFFF;
+	border-right:1px solid #4679A6;
+	border-bottom:1px solid #4679A6;
+	border-top:1px solid #4679A6;
+	height:99%;
+	position:relative;
+	overflow:hidden;
+	width:100%;
+	z-index:9;
+}
+.igtab_LucidDreamRHContentHolderInner
+{
+	border-left:1px solid #4679A6;
+	height:100%;
+	position:relative;
+	overflow:hidden;
+	z-index:9;
+}
+.igtab_LucidDreamRHContent
+{
+	height:100%;
+	position:relative;
+	background-color:#FFFFFF;
+}
+.igtab_LucidDreamRHHolder
+{
+	overflow:hidden;
+	position:absolute;
+	z-index:999;
+	left:100%;
+	top:0px;
+	height:100%;
+}
+.igtab_LucidDreamRHHolderScroll
+{
+	top:-47px;
+}
+.igtab_LucidDreamRHHolderScrollInner
+{
+	top:47px;
+}
+.igtab_LucidDreamRHRoundedForHolder
+{
+	top:-6px;
+}
+.igtab_LucidDreamRHRoundedForHolderInner
+{
+	top:12px;
+}
+.igtab_LucidDreamRHRoundedForHolderScroll
+{
+	top:-53px;
+}
+.igtab_LucidDreamRHRoundedForHolderScrollInner
+{
+	top:59px;
+}
+.igtab_LucidDreamRHScrollButtons
+{
+	font-size:1px;
+	position:absolute;
+	top:100%;
+	margin-top:-47px;
+	z-index:20000;
+	left:100%;
+}
+.igtab_LucidDreamRHRoundedForScroll
+{
+	margin-top:-53px;
+}
+.igtab_LucidDreamRHScrollButton
+{
+	display:block;
+	margin-top:2px;
+	margin-left:3px;
+}
+.igtab_LucidDreamRHClose
+{
+	position:absolute;
+	top:12px;
+	margin-left:3px;
+	cursor:pointer;
+}
+.igtab_LucidDreamRHCloseSize
+{
+	padding-left:10px;
+}
+.igtab_LucidDreamRHImage
+{
+	vertical-align:middle;
+	position:relative;
+	margin-top:2px;
+}
+.igtab_LucidDreamRHText
+{
+	vertical-align:middle;
+	line-height:24px;
+	font-family:Verdana;
+	font-size:11px;
+	white-space:nowrap;
+	position:relative;
+	cursor:default;
+}
+.igtab_LucidDreamRHCenter
+{
+	display:block;
+	background:url(./images/igtab_RHTop.gif) repeat-x;
+	background-color:#f0f0f0;
+	line-height:20px;
+	font:22px sans-serif;
+	text-align:right;
+	white-space:nowrap;
+	overflow:hidden;
+}
+.igtab_LucidDreamRHTail
+{
+	display:block;
+	padding-right:10px;
+	background:url(./images/igtab_RHTopRight.gif) top right no-repeat;
+	white-space:nowrap;
+	border-left:1px solid #4679A6;
+	height:24px;
+}
+.igtab_LucidDreamRHMirror
+{
+	display:block;
+	padding-right:10px;
+	background:url(./images/igtab_RHBotRight.gif) bottom right no-repeat;
+	border-left:1px solid #4679A6;
+	height:3px;
+}
+.igtab_LucidDreamRHMirrorCenter
+{
+	display:block;
+	background:url(./images/igtab_RHBot.gif) bottom left repeat-x;
+	font:1px verdana;
+	line-height:1px;
+	height:100%;
+}
+.igtab_LucidDreamRHTab
+{
+	display:block;
+	overflow:hidden;
+	position:relative;
+}
+.igtab_LucidDreamRHOverlap
+{
+	margin-top:-5px;
+}
+.igtab_LucidDreamRHTextHov
+{
+}
+.igtab_LucidDreamRHCenterHov
+{
+	background-image:url(./images/igtab_RHTopHov.gif);
+	background-color:#ff9e33;
+}
+.igtab_LucidDreamRHTailHov
+{
+	background-image:url(./images/igtab_RHTopRightHov.gif);
+}
+.igtab_LucidDreamRHMirrorHov
+{
+	background-image:url(./images/igtab_RHBotRightHov.gif);
+}
+.igtab_LucidDreamRHMirrorCenterHov
+{
+	background-image:url(./images/igtab_RHBotHov.gif);
+}
+.igtab_LucidDreamRHTabHov
+{
+}
+.igtab_LucidDreamRHTextSel
+{
+}
+.igtab_LucidDreamRHCenterSel
+{
+	background-image:url(./images/igtab_RHTopSel.gif);
+	background-color:#8fc6ea;
+}
+.igtab_LucidDreamRHTailSel
+{
+	background-image:url(./images/igtab_RHTopRightSel.gif);
+	border-left-color:#00D0D0;
+}
+.igtab_LucidDreamRHMirrorSel
+{
+	background-image:url(./images/igtab_RHBotRightSel.gif);
+	border-left-color:#00D0D0;
+}
+.igtab_LucidDreamRHMirrorCenterSel
+{
+	background-image:url(./images/igtab_RHBotSel.gif);
+}
+.igtab_LucidDreamRHTabSel
+{
+}
+.igtab_LucidDreamRHTextAct
+{
+	border:1px dotted blue;
+}
+.igtab_LucidDreamRHCenterAct
+{
+}
+.igtab_LucidDreamRHTailAct
+{
+}
+.igtab_LucidDreamRHMirrorAct
+{
+}
+.igtab_LucidDreamRHMirrorCenterAct
+{
+}
+.igtab_LucidDreamRHTabAct
+{
+}
+.igtab_LucidDreamRHTextDis
+{
+}
+.igtab_LucidDreamRHCenterDis
+{
+	background-image:url(./images/igtab_RHTopDis.gif);
+	background-color:#cccccc;
+}
+.igtab_LucidDreamRHTailDis
+{
+	background-image:url(./images/igtab_RHTopRightDis.gif);
+}
+.igtab_LucidDreamRHMirrorDis
+{
+	background-image:url(./images/igtab_RHBotRightDis.gif);
+}
+.igtab_LucidDreamRHMirrorCenterDis
+{
+	background-image:url(./images/igtab_RHBotDis.gif);
+}
+.igtab_LucidDreamRHTabDis
+{
+}
+.igtab_LucidDreamRHRoundedCorners
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundCorners.gif);
+	background-repeat:no-repeat;
+}
+.igtab_LucidDreamRHRoundedTopBottom
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundTopBot.gif);
+	background-repeat:repeat-x;
+}
+.igtab_LucidDreamRHRoundedLeftRight
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundLeftRight.gif);
+	background-repeat:repeat-y;
+}
+.igtab_LucidDreamRHRoundedFill
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundFill.gif);
+}

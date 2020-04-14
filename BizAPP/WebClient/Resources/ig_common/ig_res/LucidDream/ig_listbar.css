@@ -1,0 +1,174 @@
+.iglb_LucidDreamControl
+{
+	border:solid 1px #DCDCDC;
+	margin-bottom:0px;
+}
+
+
+.iglb_LucidDreamControl_Exp
+{
+	border:solid 1px #DCDCDC;
+}
+
+
+.iglb_LucidDreamButton
+{
+	background-image: url(images/header.gif);
+	font-size:x-small;
+	padding-top:4px;
+	padding-bottom:4px;
+	padding-left:3px;
+	cursor:hand;
+	color:White;
+}
+
+
+.iglb_LucidDreamButtonHover
+{
+	background-position:bottom ;
+	background-image: url(images/header_hover.gif);
+	font-size:x-small;
+	padding-top:4px;
+	padding-bottom:4px;
+	padding-left:3px;
+	cursor:hand;
+	color:White;
+}
+
+
+.iglb_LucidDreamButtonSelected
+{
+	background-image: url(images/header.gif);
+	font-size:x-small;
+	padding-top:4px;
+	padding-bottom:4px;
+	padding-left:3px;
+	cursor:hand;
+	color:White;
+}
+
+
+.iglb_LucidDreamHeaderCollapsed
+{
+	background-image: url(images/header.gif);
+	font-size:x-small;
+	padding-top:4px;
+	padding-bottom:4px;
+	padding-left:3px;
+	cursor:hand;
+	color:White;
+}
+
+
+.iglb_LucidDreamHeaderExpanded
+{
+	background-image: url(images/header.gif);
+	font-size:x-small;
+	padding-top:4px;
+	padding-bottom:4px;
+	padding-left:3px;
+	cursor:hand;
+	color:White;
+}
+
+
+.iglb_LucidDreamHeaderHover
+{
+	background-position:bottom ;
+	background-image: url(images/header_hover.gif);
+	font-size:x-small;
+	padding-top:4px;
+	padding-bottom:4px;
+	padding-left:3px;
+	cursor:hand;
+	color:White;
+}
+
+
+.iglb_LucidDreamGroup
+{
+}
+
+
+.iglb_LucidDreamGroup_Exp
+{
+	margin-bottom:0px;
+}
+
+
+.iglb_LucidDreamItem
+{
+	font-size:xx-small;
+	margin-top:8px;
+	margin-bottom:3px;
+	padding-left:4px;
+	text-align:left;
+}
+
+
+.iglb_LucidDreamItem_Exp
+{
+	font-size:xx-small;
+	margin-top:4px;
+	margin-bottom:0px;
+	padding-bottom:3px;
+	padding-left:4px;
+	cursor:hand;
+	text-align:left;
+}
+
+
+.iglb_LucidDreamItemHover
+{
+	font-size:xx-small;
+	margin-top:8px;
+	margin-bottom:3px;
+	padding-left:4px;
+	cursor:hand;
+	color:#74B8E4;
+	text-align:left;
+	text-decoration:underline;
+}
+
+
+.iglb_LucidDreamItemHover_Exp
+{
+	font-size:xx-small;
+	margin-top:4px;
+	margin-bottom:0px;
+	padding-bottom:3px;
+	padding-left:4px;
+	cursor:hand;
+	color:#74B8E4;
+	text-align:left;
+	text-decoration:underline;
+}
+
+
+.iglb_LucidDreamItemSelected
+{
+	font-weight:bold;
+	font-size:xx-small;
+	margin-top:8px;
+	margin-bottom:3px;
+	padding-left:4px;
+	cursor:hand;
+	color:#74B8E4;
+	text-align:left;
+}
+
+
+.iglb_LucidDreamItemSelected_Exp
+{
+	font-weight:bold;
+	font-size:xx-small;
+	margin-top:4px;
+	margin-bottom:0px;
+	padding-bottom:3px;
+	padding-left:4px;
+	cursor:hand;
+	color:#74B8E4;
+	text-align:left;
+}
+
+

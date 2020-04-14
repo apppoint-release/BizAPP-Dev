@@ -1,0 +1,36 @@
+<ExporterMap>
+	<add key="BizAPP.Modeler.Activity" value ="BizAPP.Modeler.ImportExport.Exporters.ActivityExporter, BizAPP.Modeler.ImportExport, Version=1.1.0.36, Culture=neutral, PublicKeyToken=a1008b4e39a732f0" />
+	<add key="BizAPP.Modeler.BusinessModule" value ="BizAPP.Modeler.ImportExport.Exporters.BusinessModuleExporter, BizAPP.Modeler.ImportExport, Version=1.1.0.36, Culture=neutral, PublicKeyToken=a1008b4e39a732f0" />
+	<add key="BizAPP.Modeler.BusinessUnit" value ="BizAPP.Modeler.ImportExport.Exporters.BusinessUnitExporter, BizAPP.Modeler.ImportExport, Version=1.1.0.36, Culture=neutral, PublicKeyToken=a1008b4e39a732f0" />
+	<add key="BizAPP.Modeler.View" value ="BizAPP.Modeler.ImportExport.Exporters.ViewExporter, BizAPP.Modeler.ImportExport, Version=1.1.0.36, Culture=neutral, PublicKeyToken=a1008b4e39a732f0" />
+	<add key="BizAPP.Modeler.ViewDef" value ="BizAPP.Modeler.ImportExport.Exporters.ViewDefExporter, BizAPP.Modeler.ImportExport, Version=1.1.0.36, Culture=neutral, PublicKeyToken=a1008b4e39a732f0" />
+	<add key="BizAPP.Modeler.Form" value ="BizAPP.Modeler.ImportExport.Exporters.FormExporter, BizAPP.Modeler.ImportExport, Version=1.1.0.36, Culture=neutral, PublicKeyToken=a1008b4e39a732f0" />
+	<add key="BizAPP.Modeler.Field" value ="BizAPP.Modeler.ImportExport.Exporters.FieldExporter, BizAPP.Modeler.ImportExport, Version=1.1.0.36, Culture=neutral, PublicKeyToken=a1008b4e39a732f0" />
+	<add key="BizAPP.Modeler.BusinessObject" value ="BizAPP.Modeler.ImportExport.Exporters.BusinessObjectExporter, BizAPP.Modeler.ImportExport, Version=1.1.0.36, Culture=neutral, PublicKeyToken=a1008b4e39a732f0" />
+	<add key="BizAPP.Modeler.Category" value ="BizAPP.Modeler.ImportExport.Exporters.CategoryExporter, BizAPP.Modeler.ImportExport, Version=1.1.0.36, Culture=neutral, PublicKeyToken=a1008b4e39a732f0" />
+	<add key="BizAPP.Modeler.References" value ="BizAPP.Modeler.ImportExport.Exporters.ReferencesExporter, BizAPP.Modeler.ImportExport, Version=1.1.0.36, Culture=neutral, PublicKeyToken=a1008b4e39a732f0" />
+	<add key="BizAPP.Modeler.Query" value ="BizAPP.Modeler.ImportExport.Exporters.QueryExporter, BizAPP.Modeler.ImportExport, Version=1.1.0.36, Culture=neutral, PublicKeyToken=a1008b4e39a732f0" />
+	<add key="BizAPP.Modeler.Report" value ="BizAPP.Modeler.ImportExport.Exporters.ReportExporter, BizAPP.Modeler.ImportExport, Version=1.1.0.36, Culture=neutral, PublicKeyToken=a1008b4e39a732f0" />
+	<add key="BizAPP.Modeler.Chart" value ="BizAPP.Modeler.ImportExport.Exporters.ChartExporter, BizAPP.Modeler.ImportExport, Version=1.1.0.36, Culture=neutral, PublicKeyToken=a1008b4e39a732f0" />
+	<add key="BizAPP.Modeler.UserCode" value ="BizAPP.Modeler.ImportExport.Exporters.UserCodeExporter, BizAPP.Modeler.ImportExport, Version=1.1.0.36, Culture=neutral, PublicKeyToken=a1008b4e39a732f0" />
+	<add key="BizAPP.Modeler.State" value ="BizAPP.Modeler.ImportExport.Exporters.StateExporter, BizAPP.Modeler.ImportExport, Version=1.1.0.36, Culture=neutral, PublicKeyToken=a1008b4e39a732f0" />
+	<add key="BizAPP.Modeler.Step" value ="BizAPP.Modeler.ImportExport.Exporters.StepExporter, BizAPP.Modeler.ImportExport, Version=1.1.0.36, Culture=neutral, PublicKeyToken=a1008b4e39a732f0" />
+	<add key="BizAPP.Modeler.Workflow" value ="BizAPP.Modeler.ImportExport.Exporters.WorkflowExporter, BizAPP.Modeler.ImportExport, Version=1.1.0.36, Culture=neutral, PublicKeyToken=a1008b4e39a732f0" />
+	<add key="BizAPP.Modeler.Event" value ="BizAPP.Modeler.ImportExport.Exporters.EventExporter, BizAPP.Modeler.ImportExport, Version=1.1.0.36, Culture=neutral, PublicKeyToken=a1008b4e39a732f0" />
+	<add key="BizAPP.Modeler.NotificationDef" value ="BizAPP.Modeler.ImportExport.Exporters.NotificationDefExporter, BizAPP.Modeler.ImportExport, Version=1.1.0.36, Culture=neutral, PublicKeyToken=a1008b4e39a732f0" />
+	<add key="BizAPP.Modeler.NotificationAddress" value ="BizAPP.Modeler.ImportExport.Exporters.NotificationAddressExporter, BizAPP.Modeler.ImportExport, Version=1.1.0.36, Culture=neutral, PublicKeyToken=a1008b4e39a732f0" />
+	<add key="BizAPP.Modeler.NotificationTemplate" value ="BizAPP.Modeler.ImportExport.Exporters.NotificationTemplateExporter, BizAPP.Modeler.ImportExport, Version=1.1.0.36, Culture=neutral, PublicKeyToken=a1008b4e39a732f0" />
+	<add key="BizAPP.Modeler.Schemabase" value ="BizAPP.Modeler.ImportExport.Exporters.SchemabaseExporter, BizAPP.Modeler.ImportExport, Version=1.1.0.36, Culture=neutral, PublicKeyToken=a1008b4e39a732f0" />
+	<add key="BizAPP.Modeler.VersionableSchemaObject" value ="BizAPP.Modeler.ImportExport.Exporters.VersionableSchemaObjectExporter, BizAPP.Modeler.ImportExport, Version=1.1.0.36, Culture=neutral, PublicKeyToken=a1008b4e39a732f0" />
+	<add key="SystemUnit.SystemModule.AccessGroup" value ="BizAPP.Modeler.ImportExport.Exporters.AccessGroupExporter, BizAPP.Modeler.ImportExport, Version=1.1.0.36, Culture=neutral, PublicKeyToken=a1008b4e39a732f0" />
+	<add key="SystemUnit.SystemModule.Responsibilty" value ="BizAPP.Modeler.ImportExport.Exporters.ResponsibiltyExporter, BizAPP.Modeler.ImportExport, Version=1.1.0.36, Culture=neutral, PublicKeyToken=a1008b4e39a732f0" />
+	<add key="SystemUnit.Integrations.NamedConfiguration" value ="BizAPP.Modeler.ImportExport.Exporters.NamedConfiguration, BizAPP.Modeler.ImportExport, Version=1.1.0.36, Culture=neutral, PublicKeyToken=a1008b4e39a732f0" />
+	<add key="SystemUnit.Integrations.NamedUserConfiguration" value ="BizAPP.Modeler.ImportExport.Exporters.NamedUserConfiguration, BizAPP.Modeler.ImportExport, Version=1.1.0.36, Culture=neutral, PublicKeyToken=a1008b4e39a732f0" />
+	<add key="SystemUnit.Integrations.Configuration" value ="BizAPP.Modeler.ImportExport.Exporters.Configuration, BizAPP.Modeler.ImportExport, Version=1.1.0.36, Culture=neutral, PublicKeyToken=a1008b4e39a732f0" />
+	<add key="SystemUnit.Integrations.ParameterValue" value ="BizAPP.Modeler.ImportExport.Exporters.ParameterValue, BizAPP.Modeler.ImportExport, Version=1.1.0.36, Culture=neutral, PublicKeyToken=a1008b4e39a732f0" />
+	<add key="SystemUnit.Integrations.Parameter" value ="BizAPP.Modeler.ImportExport.Exporters.Parameter, BizAPP.Modeler.ImportExport, Version=1.1.0.36, Culture=neutral, PublicKeyToken=a1008b4e39a732f0" />
+	<add key="SystemUnit.Globalization.ResourceItem" value ="BizAPP.Modeler.ImportExport.Exporters.ResourceItem, BizAPP.Modeler.ImportExport, Version=1.1.0.36, Culture=neutral, PublicKeyToken=a1008b4e39a732f0" />
+	<add key="BizAPP.Modeler.Enterprise" value ="BizAPP.Modeler.ImportExport.Exporters.EnterpriseExporter, BizAPP.Modeler.ImportExport, Version=1.1.0.36, Culture=neutral, PublicKeyToken=a1008b4e39a732f0" />
+	<add key="BizAPP.Modeler.NameObject" value ="BizAPP.Modeler.ImportExport.Exporters.NameObjectExporter, BizAPP.Modeler.ImportExport, Version=1.1.0.36, Culture=neutral, PublicKeyToken=a1008b4e39a732f0" />
+	<add key="BizAPP.Modeler.SlnAsmInfo" value ="BizAPP.Modeler.ImportExport.Exporters.SolutionAssemblyInfoExporter, BizAPP.Modeler.ImportExport, Version=1.1.0.36, Culture=neutral, PublicKeyToken=a1008b4e39a732f0" />
+</ExporterMap>

@@ -1,0 +1,922 @@
+.igg_PearControl
+{
+	font-size:11px;
+	font-family: Verdana;
+	border:solid 1px #4F7600;
+	margin-bottom:0px;
+	margin-left:0px;
+}
+
+.igg_PearControl table
+{
+    border-collapse:separate;
+}
+
+.igg_PearHeader
+{
+	background-color:#BBD17E;
+}
+
+
+.igg_PearHeaderCaption
+{
+	font-size: 12px;
+	padding:3px 0 3px 8px;
+	overflow: hidden;
+	text-align:left;
+	border-top:1px solid #c8da97;
+    border-right:1px solid #aec865;
+    border-bottom:1px solid #a1bf4c;
+    border-left:1px solid #d5e3b0;
+}
+
+.igg_PearGroupFieldHeaderCaption
+{
+    text-align: center;
+    text-shadow: 1px 1px #d5e3b0;
+    font-size: 14px;
+}
+
+.igg_PearFooter
+{
+	background-color:White;
+	height: 22px;
+}
+
+
+.igg_PearFooterCaption
+{
+	font-weight:normal;
+	font-size:10px;
+	padding-left:8px;
+	overflow: hidden;
+	text-align:left;
+}
+
+
+tbody.igg_PearItem>tr>td
+{
+	background-color:White;
+	border-top:solid 1px #D8D8D8;
+	height: 20px;
+	line-height: 20px;
+	padding:5px 8px 5px 8px;
+	overflow: hidden;
+	text-align:left;
+	vertical-align:middle;
+}
+
+
+.igg_PearScrollbarIntersection
+{
+}
+
+
+.igg_PearRowSelector
+{
+	background-color:#EEF5DD;
+	border-right:solid 1px #D8D8D8;
+	border-top:solid 1px #D8D8D8;
+	border-left:solid 1px #D8D8D8;
+	width: 35px;
+	color:Black;
+	text-align:center;
+	vertical-align:middle;
+}
+
+
+.igg_PearPager
+{
+	background-color:#EEF5DD;
+	border-top:solid 1px #D8D8D8;
+	border-bottom-width:0px;
+	margin-right:10px;
+	padding-top:10px;
+	padding-right:10px;
+	padding-bottom:10px;
+	text-align:right;
+}
+
+
+.igg_PearPageLink
+{
+	margin-right:10px;
+	cursor:pointer;
+	color:DimGray;
+	text-decoration:underline;
+}
+
+
+.igg_PearFilterRuleDropDown
+{
+	background-attachment:scroll;
+	background-color:White;
+	background-repeat:repeat-x;
+	background-image: url(images/igg_summarydropdownbg.png);
+	font-size:xx-small;
+	font-family: verdana;
+	border:solid 1px #507701;
+	width: 150px;
+	overflow: auto;
+	max-height: 150px;
+	height: auto !important;
+	height: 150px;
+	box-shadow: 0 4px 8px 0 #5A5A5A;
+	filter: progid : DXImageTransform.Microsoft.Shadow(Strength=8, Direction=135, Color='#5A5A5A');
+}
+
+
+.igg_PearFilterButton
+{
+	background-color:Transparent;
+	border-style:solid;
+	border-width:0px;
+	height: 18px;
+}
+
+
+.igg_PearResizeIndicator
+{
+	background-color:#BBD17E;
+	width: 2px;
+}
+
+
+.igg_PearFixedColumnSeparatorCssClass
+{
+	background-color:#4F7600;
+	width: 3px;
+}
+
+
+.igg_PearFixedColumnPinButtonCssClass
+{
+	padding-top:0px;
+	padding-right:3px;
+	cursor:pointer;
+	vertical-align:middle;
+}
+
+
+.igg_PearVirtualScrollTooltip
+{
+	background-color:#BBD17E;
+	font-size:10px;
+	border:solid 1px #4F7600;
+	padding:3px;
+	color:Black;
+	text-align:center;
+}
+
+
+.igg_PearTopDragIndicator
+{
+	background-repeat:no-repeat;
+	background-image: url(images/igg_topdragindicator.png);
+	margin-top:2px;
+	width: 11px;
+	height: 6px;
+	z-index: 100;
+}
+
+
+.igg_PearMiddleDragIndicator
+{
+	background-repeat:repeat-y;
+	background-position:center ;
+	background-image: url(images/igg_middledragindicator.png);
+	width: 11px;
+}
+
+
+.igg_PearBottomDragIndicator
+{
+	background-repeat:no-repeat;
+	background-image: url(images/igg_bottomdragindicator.png);
+	margin-top:-2px;
+	width: 11px;
+	height: 6px;
+	position: absolute;
+	z-index: 100;
+}
+
+
+.igg_PearDragMarkup
+{
+}
+
+
+.igg_PearSummary
+{
+	font-weight:bold;
+	font-size:9px;
+	border-bottom:solid 1px #CBCBCB;
+	overflow: hidden;
+	line-height: 20px;
+	color:#444444;
+	text-align:right;
+}
+
+
+.igg_PearSummaryButton
+{
+	background-color: none;
+	border-style:none;
+	border-color: medium;
+	margin:0px;
+	padding:0px;
+	cursor:pointer;
+}
+
+
+.igg_PearSummaryDropDown
+{
+	background-attachment:scroll;
+	background-color:White;
+	background-repeat:repeat-x;
+	background-image: url(images/igg_summarydropdownbg.png);
+	font-size:11px;
+	font-family: verdana;
+	border:solid 1px #507701;
+	padding:12px;
+	width: 146px;
+	_overflow: hidden!important;
+	box-shadow: 0 4px 8px 0 #5A5A5A;
+	filter: progid : DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#5A5A5A');
+}
+
+
+.igg_PearSummaryDropDownItem
+{
+	font-weight:normal;
+	cursor:default;
+	color:Black;
+}
+
+
+.igg_PearSummaryRow
+{
+}
+
+
+.igg_PearFixedColumnHeaderCssClass
+{
+}
+
+
+tbody>tr.igg_PearAlt>td
+{
+	background-color:#EFF5F7;
+	background-repeat:repeat-x;
+	background-image: url(images/item_bg.png);
+}
+
+.igg_PearHeaderRowSelector
+{
+	background-color: Transparent;
+    border-color: #C8DA97 #AEC865 #A1BF4C #D5E3B0;
+    border-style: solid;
+    border-width: 1px;
+}
+
+
+.igg_PearFooterRowSelector
+{
+	background-color:Transparent;
+	border-width:0px;
+}
+
+
+.igg_PearSelectedHeader
+{
+}
+
+
+.igg_PearPageCurrent
+{
+	margin-right:10px;
+}
+
+
+tr.igg_PearAddNewRow>td
+{
+	background-color:#F7F7F7;
+	font-size:10px;
+	font-family: Verdana;
+	border-top:solid 1px #D8D8D8;
+	border-right:solid 1px #D8D8D8;
+	border-bottom-style:none;
+	border-left-style:none;
+	padding-left:7px;
+	height: 22px;
+	overflow: hidden;
+}
+
+
+.igg_PearAddNewRowSelectorImageCssClass
+{
+	background-color:Transparent;
+	background-repeat:no-repeat;
+	background-position:center ;
+	background-image: url(images/addnewrow_image.gif);
+}
+
+
+.igg_PearAddNewRowSelectorCssClass
+{
+	background-color:#F7F7F7;
+	border-top:solid 1px #D8D8D8;
+	border-right:solid 1px #D8D8D8;
+	border-bottom-style:none;
+	border-left-style:none;
+}
+
+
+.igg_PearAddNewRowExpansionColumnCssClass
+{
+}
+
+
+.igg_PearFilterRow
+{
+	font-size:10px;
+	font-family: Verdana;
+	border-top:solid 0px #CCCCCC;
+	border-right:solid 0px #CCCCCC;
+	border-bottom:solid 1px #CCCCCC;
+	border-left:solid 1px #CCCCCC;
+	height: 22px;
+	color:Black;
+}
+
+
+.igg_PearFilterRuleDropDownItem
+{
+	font-size:11px;
+	font-family: Verdana;
+	padding:1px 3px 1px 3px;
+}
+
+
+.igg_PearFilterRowSelectorImage
+{
+}
+
+
+.igg_PearFilterRowSelectorCssClass
+{
+	background-color:White;
+	background-repeat:repeat-x;
+	background-image: url(images/igg_filterrow.gif);
+	border-top:solid 1px #CCCCCC;
+	border-right:solid 1px #CCCCCC;
+	border-bottom:solid 0px #CCCCCC;
+	border-left:solid 0px #CCCCCC;
+}
+
+
+tr.igg_PearFilterRow>td
+{
+	background-color:White;
+	background-repeat:repeat-x;
+	background-image: url(images/igg_filterrow.gif);
+	border-top:solid 1px #CCCCCC;
+	border-right:solid 1px #CCCCCC;
+	border-bottom:solid 0px #CCCCCC;
+	border-left:solid 0px #CCCCCC;
+	color:Black;
+}
+
+
+.igg_PearFilterRowExpansionColumnCssClass
+{
+}
+
+
+tbody.igg_PearFixedColumnCellCssClass>tr>td
+{
+}
+
+
+.igg_PearFixedColumnFooterCssClass
+{
+	font-weight:bold;
+}
+
+
+.igg_PearHeaderScrollbarIntersection
+{
+}
+
+
+.igg_PearFooterScrollbarIntersection
+{
+}
+
+
+.igg_PearSelectedRowSelector
+{
+	background-color: #BBD17E;
+	background-repeat:no-repeat;
+	background-position:left center ;
+	background-image: url(images/selectedrowselector.gif);
+}
+
+
+.igg_PearSelectedRowSelectorImage
+{
+}
+
+
+tr.igg_PearAddNewRowTop>td
+{
+}
+
+
+tr.igg_PearAddNewRowBottom>td
+{
+}
+
+
+.igg_PearFilterRowTop
+{
+}
+
+
+.igg_PearFilterRowBottom
+{
+}
+
+
+.igg_PearFilterRuleDropDownSelectedItem
+{
+	background-color:#4F7600;
+	font-size:11px;
+	font-family: Verdana;
+	padding:1px 3px 1px 3px;
+	color:White;
+}
+
+
+tr.igg_PearFilterRowTop>td
+{
+}
+
+
+tr.igg_PearFilterRowBottom>td
+{
+}
+
+
+tbody>tr>td.igg_PearSelectedCell
+{
+	background-color:#636A4C;
+	background-image:none;
+	color:White;
+}
+
+
+.igg_PearAddNewRowScrollbarIntersection
+{
+	background-color:#F7F7F7;
+	border-top:solid 1px #D8D8D8;
+	border-right:solid 0px #D8D8D8;
+	border-bottom:solid 0px #D8D8D8;
+	border-left:solid 0px #D8D8D8;
+}
+
+
+.igg_PearFilterDisabled
+{
+}
+
+
+.igg_PearFilterScrollbarIntersection
+{
+	background-color:#EEEEEE;
+	background-repeat:repeat-x;
+	background-image: url(images/igg_filterrow.gif);
+	border-top:solid 1px #CCCCCC;
+	border-right:solid 0px #CCCCCC;
+	border-bottom:solid 0px #CCCCCC;
+	border-left:solid 0px #CCCCCC;
+}
+
+
+tbody>tr>td.igg_PearActiveCell
+{
+}
+
+
+.igg_PearActiveRow
+{
+}
+
+
+.igg_PearActiveColumn
+{
+}
+
+
+.igg_PearActiveRowSelectorImage
+{
+}
+
+
+.igg_PearActiveRowSelector
+{
+	background-color:#BBD17E;
+	background-repeat:no-repeat;
+	background-position:left center ;
+	background-image: url(images/selectedrowselector.gif);
+}
+
+
+.igg_PearFilterRuleDropDownHoverItem
+{
+	background-color:#BBD17E;
+	font-size:11px;
+	font-family: Verdana;
+	padding:1px 3px 1px 3px;
+	color:White;
+}
+
+
+.igg_PearEditCell
+{
+	background-color:White;
+	border:solid 1px #AAAAAA !important;
+}
+
+
+.igg_PearSummaryDropDownItem img
+{
+	margin-right:5px;
+	cursor:pointer;
+}
+
+tr.igg_PearAddNewRowBottomIE6 td
+{
+}
+
+
+tr.igg_PearFilterRowTopIE6 td
+{
+}
+
+
+.igg_PearFilterButton>td
+{
+	border-top:solid 0px Transparent;
+	border-right:solid 0px Transparent;
+	border-bottom:solid 0px Transparent;
+	border-left:solid 0px Transparent;
+}
+
+
+.igg_PearFooter tr[mkr="columnheaderrow"] th
+{
+	background-color:#F7F7F7;
+	border-top:solid 1px #CCCCCC;
+	border-bottom:solid 1px #CCCCCC;
+	line-height: 20px;
+}
+
+
+.igg_PearSummaryRow th
+{
+	background-color:#F7F7F7;
+	border-bottom:solid 1px #CCCCCC;
+}
+
+
+tbody tr td.igg_PearActiveCellIE6
+{
+}
+
+
+tr.igg_PearFilterRowIE6 td
+{
+	background-color:White;
+	background-repeat:repeat-x;
+	background-image: url(images/igg_filterrow.gif);
+	border-top:solid 1px #CCCCCC;
+	border-right:solid 1px #CCCCCC;
+	border-bottom:solid 0px #CCCCCC;
+	border-left:solid 0px #CCCCCC;
+	color:Black;
+}
+
+tbody.igg_PearItemIE6 tr td
+{
+	background-color:White;
+	border-bottom:solid 1px #D8D8D8;
+	padding:5px 8px 5px 8px;
+	overflow: hidden;
+	text-align:left;
+	vertical-align:middle;
+}
+
+tbody tr.igg_PearAltIE6 td
+{
+	background-color:#EFF5F7;
+	background-repeat:repeat-x;
+	background-image: url(images/item_bg.png);
+	padding:5px 8px 5px 8px;
+	text-align:left;
+	vertical-align:middle;
+}
+
+tbody tr td.igg_PearSelectedCellIE6
+{
+	background-color:#636A4C;
+	background-image:none;
+	color:White;
+}
+
+tr.igg_PearAddNewRowIE6 td
+{
+	background-color:#F7F7F7;
+	font-size:10px;
+	font-family: Verdana;
+	border-top:solid 1px #D8D8D8;
+	border-right:solid 1px #D8D8D8;
+	border-bottom:solid 1px #D8D8D8;
+	border-left:solid 0px #D8D8D8;
+	padding-left:7px;
+	height: 22px;
+	overflow: hidden;
+}
+
+
+.igg_PearSummaryDropDown input
+{
+	background-attachment:scroll;
+	background-color:#BBD17E;
+	background-repeat:repeat-x;
+	background-image: url(images/igg_buttonsbg.png);
+	border:solid 1px #507701;
+	margin-top:10px;
+	margin-right:3px;
+	width: 70px;
+	color:#000FFF;
+}
+
+
+tr.igg_PearAddNewRowTopIE6 td
+{
+}
+
+
+tr.igg_PearFilterRowBottomIE6 td
+{
+}
+
+/******************/
+
+/*Batch Editing*/
+
+@-webkit-keyframes addingHighlight {
+	0% {background-color:#dee9c0;}
+	100% {background-color:#ffffff;}
+	}
+@-moz-keyframes addingHighlight {
+	 0% {background-color:#dee9c0;}	
+	 100% {background-color:#ffffff;}
+	}
+
+tbody>tr.igg_PearAddingRow>td
+{	
+   	background-image: none;
+
+	-webkit-animation-name: addingHighlight;
+	-webkit-animation-timing-function: ease-in-out;
+	-webkit-animation-duration: 2s;
+		
+	-moz-animation-name: addingHighlight;
+	-moz-animation-timing-function: ease-in-out;
+	-moz-animation-duration: 2s;	
+	
+    -o-animation-name: addingHighlight;
+	-o-animation-timing-function: ease-in-out;
+	-o-animation-duration: 2s;
+	
+    animation-name: addingHighlight;
+	animation-timing-function: ease-in-out;
+	animation-duration: 2s;
+}
+
+tbody tr.igg_PearAddedRow td
+{
+   	background-color: #FFFFFF;
+	color:#666;
+    font-style: italic;
+	background-image: none;
+}
+
+.igg_PearDeletedRow, .igg_PearItem .igg_PearDeletedRow td, .igg_PearItem .igg_PearDeletedRow th
+{
+    color: #9F9F9F;
+    font-style: italic;
+    text-decoration: line-through;
+}
+
+.igg_PearUndoButton 
+{
+   	background-color: #F0F5E2;
+	background-image: url(images/igte_spinbuttonbg.gif);
+	background-position:top left;
+	background-repeat: repeat-x;
+	line-height:normal;
+	border:solid 1px #507601;
+	color: #507601;
+	cursor: pointer;
+	padding:3px;
+	
+	-webkit-border-radius:2px;
+    -moz-border-radius:2px;
+    -o-border-radius:2px;
+    -ms-border-radius:2px;
+    -khtml-border-radius:2px;
+    border-radius:2px;
+    
+    -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; 
+}
+    
+.igg_PearUndoButtonHover 
+{
+    background-color: #bbd17e;
+	background-image: url(images/igte_spinbuttonbghover.gif);
+	color: #507601;
+}
+
+.igg_PearUndoButtonPressed
+{
+	background-color: #F0F5E2;
+	background-image: url(images/igte_spinbuttonbgpressed.gif);
+}
+
+.igg_PearUpdatedRow
+{    
+	 color:#666;
+     font-style: italic;
+}
+
+.igg_PearAddedRow th
+{    
+	 color:#666;
+     font-style: italic;
+}
+
+tbody > tr.igg_PearUpdatedRow td.igg_PearMergedCell
+{    
+	 color:#666;
+     font-style: italic;
+}
+
+.igg_PearAlt.igg_PearUpdatedRow td
+{    
+	 color:#666;
+     font-style: italic;
+}
+
+tbody > tr.igg_PearUpdatedRow td.igg_PearSelectedCell
+{    
+    color: white;
+}
+
+.igg_PearUpdatedRow th {color:#666;}
+.igg_PearAlt.igg_PearUpdatedRow th {color:#666;}
+.igg_PearAddedRow th {color:#666;}
+.igg_PearAlt.igg_PearAddedRow th {color:#666;}
+
+.igg_PearUpdatedRow .igg_PearActiveRowSelectorImage {color:#f2f2f2;}
+.igg_PearAlt.igg_PearUpdatedRow .igg_PearActiveRowSelectorImage {color:#f2f2f2;}
+.igg_PearAddedRow .igg_PearActiveRowSelectorImage {color:#f2f2f2;}
+.igg_PearAlt.igg_PearAddedRow .igg_PearActiveRowSelectorImage {color:#f2f2f2;}
+
+/********************/
+/**  Cell Merging  **/
+/********************/
+/*Any future change please port it to WHDG*/
+
+tbody>tr>td.igg_PearkMergedCellVisible
+{
+    color: Black;
+}
+
+tbody>tr>td.igg_PearMergedCell /*tbody>tr>td.igg_PearMergedCellAlt*/
+{
+    color: #FFF;
+    background-color: #fff;
+    background-image: none;
+    
+    border-top-width: 0;
+    border-left:  1px solid #d8d8d8;
+    border-right: 1px solid #d8d8d8;
+}
+
+tbody>tr>td.igg_PearMergedCellTop /*tbody>tr>td.igg_PearMergedCellAltTop*/
+{
+    color: Black;
+    border-top: 1px solid #d8d8d8;
+}
+
+tbody>tr>td.igg_PearMergedCell.igg_PearSelectedCell /*tbody>tr>td.igg_PearMergedCellAlt.igg_PearSelectedCell*/
+{
+    color: #FFFFFF;
+    background-color: #7e8566;
+    
+    border-top: 1px solid #d8d8d8;
+    border-left: 1px dotted #d8d8d8;
+    border-right: 1px dotted #d8d8d8;
+}
+ 
+tbody>tr>td.igg_PearMergedCellTop.igg_PearSelectedCell /*tbody>tr>td.igg_PearMergedCellAltTop.igg_PearSelectedCell*/
+{
+    color: #FFFFFF;
+}
+
+.igg_PearMergedCell.igg_PearActiveCell
+{
+    color: Black
+}
+
+tbody>tr>td.igg_PearMergedCellVisible
+{
+    color: Black;
+}
+
+
+/*********************/
+/**  Filter styles **/
+/*********************/
+
+.igg_PearFilterRuleDropDown 
+{
+	color: #000;
+	max-height: 180px;
+	min-width:160px;
+	height: auto;
+	width: auto;
+	padding: 12px;
+    
+    /*Rounded corners*/
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	
+    /*Shadow*/
+	-moz-box-shadow: 0 4px 8px 0 #5A5A5A;
+	-webkit-box-shadow: 0 4px 8px 0 #5A5A5A;
+	box-shadow : 0 4px 8px 0 #5A5A5A; /* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#5A5A5A')"; /* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#5A5A5A');
+}
+
+.igg_PearFilterRuleDropDown input
+{
+    margin-top:10px;
+    margin-right:3px;
+    width:70px;		
+   
+    background: #BBD17E url(images/igg_ButtonsBG.png) repeat-x scroll;
+	border:solid 1px #507701;
+	color:#000000;
+		
+    -webkit-border-radius: 3px;    
+    -moz-border-radius: 3px;
+}    
+
+.igg_PearFilterRuleDropDown img
+{
+    margin-right: 5px;
+    vertical-align: bottom;
+}
+
+.igg_PearFilterCheckboxList li
+{
+    list-style-type: none;
+    margin-bottom: 3px;
+    line-height: 15px;
+}
+
+.igg_PearFilterCheckboxList
+{
+    margin: 10px 0 0 0;
+    height: auto;
+    max-height: 120px;
+    overflow: auto;
+    width: 160px;
+}
+
+
+
+@media print{.igg_PearControl, 
+.igg_PearControl tr[mkr="columnHeaderRow"] div,
+.igg_PearControl div[mkr="container"],
+.igg_PearControl div[mkr="hScrBar"],
+.igg_PearControl div[mkr="vScrBar"]{width:auto !important; height:auto !important; overflow: visible !important;}
+}

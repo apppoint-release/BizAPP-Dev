@@ -1,0 +1,17 @@
+<disco:discovery
+  xmlns:disco="http://schemas.xmlsoap.org/disco/"
+  xmlns:scl="http://schemas.xmlsoap.org/disco/scl/">
+
+	<!-- reference to other DISCO document -->
+	<!--  <disco:discoveryRef ref="related-services/default.disco"/> -->
+
+	<!-- reference to WSDL and documentation -->
+	<scl:contractRef ref="Authenticate.svc?wsdl" docRef="Authenticate.svc"/>
+	<scl:contractRef ref="ObjectServices.svc?wsdl" docRef="ObjectServices.svc"/>
+	<scl:contractRef ref="MobileQueryMetadata.svc?wsdl" docRef="MobileQueryMetadata.svc"/>
+	<scl:contractRef ref="MobileChartMetadata.svc?wsdl" docRef="MobileChartMetadata.svc"/>
+	<scl:contractRef ref="MobileUserData.svc?wsdl" docRef="MobileUserData.svc"/>
+	<scl:contractRef ref="MobileObjectServices.svc?wsdl" docRef="MobileObjectServices.svc"/>
+	<scl:contractRef ref="MobileObjectMetadata.svc?Wsdl" docRef="MobileObjectMetadata.svc"/>
+	<scl:contractRef ref="MobileObjectQueryServices.svc?wsdl" docRef="MobileObjectQueryServices.svc"/>
+</disco:discovery>

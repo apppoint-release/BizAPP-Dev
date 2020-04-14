@@ -1,0 +1,116 @@
+.igte_ElectricBlueEditWithButtons
+{
+	font-size: 10px;
+	font-family: Segoe UI, Verdana, Arial, Sans-Serif;
+	background-color: #FFFFFF;
+	height:20px;
+	width: 130px;
+	border:solid 1px #A5C3DF;
+	outline: 0;
+}
+
+.igte_ElectricBlueEdit::-ms-clear, .igte_ElectricBlueEditInContainer::-ms-clear
+{
+	display: none;
+}
+
+.igte_ElectricBlueEdit
+{
+	font-size: 12px;
+	font-family: Segoe UI, Verdana, Arial, Sans-Serif;
+	background-color: #FFFFFF;
+	border:solid 1px #A5C3DF;
+	outline:0;
+}
+
+.igte_ElectricBlueTextArea
+{
+	font-size: 12px;
+	font-family: Segoe UI, Verdana, Arial, Sans-Serif;
+	background-color: #FFFFFF;
+	border:solid 1px #A5C3DF;
+	outline:0;
+	resize:none;
+}
+
+.igte_ElectricBlueEditInContainer
+{
+	font-size: 12px;
+	font-family: Segoe UI, Verdana, Arial, Sans-Serif;
+	background-color: Transparent;
+	border-width:0px;
+	outline:0;
+}
+
+.igte_ElectricBlueFocus
+{
+	background-color: #F3FBFE;
+	border-color:#999999;
+}
+
+.igte_ElectricBlueHover
+{
+	border-color:#5F6483;
+}
+
+.igte_ElectricBlueInner
+{
+	border-width: 0;
+}
+
+.igte_ElectricBlueInnerFocus
+{
+}
+
+.igte_ElectricBlueInnerHover
+{
+}
+
+.igte_ElectricBlueButtonSize
+{
+	width:15px;
+	height:100%;
+}
+
+.igte_ElectricBlueButton
+{
+	background-color: #1f6198;
+	background-image: url(images/igte_spinbuttonbg.gif);
+	background-repeat: repeat-x;
+	line-height:normal;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+
+.igte_ElectricBlueButtonFocus
+{
+}
+
+.igte_ElectricBlueNullText
+{
+	color: #999999;
+}
+
+.igte_ElectricBlueButtonHover
+{
+	background-color: #378fd7;
+	background-image: url(images/igte_spinbuttonbghover.gif);
+}
+
+
+.igte_ElectricBlueButtonPressed
+{
+	background-color: #c2c2c3;
+	background-image: url(images/igte_spinbuttonbgpressed.gif);
+}
+
+
+.igte_ElectricBlueButtonDisabled
+{
+	background-image: none;
+	background-color: #CCCCCC;
+}
+
+.igte_ElectricBlueButtonImg
+{
+}

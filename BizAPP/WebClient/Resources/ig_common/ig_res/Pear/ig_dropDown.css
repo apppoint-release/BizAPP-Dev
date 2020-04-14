@@ -1,0 +1,410 @@
+/*
+
+Main control CSS class
+*/
+.igdd_PearControl
+{
+}
+
+
+/*
+ Main Control CSS class when it's disabled
+*/
+.igdd_PearControlDisabled
+{
+}
+
+
+/*
+ Main control css class on hover
+*/
+.igdd_PearControlHover
+{
+	background-color:#F2F7E6;
+}
+
+
+/*
+
+*/
+.igdd_PearControlFocus
+{
+	background-color:#F2F7E6;
+	border:solid 1px #507701;
+	table-layout: fixed;
+}
+
+
+.igdd_PearControlArea
+{
+	border:solid 1px #507701;
+	table-layout: fixed;
+}
+
+
+/*
+CSS class for the actual input field (<input type="text" />)
+*/
+.igdd_PearValueDisplay
+{
+	background-color:Transparent;
+	font-weight:normal;
+	font-size:10pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	border-width:0px;
+	width: 100%;
+}
+
+
+/*
+
+*/
+.igdd_PearValueDisplayHover
+{
+}
+
+
+/*
+
+*/
+.igdd_PearValueDisplayFocus
+{
+}
+
+
+/*
+
+*/
+.igdd_PearValueDisplayDisabled
+{
+    background-color:Transparent;
+    border:0px;
+    font-family:Verdana,Arial,Helvetica,sans-serif;
+    font-size:10pt;
+    font-weight:normal;
+    width:100%;
+    z-index:0
+}
+
+
+/*
+
+*/
+.igdd_PearValueDisplayReadOnly
+{
+}
+
+
+/*
+
+*/
+.igdd_PearDropDownList
+{
+	background-color:White;
+	font-size:10pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin:0px;
+	padding:1px;
+}
+
+
+/*
+
+*/
+.igdd_PearDropDownListHover
+{
+}
+
+
+/*
+
+*/
+.igdd_PearDropDownListReadOnly
+{
+}
+
+
+/*
+	
+*/
+.igdd_PearDropDownListContainer
+{
+	background-color:White;
+	border:solid 1px #507701;
+	float: left;
+}
+
+
+/*
+
+*/
+.igdd_PearDropDownListContainerHover
+{
+}
+
+
+/*
+
+*/
+.igdd_PearDropDownButton
+{
+	width: 17px;
+	z-index: 9999;
+}
+
+.igdd_PearDropDownButton img 
+{
+    display:block;
+}
+
+
+/*
+
+*/
+.igdd_PearDropDownButtonHover
+{
+}
+
+
+/*
+CSS class that controls the style of the LI items in the list
+*/
+.igdd_PearListItem
+{
+	font-size:10pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	border:solid 1px Transparent;
+	padding:3px 5px 3px 5px;
+	list-style-type: none;
+	width: auto;
+	min-height: 15px;
+	height: auto !important;
+	cursor:pointer;
+}
+	/* IE 6 fix */
+	.ie6 .igdd_PearListItem {
+		border:solid 1px white;
+	}
+
+/*
+
+*/
+.igdd_PearListItemActive
+{
+	background-color:#F2F7E6;
+	border:solid 1px #BBD17E;
+	list-style-type: none;
+}
+
+
+/*
+
+*/
+.igdd_PearListItemHover
+{
+	background-color:#BBD17E;
+	list-style-type: none;
+}
+	/* IE 6 fix */
+	.ie6 .igdd_PearListItemHover {
+		border:solid 1px white;
+	}
+
+/*
+
+*/
+.igdd_PearListItemSelected
+{
+	background-color:#EEEEEE;
+	list-style-type: none;
+	color:#333333;
+}
+
+
+/*
+
+*/
+.igdd_PearListItemDisabled
+{
+	list-style-type: none;
+	width: auto;
+	cursor:default;
+}
+
+
+/*
+Applied to the whole pager
+*/
+.igdd_PearPager
+{
+	background-color:Transparent;
+	border-top:solid 1px #507701;
+	vertical-align:middle;
+}
+
+
+/*
+Loading message container
+*/
+.igdd_PearLoadingItemsMessage
+{
+	background-color:#507701;
+	font-weight:bold;
+	font-size:10pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin:1px 0px 0px 1px;
+	padding:3px;
+	color:White;
+}
+
+
+/*
+Styles the current page link only
+*/
+.igdd_PearPageCurrent
+{
+	font-size:8pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin-top:5px;
+	margin-right:3px;
+	float: left;
+	cursor:pointer;
+	color:#23262A;
+	text-decoration:underline;
+	vertical-align:middle;
+}
+
+
+/*
+Styles all page links in general 
+*/
+.igdd_PearPageLink
+{
+	font-size:8pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin-top:5px;
+	margin-right:3px;
+	float: left;
+	cursor:pointer;
+	color:#507701;
+	vertical-align:middle;
+}
+
+
+/*
+pseudo class used so Value Display input does not have focus
+glow in some browsers like GoogleChrome or AppleSafari
+*/
+input:focus
+{
+	outline: none;
+}
+
+
+.igdd_PearListItem a:visited
+{
+	color:#333333;
+	text-decoration:none;
+}
+
+
+/*
+
+*/
+.igdd_PearListItemFocus
+{
+	list-style-type: none;
+	width: auto;
+}
+
+
+/*
+	
+*/
+.igdd_PearDropDownButtonFocus
+{
+}
+
+
+.igdd_PearListItem a:hover
+{
+}
+
+
+.igdd_PearListItem a:active
+{
+}
+
+
+/*
+Styling for anchor when hovered anywhere on ListItem
+*/
+.igdd_PearListItemHover a:link
+{
+	color:White;
+	text-decoration:none;
+}
+
+
+/*
+ CSS class for the table that accomodates the value display and the drop down button, and which is a 
+ child of the main control (div)
+*/
+.igdd_PearValueDisplayTable
+{
+}
+
+
+/*
+
+*/
+.igdd_PearDropDownListContainerFocus
+{
+}
+
+
+/*
+
+*/
+.igdd_PearDropDownListDisabled
+{
+}
+
+
+.igdd_PearListItem a:link
+{
+	color:#333333;
+	text-decoration:none;
+}
+
+
+/*
+For Disabled=True of a DropDownItem
+*/
+.igdd_PearListItemDisabled a:link
+{
+	cursor:default;
+	color:#8D8D8D;
+}
+
+
+/*
+
+*/
+.igdd_PearDropDownListFocus
+{
+}
+
+
+/*
+
+*/
+.igdd_PearDropDownButtonDisabled
+{
+}
+
+/* hide IE 10 clear button */
+.igdd_PearValueDisplay::-ms-clear
+{
+    display : none;
+}

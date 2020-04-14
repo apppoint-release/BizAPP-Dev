@@ -1,0 +1,278 @@
+.igmv_ElectricBlueControl
+{
+	border:solid 1px #052684;
+	overflow: auto;
+}
+
+
+.igmv_ElectricBlueControl table
+{
+	border-collapse:Collapse;
+}
+
+
+.igmv_ElectricBlueWeekNumber
+{
+	background-color:#FFFFFF;
+	background-repeat: repeat-x;
+	background-image: url(images/bg_top.gif);
+	font-size: 8pt;
+	border-right:solid 1px #052684;
+	border-bottom:solid 1px #052684;
+	width: 30px;
+	color:#052684;
+	text-align:center;
+	vertical-align:middle;
+}
+
+
+.igmv_ElectricBlueMonthDayOfWeekHeader
+{
+	background-color:#56c1ef;
+	background-repeat: repeat-x;
+	background-position: top;
+	background-image: url(images/header_hover.gif);
+	border: solid 1px #052684;
+	border-right:solid 0px #052684;
+	font-size:8pt;
+	padding: 3px;
+	text-align:center;
+	color: #FFFFFF;
+	height: 1%;
+}
+
+
+.igmv_ElectricBlueCaptionHeader
+{
+	background-color:#2CB2EB;
+	background-repeat:repeat-x;
+	background-image: url(images/header.gif);
+	font-weight:bold;
+	font-size:8pt;
+	border:solid 1px #052684;
+	border-left-width: 0;
+	border-right-width: 0;
+	line-height: 16pt;
+	color: #FFFFFF;
+	text-align:center;
+}
+
+
+tr.igmv_ElectricBlueCaptionHeader td.igmv_ElectricBlueWeekNumber
+{
+	background-color:#2CB2EB;
+	background-repeat:repeat-x;
+	background-image: url(images/header.gif);
+	background-position: top;
+	border-width:0px;
+	text-align: left;
+}
+
+
+.igmv_ElectricBlueDay
+{
+	background-color:#FFFFFF;
+	border-left:solid 1px #052684;
+	cursor:hand;
+	color:Black;
+	vertical-align:top;
+}
+
+
+.igmv_ElectricBlueCompressedDay
+{
+	border-left:solid 1px #052684;
+	vertical-align:top;
+}
+
+
+.igmv_ElectricBlueOtherMonthDay
+{
+	background-color:#F4F7FB;
+	border-left:solid 1px #052684;
+	cursor: pointer;
+	color:Black;
+	vertical-align:top;
+}
+
+
+.igmv_ElectricBlueOtherCompressedDay
+{
+	background-color:#F4F7FB;
+	border-left:solid 1px #052684;
+	vertical-align:top;
+}
+
+
+.igmv_ElectricBlueToday
+{
+}
+
+
+.igmv_ElectricBlueActiveDay
+{
+	background-image: none;
+}
+
+
+.igmv_ElectricBlueDayHeader
+{
+	background-color:#FFFFFF;
+	background-repeat: repeat-x;
+	background-position:bottom ;
+	background-image: url(images/activingbg.jpg);
+	border:solid 1px #052684;
+	border-right:solid 0px #052684;
+	padding:3px;
+	color: #052684;
+	vertical-align:middle;
+	font-size:8pt;
+	font-weight: bold;
+	height: 1%;
+}
+
+
+.igmv_ElectricBlueOtherMonthDayHeader
+{
+	background-color: #E7EDF6;
+	background-image: none;
+	border:solid 1px #052684;
+	border-right:solid 0px #052684;
+	padding:3px;
+	vertical-align:middle;
+	height: 1%;
+}
+
+
+.igmv_ElectricBlueTodayHeader
+{
+	background-color:#56c1ef;
+	background-repeat: repeat-x;
+	background-position: top;
+	background-image: url(images/header_hover.gif);
+	color: #FFFFFF;
+}
+
+
+.igmv_ElectricBlueActiveDayHeader
+{
+}
+
+
+.igmv_ElectricBlueAppointment
+{
+	background-color:White;
+	font-size:8pt;
+	border:solid 1px #999999;
+	margin:1px;
+	padding: 3px;
+	cursor:hand;
+	text-align:left;
+	overflow: hidden;
+}
+
+.igmv_ElectricBlueFadedAppointment
+{
+	filter:alpha(opacity=50);
+	-moz-opacity:0.5;
+	-khtml-opacity: 0.5;
+	opacity: 0.5;
+}
+
+.igmv_ElectricBlueAllDayEvent
+{
+	background-color: #f5f5f5;
+	font-size:8pt;
+	border: solid 1px #C0C0C0;
+	padding: 3px;
+	white-space: nowrap;
+	text-align:center;
+	margin: 1px;
+	overflow: hidden;
+}
+
+
+.igmv_ElectricBlueSelectedAppointment
+{
+	background-color:#2482BA;
+	border: solid 1px #052684;
+	color: #FFFFFF;
+	font-size:8pt;
+	padding: 3px;
+	white-space: nowrap;
+	text-align:center;
+	margin: 1px;
+	overflow: hidden;
+}
+
+
+.igmv_ElectricBlueNavigationButton
+{
+	background-color:Transparent;
+	border-width:0px;
+	margin:0px;
+	padding: 0px;
+	width: 20px;
+	cursor: pointer;
+}
+
+
+.igmv_ElectricBlueNavigationButtonPrev
+{
+	margin-left: 3px;
+}
+
+
+.igmv_ElectricBlueNavigationButtonNext
+{
+	margin-right: 3px;
+}
+
+.igmv_ElectricBlueResourceButton
+{
+	background: #56C1EF;
+	border-width: 0px;
+	border-right: solid 1px #052684;
+	border-bottom: solid 1px #052684;
+	padding: 4px;
+	font-size: 8pt;
+	color: #FFFFFF;
+	background-image: url(images/header_hover.gif);
+	background-repeat: repeat-x;
+}
+
+.igmv_ElectricBlueResourceButton:focus, .igmv_ElectricBlueResourceButtonActive
+{
+	filter:alpha(opacity=100);
+	-moz-opacity:1.0;
+	-khtml-opacity: 1.0;
+	opacity: 1.0;
+}
+
+.igmv_ElectricBlueResourceButton:hover
+{
+	filter:alpha(opacity=100);
+	-moz-opacity:1.0;
+	-khtml-opacity: 1.0;
+	opacity: 1.0;
+}
+
+.igmv_ElectricBlueMultiDayEventArrowLeft
+{
+      background-image: url(images/igws_arrowLeft.gif);
+      background-repeat: no-repeat;
+      background-position: center center;
+      display: inline-block;
+      width: 9px;
+      height: 9px;
+}
+
+.igmv_ElectricBlueMultiDayEventArrowRight
+{
+      background-image: url(images/igws_arrowRight.gif);
+      background-repeat: no-repeat;
+      background-position: center center;
+      display: inline-block;
+      width: 9px;
+      height: 9px;
+}

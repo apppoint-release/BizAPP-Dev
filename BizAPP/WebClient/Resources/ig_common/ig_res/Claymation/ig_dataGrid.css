@@ -1,0 +1,950 @@
+.igg_ClaymationControl
+{
+	background-color:#D2D2D2;
+	background-repeat:repeat-x;
+	background-image: url(images/igg_header.gif);
+	font-size:11px;
+	border-top:solid 0px #C5C7CB;
+	border-right:solid 1px #C5C7CB;
+	border-bottom:solid 1px #C5C7CB;
+	border-left:solid 1px #C5C7CB;
+}
+.igg_ClaymationControl table
+{
+    border-collapse:separate;
+}
+
+.igg_ClaymationHeader
+{
+	background-color:#D2D2D2;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(images/igg_header.gif);
+}
+
+.igg_ClaymationHeaderCaption
+{
+	font-size: 12px;
+	padding:3px 0 3px 8px ;
+	overflow: hidden;
+	text-align:left;
+	border-top:1px solid #e3e3e3;
+    border-right:1px solid #c1c1c1;
+    border-bottom:1px solid #b0b0b0;
+    border-left:1px solid #f4f4f4;
+}
+
+.igg_ClaymationGroupFieldHeaderCaption
+{
+    text-align: center;
+    text-shadow: 1px 1px #b0b0b0;
+    font-size: 14px;
+}
+
+.igg_ClaymationFooter
+{
+	background-color:#D2D2D2;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(images/igg_header.gif);
+	height: 21px;
+	line-height: 21px;
+}
+
+
+.igg_ClaymationFooterCaption
+{
+	font-weight:normal;
+	font-size:10px;
+	padding-left:8px;
+	overflow: hidden;
+	text-align:left;
+}
+
+
+tbody.igg_ClaymationItem>tr>td
+{
+	background-color:White;
+	border-top:solid 1px #D8D8D8;
+	height: 20px;
+	line-height: 20px;
+	padding:5px 8px 5px 8px;
+	overflow: hidden;
+	text-align:left;
+	vertical-align:middle;
+}
+
+
+.igg_ClaymationScrollbarIntersection
+{
+}
+
+
+.igg_ClaymationRowSelector
+{
+	background-color:WhiteSmoke;
+	border-top:solid 1px #D8D8D8;
+	border-right:solid 1px #D8D8D8;
+	border-left:solid 1px #D8D8D8;
+	width: 35px;
+	color:Black;
+	text-align:center;
+	vertical-align:middle;
+}
+
+
+.igg_ClaymationPager
+{
+	padding-top:10px;
+	padding-bottom:10px;
+	text-align:right;
+}
+
+
+.igg_ClaymationPageLink
+{
+	margin-right:10px;
+	cursor:pointer;
+	color:DimGray;
+	text-decoration:underline;
+}
+
+
+.igg_ClaymationFilterRuleDropDown
+{
+	background-attachment:scroll;
+	background-color:White;
+	background-repeat:repeat-x;
+	background-image: url(images/igg_summarydropdownbg.png);
+	font-size:xx-small;
+	font-family: verdana;
+	border:solid 1px #83AFDF;
+	overflow: auto;
+	width: 150px;
+	max-height: 150px;
+	height: auto !important;
+	height: 150px;
+	box-shadow: 0 4px 8px 0 #5A5A5A;
+	filter: progid : DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#5A5A5A');
+}
+
+
+.igg_ClaymationFilterButton
+{
+	background-color:Transparent;
+	border-style:solid;
+	border-width:0px;
+	height: 18px;
+}
+
+
+.igg_ClaymationResizeIndicator
+{
+	background-color:DeepSkyBlue;
+	width: 2px;
+}
+
+
+.igg_ClaymationFixedColumnSeparatorCssClass
+{
+	background-color:DeepSkyBlue;
+	width: 2px;
+}
+
+
+.igg_ClaymationFixedColumnPinButtonCssClass
+{
+	padding-top:0px;
+	padding-right:3px;
+	cursor:pointer;
+	vertical-align:middle;
+}
+
+
+.igg_ClaymationVirtualScrollTooltip
+{
+	background-color:White;
+	font-size:10px;
+	border:solid 1px #D2D2D2;
+	padding:3px;
+	color:DeepSkyBlue;
+	text-align:center;
+}
+
+
+.igg_ClaymationTopDragIndicator
+{
+	background-repeat:no-repeat;
+	background-image: url(images/igg_topdragindicator.png);
+	margin-top:2px;
+	width: 11px;
+	height: 6px;
+	z-index: 100;
+}
+
+
+.igg_ClaymationMiddleDragIndicator
+{
+	background-repeat:repeat-y;
+	background-position:center ;
+	background-image: url(images/igg_middledragindicator.png);
+	width: 11px;
+}
+
+
+.igg_ClaymationBottomDragIndicator
+{
+	background-repeat:no-repeat;
+	background-image: url(images/igg_bottomdragindicator.png);
+	margin-top:-2px;
+	width: 11px;
+	height: 6px;
+	position: absolute;
+	z-index: 100;
+}
+
+
+.igg_ClaymationDragMarkup
+{
+}
+
+
+.igg_ClaymationSummary
+{
+	font-weight:bold;
+	font-size:9px;
+	border-bottom:solid 1px #CBCBCB;
+	overflow: hidden;
+	color:#444444;
+	text-align:right;
+}
+
+
+.igg_ClaymationSummaryButton
+{
+	background-color: none;
+	border-style:none;
+	border-color: medium;
+	margin:0px;
+	padding:0px;
+	cursor:pointer;
+}
+
+
+.igg_ClaymationSummaryDropDown
+{
+	background-attachment:scroll;
+	background-color:White;
+	background-repeat:repeat-x;
+	background-image: url(images/igg_summarydropdownbg.png);
+	font-size:11px;
+	font-family: verdana;
+	border:solid 1px #C5C7CB;
+	padding:12px;
+	width: 146px;
+	_overflow: hidden!important;
+	box-shadow: 0 4px 8px 0 #5A5A5A;
+	filter: progid : DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#5A5A5A');
+}
+
+
+.igg_ClaymationSummaryDropDownItem
+{
+	font-weight:normal;
+	cursor:default;
+	color:Black;
+}
+
+
+.igg_ClaymationSummaryRow
+{
+}
+
+
+.igg_ClaymationFixedColumnHeaderCssClass
+{
+}
+
+
+tbody>tr.igg_ClaymationAlt>td
+{
+	background-color:White;
+}
+
+
+.igg_ClaymationHeaderRowSelector
+{
+    background-color: Transparent;
+    border-color: #E3E3E3 #C1C1C1 #B0B0B0 #F4F4F4;
+    border-style: solid;
+    border-width: 1px 1px 1px 0;
+}
+
+
+
+
+.igg_ClaymationFooterRowSelector
+{
+	background-color:Transparent;
+	background-image:none;
+	border:solid 0px #FFFFFF;
+}
+
+
+.igg_ClaymationSelectedHeader
+{
+}
+
+
+.igg_ClaymationPageCurrent
+{
+	font-weight:bold;
+	padding-right:10px;
+	color:DeepSkyBlue;
+}
+
+
+tr.igg_ClaymationAddNewRow>td
+{
+	background-color:#F7F7F7;
+	font-size:10px;
+	border-top:solid 1px #CCCCCC;
+	border-right:solid 1px #CCCCCC;
+	border-bottom:solid 0px #CCCCCC;
+	border-left:solid 0px #CCCCCC;
+	padding-left:7px;
+	height: 22px;
+	overflow: hidden;
+}
+
+
+.igg_ClaymationAddNewRowSelectorImageCssClass
+{
+	background-color:Transparent;
+	background-repeat:no-repeat;
+	background-position:center ;
+	background-image: url(images/addnewrow_image.gif);
+}
+
+
+.igg_ClaymationAddNewRowSelectorCssClass
+{
+	background-color:#F7F7F7;
+	border-top:solid 1px #CCCCCC;
+	border-right:solid 1px #CCCCCC;
+	border-bottom:solid 0px #CCCCCC;
+	border-left:solid 0px #CCCCCC;
+}
+
+
+.igg_ClaymationAddNewRowExpansionColumnCssClass
+{
+}
+
+
+.igg_ClaymationFilterRow
+{
+	font-size:10px;
+	border-top:solid 0px #CCCCCC;
+	border-right:solid 0px #CCCCCC;
+	border-bottom:solid 1px #CCCCCC;
+	border-left:solid 1px #CCCCCC;
+	height: 22px;
+}
+
+
+.igg_ClaymationFilterRuleDropDownItem
+{
+	font-size:11px;
+	padding:1px 3px 1px 3px;
+}
+
+
+.igg_ClaymationFilterRowSelectorImage
+{
+}
+
+
+.igg_ClaymationFilterRowSelectorCssClass
+{
+	background-color:White;
+	background-repeat:repeat-x;
+	background-image: url(images/igg_filterrow.gif);
+	border-top:solid 1px #CCCCCC;
+	border-right:solid 1px #CCCCCC;
+	border-bottom:solid 0px #CCCCCC;
+	border-left:solid 0px #CCCCCC;
+}
+
+
+tr.igg_ClaymationFilterRow>td
+{
+	background-color:White;
+	background-repeat:repeat-x;
+	background-image: url(images/igg_filterrow.gif);
+	border-top:solid 1px #CCCCCC;
+	border-right:solid 1px #CCCCCC;
+	border-bottom:solid 0px #CCCCCC;
+	border-left:solid 0px #CCCCCC;
+}
+
+
+.igg_ClaymationFilterRowExpansionColumnCssClass
+{
+}
+
+
+tbody.igg_ClaymationFixedColumnCellCssClass>tr>td
+{
+	background-color:#EEEEEE;
+}
+
+
+.igg_ClaymationFixedColumnFooterCssClass
+{
+	font-weight:bold;
+}
+
+
+.igg_ClaymationHeaderScrollbarIntersection
+{
+}
+
+
+.igg_ClaymationFooterScrollbarIntersection
+{
+}
+
+
+.igg_ClaymationSelectedRowSelector
+{
+	background-color: #D2D2D2;
+	background-repeat:no-repeat;
+	background-position:left center ;
+	background-image: url(images/selectedrowselector.gif);
+}
+
+
+.igg_ClaymationSelectedRowSelectorImage
+{
+}
+
+
+tr.igg_ClaymationAddNewRowTop>td
+{
+}
+
+
+tr.igg_ClaymationAddNewRowBottom>td
+{
+}
+
+
+.igg_ClaymationFilterRowTop
+{
+}
+
+
+.igg_ClaymationFilterRowBottom
+{
+}
+
+
+.igg_ClaymationFilterRuleDropDownSelectedItem
+{
+	background-color:#666666;
+	font-size:11px;
+	padding:1px 3px 1px 3px;
+	color:White;
+}
+
+
+tr.igg_ClaymationFilterRowTop>td
+{
+}
+
+
+tr.igg_ClaymationFilterRowBottom>td
+{
+}
+
+
+tbody>tr>td.igg_ClaymationSelectedCell
+{
+	background-color:DimGray;
+	/*background-image: url(images/igg_selected.gif);*/
+	color:White;
+}
+
+
+.igg_ClaymationAddNewRowScrollbarIntersection
+{
+	background-color:#F7F7F7;
+	border-top:solid 1px #CCCCCC;
+	border-right:solid 0px #CCCCCC;
+	border-bottom:solid 0px #CCCCCC;
+	border-left:solid 0px #CCCCCC;
+}
+
+
+.igg_ClaymationFilterDisabled
+{
+}
+
+
+.igg_ClaymationFilterScrollbarIntersection
+{
+	background-color:#EEEEEE;
+	background-repeat:repeat-x;
+	background-image: url(images/igg_filterrow.gif);
+	border-top:solid 1px #CCCCCC;
+	border-right:solid 0px #CCCCCC;
+	border-bottom:solid 0px #CCCCCC;
+	border-left:solid 0px #CCCCCC;
+}
+
+
+tbody>tr>td.igg_ClaymationActiveCell
+{
+}
+
+
+.igg_ClaymationActiveRow
+{
+}
+
+
+.igg_ClaymationActiveColumn
+{
+}
+
+
+.igg_ClaymationActiveRowSelectorImage
+{
+}
+
+
+.igg_ClaymationActiveRowSelector
+{
+	background-color:#D2D2D2;
+	background-repeat:no-repeat;
+	background-position:left center ;
+	background-image: url(images/selectedrowselector.gif);
+}
+
+
+.igg_ClaymationFilterRuleDropDownHoverItem
+{
+	background-color:DeepSkyBlue;
+	font-size:11px;
+	padding:1px 3px 1px 3px;
+	color:White;
+}
+
+
+.igg_ClaymationEditCell
+{
+	background-color:White;
+	border:solid 1px #AAAAAA !important;
+}
+
+
+tbody tr td.igg_ClaymationActiveCellIE6
+{
+}
+
+
+.igg_ClaymationSummaryDropDownItem img
+{
+	margin-right:5px;
+	cursor:pointer;
+}
+
+
+tr.igg_ClaymationFilterRowBottomIE6 td
+{
+}
+
+
+tr.igg_ClaymationAddNewRowTopIE6 td
+{
+}
+
+
+.igg_ClaymationFooter tr[mkr="columnheaderrow"] th
+{
+	border-top:solid 1px #CBCBCB;
+	border-bottom:solid 1px #CBCBCB;
+}
+
+
+tr.igg_ClaymationFilterRowIE6 td
+{
+	background-color:White;
+	background-repeat:repeat-x;
+	background-image: url(images/igg_filterrow.gif);
+	border-top:solid 1px #CCCCCC;
+	border-right:solid 1px #CCCCCC;
+	border-bottom:solid 0px #CCCCCC;
+	border-left:solid 0px #CCCCCC;
+}
+
+
+tbody tr td.igg_ClaymationSelectedCellIE6
+{
+	background-color:DimGray;
+	background-image: url(images/igg_selected.gif);
+	color:White;
+}
+
+
+.igg_ClaymationFilterButton>td
+{
+	border-top:solid 0px Transparent;
+	border-right:solid 0px Transparent;
+	border-bottom:solid 0px Transparent;
+	border-left:solid 0px Transparent;
+}
+
+
+tr.igg_ClaymationFilterRowTopIE6 td
+{
+}
+
+
+.igg_ClaymationSummaryDropDown input
+{
+	background-attachment:scroll;
+	background-color:#C5C7CB;
+	background-repeat:repeat-x;
+	background-image: url(images/igg_buttonsbg.png);
+	border:solid 1px #C5C7CB;
+	margin-top:10px;
+	margin-right:3px;
+	width: 70px;
+	_width: auto;
+	_overflow: visible;
+	color:#54CBF3;
+}
+
+
+tr.igg_ClaymationAddNewRowBottomIE6 td
+{
+}
+
+
+.igg_ClaymationSummaryRow th
+{
+	border-bottom:solid 1px #CBCBCB;
+}
+
+
+tbody.igg_ClaymationFixedColumnCellCssClassIE6 tr td
+{
+	background-color:#EEEEEE;
+}
+
+
+tbody tr.igg_ClaymationAltIE6 td
+{
+	background-color:White;
+	padding:5px 8px 5px 8px;
+	text-align:left;
+	vertical-align:middle;
+}
+
+
+tr.igg_ClaymationAddNewRowIE6 td
+{
+	background-color:#F7F7F7;
+	font-size:10px;
+	border-top:solid 1px #CCCCCC;
+	border-right:solid 1px #CCCCCC;
+	border-bottom:solid 0px #CCCCCC;
+	border-left:solid 0px #CCCCCC;
+	padding-left:7px;
+	height: 22px;
+	overflow: hidden;
+}
+
+
+tbody.igg_ClaymationItemIE6 tr td
+{
+	background-color:White;
+	border-top:solid 1px #D8D8D8;
+	padding:5px 8px 5px 8px;
+	overflow: hidden;
+	height: 20px;
+	text-align:left;
+	vertical-align:middle;
+}
+
+
+/******************/
+
+/*Batch Editing*/
+
+@-webkit-keyframes addingHighlight {
+	0% {background-color:#7fdfff;}
+	100% {background-color:#ffffff;}
+	}
+@-moz-keyframes addingHighlight {
+	 0% {background-color:#7fdfff;}	
+	 100% {background-color:#ffffff;}
+	}
+
+tbody>tr.igg_ClaymationAddingRow>td
+{	
+   	background-image: none;
+
+	-webkit-animation-name: addingHighlight;
+	-webkit-animation-timing-function: ease-in-out;
+	-webkit-animation-duration: 2s;
+		
+	-moz-animation-name: addingHighlight;
+	-moz-animation-timing-function: ease-in-out;
+	-moz-animation-duration: 2s;	
+	
+    -o-animation-name: addingHighlight;
+	-o-animation-timing-function: ease-in-out;
+	-o-animation-duration: 2s;
+	
+    animation-name: addingHighlight;
+	animation-timing-function: ease-in-out;
+	animation-duration: 2s;
+}
+
+tbody tr.igg_ClaymationAddedRow td
+{
+   	background-color: #FFFFFF;
+	color:#666;
+    font-style: italic;
+	background-image: none;
+}
+
+.igg_ClaymationDeletedRow
+{
+    color: #9F9F9F;
+    font-style: italic;
+    text-decoration: line-through;
+}
+.igg_ClaymationItem .igg_ClaymationDeletedRow td
+{
+    color: #9F9F9F;
+    font-style: italic;
+    text-decoration: line-through;
+}
+.igg_ClaymationItem .igg_ClaymationDeletedRow th
+{
+    color: #9F9F9F;
+    font-style: italic;
+    text-decoration: line-through;
+}
+
+.igg_ClaymationUndoButton 
+{
+   	background-color: #C0C0C0;
+	background-image: url(images/igte_spinbuttonbg.gif);
+	background-position:top left;
+	background-repeat: repeat-x;
+	line-height:normal;
+	border:solid 1px #999999;
+	color: #000;
+	cursor: pointer;
+	padding:3px;
+	
+	-webkit-border-radius:2px;
+    -moz-border-radius:2px;
+    -o-border-radius:2px;
+    -ms-border-radius:2px;
+    -khtml-border-radius:2px;
+    border-radius:2px;
+    
+    -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; 
+}
+    
+.igg_ClaymationUndoButtonHover 
+{
+    background-color: #BBBBBB;
+	background-image: url(images/igte_spinbuttonbghover.gif);
+}
+
+.igg_ClaymationUndoButtonPressed
+{
+	background-color: #F1F1F1;
+	background-image: url(images/igte_spinbuttonbgpressed.gif);
+}
+
+
+.igg_ClaymationUpdatedRow
+{    
+	 color:#666;
+     font-style: italic;
+}
+.igg_ClaymationAddedRow
+{    
+	 color:#666;
+     font-style: italic;
+}
+
+tbody > tr.igg_ClaymationUpdatedRow td.igg_ClaymationMergedCell
+{    
+	 color:#666;
+     font-style: italic;
+}
+.igg_ClaymationAlt.igg_ClaymationUpdatedRow td
+{    
+	 color:#666;
+     font-style: italic;
+}
+
+tbody > tr.igg_ClaymationUpdatedRow td.igg_ClaymationSelectedCell
+{    
+    color: white;
+}
+
+.igg_ClaymationUpdatedRow td.igg_ClaymationSelectedCell {color: #fff;}
+
+.igg_ClaymationUpdatedRow .igg_ClaymationRowSelector {color:#666;}
+.igg_ClaymationAlt.igg_ClaymationUpdatedRow .igg_ClaymationRowSelector {color:#666;}
+.igg_ClaymationAddedRow .igg_ClaymationRowSelector {color:#666;}
+.igg_ClaymationAlt.igg_ClaymationAddedRow .igg_ClaymationRowSelector {color:#666;}
+.igg_ClaymationUpdatedRow .igg_ClaymationActiveRowSelector {color:#666;}
+.igg_ClaymationAlt.igg_ClaymationUpdatedRow .igg_ClaymationActiveRowSelector {color:#666;}
+.igg_ClaymationAddedRow .igg_ClaymationActiveRowSelector {color:#666;}
+.igg_ClaymationAlt.igg_ClaymationAddedRow .igg_ClaymationActiveRowSelector {color:#666;}
+
+/********************/
+/**  Cell Merging  **/
+/********************/
+/*Any future change please port it to WHDG*/
+
+tbody>tr>td.igg_ClaymationMergedCellVisible
+{
+    color: Black;
+}
+
+tbody>tr>td.igg_ClaymationMergedCell /*tbody>tr>td.igg_ClaymationMergedCellAlt*/
+{
+    color: #FFF;
+    background-color: #FFF;
+    
+    border-top-width: 0;
+    border-left:  1px solid #D8D8D8;
+    border-right: 1px solid #D8D8D8;
+}
+
+tbody>tr>td.igg_ClaymationMergedCellTop /*tbody>tr>td.igg_ClaymationMergedCellAltTop*/
+{
+    color: Black;
+    border-top: 1px solid #D8D8D8;
+}
+
+tbody>tr>td.igg_ClaymationMergedCell.igg_ClaymationSelectedCell /*tbody>tr>td.igg_ClaymationMergedCellAlt.igg_ClaymationSelectedCell*/
+{
+    color : #FFFFFF;
+    background-color: #8e8e8e;
+    
+    border-top: 1px solid #d8d8d8;
+    border-left: 1px dotted #d8d8d8;
+    border-right: 1px dotted #d8d8d8;
+}
+
+tbody>tr>td.igg_ClaymationMergedCellTop.igg_ClaymationSelectedCell /*tbody>tr>td.igg_ClaymationMergedCellAltTop.igg_ClaymationSelectedCell*/
+{
+    color: #FFF;
+}
+
+.igg_ClaymationMergedCell.igg_ClaymationActiveCell
+{
+    color: Black
+}
+
+tbody>tr>td.igg_ClaymationMergedCellVisible
+{
+    color: Black;
+}
+
+tbody.igg_ClaymationFixedColumnCellCssClass>tr>td.igg_ClaymationMergedCell
+{
+	background-color: #EEEEEE;
+	color: #EEEEEE;
+}
+
+tbody.igg_ClaymationFixedColumnCellCssClass>tr>td.igg_ClaymationMergedCellTop
+{
+	color: Black;
+}
+
+@media print{.igg_ClaymationControl, 
+.igg_ClaymationControl tr[mkr="columnHeaderRow"] div,
+.igg_ClaymationControl div[mkr="container"],
+.igg_ClaymationControl div[mkr="hScrBar"],
+.igg_ClaymationControl div[mkr="vScrBar"]{width:auto !important; height:auto !important; overflow: visible !important;}
+}
+
+
+/*********************/
+/**  Filter styles **/
+/*********************/
+
+.igg_ClaymationFilterRuleDropDown 
+{
+	color: #000;
+	max-height: 180px;
+	min-width:160px;
+	height: auto;
+	width: auto;
+	padding: 12px;
+    
+    /*Rounded corners*/
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	
+    /*Shadow*/
+	-moz-box-shadow: 0 4px 8px 0 #5A5A5A;
+	-webkit-box-shadow: 0 4px 8px 0 #5A5A5A;
+	box-shadow : 0 4px 8px 0 #5A5A5A; /* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#5A5A5A')"; /* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#5A5A5A');
+}
+
+.igg_ClaymationFilterRuleDropDown input
+{
+    margin-top:10px;
+    margin-right:3px;
+    width:70px;		
+   
+    background: #C5C7CB url(images/igg_ButtonsBG.png) repeat-x scroll;
+	border:solid 1px #C5C7CB;
+	color:#54CBF3;
+			
+    -webkit-border-radius: 3px;    
+    -moz-border-radius: 3px;
+}    
+
+.igg_ClaymationFilterRuleDropDown img
+{
+    margin-right: 5px;
+    vertical-align: bottom;
+}
+
+.igg_ClaymationFilterCheckboxList li
+{
+    list-style-type: none;
+    margin-bottom: 3px;
+    line-height: 15px;
+}
+
+.igg_ClaymationFilterCheckboxList
+{
+    margin: 10px 0 0 0;
+    height: auto;
+    max-height: 120px;
+    overflow: auto;
+    width: 160px;
+}
+

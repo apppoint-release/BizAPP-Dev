@@ -1,0 +1,278 @@
+.igeb_ElectricBlueControl
+{
+	background-color:Transparent;
+	font-size:xx-small;
+	font-family: Segoe UI, Verdana, Helvetica, sans-serif;
+	border:solid 1px #123554;
+	border-top-width:0px;
+	overflow-x: hidden;
+	_overflow: hidden!important;
+	color:Black;
+}
+
+
+.igeb_ElectricBlueGroup
+{
+	background-repeat:repeat-x;
+	background-image: url(images/igeb_GroupBg.png);
+	display: block;
+	height: 30px;
+	overflow: hidden;
+	line-height: 30px;
+	color:White;
+	vertical-align:middle;
+}
+
+
+.igeb_ElectricBlueGroupSelected
+{
+	background-repeat:repeat-x;
+	background-position:0px -30px ;
+	background-image: url(images/igeb_GroupBg.png);
+	color:White;
+}
+
+
+.igeb_ElectricBlueGroupActive
+{
+	background-repeat:repeat-x;
+	background-position:0px -30px ;
+	background-image: url(images/igeb_GroupBg.png);
+	color:White;
+}
+
+
+.igeb_ElectricBlueGroupHover
+{
+	background-repeat:repeat-x;
+	background-position:0px -30px ;
+	background-image: url(images/igeb_GroupBg.png);
+	color:White;
+}
+
+
+.igeb_ElectricBlueItem
+{
+	background-color:White;
+	line-height: 22px;
+}
+
+
+.igeb_ElectricBlueItemImage
+{
+	padding-top:5px;
+	padding-right:5px;
+	padding-left:0px;
+}
+
+
+.igeb_ElectricBlueItemSelected
+{
+	background-color:#C8E6F1;
+	background-repeat:repeat-x;
+	background-position:bottom ;
+	background-image: url(images/igeb_itemselectedbg.png);
+	color:White;
+}
+
+
+.igeb_ElectricBlueItemActive
+{
+	background-color:#C8E6F1;
+	background-repeat:repeat-x;
+	background-position:bottom ;
+	background-image: url(images/igeb_itemselectedbg.png);
+	color:White;
+}
+
+
+.igeb_ElectricBlueItemHover
+{
+	background-color:#C8E6F1;
+	background-repeat:repeat-x;
+	background-position:bottom ;
+	background-image: url(images/igeb_itemselectedbg.png);
+}
+
+
+.igeb_ElectricBlueItemDisabled
+{
+}
+
+
+.igeb_ElectricBlueGroupContents
+{
+	margin-top:0px;
+	margin-bottom:0px;
+	margin-left:0px;
+	padding-top:0px;
+	padding-bottom:0px;
+	padding-left:0px;
+	list-style: none;
+}
+
+
+.igeb_ElectricBlueGroupLabel
+{
+	font-weight:bold;
+	font-size:12px;
+	font-family: Segoe UI, Verdana, Sans-Serif;
+	margin-left:5px;
+	padding-left:5px;
+	text-decoration:none;
+}
+
+
+.igeb_ElectricBlueGroupDisabled
+{
+	background-repeat:repeat-x;
+	background-position:0px -60px ;
+	background-image: url(images/igeb_GroupBg.png);
+	color:White;
+}
+
+
+.igeb_ElectricBlueGroupExpanderImage
+{
+	margin-top:5px;
+	margin-right:5px;
+	float: right;
+}
+
+
+.igeb_ElectricBlueItemLabel
+{
+	font-weight:normal;
+	font-size:12px;
+	font-family: Segoe UI, Verdana, Arial, Sans-Serif;
+	display: block;
+}
+
+
+.igeb_ElectricBlueHolder
+{
+    clear:left;
+}
+
+
+.igeb_ElectricBlueGroupLink
+{
+	margin-bottom:0px;
+	padding-bottom:0px;
+	padding-left:6px;
+	display: block;
+	color: inherit;
+	text-decoration:none;
+}
+
+
+.igeb_ElectricBlueItemLink
+{
+	padding-top:2px;
+	padding-bottom:2px;
+	display: block;
+	color:#052684;
+	text-decoration:none;
+}
+
+
+.igeb_ElectricBlueItemParent
+{
+}
+
+
+.igeb_ElectricBlueGroup a visited
+{
+	color:White;
+}
+
+
+igeb_ElectricBlueItemDisabled
+{
+}
+
+
+.igeb_ElectricBlueItemContents
+{
+	margin-left:0px;
+	padding-left:0px;
+	list-style: none;
+}
+
+
+.igeb_ElectricBlueGroupSelected a
+{
+	color:White;
+}
+
+
+.igeb_ElectricBlueItemHolder img
+{
+	vertical-align:middle;
+}
+
+
+.igeb_ElectricBlueItemHolder
+{
+}
+
+
+.igeb_ElectricBlueGroupActive a visited
+{
+	color:White;
+}
+
+
+/* IE 7 Disabled item fix */
+.igeb_ElectricBlueItemDisabled a visited, .igeb_ElectricBlueItemDisabled a
+{
+	color:Gray;
+}
+
+
+.igeb_ElectricBlueGroupSelected a visited
+{
+	color:White;
+}
+
+
+.igeb_ElectricBlueGroupActive a
+{
+	color:White;
+}
+
+
+.igeb_ElectricBlueGroupHover a
+{
+	color:White;
+}
+
+
+.igeb_ElectricBlueGroup a
+{
+	color:White;
+}
+
+
+.igeb_ItemImage
+{
+	padding-top:5px;
+	padding-right:5px;
+	padding-left:0px;
+}
+
+
+/* IE 7 fix to icon bad alignment*/
+.igeb_ElectricBlueItem ,.igeb_ElectricBlueItemActive ,.igeb_ElectricBlueItemSelected
+{
+	min-height: 30px;
+	_height: 30px;
+}
+
+
+.igeb_ElectricBlueGroupHover a visited
+{
+	color:White;
+}
+
+

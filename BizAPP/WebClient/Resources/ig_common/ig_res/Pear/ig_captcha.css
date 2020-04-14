@@ -1,0 +1,110 @@
+﻿.igc_PearControl
+{
+	border:solid 1px #517802;
+	background-color:#FFFFFF;
+	padding:10px;
+	margin:0px;
+	font-family:Segoe UI,Verdana,Arial,Sans-Serif;
+    font-size:12px;
+}
+
+.igc_PearControlActive
+{
+	
+}
+
+.igc_PearCaptchaInput
+{
+    border:1px solid #517802;
+    display:block;
+    padding:5px 0;
+    
+    margin-bottom:10px;
+    /*IE6 and IE7 specific hack*/
+    *margin-bottom:0;
+    
+}
+
+.igc_PearRefreshAndAudioButtonsArea
+{
+    margin-left:10px;
+	border-width:0;
+	text-decoration:none;
+    display:block;
+}
+
+    .igc_PearRefreshAndAudioButtonsArea img
+    {
+	    border-width:0px;
+	    text-decoration:none;
+	    margin-bottom:3px;
+    }
+
+.igc_PearSubmitButton {
+    background:#BBD17E url(./images/igc_submitButtonBg.png) repeat-x left top;
+    border:1px solid #BBD17E;
+    clear:left;
+    display:block;
+    height:30px;
+    width:177px;
+    cursor:pointer;
+    color:#507701;
+    margin-top:10px;
+    font-family:Segoe UI,Verdana,Arial,Sans-Serif;
+    font-size:12px;
+    font-weight:bold;
+    padding:0px;
+}
+
+.igc_PearErrorLabel
+{
+    background-color:#FF6666;
+    color:white;
+    padding:3px;
+}
+
+.igc_PearCaptchaImageLabel
+{
+	border:1px solid #517802;
+}
+
+.igc_PearCaptchaInputLabel{
+}
+
+.igc_PearCaptchaInfoTextLabel
+{
+    display:block;
+    margin:10px 0 5px 0;
+}
+
+.igc_PearCaptchaImage
+{
+    display:block;
+    margin-bottom:10px;
+}
+
+.igc_PearCaptchaImageArea
+{
+    display:block;
+    float:left;
+    padding:0;
+    margin:0;
+}
+    .igc_PearCaptchaImageArea label 
+    {
+        display:block
+    }
+	    
+.igc_PearRefreshAndAudioButtonsArea 
+{
+    float:left;
+}
+    .igc_PearRefreshAndAudioButtonsArea a 
+    {
+        display:block
+    }
+    .igc_PearRefreshAndAudioButtonsArea a,
+    .igc_PearRefreshAndAudioButtonsArea img 
+    {
+        cursor:pointer
+    }

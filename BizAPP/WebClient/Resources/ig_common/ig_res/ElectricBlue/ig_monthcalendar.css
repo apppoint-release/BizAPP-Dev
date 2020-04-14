@@ -1,0 +1,214 @@
+.igmc_ElectricBlueControl
+{
+	background-color: #FFFFFF;
+	border:1px solid #A6C4E0;
+	width: 225px;
+	height: 200px;
+	padding: 0px;
+	margin: 0px;
+	font-family: Segoe UI, Verdana, Arial, Georgia, Sans-Serif;
+}
+
+.igmc_ElectricBlueDOW
+{
+	background-color: #E7F6FD;
+	font-size: 0.8em;
+	border-width:0px;
+	border-bottom:solid 1px #A6C4E0;
+	padding: 0px ;
+	text-align:center;
+	font-weight: bold;
+	height: 35px;
+}
+
+.igmc_ElectricBlueNextPrev
+{
+	margin: 0px;
+	font-size:0.8em;
+	color: #FFFFFF;
+	padding: 0px 8px;
+}
+
+.igmc_ElectricBlueHoverNextPrev
+{
+	cursor: pointer;
+	color: #68B7E1;
+}
+
+.igmc_ElectricBluePressedNextPrev
+{
+}
+
+.igmc_ElectricBlueFooter
+{
+	background-color: #FFFFFF;
+	background-image: url(images/igmc_footerbg.gif);
+	background-repeat:repeat-x;
+	background-position: bottom;
+	border-top: 1px solid #EBEBEB;
+	font-size: 0.8em;
+	text-align:center;
+	height: 35px;
+	
+}
+
+.igmc_ElectricBlueHoverFooter
+{
+	background-color: #EEEEEE;
+	background-image: url(images/igmc_footerbghover.gif);
+	background-repeat:repeat-x;
+	cursor: pointer;
+}
+
+.igmc_ElectricBluePressedFooter
+{
+	background-color: #DDDDDD;
+	background-image: url(images/igmc_footerbgpressed.gif);
+	background-repeat:repeat-x;
+}
+
+.igmc_ElectricBlueHeader
+{
+	background-color: #1f5b91;
+	background-repeat:repeat-x;
+	background-position:top;
+	background-image: url(images/igmc_headerbg.png);
+	border-bottom: 1px solid #6691B8;
+	height: 50px;
+}
+
+.igmc_ElectricBlueMonthYear
+{
+	font-size:1em;
+	font-weight:bold;
+	padding:0px 2px;
+	color: #FFFFFF;
+}
+
+.igmc_ElectricBluePressedMonthYear
+{
+	color: #68B7E1;
+}
+
+.igmc_ElectricBlueHoverMonthYear
+{
+	cursor: pointer;
+	color: #68B7E1;
+}
+
+.igmc_ElectricBlueDay
+{
+	background-color:#FFFFFF;
+	font-size: 0.9em;
+	text-align:center;
+	border: 1px solid #FFFFFF;
+	font-weight: bold;
+}
+
+.igmc_ElectricBlueWeekNumber
+{
+	border: 1px solid #EEEEEE;
+	background-color: #EEEEEE;
+	font-weight: bold;
+}
+
+.igmc_ElectricBlueWeekendDay
+{
+	background-color:#f9f9f9;
+	border: 1px solid #f9f9f9;
+}
+
+.igmc_ElectricBlueTodayDay, .igmc_ElectricBlueTodayDay.igmc_ElectricBlueSelectedDay
+{
+	background-color: #68B7E1;
+	border: 1px solid #2074a1;
+	color: #FFFFFF;
+}
+
+.igmc_ElectricBlueOtherMonthDay
+{
+	color: #AAAAAA;
+	background-image: none;
+}
+
+.igmc_ElectricBlueDay.igmc_ElectricBlueOtherMonthDay
+{
+	background-image:none;
+	color: #a4a4a4;
+	font-size:0.9em;
+	font-weight:normal;
+}
+
+.igmc_ElectricBlueSelectedDay
+{
+	background-color: #e9eaea;
+	font-weight:bold;
+	color: #696969;
+}
+
+.igmc_ElectricBlueFocusDay, .igmc_ElectricBlueOtherMonthDay.igmc_ElectricBlueFocusDay
+{
+	background-color: #c8e6f1;
+	border: 1px solid #92cde3;
+	font-weight:bold;
+	color: #696969;
+}
+
+.igmc_ElectricBlueHoverDay, .igmc_ElectricBlueTodayDay.igmc_ElectricBlueHoverDay
+{
+	background-color: #e7f6fd;
+	background-image: url(images/igmc_dayselected.gif);
+	background-repeat: repeat-x;
+    border: 1px solid #addaea;
+	font-weight: bold;
+	color: #696969;
+}
+
+.igmc_ElectricBlueOtherMonthDay.igmc_ElectricBlueHoverDay
+{
+	background-color: #e7f6fd;
+	background-image: url(images/igmc_dayselected.gif);
+	background-repeat: repeat-x;
+	border: 1px solid #addaea;
+	font-weight: bold;
+	color: #696969;
+}
+
+.igmc_ElectricBlueDisabledDay
+{
+	color:#EEE;
+}
+
+/* CSS classes for Month and Year selection Popup in header */
+.igmc_ElectricBlueList
+{
+	background-color: #fff;
+	border:1px solid #bbb;
+}
+
+.igmc_ElectricBlueItem
+{
+	background-color:#fff;
+	border:1px solid #fff;
+	font-size: 1em;
+	text-align: center;
+}
+
+.igmc_ElectricBlueSelectedItem
+{
+	background-color: #c8e6f1;
+	border: 1px solid #92cde3;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.igmc_ElectricBlueHoverItem
+{
+	background-color: #e7f6fd;
+	background-image: url(images/igmc_dayselected.gif);
+	background-repeat: repeat-x;
+	border: 1px solid #addaea;
+	font-weight: bold;
+	color: #696969;
+	cursor: pointer;
+}

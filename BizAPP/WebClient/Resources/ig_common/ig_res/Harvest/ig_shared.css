@@ -1,0 +1,160 @@
+.ig_HarvestControl
+{
+	background-color:White;
+	font-size:xx-small;
+	font-family: verdana;
+	color:Black;
+}
+
+
+.ig_HarvestItem
+{
+	background-color:White;
+	font-size:10px;
+	font-family: verdana;
+	padding-left:1px;
+}
+
+
+.ig_HarvestButton
+{
+	cursor:hand;
+}
+
+
+.ig_HarvestButtonHover
+{
+}
+
+
+.ig_HarvestButtonPressed
+{
+}
+
+
+.ig_HarvestButtonDisabled
+{
+}
+
+
+.ig_HarvestHover
+{
+}
+
+
+.ig_HarvestSelected
+{
+}
+
+
+.ig_HarvestDisabled
+{
+}
+
+
+.ig_HarvestHeader
+{
+}
+
+
+.ig_HarvestFooter
+{
+}
+
+
+.ig_HarvestEditWithButtons
+{
+}
+
+
+.ig_HarvestEdit
+{
+}
+
+
+.ig_HarvestEditInContainer
+{
+}
+
+
+.ig_HarvestAlt
+{
+	border-top:solid 1px #E3EFFF;
+	border-right:solid 0px #FFFFFF;
+	border-bottom:solid 1px #E3EFFF;
+	border-left:solid 0px #FFFFFF;
+}
+
+
+.ig_HarvestDropDown
+{
+}
+
+
+.ig_HarvestEditSelected
+{
+}
+
+
+Body
+{
+}
+
+
+.ms-WPBody .igdw_HarvestControl TD
+{
+	background-color:White;
+}
+
+
+.ms-WPBody .igte_HarvestEditWithButtons TABLE
+{
+	font-size:1px;
+}
+
+
+.ms-WPBody .igmc_HarvestControl TD
+{
+	background-color: inherit;
+	font-style:inherit;
+	font-size:xx-small;
+	border-style:inherit;
+}
+
+
+.ms-WPBody .igte_HarvestEditWithButtons TD
+{
+	background-color:Transparent;
+	font-size:1px;
+	border-bottom-style:none;
+}
+
+
+.ms-WPBody .igmc_HarvestControl TABLE
+{
+	font-style:inherit;
+	font-size:xx-small;
+}
+
+
+.ms-wpbody .ig_HarvestControl table
+{
+	font-style:inherit;
+	font-size:xx-small;
+	border-collapse:Separate;
+}
+
+
+.ms-wpbody .ig_HarvestControl td
+{
+	background-color: inherit;
+	font-style:inherit;
+	font-size:xx-small;
+	border-bottom-style:none;
+}
+
+.ie7_DisplayInlineFix { display: inline-block; }
+.ie7_DisplayInlineFix { display: inline; }
+
+
+

@@ -1,0 +1,159 @@
+.ig_PearControl
+{
+	background-color:White;
+	font-size:xx-small;
+	font-family: verdana;
+	color:Black;
+}
+
+
+.ig_PearItem
+{
+	background-color:White;
+	font-size:10px;
+	font-family: verdana;
+	padding-left:1px;
+}
+
+
+.ig_PearButton
+{
+	cursor:hand;
+}
+
+
+.ig_PearButtonHover
+{
+}
+
+
+.ig_PearButtonPressed
+{
+}
+
+
+.ig_PearButtonDisabled
+{
+}
+
+
+.ig_PearHover
+{
+}
+
+
+.ig_PearSelected
+{
+}
+
+
+.ig_PearDisabled
+{
+}
+
+
+.ig_PearHeader
+{
+}
+
+
+.ig_PearFooter
+{
+}
+
+
+.ig_PearEditWithButtons
+{
+}
+
+
+.ig_PearEdit
+{
+}
+
+
+.ig_PearEditInContainer
+{
+}
+
+
+.ig_PearAlt
+{
+	border-top:solid 1px #E3EFFF;
+	border-right:solid 0px #FFFFFF;
+	border-bottom:solid 1px #E3EFFF;
+	border-left:solid 0px #FFFFFF;
+}
+
+
+.ig_PearDropDown
+{
+}
+
+
+.ig_PearEditSelected
+{
+}
+
+
+Body
+{
+}
+
+
+.ms-wpbody .ig_PearControl td
+{
+	background-color: inherit;
+	font-style:inherit;
+	font-size:xx-small;
+	border-bottom-style:none;
+}
+
+
+.ms-WPBody .igmc_PearControl TD
+{
+	background-color: inherit;
+	font-style:inherit;
+	font-size:xx-small;
+	border-style:inherit;
+}
+
+
+.ms-WPBody .igte_PearEditWithButtons TD
+{
+	background-color:Transparent;
+	font-size:1px;
+	border-bottom-style:none;
+}
+
+
+.ms-wpbody .ig_PearControl table
+{
+	font-style:inherit;
+	font-size:xx-small;
+	border-collapse:Separate;
+}
+
+
+.ms-WPBody .igte_PearEditWithButtons TABLE
+{
+	font-size:1px;
+}
+
+
+.ms-WPBody .igmc_PearControl TABLE
+{
+	font-style:inherit;
+	font-size:xx-small;
+}
+
+
+.ms-WPBody .igdw_PearControl TD
+{
+	background-color:White;
+}
+
+.ie7_DisplayInlineFix { display: inline-block; }
+.ie7_DisplayInlineFix { display: inline; }
+
+

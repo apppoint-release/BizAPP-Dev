@@ -1,0 +1,196 @@
+.igtbl_HarvestControl
+{
+	border:solid 1px #97462C;
+}
+
+
+.igtbl_HarvestPagerArea
+{
+	background-color:White;
+	border-width:0px;
+	padding:15px;
+}
+
+
+.igtbl_HarvestPageCurrent
+{
+	margin-right:10px;
+}
+
+
+.igtbl_HarvestPageLink
+{
+	margin-right:10px;
+	color:Firebrick;
+}
+
+
+.igtbl_HarvestGroupByBox
+{
+	background-image: url(images/tab_top_hover_f.gif);
+	height: 30px;
+}
+
+
+.igtbl_HarvestAddNewBox
+{
+	background-color:#FFFDF9;
+	background-repeat:repeat-x;
+	background-position:bottom ;
+	background-image: url(images/addnew.jpg);
+}
+
+
+.igtbl_HarvestItem
+{
+	background-image: url(images/itembg.jpg);
+	border-width:0px;
+	border-top:dotted 1px LightGrey;
+	height: 30px;
+}
+
+
+.igtbl_HarvestFilterOperandButton
+{
+	background-color:Transparent;
+	background-repeat:no-repeat;
+	background-position:center ;
+	background-image: url(images/submit_up.gif);
+	border-width:0px;
+	padding-top:2px;
+	width: 18px;
+	vertical-align:middle;
+}
+
+
+.igtbl_HarvestAlt
+{
+	background-image:none;
+}
+
+
+.igtbl_HarvestEdit
+{
+	background-color:White;
+	font-size:x-small;
+	font-family: Verdana;
+	border:solid 1px Transparent;
+	padding-top:7px;
+	text-align:left;
+	vertical-align:middle;
+}
+
+
+.igtbl_HarvestButton
+{
+}
+
+
+.igtbl_HarvestFxdCell
+{
+}
+
+
+.igtbl_HarvestHeader
+{
+	background-position:center ;
+	background-image: url(images/header.gif);
+	border-width:0px;
+	padding-top:3px;
+	padding-bottom:3px;
+	height: 30px;
+	color:White;
+	text-align:left;
+}
+
+
+.igtbl_HarvestFooter
+{
+	background-color:#B68168;
+	background-image:none;
+}
+
+
+.igtbl_HarvestLabel
+{
+	background-color:#FAFAFA;
+	background-image:none;
+	border-top-width:1px;
+	border-top-color:#E1E1E1;
+	border-right-width:1px;
+	border-right-color:#F0F0F0;
+	height: 25px;
+}
+
+
+.igtbl_HarvestExpArea
+{
+	background-color:White;
+	background-image:none;
+	border-top-width:1px;
+	border-top-color:#996B57;
+	text-align:center;
+}
+
+
+.igtbl_HarvestGrpItem
+{
+}
+
+
+.igtbl_HarvestFxdHeader
+{
+}
+
+
+.igtbl_HarvestGroupBandLabel
+{
+}
+
+
+.igtbl_HarvestFxdFooter
+{
+}
+
+
+.igtbl_HarvestDropDown
+{
+	background-color:WhiteSmoke;
+	font-size:xx-small;
+	font-family: Verdana;
+	border:solid 1px LightGrey;
+}
+
+
+.igtbl_HarvestDropDownSel
+{
+}
+
+
+.igtbl_HarvestSelected
+{
+	background-color:#B57752;
+	background-position:center ;
+	background-image: url(images/header.gif);
+	font-weight:bold;
+	border-right-color:#B57752;
+	border-left-color:#B57752;
+	color:White;
+}
+
+
+.igtbl_HarvestActiveBorderTopBottom
+{
+}
+
+
+.igtbl_HarvestActiveBorderLeft
+{
+}
+
+
+.igtbl_HarvestActiveBorderRight
+{
+}
+
+

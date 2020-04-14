@@ -1,0 +1,100 @@
+.igcv_HarvestControl
+{
+	border:solid 1px #97462C;
+}
+
+
+.igcv_HarvestCaptionHeader
+{
+	background-color:#B95C07;
+	font-weight:bold;
+	font-size:8pt;
+	padding:3px;
+	width: 100%;
+	white-space: nowrap;
+	color:White;
+	text-align:center;
+}
+
+
+.igcv_HarvestDayHeader
+{
+	background-color:White;
+	background-repeat:repeat-x;
+	font-size:10px;
+	border-bottom:solid 1px #4F7600;
+	height: 16px;
+	color:Black;
+}
+
+
+.igcv_HarvestDay
+{
+	background-color:White;
+	font-size:11px;
+	border-width:0px;
+	cursor:hand;
+	text-align:center;
+}
+
+
+.igcv_HarvestFooter
+{
+	background-color:#EEEEEE;
+	font-size:8pt;
+	padding:3px;
+	white-space: nowrap;
+	cursor:pointer;
+	text-align:center;
+}
+
+
+.igcv_HarvestDropDown
+{
+	font-size:8pt;
+}
+
+
+.igcv_HarvestOtherMonthDay
+{
+	background-color:White;
+	color:#B3B3B3;
+}
+
+
+.igcv_HarvestWeekendDay
+{
+	background-color:#FAFAFA;
+}
+
+
+.igcv_HarvestNavigationButton
+{
+	background-color:#B95C07;
+	padding-right:3px;
+	padding-left:3px;
+	cursor:pointer;
+}
+
+
+.igcv_HarvestTodayDay
+{
+	border:solid 1px #BB5503;
+}
+
+
+.igcv_HarvestActivityDay
+{
+	font-weight:bold;
+}
+
+
+.igcv_HarvestActiveDay
+{
+	background-color:#B95C07;
+	background-image:none;
+	font-weight:bold;
+	color:White;
+}
+
+

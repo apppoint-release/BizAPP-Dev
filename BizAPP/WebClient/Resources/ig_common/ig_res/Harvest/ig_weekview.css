@@ -1,0 +1,193 @@
+.igwv_HarvestControl
+{
+	border:solid 1px #97462C;
+}
+
+
+.igwv_HarvestCaptionHeader
+{
+	background-color:#b7928f;
+	background-position: bottom;
+	background-repeat:repeat-x;
+	background-image: url(images/header.gif);
+	border-width: 0;
+	font-weight:bold;
+	font-size:8pt;
+	padding: 3px;
+	line-height: 16pt;
+	color:White;
+	text-align:center;
+}
+
+
+.igwv_HarvestDayHeader
+{
+	background-color:#ee8f0c;
+	background-repeat: repeat-x;
+	background-image: url(images/header.gif);
+	font-size:8pt;
+	border-width: 0;
+	border-top:solid 1px #97462C;
+	border-bottom:solid 1px #97462C;
+	white-space: nowrap;
+	color:#FFFFFF;
+	text-align: center;
+	vertical-align: middle;
+}
+
+
+.igwv_HarvestDay
+{
+	background-color:#FEFDF9;
+	background-repeat:repeat-x;
+	background-position: bottom;
+	background-image: url(images/addnew.jpg);
+	font-size:8pt;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+
+.igwv_HarvestAppointment
+{
+	background-color: #FFFFFF;
+	font-size:8pt;
+	border:solid 1px #B36C3C;
+	padding: 3px;
+	margin: 1px;
+	color: #000000;
+	overflow: hidden;
+}
+
+.igwv_HarvestSelectedAppointment
+{
+	background-color:#97462C;
+	color: #FFFFFF;
+	font-size:8pt;
+	border:solid 1px #B36C3C;
+	padding: 3px;
+	margin: 1px;
+	text-align: center;
+}
+
+.igwv_HarvestFadedAppointment
+{
+	filter:alpha(opacity=50);
+	-moz-opacity:0.5;
+	-khtml-opacity: 0.5;
+	opacity: 0.5;
+}
+
+
+.igwv_HarvestAllDayEvent
+{
+	background-color: #fcf0e0;
+	font-size:8pt;
+	border: 1px solid #D6C1BF;
+	padding: 3px;
+	margin: 1px;
+	white-space: nowrap;
+	text-align:center;
+	vertical-align: middle;
+	overflow: hidden;
+}
+
+
+.igwv_HarvestNavigationButton
+{
+	background-color:Transparent;
+	border-width:0px;
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+	vertical-align:middle;
+}
+
+
+.igwv_HarvestDayArea
+{
+	border-width: 0;
+	border-left: 1px solid #97462C;
+	border-right: 1px solid #97462C;
+	color:White;
+}
+
+
+.igwv_HarvestTodayHeader
+{
+	background-color:#b7928f;
+	background-position: bottom;
+	background-repeat:repeat-x;
+	background-image: url(images/header.gif);
+	font-weight: bold;
+}
+
+
+.igwv_HarvestToday
+{
+}
+
+
+.igwv_HarvestActiveDayHeader
+{
+	background-color:#97462C;
+	background-image: none;
+	color: #FFFFFF;
+}
+
+
+.igwv_HarvestActiveDay
+{
+	background-image: none;
+	background-color: #FFFFFF;
+}
+
+
+.igwv_HarvestResourceButton
+{
+	background: #97462C;
+	border-width: 0;
+	border-right: solid 1px #97462C;
+	border-bottom: solid 1px #97462C;
+	padding: 4px;
+	font-size: 8pt;
+	color: #FFFFFF;
+	background-image: url(images/header.gif);
+	background-repeat: repeat-x;
+}
+
+.igwv_HarvestResourceButton:focus, .igwv_HarvestResourceButtonActive
+{
+	filter:alpha(opacity=100);
+	-moz-opacity:1.0;
+	-khtml-opacity: 1.0;
+	opacity: 1.0;
+}
+
+.igwv_HarvestResourceButton:hover
+{
+	filter:alpha(opacity=100);
+	-moz-opacity:1.0;
+	-khtml-opacity: 1.0;
+	opacity: 1.0;
+}
+
+.igwv_HarvestMultiDayEventArrowLeft
+{
+      background-image: url(images/igws_arrowLeft.gif);
+      background-repeat: no-repeat;
+      background-position: center center;
+      display: inline-block;
+      width: 9px;
+      height: 9px;
+}
+
+.igwv_HarvestMultiDayEventArrowRight
+{
+      background-image: url(images/igws_arrowRight.gif);
+      background-repeat: no-repeat;
+      background-position: center center;
+      display: inline-block;
+      width: 9px;
+      height: 9px;
+}

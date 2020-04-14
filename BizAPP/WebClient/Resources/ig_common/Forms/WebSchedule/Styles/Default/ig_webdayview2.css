@@ -1,0 +1,117 @@
+.DayView {	
+	background-color :white;
+}
+
+.Caption {
+	cursor:default;
+	background-color:ActiveCaption;
+	border-style:none;
+	font-family: Verdana; 
+	font-size: 10pt; padding:6; 
+	font-weight:bold;
+	color:white;
+	text-align:right;
+}
+
+.DayHeader {
+	cursor:default;
+	background-color:Linen;
+	border-style:solid;
+	border-color:gray;	
+	border-width:1;
+	font-family: Verdana; 
+	font-size: 10pt; padding:6; 
+	color:DarkBlue;
+}
+
+.TimeSlotLabel {
+	cursor:default;
+	font-family: Verdana; 
+	font-size: 12pt; 
+	font-weight: bold;
+	text-align:right;
+	background-color:Linen; 
+	width:75;
+	border-style:solid;
+	border-width:1;		
+	border-color:gray;	
+}
+
+.TimeSlotLabelMinutes {
+	cursor:default;
+	vertical-align:5;
+	font-size:smaller;
+	font-weight:lighter; 
+	text-align:left;
+	width:50%;
+}
+
+.IdleTimeSlot {	
+	width:7px;
+	border-right-style:solid;
+	border-right-width:1;
+	border-right-color:black;
+	border-bottom-style:solid;
+	border-bottom-width:1;
+	border-bottom-color:black;	
+	background-color:White; 
+}
+
+.AllDayEventArea {
+	background-color:DarkBlue; 
+	padding-left:25px;
+	padding-top:2px;
+	padding-right:20px;
+	padding-bottom:3px;
+	border-right-style:inset;
+	border-right-color:white;
+	border-right-width:1;
+}
+
+.AllDayEvent_Selected {
+	background-color:yellow !important;
+	cursor:default;
+}
+
+.AllDayEvent {
+	height:25;
+	cursor:default;
+	border-style:solid;
+	border-width:1;
+	border-color:black;
+	text-align:center;
+	background-color:linen;
+	font-family: Microsoft Sans Serif;
+	font-size: 8pt;
+}
+
+.AllDayEventArea_Selected {
+	background-color:blue;
+}
+
+.WorkingTimeSlot {
+	background-color:LemonChiffon;
+	height:26;
+	border-color:#c0c0c0;border-style:solid;border-width:1;
+}
+
+.Activity {
+	border-style:solid;
+	border-width:1;
+	border-color:111111; 
+	background-color:ffffff;
+	font-family: Microsoft Sans Serif; 
+	font-size:8pt;
+}
+
+.ActivityEdgeSelected
+{
+	background-color:Gold;
+	height:6px;
+}
+
+.ActivityEdgeLeftSelected
+{
+	background-color:SandyBrown;
+	width:7px;
+}

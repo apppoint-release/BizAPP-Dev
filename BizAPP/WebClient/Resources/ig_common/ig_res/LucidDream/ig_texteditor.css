@@ -1,0 +1,118 @@
+.igte_LucidDreamEditWithButtons
+{
+	font-size: 10px;
+	font-family: Segoe UI, Verdana, Arial, Sans-Serif;
+	background-color: #FFFFFF;
+	height:20px;
+	width: 130px;
+	outline: 0;
+	border:solid 1px #999999;
+}
+
+.igte_LucidDreamEdit::-ms-clear, .igte_LucidDreamEditInContainer::-ms-clear
+{
+	display: none;
+}
+
+.igte_LucidDreamEdit
+{
+	font-size: 12px;
+	font-family: Segoe UI, Verdana, Arial, Sans-Serif;
+	background-color: #FFFFFF;
+	border:solid 1px #999999;
+	outline:0;
+}
+
+.igte_LucidDreamTextArea
+{
+	font-size: 12px;
+	font-family: Segoe UI, Verdana, Arial, Sans-Serif;
+	background-color: #FFFFFF;
+	border:solid 1px #999999;
+	outline:0;
+	resize:none;
+}
+
+.igte_LucidDreamEditInContainer
+{
+	font-size: 12px;
+	font-family: Segoe UI, Verdana, Arial, Sans-Serif;
+	background-color: Transparent;
+	border-width:0px;
+	outline:0;
+}
+
+.igte_LucidDreamFocus
+{
+	background-image: none;
+	background-color: #FFFFFF;
+	border-color:#FF9933;
+}
+
+.igte_LucidDreamHover
+{
+	border-color:#555555;
+}
+
+.igte_LucidDreamInner
+{
+	border-width: 0;
+}
+
+.igte_LucidDreamInnerFocus
+{
+}
+
+.igte_LucidDreamInnerHover
+{
+}
+
+.igte_LucidDreamButtonSize
+{
+	width:15px;
+	height:100%;
+}
+
+.igte_LucidDreamButton
+{
+	background-color: #8EBEE0;
+	background-image: url(images/igte_spinbuttonbg.gif);
+	background-repeat: repeat-x;
+	line-height:normal;
+	border:solid 1px #699BC9;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+
+.igte_LucidDreamButtonFocus
+{
+}
+
+.igte_LucidDreamNullText
+{
+	color: #999999;
+}
+
+.igte_LucidDreamButtonHover
+{
+	background-color: #60a1d0;
+	background-image: url(images/igte_spinbuttonbghover.gif);
+}
+
+
+.igte_LucidDreamButtonPressed
+{
+	background-color: #C7E5F9;
+	background-image: url(images/igte_spinbuttonbgpressed.gif);
+}
+
+
+.igte_LucidDreamButtonDisabled
+{
+	background-image: none;
+	background-color: #999999;
+}
+
+.igte_LucidDreamButtonImg
+{
+}

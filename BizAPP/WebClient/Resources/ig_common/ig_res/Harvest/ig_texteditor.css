@@ -1,0 +1,116 @@
+.igte_HarvestEditWithButtons
+{
+	font-size: 10px;
+	font-family: Segoe UI, Verdana, Arial, Sans-Serif;
+	background-color: #FFFFFF;
+	width: 130px;
+	height:20px;
+	outline:0;
+	border:solid 1px #97462C;
+}
+
+.igte_HarvestEdit::-ms-clear, .igte_HarvestEditInContainer::-ms-clear
+{
+	display: none;
+}
+
+.igte_HarvestEdit
+{
+	font-size: 12px;
+	font-family: Segoe UI, Verdana, Arial, Sans-Serif;
+	background-color: #FFFFFF;
+	border:solid 1px #97462C;
+	outline:0;
+}
+
+.igte_HarvestTextArea
+{
+	font-size: 12px;
+	font-family: Segoe UI, Verdana, Arial, Sans-Serif;
+	background-color: #FFFFFF;
+	border:solid 1px #97462C;
+	outline:0;
+	resize:none;
+}
+
+.igte_HarvestEditInContainer
+{
+	font-size:12px;
+	font-family: Segoe UI, Verdana, Arial, Sans-Serif;
+	background-color: Transparent;
+	border-width:0px;
+	outline:0;
+}
+
+.igte_HarvestFocus
+{
+	background-color: #fcf4e9;
+	border-color:#999999;
+}
+
+.igte_HarvestHover
+{
+	border-color:#999999;
+}
+
+.igte_HarvestInner
+{
+	border-width: 0px ;
+}
+
+.igte_HarvestInnerFocus
+{
+}
+
+.igte_HarvestInnerHover
+{
+}
+
+.igte_HarvestButtonSize
+{
+	width:15px;
+	height:100%;
+}
+
+.igte_HarvestButton
+{
+	background-color: #ee8f0c;
+	background-image: url(images/igte_spinbuttonbg.gif);
+	background-repeat: repeat-x;
+	line-height:normal;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+
+.igte_HarvestButtonFocus
+{
+}
+
+.igte_HarvestNullText
+{
+	color: #777777;
+}
+
+.igte_HarvestButtonHover
+{
+	background-color: #7b4906;
+	background-image: url(images/igte_spinbuttonbghover.gif);
+}
+
+
+.igte_HarvestButtonPressed
+{
+	background-color: #da7c0a;
+	background-image: url(images/igte_spinbuttonbgpressed.gif);
+}
+
+
+.igte_HarvestButtonDisabled
+{
+	background-image: none;
+	background-color: #CCCCCC;
+}
+
+.igte_HarvestButtonImg
+{
+}

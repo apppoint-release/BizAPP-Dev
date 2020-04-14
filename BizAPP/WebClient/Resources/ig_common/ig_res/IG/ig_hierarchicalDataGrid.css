@@ -1,0 +1,230 @@
+
+.ighg_IGControl
+{
+}
+
+
+.ighg_IGExpandButton
+{
+	padding-left:5px;
+	cursor:hand;
+}
+
+
+.ighg_IGExpansionColumnHeader
+{
+	background-color: transparent;
+	border-color: #757575 #3E3E3E #3E3E3E #757575;
+    border-style: solid;
+    border-width: 1px;
+}
+
+
+.ighg_IGExpansionColumn
+{
+	padding:0px !important;
+	width: 25px;
+}
+
+
+.ighg_IGExpansionColumnFooter
+{
+	width: 25px;
+}
+
+
+.ighg_IGGroupArea
+{
+	background-color:#EEEEEE;
+	background-repeat:repeat-x;
+	background-image: url(images/ighg_groupareabg.png);
+	border-bottom:solid 1px #999999;
+	padding:10px;
+	color:#333333;
+}
+
+/* START -- GroupBy CSS Classes */
+.ighg_IGGroupIndentHeaderCell
+{
+    background-color: transparent;
+	border-color: #757575 #3E3E3E #3E3E3E #757575;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.ighg_IGGroupedColumn
+{
+	color: white;
+	background-repeat:repeat-x;
+	background-image: url(images/ighg_groupedcolumnbg.png);
+	padding:3px 5px 0px 10px;
+	display: inline-block;
+	height: 16px;
+}
+
+
+.ighg_IGGroupedColumnRightEdgeEnd
+{
+	background-repeat:no-repeat;
+	background-image: url(images/ighg_groupedcolumnrightedgeendbg.gif);
+	padding-top:3px;
+	display: inline-block;
+	width: 10px;
+	height: 16px;
+}
+
+
+.ighg_IGGroupedBand
+{
+	background-repeat:repeat-x;
+	background-image: url(images/ighg_groupedbandbg.png);
+	/*border-left:solid 1px #3AB1E4;
+	border-top:solid 1px #3AB1E4;
+	border-bottom:solid 1px #3AB1E4;*/
+	padding:3px 0px 0px 10px;
+	display: inline-block;
+	height: 16px;
+}
+
+
+.ighg_IGGroupedBandRightEdge
+{
+	background-repeat:repeat-x;
+	background-image: url(images/ighg_groupedbandbg.png);
+	/*border-left:solid 1px #3AB1E4;
+	border-top:solid 1px #3AB1E4;
+	border-bottom:solid 1px #3AB1E4;*/
+	padding:3px 0px 0px 0px;
+	display: inline-block;
+	width: 10px;
+	height: 16px;
+}
+
+
+.ighg_IGColumnGroupingTopDragIndicator
+{
+	background-repeat:no-repeat;
+	background-image: url(images/ighg_topdragindicator.gif);
+	width: 5px;
+	height: 3px;
+	z-index: 100;
+}
+
+
+.ighg_IGColumnGroupingMiddleDragIndicator
+{
+	background-repeat:repeat-y;
+	background-position:center ;
+	background-image: url(images/ighg_middledragindicator.gif);
+	width: 3px;
+}
+
+
+.ighg_IGColumnGroupingBottomDragIndicator
+{
+	background-repeat:no-repeat;
+	background-image: url(images/ighg_bottomdragindicator.gif);
+	width: 5px;
+	height: 3px;
+	position: absolute;
+	z-index: 100;
+}
+
+
+.ighg_IGGroupedColumnLeftEdge
+{
+	background-repeat:no-repeat;
+	background-image: url(images/ighg_groupedcolumnleftedgebg.gif);
+	padding-top:3px;
+	display: inline-block;
+	width: 9px;
+	height: 16px;
+}
+
+
+/********************/
+/**  Cell Merging  **/
+/********************/
+/*Any future change please port it to WDG*/
+
+tbody>tr>td.ighg_IGMergedCellVisible
+{
+    color: Black;
+}
+
+tbody>tr>td.ighg_IGMergedCell /*tbody>tr>td.ighg_IGMergedCellAlt*/
+{
+    color: #FFF;
+    background-color: #FFF;
+    
+    border-top-width: 0;
+    border-left: 1px dotted #999999;
+    border-right: 1px dotted #999999;
+}
+
+tbody>tr>td.ighg_IGMergedCellTop /*tbody>tr>td.ighg_IGMergedCellAltTop*/
+{
+    color: Black;
+    border-top: 1px solid #999999;
+}
+
+tbody>tr>td.ighg_IGMergedCell.igg_IGSelectedCell /*tbody>tr>td.ighg_IGMergedCellAlt.igg_IGSelectedCell*/
+{
+    color: #FFFFFF;
+    background-color: #3AB4E8;
+    
+    border-top: 1px solid #FFF;
+    border-left: 1px dotted #FFF;
+    border-right: 1px dotted #FFF;
+}
+
+tbody>tr>td.ighg_IGMergedCellTop.igg_IGSelectedCell /*tbody>tr>td.ighg_IGMergedCellAltTop.igg_IGSelectedCell*/
+{
+    color: #FFFFFF;
+    border-top: none;
+}
+
+tbody>tr>td.ighg_IGMergedCellExpanded
+{
+    color: Black;
+}	
+
+tbody > tr.igg_IGUpdatedRow td.ighg_IGMergedCell
+{
+    color: #666666;
+    font-style: italic;
+}
+
+tbody > tr.igg_IGUpdatedRow td.ighg_IGMergedCellTop.igg_IGSelectedCell
+{
+    color: #FFF;
+    font-style: italic;
+}
+
+tbody > tr.igg_IGUpdatedRow td.ighg_IGMergedCellTop
+{
+    color: #666666;
+    font-style: italic;
+}
+
+tbody > tr.igg_IGUpdatedRow td.ighg_IGMergedCellTop.igg_IGSelectedCell
+{
+    color: white;
+    font-style: italic;
+}
+
+tbody>tr>td.ighg_IGMergedCellVisible
+{
+    color: black;
+}
+
+tbody>tr>td.igg_IGActiveCell
+{
+    color: #000;
+}
+
+
+
+
+
+

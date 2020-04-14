@@ -1,0 +1,187 @@
+.igwv_NautilusControl
+{
+	border:solid 1px #24406F;
+}
+
+
+.igwv_NautilusCaptionHeader
+{
+	background-color:#FAFAFA;
+	background-repeat:repeat-x;
+	background-image: url(images/header_hover.gif);
+	border-width: 0px;
+	font-weight:bold;
+	font-size:8pt;
+	line-height: 16pt;
+	color:#223E6E;
+	text-align:center;
+}
+
+
+.igwv_NautilusDayHeader
+{
+	background-color: #415B87;
+	background-repeat: repeat-x;
+	background-image: url(images/header12.png);
+	font-size:8pt;
+	border:solid 0px #24406F;
+	border-top: 1px solid #24406F;
+	border-bottom: 1px solid #24406F;
+	color:White;
+	text-align:center;
+	vertical-align:middle;
+}
+
+
+.igwv_NautilusDay
+{
+	background-color:White;
+	background-repeat:repeat-x;
+	background-image: url(images/fadetop2.png);
+	font-size:8pt;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+
+.igwv_NautilusAppointment
+{
+	background-color:White;
+	font-size:8pt;
+	border:solid 1px #999999;
+	padding: 3px;
+	margin: 1px;
+	overflow: hidden;
+}
+
+.igwv_NautilusSelectedAppointment
+{
+	background-color: #ffffff;
+	font-size:8pt;
+	border:solid 1px #FFAA72;
+	padding: 3px;
+	margin: 1px;
+	overflow: hidden;
+}
+
+.igwv_NautilusFadedAppointment
+{
+	filter:alpha(opacity=50);
+	-moz-opacity:0.5;
+	-khtml-opacity: 0.5;
+	opacity: 0.5;
+}
+
+
+.igwv_NautilusAllDayEvent
+{
+	background-color: #F5F5F5;
+	font-size:8pt;
+	border: 1px solid #24406F;
+	padding: 3px;
+	margin: 1px;
+	cursor: pointer;
+	text-align: left;
+	overflow: hidden;
+}
+
+
+.igwv_NautilusNavigationButton
+{
+	background-color:Transparent;
+	border-width:0px;
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+	vertical-align:middle;
+}
+
+
+.igwv_NautilusDayArea
+{
+	border-width: 0;
+	border-left:solid 1px #24406F;
+	border-right:solid 1px #24406F;
+}
+
+
+.igwv_NautilusTodayHeader
+{
+	background-color: #ff6600;
+	background-repeat:repeat-x;
+	background-position: bottom ;
+	background-image: url(images/headerHover1.png);
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+
+.igwv_NautilusToday
+{
+}
+
+.igwv_NautilusActiveDayHeader
+{
+	background-color: #ff6600;
+	background-repeat:repeat-x;
+	background-position: bottom;
+	background-image: url(images/headerHover1.png);
+	color: #FFFFFF;
+}
+
+
+.igwv_NautilusActiveDay
+{
+	background-color: #FFFFFF;
+	background-repeat: repeat-x;
+	background-image: url(images/fadetop1.png);
+}
+
+.igwv_NautilusResourceButton
+{
+	background: #9BD1F5;
+	border: solid 0px #24406F;
+	border-right: solid 1px #24406F;
+	border-bottom: solid 1px #24406F;
+	padding: 4px;
+	font-size: 8pt;
+	color: #eeeeee;
+	background-image: url(images/header11.png);
+	background-repeat: repeat-x;
+}
+
+.igwv_NautilusResourceButton:focus, .igwv_NautilusResourceButtonActive
+{
+	filter:alpha(opacity=100);
+	-moz-opacity:1.0;
+	-khtml-opacity: 1.0;
+	opacity: 1.0;
+}
+
+.igwv_NautilusResourceButton:hover
+{
+	filter:alpha(opacity=100);
+	-moz-opacity:1.0;
+	-khtml-opacity: 1.0;
+	opacity: 1.0;
+}
+
+.igwv_NautilusMultiDayEventArrowLeft
+{
+      background-image: url(images/igws_arrowLeft.gif);
+      background-repeat: no-repeat;
+      background-position: center center;
+      display: inline-block;
+      width: 9px;
+      height: 9px;
+}
+
+.igwv_NautilusMultiDayEventArrowRight
+{
+      background-image: url(images/igws_arrowRight.gif);
+      background-repeat: no-repeat;
+      background-position: center center;
+      display: inline-block;
+      width: 9px;
+      height: 9px;
+}

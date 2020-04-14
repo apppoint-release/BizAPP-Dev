@@ -1,0 +1,206 @@
+.ighg_Windows7Control
+{
+}
+
+.ighg_Windows7ExpandButton
+{
+	padding-left:5px;
+	cursor:hand;
+}
+
+.ighg_Windows7ExpansionColumnHeader
+{
+	border-top:1px solid #e2eefc;
+    border-right:1px solid #9AB3D3;
+    border-bottom:1px solid #82a1c9;
+    border-left:1px solid #f2f7fd;
+	width: 25px;
+}
+
+.ighg_Windows7ExpansionColumn
+{
+	padding:0px !important;
+	width: 25px;
+}
+
+.ighg_Windows7ExpansionColumnFooter
+{
+	width: 25px;
+}
+
+.ighg_Windows7GroupArea
+{
+    padding: 10px;
+}
+
+.ighg_Windows7GroupIndentHeaderCell
+{
+    background-color: Transparent;
+    border-color: #E2EEFC #9AB3D3 #82A1C9 #F2F7FD;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.ighg_Windows7GroupIndentFooterCell
+{
+}
+
+.ighg_Windows7GroupIndentAddNewRowCell
+{
+}
+
+/* START -- GroupBy CSS Classes */
+
+.ighg_Windows7GroupedColumn
+{
+	background-image: url("images/ighg_groupedcolumnbg.png");
+    background-repeat: repeat-x;
+    display: inline-block;
+    height: 16px;
+    padding: 3px 5px 0 10px;
+}
+
+.ighg_Windows7GroupedColumnRightEdgeEnd
+{
+    background-image: url("images/ighg_groupedcolumnrightedgeendbg.gif");
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 16px;
+    padding-top: 3px;
+    width: 10px;
+}
+
+.ighg_Windows7GroupedBand
+{
+	background-image: url("images/ighg_groupedbandbg.png");
+    background-repeat: repeat-x;
+    border-bottom: 1px solid #FF9900;
+    border-left: 1px solid #FF9900;
+    display: inline-block;
+    height: 16px;
+    padding: 3px 0 0 10px;
+}
+
+.ighg_Windows7GroupedBandRightEdge
+{
+	background-image: url("images/ighg_groupedbandbg.png");
+    background-repeat: repeat-x;
+    border-bottom: 1px solid #FF9900;
+    border-right: 1px solid #FF9900;
+    display: inline-block;
+    height: 16px;
+    padding: 3px 0 0;
+    width: 10px;
+}
+
+.ighg_Windows7ColumnGroupingTopDragIndicator
+{
+}
+
+.ighg_Windows7ColumnGroupingMiddleDragIndicator
+{
+}
+
+.ighg_Windows7ColumnGroupingBottomDragIndicator
+{
+}
+
+.ighg_Windows7GroupedColumnLeftEdge
+{
+}
+
+TBODY>TR.{0}>TD
+{
+}
+
+TBODY>TR>TD.{0}
+{
+}
+
+/********************/
+/**  Cell Merging  **/
+/********************/
+/*Any future change please port it to WHDG*/
+
+tbody>tr>td.ighg_Windows7MergedCellVisible
+{
+    color: Black;
+}
+
+tbody>tr>td.ighg_Windows7MergedCell /*tbody>tr>td.ighg_Windows7MergedCellAlt*/
+{
+    color: #FFF;
+    background-color: #FFF;
+    
+    border-top-width: 0;
+    border-left: 1px dotted #82a1c9;
+    border-right: 1px dotted #82a1c9;            
+}
+
+tbody>tr>td.ighg_Windows7MergedCellTop /*tbody>tr>td.ighg_Windows7MergedCellAltTop*/
+{
+    color: Black;
+    border-top: 1px solid #82a1c9;
+}
+
+tbody>tr>td.ighg_Windows7MergedCell.igg_Windows7SelectedCell /*tbody>tr>td.ighg_Windows7MergedCellAlt.igg_Windows7SelectedCell*/
+{
+    color: Black;
+    background-image: none;
+    background-color: #c6d8f0;
+    
+    border-top: 1px solid #82a1c9;
+    border-left: 1px dotted #82a1c9;
+    border-right: 1px dotted #82a1c9;    
+}
+
+tbody>tr>td.ighg_Windows7MergedCellTop.igg_Windows7SelectedCell /*tbody>tr>td.ighg_Windows7MergedCellAltTop.igg_Windows7SelectedCell*/
+{
+    color: Black;
+}
+
+tbody>tr>td.ighg_Windows7MergedCellExpanded
+{
+    color: Black;
+}
+
+tbody > tr.igg_Windows7UpdatedRow td.ighg_Windows7MergedCell
+{
+    color: #666666;
+    font-style: italic;
+}
+
+tbody > tr.igg_Windows7UpdatedRow td.ighg_Windows7MergedCellTop.igg_Windows7SelectedCell
+{
+    color: Balck;
+    font-style: italic;
+}
+
+tbody > tr.igg_Windows7UpdatedRow td.ighg_Windows7MergedCellTop
+{
+    color: #666666;
+    font-style: italic;
+}
+
+tbody > tr.igg_Windows7UpdatedRow td.ighg_Windows7MergedCellTop.igg_Windows7SelectedCell
+{
+    color: Black;
+    font-style: italic;
+}
+
+tbody > tr.igg_Windows7UpdatedRow td.ighg_Windows7MergedCellBottom.igg_Windows7SelectedCell
+{
+    color: Black;
+    font-style: italic;
+}
+
+tbody>tr>td.ighg_Windows7MergedCellVisible
+{
+    color: black;
+}
+
+tbody>tr>td.igg_Windows7ActiveCell
+{
+    color: #000;
+}
+

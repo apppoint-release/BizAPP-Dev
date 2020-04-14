@@ -1,0 +1,91 @@
+.igmn_ClaymationControl
+{
+	background-color:#F2F2F2;
+	background-repeat:repeat-x;
+	background-position:bottom ;
+	background-image: url(images/dayview_day_header.jpg);
+	border:solid 1px WhiteSmoke;
+}
+
+
+.igmn_ClaymationIsland
+{
+	background-color:Gainsboro;
+	background-position:bottom ;
+	background-image: url(images/addnew.gif);
+	border:solid 1px #E1E1E1;
+}
+
+
+.igmn_ClaymationItem
+{
+	background-color:Transparent;
+	border:solid 1px Transparent;
+	cursor:hand;
+}
+
+
+.igmn_ClaymationLeaf
+{
+	font-weight:normal;
+}
+
+
+.igmn_ClaymationParent
+{
+}
+
+
+.igmn_ClaymationTopLevelLeaf
+{
+}
+
+
+.igmn_ClaymationTopLevelParent
+{
+}
+
+
+.igmn_ClaymationHeader
+{
+}
+
+
+.igmn_ClaymationSeparator
+{
+	background-color:Yellow;
+	color:Black;
+}
+
+
+.igmn_ClaymationHover
+{
+	background-image: url(images/header_hover.jpg);
+	border:solid 1px Silver;
+	padding-top:8px;
+	padding-bottom:9px;
+}
+
+
+.igmn_ClaymationTopLevelHover
+{
+	background-image: url(images/header_hover.jpg);
+	border:solid 1px Silver;
+	padding-top:8px;
+	padding-bottom:9px;
+}
+
+
+.igmn_ClaymationTopSelected
+{
+}
+
+
+.igmn_ClaymationDisabled
+{
+	font-size:x-small;
+	font-family: Verdana;
+	color:#D2D2D2;
+}
+
+

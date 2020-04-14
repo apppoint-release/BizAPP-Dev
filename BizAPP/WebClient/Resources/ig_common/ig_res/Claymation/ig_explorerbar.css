@@ -1,0 +1,262 @@
+.igeb_ClaymationControl
+{
+	background-color:Transparent;
+	font-size:xx-small;
+	font-family: Segoe UI, Verdana, Helvetica, sans-serif;
+	border:solid 1px #CCCCCC;
+	border-top-width:0px;
+	overflow-x: hidden;
+	_overflow: hidden!important;
+	color:Black;
+}
+
+
+.igeb_ClaymationGroup
+{
+	background-repeat:repeat-x;
+	background-image: url(images/igeb_GroupBg.png);
+	display: block;
+	height: 30px;
+	overflow: hidden;
+	line-height: 30px;
+	color:#777777;
+	vertical-align:middle;
+}
+
+
+.igeb_ClaymationGroupSelected
+{
+	background-repeat:repeat-x;
+	background-position:0px -30px ;
+	background-image: url(images/igeb_GroupBg.png);
+	color:Black;
+}
+
+
+.igeb_ClaymationGroupActive
+{
+	background-repeat:repeat-x;
+	background-position:0px -30px ;
+	background-image: url(images/igeb_GroupBg.png);
+	color:Black;
+}
+
+
+.igeb_ClaymationGroupHover
+{
+	background-repeat:repeat-x;
+	background-position:0px -30px ;
+	background-image: url(images/igeb_GroupBg.png);
+	color:Black;
+}
+
+
+.igeb_ClaymationItem
+{
+	background-color:White;
+	line-height: 22px;
+}
+
+
+.igeb_ClaymationItemImage
+{
+	padding-top:5px;
+	padding-right:5px;
+	padding-left:0px;
+}
+
+
+.igeb_ClaymationItemSelected
+{
+	background-color:DeepSkyBlue;
+}
+
+
+.igeb_ClaymationItemActive
+{
+	background-color:DeepSkyBlue;
+}
+
+
+.igeb_ClaymationItemHover
+{
+	background-color:DeepSkyBlue;
+}
+
+
+.igeb_ClaymationItemDisabled
+{
+}
+
+
+.igeb_ClaymationGroupContents
+{
+	margin-top:0px;
+	margin-bottom:0px;
+	margin-left:0px;
+	padding-top:0px;
+	padding-bottom:0px;
+	padding-left:0px;
+	list-style: none;
+}
+
+
+.igeb_ClaymationGroupLabel
+{
+	font-weight:bold;
+	font-size:12px;
+	font-family: Segoe UI, Verdana, Sans-Serif;
+	margin-left:5px;
+	padding-left:5px;
+	text-decoration:none;
+}
+
+
+.igeb_ClaymationGroupDisabled
+{
+	background-color:#CCCCCC;
+	color:#EEEEEE;
+}
+
+
+.igeb_ClaymationGroupExpanderImage
+{
+	margin-top:5px;
+	margin-right:5px;
+	float: right;
+}
+
+
+.igeb_ClaymationItemLabel
+{
+	font-weight:normal;
+	font-size:12px;
+	font-family: Segoe UI, Verdana, Arial, Sans-Serif;
+	display: block;
+}
+
+
+.igeb_ClaymationHolder
+{
+    clear:left;
+}
+
+
+.igeb_ClaymationGroupLink
+{
+	margin-bottom:0px;
+	padding-bottom:0px;
+	padding-left:6px;
+	display: block;
+	color: inherit;
+	text-decoration:none;
+}
+
+
+.igeb_ClaymationItemLink
+{
+	padding-top:2px;
+	padding-bottom:2px;
+	display: block;
+	color:#333333;
+	text-decoration:none;
+}
+
+
+.igeb_ClaymationItemParent
+{
+	background-repeat:no-repeat;
+	background-image: url(images/igeb_Bullet.png);
+}
+
+
+.igeb_ClaymationGroupHover a visited
+{
+	color:Black;
+}
+
+
+.igeb_ClaymationGroupSelected a visited
+{
+	color:Black;
+}
+
+
+/* IE 7 fix to icon bad alignment*/
+.igeb_ClaymationItem ,.igeb_ClaymationItemActive ,.igeb_ClaymationItemSelected
+{
+	min-height: 30px;
+	_height: 30px;
+}
+
+
+.igeb_ClaymationGroup a
+{
+	color:#777777;
+}
+
+
+/* IE 7 Disabled item fix */
+.igeb_ClaymationItemDisabled a visited, .igeb_ClaymationItemDisabled a
+{
+	color:Gray;
+}
+
+
+.igeb_ClaymationGroupActive a visited
+{
+	color:Black;
+}
+
+
+.igeb_ClaymationItemHolder img
+{
+	vertical-align:middle;
+}
+
+
+.igeb_ClaymationGroupSelected a
+{
+	color:Black;
+}
+
+
+.igeb_ClaymationGroup a visited
+{
+	color:#777777;
+}
+
+
+.igeb_ClaymationItemContents
+{
+	margin-left:0px;
+	padding-left:0px;
+	list-style: none;
+}
+
+
+.igeb_ClaymationGroupActive a
+{
+	color:Black;
+}
+
+
+.igeb_ItemImage
+{
+	padding-top:5px;
+	padding-right:5px;
+	padding-left:0px;
+}
+
+
+.igeb_ClaymationItemHolder
+{
+}
+
+
+.igeb_ClaymationGroupHover a
+{
+	color:Black;
+}
+
+

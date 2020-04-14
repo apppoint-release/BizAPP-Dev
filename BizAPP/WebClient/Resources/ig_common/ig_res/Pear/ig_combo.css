@@ -1,0 +1,97 @@
+.igcmb_PearControl
+{
+}
+
+
+.igcmb_PearEditWithButtons
+{
+	border:solid 1px #4F7600;
+}
+
+
+.igcmb_PearPagerArea
+{
+}
+
+
+.igcmb_PearPageCurrent
+{
+}
+
+
+.igcmb_PearPageLink
+{
+}
+
+
+.igcmb_PearItem
+{
+	background-color:#F0F0F0;
+	border-top:solid 1px White;
+}
+
+
+.igcmb_PearAlt
+{
+	background-image: url(images/item_bg.gif);
+	border:solid 0px Transparent;
+	border-top-width:1px;
+	border-top-color:White;
+}
+
+
+.igcmb_PearHeader
+{
+	background-color:#BBD17E;
+	background-position:center ;
+	border-width:0px;
+	border-color:Transparent;
+	padding-top:4px;
+	padding-bottom:3px;
+	text-align:left;
+}
+
+
+.igcmb_PearFooter
+{
+}
+
+
+.igcmb_PearLabel
+{
+	background-image: url(images/label.gif);
+	border-top-width:1px;
+	border-top-color:White;
+}
+
+
+.igcmb_PearSelected
+{
+	background-color:#636A4C;
+	background-image:none;
+	border-right-color:#BBD17E;
+	border-left-color:#BBD17E;
+	color:White;
+}
+
+
+.igcmb_PearEditSelected
+{
+}
+
+
+.igcmb_PearActiveBorderTopBottom
+{
+}
+
+
+.igcmb_PearActiveBorderLeft
+{
+}
+
+
+.igcmb_PearActiveBorderRight
+{
+}
+
+

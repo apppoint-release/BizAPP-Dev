@@ -1,0 +1,50 @@
+.igpnl_PearControl
+{
+	border:solid 1px #4F7600;
+}
+
+
+.igpnl_PearPanel
+{
+	background-color:#F8F8F8;
+	cursor:default;
+}
+
+
+.igpnl_PearHeaderExpanded
+{
+	background-color:#636A4C;
+	background-position:center ;
+	font-weight:bold;
+	font-size:xx-small;
+	font-family: Verdana;
+	border:solid 0px #636A4C;
+	margin-top:3px;
+	margin-bottom:3px;
+	padding-top:2px;
+	padding-bottom:3px;
+	cursor:hand;
+	color:White;
+}
+
+
+.igpnl_PearHeaderCollapsed
+{
+	background-color:#BBD17E;
+	color:#636A4C;
+}
+
+
+.igpnl_PearHeaderHover
+{
+	background-color:#B1C576;
+	color:#FFFDFD;
+}
+
+
+.igpnl_PearGroupBoxControl
+{
+	border:solid 1px #4F7600;
+}
+
+

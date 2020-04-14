@@ -1,0 +1,53 @@
+﻿body
+{
+}
+.igpb_NautilusBaseLabel
+{
+	text-align:left;
+	white-space:nowrap;
+	position:absolute;
+	padding:2px;
+}
+.igpb_NautilusBackgroundLabel
+{
+	color:Black;
+}
+.igpb_NautilusForegroundLabel
+{
+	color:white;
+}
+.igpb_NautilusInnerDiv
+{
+	height:100%;
+	width:100%;
+	position:absolute;
+	overflow:hidden;
+	
+}
+.igpb_NautilusFill_Horiz
+{
+	background-image: url(./images/igpb_horizontalFill.gif);
+	background-repeat: repeat-x;
+	background-color: #4B709B;
+}
+.igpb_NautilusFill_Vert
+{
+	background-image: url(./images/igpb_VerticalFill.gif);
+	background-repeat: repeat-y;
+	background-color: #4B709B;
+}
+.igpb_NautilusBackground_Horiz
+{
+}
+.igpb_NautilusBackground_Vert
+{
+	
+}
+.igpb_NautilusContainer
+{
+	height:100%;
+	width:100%;
+	position:relative;
+	border: solid 1px #767676;
+	overflow: hidden;
+}

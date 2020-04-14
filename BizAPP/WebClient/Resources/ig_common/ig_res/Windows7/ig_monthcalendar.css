@@ -1,0 +1,192 @@
+.igmc_Windows7Control
+{
+	background-color:White;
+	font-family: Segoe UI, Verdana, Arial, Georgia, Sans-Serif;
+	border:solid 1px #C5C7D1;
+	margin:0px;
+	padding:0px;
+	width: 225px;
+	height: 200px;
+}
+
+.igmc_Windows7DOW
+{
+	background-color:White;
+	border-width:0px;
+	border-bottom:1px solid #C5C7D1;
+	margin:0px;
+	padding:0px;
+	font-size:0.8em;
+	font-weight:bold;
+	text-align:center;
+	height: 35px;
+	color: #000;
+}
+
+.igmc_Windows7NextPrev
+{
+	font-size:0.8em;
+	margin:0px;
+	padding:0px 8px;
+	color:#000;
+}
+
+.igmc_Windows7HoverNextPrev
+{
+	cursor:pointer;
+	color:#3981d5;
+}
+
+.igmc_Windows7PressedNextPrev
+{
+}
+
+.igmc_Windows7Footer
+{
+	background-color:White;
+	border-top:1px solid #C5C7D1;
+	font-size: 0.8em;
+	height: 35px;
+	color:Black;
+	text-align:center;
+}
+
+.igmc_Windows7HoverFooter
+{
+	cursor:pointer;
+}
+
+.igmc_Windows7PressedFooter
+{
+	background-repeat:repeat-x;
+}
+.igmc_Windows7Header
+{
+	background-color:white;
+	border-bottom-width:0px;
+	margin:0px;
+	padding:0px;
+	height: 50px;
+}
+.igmc_Windows7MonthYear
+{
+	font-size:1em;
+	font-weight:bold;
+	padding-top:0px;
+	padding-right:2px;
+	color:Black;
+}
+
+.igmc_Windows7PressedMonthYear
+{
+	color:#FFD151;
+}
+
+.igmc_Windows7HoverMonthYear
+{
+	cursor:pointer;
+	color:#3981d5;
+}
+
+.igmc_Windows7WeekNumber
+{
+	background-color:White;
+	font-weight:bold;
+}
+
+.igmc_Windows7OtherMonthDay
+{
+	background-image:none;
+	color:#AAAAAA;
+}
+
+.igmc_Windows7Day
+{
+	background-color:White;
+	font-size:0.9em;
+	border:solid 1px #FFFFFF;
+	text-align:center;
+	font-weight:bold;
+}
+
+.igmc_Windows7Day.igmc_Windows7OtherMonthDay
+{
+	background-image:none;
+	color: #a4a4a4;
+	font-size:0.9em;
+	font-weight:normal;
+}
+
+.igmc_Windows7TodayDay, .igmc_Windows7TodayDay.igmc_Windows7SelectedDay
+{
+	background-color:White;
+	background-repeat:no-repeat;
+	background-position:center center ;
+	background-image: url(images/igmc_today.gif);
+	color: #0066cc;
+}
+
+.igmc_Windows7WeekendDay
+{
+    background-color:#f9f9f9;
+	border: 1px solid #f9f9f9;
+}
+
+.igmc_Windows7SelectedDay
+{
+	background-color: #e8e8e8;
+	font-weight:bold;
+	color: #696969;
+}
+
+.igmc_Windows7FocusDay, .igmc_Windows7OtherMonthDay.igmc_Windows7FocusDay
+{
+	background-color:White;
+	background-repeat:no-repeat;
+	background-position:center center ;
+	background-image: url(images/igmc_dayfocus.gif);
+	font-weight:bold;
+	color: #696969;
+}
+
+.igmc_Windows7HoverDay, .igmc_Windows7TodayDay.igmc_Windows7HoverDay, .igmc_Windows7OtherMonthDay.igmc_Windows7HoverDay
+{
+	background-color:White;
+	background-repeat:no-repeat;
+	background-position:center center ;
+	background-image: url(images/igmc_dayhover.gif);
+	font-weight:bold;
+	color: #3981d5;
+}
+
+.igmc_Windows7DisabledDay
+{
+	color:#000EEE;
+}
+
+
+/* CSS classes for Month and Year selection Popup in header */
+.igmc_Windows7List
+{
+	background-color: #fff;
+	border:1px solid #bbb;
+}
+
+.igmc_Windows7Item
+{
+	background-color:#fff;
+	font-size:1em;
+	text-align: center;
+}
+
+.igmc_Windows7SelectedItem
+{
+	background-color:#EFF9FF;
+	font-weight:bold;
+}
+
+.igmc_Windows7HoverItem
+{
+	background-color:#E1F3FD;
+	font-weight: bold;
+}

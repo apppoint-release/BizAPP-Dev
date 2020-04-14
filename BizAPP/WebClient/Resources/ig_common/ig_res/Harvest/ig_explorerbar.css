@@ -1,0 +1,261 @@
+.igeb_HarvestControl
+{
+	background-color:Transparent;
+	font-size:xx-small;
+	font-family: Segoe UI, Verdana, Helvetica, sans-serif;
+	border:solid 1px #97462C;
+	border-top-width:0px;
+	overflow-x: hidden;
+	_overflow: hidden!important;
+	color:Black;
+}
+
+
+.igeb_HarvestGroup
+{
+	background-repeat:repeat-x;
+	background-image: url(images/igeb_GroupBg.png);
+	display: block;
+	height: 30px;
+	overflow: hidden;
+	line-height: 30px;
+	color:#97462C;
+	vertical-align:middle;
+}
+
+
+.igeb_HarvestGroupSelected
+{
+	background-repeat:repeat-x;
+	background-position:0px -30px ;
+	background-image: url(images/igeb_GroupBg.png);
+	font-weight:bold;
+	color:White;
+}
+
+
+.igeb_HarvestGroupActive
+{
+	background-repeat:repeat-x;
+	background-position:0px -30px ;
+	background-image: url(images/igeb_GroupBg.png);
+	font-weight:bold;
+	color:White;
+}
+
+
+.igeb_HarvestGroupHover
+{
+	background-repeat:repeat-x;
+	background-position:0px -30px ;
+	background-image: url(images/igeb_GroupBg.png);
+	font-weight:bold;
+	color:White;
+}
+
+
+.igeb_HarvestItem
+{
+	background-color:White;
+	line-height: 22px;
+}
+
+
+.igeb_HarvestItemImage
+{
+	padding-top:5px;
+	padding-right:5px;
+	padding-left:0px;
+	vertical-align:middle;
+}
+
+
+.igeb_HarvestItemSelected
+{
+	background-color:#B57B5E;
+}
+
+
+.igeb_HarvestItemActive
+{
+	background-color:#B57B5E;
+}
+
+
+.igeb_HarvestItemHover
+{
+	background-color:#B57B5E;
+}
+
+
+.igeb_HarvestItemDisabled
+{
+}
+
+
+.igeb_HarvestGroupContents
+{
+	margin-top:0px;
+	margin-bottom:0px;
+	margin-left:0px;
+	padding-top:0px;
+	padding-bottom:0px;
+	padding-left:0px;
+	list-style: none;
+}
+
+
+.igeb_HarvestGroupLabel
+{
+	font-size:12px;
+	font-family: Segoe UI, Verdana, Sans-Serif;
+	margin-left:5px;
+	padding-left:5px;
+	text-decoration:none;
+}
+
+
+.igeb_HarvestGroupDisabled
+{
+	background-color:#CCCCCC;
+	color:Gray;
+}
+
+
+.igeb_HarvestGroupExpanderImage
+{
+	margin-top:5px;
+	margin-right:5px;
+	float: right;
+}
+
+
+.igeb_HarvestItemLabel
+{
+	font-weight:normal;
+	font-size:12px;
+	font-family: Segoe UI, Verdana, Arial, Sans-Serif;
+	display: block;
+}
+
+
+.igeb_HarvestHolder
+{
+    clear:left;
+}
+
+
+.igeb_HarvestGroupLink
+{
+	margin-bottom:0px;
+	padding-bottom:0px;
+	padding-left:6px;
+	display: block;
+	color: inherit;
+	text-decoration:none;
+}
+
+
+.igeb_HarvestItemLink
+{
+	padding-top:2px;
+	padding-bottom:2px;
+	display: block;
+	color:#333333;
+	text-decoration:none;
+}
+
+
+.igeb_HarvestItemParent
+{
+	background-repeat:no-repeat;
+	background-image: url(images/igeb_Bullet.png);
+}
+
+
+.igeb_HarvestGroupHover a visited
+{
+	color:White;
+}
+
+
+.igeb_HarvestGroupActive a visited
+{
+	color:White;
+}
+
+
+.igeb_HarvestGroupActive a
+{
+	color:White;
+}
+
+
+.igeb_HarvestGroup a visited
+{
+	color:#97462C;
+}
+
+
+.igeb_HarvestGroupSelected a
+{
+	color:White;
+}
+
+
+.igeb_HarvestGroupSelected a visited
+{
+	color:White;
+}
+
+
+.igeb_HarvestItemContents
+{
+	margin-top:0px;
+	margin-bottom:0px;
+	margin-left:0px;
+	padding-top:0px;
+	padding-bottom:0px;
+	padding-left:0px;
+	list-style: none;
+}
+
+
+.igeb_HarvestGroup a
+{
+	color:#97462C;
+}
+
+
+/* IE 7 fix to icon bad alignment*/
+.igeb_HarvestItem ,.igeb_HarvestItemActive ,.igeb_HarvestItemSelected
+{
+	min-height: 30px;
+	_height: 30px;
+}
+
+
+/* IE 7 Disabled item fix */
+.igeb_HarvestItemDisabled a visited, .igeb_HarvestItemDisabled a
+{
+	color:Gray;
+}
+
+
+.igeb_HarvestGroupHover a
+{
+	color:White;
+}
+
+
+.igeb_HarvestItemHolder img
+{
+	vertical-align:middle;
+}
+
+
+.igeb_HarvestItemHolder
+{
+}
+
+

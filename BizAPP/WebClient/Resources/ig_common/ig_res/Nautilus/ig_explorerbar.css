@@ -1,0 +1,271 @@
+.igeb_NautilusControl
+{
+	background-color:Transparent;
+	font-size:xx-small;
+	font-family: Segoe UI, Verdana, Helvetica, sans-serif;
+	border:solid 1px #24406F;
+	border-top-width:0px;
+	overflow-x: hidden;
+	_overflow: hidden!important;
+	color:Black;
+}
+
+
+.igeb_NautilusGroup
+{
+	background-repeat:repeat-x;
+	background-image: url(images/igeb_GroupBg.png);
+	display: block;
+	height: 30px;
+	overflow: hidden;
+	line-height: 30px;
+	color:#24406F;
+	vertical-align:middle;
+}
+
+
+.igeb_NautilusGroupSelected
+{
+	background-repeat:repeat-x;
+	background-position:0px -30px ;
+	background-image: url(images/igeb_GroupBg.png);
+	color:White;
+}
+
+
+.igeb_NautilusGroupActive
+{
+	background-repeat:repeat-x;
+	background-position:0px -30px ;
+	background-image: url(images/igeb_GroupBg.png);
+	color:White;
+}
+
+
+.igeb_NautilusGroupHover
+{
+	background-repeat:repeat-x;
+	background-position:0px -30px ;
+	background-image: url(images/igeb_GroupBg.png);
+	color:White;
+}
+
+
+.igeb_NautilusItem
+{
+	background-color:White;
+	line-height: 22px;
+}
+
+
+.igeb_NautilusItemImage
+{
+	padding-top:5px;
+	padding-right:5px;
+	padding-left:0px;
+	vertical-align:middle;
+}
+
+
+.igeb_NautilusItemSelected
+{
+	background-color:#FFCC33;
+	background-repeat:repeat-x;
+	background-position:bottom ;
+	background-image: url(images/igeb_ItemSelectedBg.png);
+	color:White;
+}
+
+
+.igeb_NautilusItemActive
+{
+	background-color:#FFCC33;
+	background-repeat:repeat-x;
+	background-position:bottom ;
+	background-image: url(images/igeb_ItemSelectedBg.png);
+	color:White;
+}
+
+
+.igeb_NautilusItemHover
+{
+	background-color:#FFCC33;
+	background-repeat:repeat-x;
+	background-position:bottom ;
+	background-image: url(images/igeb_ItemSelectedBg.png);
+}
+
+
+.igeb_NautilusItemDisabled
+{
+}
+
+
+.igeb_NautilusGroupContents
+{
+	margin-top:0px;
+	margin-bottom:0px;
+	margin-left:0px;
+	padding-top:0px;
+	padding-bottom:0px;
+	padding-left:0px;
+	list-style: none;
+}
+
+
+.igeb_NautilusGroupLabel
+{
+	font-weight:bold;
+	font-size:12px;
+	font-family: Segoe UI, Verdana, Sans-Serif;
+	margin-left:5px;
+	padding-left:5px;
+	text-decoration:none;
+}
+
+
+.igeb_NautilusGroupDisabled
+{
+	background-repeat:repeat-x;
+	background-position:0px -60px ;
+	background-image: url(images/igeb_GroupBg.png);
+	color:White;
+}
+
+
+.igeb_NautilusGroupExpanderImage
+{
+	margin-top:5px;
+	margin-right:5px;
+	float: right;
+}
+
+
+.igeb_NautilusItemLabel
+{
+	font-weight:normal;
+	font-size:12px;
+	font-family: Segoe UI, Verdana, Arial, Sans-Serif;
+	display: block;
+}
+
+
+.igeb_NautilusHolder
+{
+    clear:left;
+}
+
+
+.igeb_NautilusGroupLink
+{
+	margin-bottom:0px;
+	padding-bottom:0px;
+	padding-left:6px;
+	display: block;
+	color: inherit;
+	text-decoration:none;
+}
+
+
+.igeb_NautilusItemLink
+{
+	padding-top:2px;
+	padding-bottom:2px;
+	display: block;
+	color:#333333;
+	text-decoration:none;
+}
+
+
+.igeb_NautilusItemParent
+{
+}
+
+
+/* IE 7 fix to icon bad alignment*/
+.igeb_NautilusItem ,.igeb_NautilusItemActive ,.igeb_NautilusItemSelected
+{
+	min-height: 30px!important;
+	_height: 30px;
+}
+
+
+.igeb_NautilusItemContents
+{
+	margin-left:0px;
+	padding-left:0px;
+	list-style: none;
+}
+
+
+.igeb_NautilusItemHolder img
+{
+	vertical-align:middle;
+}
+
+
+.igeb_NautilusItemHolder
+{
+}
+
+
+igeb_NautilusItemDisabled
+{
+}
+
+
+.igeb_NautilusGroupHover a visited
+{
+	color:White;
+}
+
+
+/* IE 7 Disabled item fix */
+.igeb_NautilusItemDisabled a visited, .igeb_NautilusItemDisabled a
+{
+	color:Gray;
+}
+
+
+.igeb_NautilusGroup a visited
+{
+	color:#24406F;
+}
+
+
+.igeb_NautilusGroupActive a visited
+{
+	color:White;
+}
+
+
+.igeb_NautilusGroupSelected a visited
+{
+	color:White;
+}
+
+
+.igeb_NautilusGroup a
+{
+	color:#24406F;
+}
+
+
+.igeb_NautilusGroupHover a
+{
+	color:White;
+}
+
+
+.igeb_NautilusGroupActive a
+{
+	color:White;
+}
+
+
+.igeb_NautilusGroupSelected a
+{
+	color:White;
+}
+
+

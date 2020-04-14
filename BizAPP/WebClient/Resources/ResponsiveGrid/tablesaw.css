@@ -1,0 +1,137 @@
+/* Table Toolbar */
+.tablesaw-bar, .tablesaw-columntoggle-popup, .tablesaw-bar.mode-swipe,
+.tablesaw-bar.mode-columntoggle
+{
+	display: none;
+}
+
+/* Hide all prioritized columns by default */
+
+@media only all
+{
+	.tablesaw-columntoggle th.tablesaw-priority-6,
+	.tablesaw-columntoggle td.tablesaw-priority-6,
+	.tablesaw-columntoggle th.tablesaw-priority-5,
+	.tablesaw-columntoggle td.tablesaw-priority-5,
+	.tablesaw-columntoggle th.tablesaw-priority-4,
+	.tablesaw-columntoggle td.tablesaw-priority-4,
+	.tablesaw-columntoggle th.tablesaw-priority-3,
+	.tablesaw-columntoggle td.tablesaw-priority-3,
+	.tablesaw-columntoggle th.tablesaw-priority-2,
+	.tablesaw-columntoggle td.tablesaw-priority-2,
+	.tablesaw-columntoggle th.tablesaw-priority-1,
+	.tablesaw-columntoggle td.tablesaw-priority-1
+	{
+		display: none;
+	}
+}
+
+
+.dialog-table-coltoggle
+{
+	border-radius: .5em;
+}
+
+/* Preset breakpoints if "" class added to table */
+
+/* Show priority 1 at 320px (20em x 16px) */
+
+@media screen and (min-width: 20em)
+{
+	.tablesaw-columntoggle th.tablesaw-priority-1,
+	.tablesaw-columntoggle td.tablesaw-priority-1
+	{
+		display: table-cell;
+	}
+}
+
+/* Show priority 2 at 480px (30em x 16px) */
+
+@media screen and (min-width: 30em)
+{
+	.tablesaw-columntoggle th.tablesaw-priority-2,
+	.tablesaw-columntoggle td.tablesaw-priority-2
+	{
+		display: table-cell;
+	}
+}
+
+/* Show priority 3 at 640px (40em x 16px) */
+
+@media screen and (min-width: 40em)
+{
+	.tablesaw-columntoggle th.tablesaw-priority-3,
+	.tablesaw-columntoggle td.tablesaw-priority-3
+	{
+		display: table-cell;
+	}
+
+	.tablesaw-columntoggle tbody td
+	{
+	}
+}
+
+/* Show priority 4 at 800px (50em x 16px) */
+
+@media screen and (min-width: 50em)
+{
+	.tablesaw-columntoggle th.tablesaw-priority-4,
+	.tablesaw-columntoggle td.tablesaw-priority-4
+	{
+		display: table-cell;
+	}
+}
+
+/* Show priority 5 at 960px (60em x 16px) */
+
+@media screen and (min-width: 60em)
+{
+	.tablesaw-columntoggle th.tablesaw-priority-5,
+	.tablesaw-columntoggle td.tablesaw-priority-5
+	{
+		display: table-cell;
+	}
+}
+
+/* Show priority 6 at 1,120px (70em x 16px) */
+
+@media screen and (min-width: 70em)
+{
+	.tablesaw-columntoggle th.tablesaw-priority-6,
+	.tablesaw-columntoggle td.tablesaw-priority-6
+	{
+		display: table-cell;
+	}
+}
+
+@media only all
+{
+	.tablesaw-swipe .tablesaw-cell-persist
+	{
+		border-right: 1px solid #e4e1de;
+	}
+
+	.tablesaw-swipe .tablesaw-cell-persist
+	{
+		-webkit-box-shadow: 3px 0 4px -1px #e4e1de;
+		box-shadow: 3px 0 4px -1px #e4e1de;
+	}
+
+	/* Unchecked manually: Always hide */
+
+	.tablesaw-swipe th.tablesaw-cell-hidden,
+	.tablesaw-swipe td.tablesaw-cell-hidden,
+	.tablesaw-columntoggle th.tablesaw-cell-hidden,
+	.tablesaw-columntoggle td.tablesaw-cell-hidden
+	{
+		display: none;
+	}
+
+	/* Checked manually: Always show */
+
+	.tablesaw-columntoggle th.tablesaw-cell-visible,
+	.tablesaw-columntoggle td.tablesaw-cell-visible
+	{
+		display: table-cell;
+	}
+}

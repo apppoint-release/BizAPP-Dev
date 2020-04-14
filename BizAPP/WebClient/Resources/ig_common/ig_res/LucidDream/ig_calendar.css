@@ -1,0 +1,91 @@
+.igcal_LucidDreamControl
+{
+	background-color:#77B9E5;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(images/header.gif);
+	border-color: LightGrey;
+}
+
+
+.igcal_LucidDreamCalendar
+{
+}
+
+
+.igcal_LucidDreamDOW
+{
+	background-color:White;
+	font-size:xx-small;
+	border-width:0px;
+	border-bottom:solid 1px #9AC6FF;
+	padding:5px 0px 0px 0px;
+}
+
+
+.igcal_LucidDreamDay
+{
+	background-color:White;
+	font-size:xx-small;
+	border-width:0px;
+}
+
+
+.igcal_LucidDreamNextPrev
+{
+	background-color:Transparent;
+}
+
+
+.igcal_LucidDreamFooter
+{
+	background-color:Gainsboro;
+	border-top:solid 0px Gainsboro;
+	padding-top:5px;
+	text-align:center;
+}
+
+
+.igcal_LucidDreamHeader
+{
+	background-color:Transparent;
+	font-size:10px;
+	height: 16px;
+}
+
+
+.igcal_LucidDreamDropDown
+{
+}
+
+
+.igcal_LucidDreamWeekendDay
+{
+}
+
+
+.igcal_LucidDreamOtherMonthDay
+{
+	color:#B3B3B3;
+}
+
+
+.igcal_LucidDreamWeekendDayMajor
+{
+}
+
+
+.igcal_LucidDreamTodayDay
+{
+	border:solid 1px #A4D7F8;
+}
+
+
+.igcal_LucidDreamSelectedDay
+{
+	background-color:#699BC9;
+	background-image:none;
+	color:White;
+}
+
+

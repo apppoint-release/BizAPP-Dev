@@ -1,0 +1,64 @@
+.igtr_LucidDreamControl
+{
+	border-width:0px;
+	color:Black;
+}
+
+
+.igtr_LucidDreamIsland
+{
+}
+
+
+.igtr_LucidDreamNode
+{
+	cursor:hand;
+	color:Black;
+}
+
+
+.igtr_LucidDreamParent
+{
+	cursor:hand;
+}
+
+
+.igtr_LucidDreamLeaf
+{
+	cursor:hand;
+}
+
+
+.igtr_LucidDreamEdit
+{
+}
+
+
+.igtr_LucidDreamRoot
+{
+	font-weight:bold;
+	color:#74B8E4;
+}
+
+
+.igtr_LucidDreamHover
+{
+	color:#74B8E4;
+	text-decoration:underline;
+}
+
+
+.igtr_LucidDreamSelected
+{
+	background-color:WhiteSmoke;
+	font-weight:bold;
+	color:#74B8E4;
+}
+
+
+.igtr_LucidDreamDisabled
+{
+	color:#DADEE8;
+}
+
+

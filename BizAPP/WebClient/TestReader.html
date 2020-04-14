@@ -1,0 +1,88 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Untitled Page</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta content="MSHTML 6.00.3790.1830" name="GENERATOR">
+	<style type="text/css">
+		#Select1
+		{
+			width: 126px;
+		}
+	</style>
+</head>	
+<body>
+	<script type="text/javascript">
+	function accept()
+	{
+		form1.children[1].value = "Accept"; 
+		form1.submit(); 
+	}
+	function reject()
+	{
+		form1.children[1].value = "Reject"; 
+		form1.submit(); 
+	}
+	</script>
+	<form id="form1" action="Reader.aspx?" method="post">
+	<input type="hidden" id="runtimeobjectid" name="runtimeobjectid" value="RMAUser17407:SF7594:-1" />
+	<input type="hidden" id="runtimestepname" name="runtimestepname" value="Update" />
+	<input type="hidden" id="html.enterprise" name="html.enterprise" value="RMA_User" />
+	<!--<input type="hidden" name="html.locator" value="tcp://localhost:9000/RegistryS" />
+	<input type="hidden" name="html.provider" value="BizAPP" />
+	<input type="hidden" name="OTP" value="RMA_User" />-->
+	<table>
+		<tbody>
+			<tr>
+				<td>
+					<h1>
+						RMA
+					</h1>
+				</td>
+				<td>
+					<h3>
+						RMAUser17407
+					</h3>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Amount :
+				</td>
+				<td>
+					<input name="Amount" id="Amount" value="100">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Customer Name :
+				</td>
+				<td>
+					<input name="customername" id="customername" value="c1">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Subject :
+				</td>
+				<td>
+					<input name="subject" id="subject" value="s1">
+				</td>
+			</tr>
+			<tr><td>Handled to Satisfaction</td><td>
+				<select id="SRHandledToCustomerSatisfaction" name="SRHandledToCustomerSatisfaction">
+					<option>Yes</option>
+					<option>No</option>
+				</select></td></tr>
+			<tr>
+				<td>
+					<input id="Button2" type="button" value="Accept" onclick="accept();"> </input>
+				</td>
+				<td align="right">
+					<input id="Button1" type="button" value="Reject" onclick="reject();"> </input>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	</form>
+</body>
+</html>

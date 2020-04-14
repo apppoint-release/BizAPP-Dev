@@ -1,0 +1,2172 @@
+.igtab_HarvestTHControl
+{
+	overflow:hidden;
+}
+.igtab_HarvestTHContentHolder
+{
+	border:1px solid #97482E;
+	border-top-width:0px;
+	height:80%;
+	overflow:hidden;
+	position:relative;
+	background:#FFFFFF;
+}
+.igtab_HarvestTHContent
+{
+	height:100%;
+	position:relative;
+	background-color:#FFFFFF;
+}
+.igtab_HarvestTHHolderNoScroll
+{
+	display:block;
+	position:relative;
+	width:100%;
+}
+.igtab_HarvestTHHolder
+{
+	background:url(./images/igtab_HolderBorder.png) repeat-x bottom left;
+	position:relative;
+	display:block;
+	height:23px;
+	width:100%;
+	padding:0px;
+	margin:0px;
+	overflow:hidden;
+	white-space:nowrap;
+}
+.igtab_HarvestTHRoundedForHolder
+{
+	background:none;
+	margin-left:5px;
+	height:22px;
+}
+.igtab_HarvestTHHolderScroll
+{
+	position:relative;
+	width:100%;
+	margin-left:-45px;
+	display:block;
+	overflow:hidden;
+}
+.igtab_HarvestTHHolderScrollInner
+{
+	position:relative;
+	display:block;
+	width:9999px;
+	left:45px;
+}
+.igtab_HarvestTHScrollButtons
+{
+	font-size:1px;
+	position:absolute;
+	left:100%;
+	display:block;
+	margin-left:-45px;
+	width:45px;
+	z-index:20000;
+	text-align:right;
+	padding-top:2px;
+}
+.igtab_HarvestTHRoundedForScroll
+{
+	margin-left:-66px;
+}
+.igtab_HarvestTHImage
+{
+	vertical-align:middle;
+}
+.igtab_HarvestTHClose
+{
+	position:absolute;
+	left:100%;
+	margin-left:-20px;
+	margin-top:6px;
+	top:0px;
+	cursor: pointer;
+}
+.igtab_HarvestTHScrollButton
+{
+	padding:1px;
+}
+.igtab_HarvestTHText
+{
+	vertical-align:middle;
+	padding:0px 1px 0px 1px;
+	font-family:Verdana;
+	font-size:11px;
+	white-space:nowrap;
+	border:0px;
+	line-height:22px;
+	cursor:default;
+}
+.igtab_HarvestTHCenter
+{
+	padding:0px 1px 0px 1px;
+	display:block;
+	position:relative;
+	background:url(./images/igtab_THCenter.png) repeat-x;
+    background-color:#fcf5ea;
+	white-space:nowrap;
+	text-align:center;
+	font:22px sans-serif;
+	line-height:22px;
+	overflow:hidden;
+}
+.igtab_HarvestTHCloseSize
+{
+	padding-right:20px;
+}
+.igtab_HarvestTHTail
+{
+	background: transparent url(./images/igtab_THRight.png) no-repeat;
+	background-position: top right;
+	padding-left:0px;
+	padding-right:7px;
+	display:block;
+	margin: 0px;
+	height:100%;
+}
+.igtab_HarvestTHTab
+{
+	display:inline;
+	position:relative;
+	padding-left:7px;
+	float:left;
+	background: transparent url(./images/igtab_THLeft.png) top left no-repeat;
+	margin:0px;
+	overflow:hidden;
+	white-space:nowrap;
+	border-bottom:1px solid #97482E;
+	height:22px;
+}
+.igtab_HarvestTHOverlap
+{
+	margin-left:-5px;
+}
+.igtab_HarvestTHRoundedLastTab
+{
+	margin-right:10px;
+}
+.igtab_HarvestTHTextHov
+{
+	color: #FFFFFF;
+}
+.igtab_HarvestTHCenterHov
+{
+	background-position: 0px -50px;
+    background-color:#e4860b;
+}
+.igtab_HarvestTHTailHov
+{
+	background: transparent url(./images/igtab_THRightHov.png) no-repeat;
+	background-position: top right;
+}
+.igtab_HarvestTHTabHov
+{
+	background-position: 0px -50px;
+}
+.igtab_HarvestTHTextSel
+{
+	color: #FFFFFF;
+}
+.igtab_HarvestTHCenterSel
+{
+	background-position: 0px -100px;
+	background-color:#854b06;
+}
+.igtab_HarvestTHTailSel
+{
+	background: transparent url(./images/igtab_THRightSel.png) no-repeat;
+	background-position: top right;
+}
+.igtab_HarvestTHTabSel
+{
+	background-position: 0px -100px;
+}
+.igtab_HarvestTHTextAct
+{
+	border:1px dotted #000;
+	padding:0px;
+}
+.igtab_HarvestTHCenterAct
+{
+}
+.igtab_HarvestTHTailAct
+{
+}
+.igtab_HarvestTHTabAct
+{
+}
+.igtab_HarvestTHTextDis
+{
+	color:#AAAAAA;
+}
+.igtab_HarvestTHCenterDis
+{
+	background-position: 0px -150px;
+	background-color:#CCCCCC;
+}
+.igtab_HarvestTHTailDis
+{
+	background-image:url(./images/igtab_THRightDis.png);
+}
+.igtab_HarvestTHTabDis
+{
+	background-position: 0px -150px;
+}
+.igtab_HarvestTHTabMoving
+{
+	filter:alpha(opacity:30);
+	opacity:0.3;
+}
+.igtab_HarvestTHTabMovingMarkUp
+{
+	filter:alpha(opacity:70);
+	opacity:0.7;
+}
+
+.igtab_HarvestTHRoundedCorners
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundCorners.png);
+	background-repeat:no-repeat;
+}
+.igtab_HarvestTHRoundedTopBottom
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundTopBot.png);
+	background-repeat:repeat-x;
+}
+.igtab_HarvestTHRoundedLeftRight
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundLeftRight.png);
+	background-repeat:repeat-y;
+}
+.igtab_HarvestTHRoundedFill
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundFill.png);
+}
+
+
+
+
+
+
+
+
+
+.igtab_HarvestTVControl
+{
+	overflow:hidden;
+}
+.igtab_HarvestTVContentHolder
+{
+	border:1px solid #97482E;
+	border-top-width:0px;
+	height:50%;
+	overflow:hidden;
+	position:relative;
+	background:#FFFFFF;
+}
+.igtab_HarvestTVContent
+{
+	height:100%;
+	position:relative;
+	background: #EFEFEF;
+}
+.igtab_HarvestTVHolderNoScroll
+{
+	display:block;
+	position:relative;
+	width:100%;
+}
+.igtab_HarvestTVHolder
+{
+	background:url(./images/igtab_HolderBorder.png) repeat-x bottom left;
+	position:relative;
+	display:block;
+	width:100%;
+	padding:0px;
+	margin:0px;
+	overflow:hidden;
+	white-space:nowrap;
+}
+.igtab_HarvestTVRoundedForHolder
+{
+	background:none;
+	margin-left:5px;
+}
+.igtab_HarvestTVHolderScroll
+{
+	position:relative;
+	width:100%;
+	margin-left:-45px;
+	display:block;
+	overflow:hidden;
+}
+.igtab_HarvestTVHolderScrollInner
+{
+	position:relative;
+	display:block;
+	width:9999px;
+	left:45px;
+}
+.igtab_HarvestTVScrollButtons
+{
+	font-size:1px;
+	position:absolute;
+	left:100%;
+	top:100%;
+	display:block;
+	margin-left:-45px;
+	margin-top:-33px;
+	width:45px;
+	z-index:20000;
+	text-align:right;
+	padding-top:2px;
+}
+.igtab_HarvestTVRoundedForScroll
+{
+	margin-left:-66px;
+}
+.igtab_HarvestTVImage
+{
+	margin-left:10%;
+	display:block;
+}
+.igtab_HarvestTVClose
+{
+	position:absolute;
+	left:100%;
+	top:100%;
+	margin-left:-24px;
+	margin-top:-14px;
+	cursor: pointer;
+}
+.igtab_HarvestTVScrollButton
+{
+	padding:1px;
+}
+.igtab_HarvestTVText
+{
+	margin-top:5px;
+	margin-bottom:6px;
+	font-family:Verdana;
+	font-size:11px;
+	white-space:nowrap;
+	border:0px;
+	line-height:11px;
+	display:block;
+	text-align:center;
+	overflow:hidden;
+	margin-left:5px;
+	width:20px;
+	cursor:default;
+}
+.igtab_HarvestTVCenter
+{
+	padding-top:5px;
+	display:block;
+	position:relative;
+	overflow:hidden;
+}
+.igtab_HarvestTVCloseSize
+{
+	padding-bottom:14px;
+}
+.igtab_HarvestTVMirrorCenter
+{
+	background:url(./images/igtab_TVRight.png) top right repeat-y;
+	display:block;
+	margin-top:12px;
+	width:100%;
+	height:100%;
+}
+.igtab_HarvestTVMirror
+{
+	background:url(./images/igtab_TVRightTop.png) top right no-repeat;
+	display:block;
+	position:absolute;
+	margin-left:8px;
+	width:26px;
+	height:100%;
+}
+.igtab_HarvestTVTail
+{
+	background:url(./images/igtab_TVLeft.png) repeat-y;
+	padding:0px;
+	display:block;
+	position:absolute;
+	width:12px;
+	margin-top:12px;
+	height:100%;
+}
+.igtab_HarvestTVTab
+{
+	display:inline;
+	position:relative;
+	padding:0px;
+	float:left;
+	background:url(./images/igtab_TVLeftTop.png) no-repeat;
+	margin:0px;
+	overflow:hidden;
+	width:34px;
+	border-bottom:1px solid #97482E;
+}
+.igtab_HarvestTVOverlap
+{
+	margin-left:-7px;
+}
+.igtab_HarvestTVRoundedLastTab
+{
+	margin-right:10px;
+}
+.igtab_HarvestTVTextHov
+{
+	color: #FFFFFF;
+}
+.igtab_HarvestTVCenterHov
+{
+}
+.igtab_HarvestTVMirrorCenterHov
+{
+	background-image:url(./images/igtab_TVRightHov.png);
+}
+.igtab_HarvestTVMirrorHov
+{
+	background-image:url(./images/igtab_TVRightTopHov.png);
+}
+.igtab_HarvestTVTailHov
+{
+	background-position: -50px 0px;
+}
+.igtab_HarvestTVTabHov
+{
+	background-position: 0px -19px;
+}
+.igtab_HarvestTVTextSel
+{
+	color: #FFFFFF;
+}
+.igtab_HarvestTVCenterSel
+{
+}
+.igtab_HarvestTVMirrorCenterSel
+{
+	background-image:url(./images/igtab_TVRightSel.png);
+	background-color:#FFFFFF;
+}
+.igtab_HarvestTVMirrorSel
+{
+	background-image:url(./images/igtab_TVRightTopSel.png);
+}
+.igtab_HarvestTVTailSel
+{
+	background-position: -100px 0px;
+}
+.igtab_HarvestTVTabSel
+{
+	background-position: 0px -38px;
+}
+.igtab_HarvestTVTextAct
+{
+	margin-left:4px;
+	border:1px dotted #000;
+}
+.igtab_HarvestTVCenterAct
+{
+}
+.igtab_HarvestTVMirrorCenterAct
+{
+}
+.igtab_HarvestTVMirrorAct
+{
+}
+.igtab_HarvestTVTailAct
+{
+}
+.igtab_HarvestTVTabAct
+{
+}
+.igtab_HarvestTVTextDis
+{
+	color:#AAAAAA;
+}
+.igtab_HarvestTVCenterDis
+{
+}
+.igtab_HarvestTVMirrorCenterDis
+{
+	background-image:url(./images/igtab_TVRightDis.png);
+}
+.igtab_HarvestTVMirrorDis
+{
+	background-image:url(./images/igtab_TVRightTopDis.png);
+}
+.igtab_HarvestTVTailDis
+{
+	background-position: -150px 0px;
+}
+.igtab_HarvestTVTabDis
+{
+	background-position: 0px -57px;
+}
+.igtab_HarvestTVTabMoving
+{
+	filter:alpha(opacity:30);
+	opacity:0.3;
+}
+.igtab_HarvestTVTabMovingMarkUp
+{
+	filter:alpha(opacity:70);
+	opacity:0.7;
+}
+.igtab_HarvestTVRoundedCorners
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundCorners.png);
+	background-repeat:no-repeat;
+}
+.igtab_HarvestTVRoundedTopBottom
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundTopBot.png);
+	background-repeat:repeat-x;
+}
+.igtab_HarvestTVRoundedLeftRight
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundLeftRight.png);
+	background-repeat:repeat-y;
+}
+.igtab_HarvestTVRoundedFill
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundFill.png);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.igtab_HarvestBHControl
+{
+	overflow:hidden;
+}
+.igtab_HarvestBHContentHolder
+{
+	border:1px solid #97482E;
+	border-bottom-width: 0px;
+	height:60%;
+	overflow:hidden;
+	position:relative;
+	background:#FFFFFF;
+}
+.igtab_HarvestBHContent
+{
+	height:100%;
+	background: #EFEFEF;
+	position:relative;
+}
+.igtab_HarvestBHHolderNoScroll
+{
+	display:block;
+	position:relative;
+	width:100%;
+}
+.igtab_HarvestBHHolder
+{
+	background:url(./images/igtab_HolderBorder.png) repeat-x;
+	position:relative;
+	display:block;
+	height:23px;
+	width:100%;
+	padding:0px;
+	margin:0px;
+	overflow:hidden;
+	white-space:nowrap;
+}
+.igtab_HarvestBHRoundedForHolder
+{
+	background:none;
+	margin-left:5px;
+	height:22px;
+}
+.igtab_HarvestBHHolderScroll
+{
+	position:relative;
+	width:100%;
+	margin-left:-45px;
+	display:block;
+	overflow:hidden;
+}
+.igtab_HarvestBHHolderScrollInner
+{
+	position:relative;
+	display:block;
+	width:9999px;
+	left:45px;
+}
+.igtab_HarvestBHScrollButtons
+{
+	font-size:1px;
+	position:absolute;
+	left:100%;
+	display:block;
+	margin-left:-45px;
+	width:45px;
+	z-index:20000;
+	text-align:right;
+	padding-top:2px;
+}
+.igtab_HarvestBHRoundedForScroll
+{
+	margin-left:-66px;
+}
+.igtab_HarvestBHImage
+{
+	vertical-align:middle;
+}
+.igtab_HarvestBHClose
+{
+	position:absolute;
+	left:100%;
+	margin-left:-20px;
+	margin-top:5px;
+	top:0px;
+	cursor: pointer;
+}
+.igtab_HarvestBHScrollButton
+{
+	padding:1px;
+}
+.igtab_HarvestBHText
+{
+	vertical-align:middle;
+	padding:0px 1px 0px 1px;
+	font-family:Verdana;
+	font-size:11px;
+	white-space:nowrap;
+	border:0px;
+	line-height:22px;
+	cursor:default;
+}
+.igtab_HarvestBHCenter
+{
+	padding:0px 1px 0px 1px;
+	display:block;
+	position:relative;
+	/* do not use position-y:bottom, because of IE7 bugs: if tab has IMG, then background is shifted by 1-3 pixels down. */
+	background:url(./images/igtab_BHCenter.png) top left repeat-x;
+	white-space:nowrap;
+	text-align:center;
+	font:22px sans-serif;
+	line-height:22px;
+	overflow:hidden;
+}
+.igtab_HarvestBHCloseSize
+{
+	padding-right:20px;
+}
+.igtab_HarvestBHTail
+{
+	background:url(./images/igtab_BHRight.png) top right no-repeat;
+	padding-left:0px;
+	padding-right:7px;
+	display:block;
+	height:100%;
+}
+.igtab_HarvestBHTab
+{
+	display:inline;
+	position:relative;
+	padding-left:7px;
+	float:left;
+	background:transparent url(./images/igtab_BHLeft.png) top left no-repeat;
+	margin:0px;
+	overflow:hidden;
+	white-space:nowrap;
+	border-top:1px solid #97482E;
+	height:22px;
+}
+.igtab_HarvestBHOverlap
+{
+	margin-left:-5px;
+}
+.igtab_HarvestBHRoundedLastTab
+{
+	margin-right:10px;
+}
+.igtab_HarvestBHTextHov
+{
+	color: #FFFFFF;
+}
+.igtab_HarvestBHCenterHov
+{
+	background-position: 0px -27px;
+	background-color:#e4860b;
+}
+.igtab_HarvestBHTailHov
+{
+	background-image:url(./images/igtab_BHRightHov.png);
+}
+.igtab_HarvestBHTabHov
+{
+	background-position: 0px -27px;
+}
+.igtab_HarvestBHTextSel
+{
+	color: #FFFFFF;
+}
+.igtab_HarvestBHCenterSel
+{
+	background-position: 0px -54px;
+	background-color:#854b06;
+}
+.igtab_HarvestBHTailSel
+{
+	background-image:url(./images/igtab_BHRightSel.png);
+}
+.igtab_HarvestBHTabSel
+{
+	background-position: 0px -54px;
+}
+.igtab_HarvestBHTextAct
+{
+	border:1px dotted #000;
+	padding:0px;
+}
+.igtab_HarvestBHCenterAct
+{
+}
+.igtab_HarvestBHTailAct
+{
+}
+.igtab_HarvestBHTabAct
+{
+}
+.igtab_HarvestBHTextDis
+{
+	color:#AAAAAA;
+}
+.igtab_HarvestBHCenterDis
+{
+	background-position: 0px -81px;
+}
+.igtab_HarvestBHTailDis
+{
+	background-image:url(./images/igtab_BHRightDis.png);
+}
+.igtab_HarvestBHTabDis
+{
+	background-position: 0px -81px;
+}
+.igtab_HarvestBHTabMoving
+{
+	filter:alpha(opacity:30);
+	opacity:0.3;
+}
+.igtab_HarvestBHTabMovingMarkUp
+{
+	filter:alpha(opacity:70);
+	opacity:0.7;
+}
+.igtab_HarvestBHRoundedCorners
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_BRoundCorners.png);
+	background-repeat:no-repeat;
+}
+.igtab_HarvestBHRoundedTopBottom
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_BRoundTopBot.png);
+	background-repeat:repeat-x;
+}
+.igtab_HarvestBHRoundedLeftRight
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_BRoundLeftRight.png);
+	background-repeat:repeat-y;
+}
+.igtab_HarvestBHRoundedFill
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_BRoundFill.png);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.igtab_HarvestBVControl
+{
+	overflow:hidden;
+}
+.igtab_HarvestBVContentHolder
+{
+	border:1px solid #97482E;
+	border-bottom-width: 0px;
+	height:50%;
+	overflow:hidden;
+	position:relative;
+	background:#FFFFFF;
+}
+.igtab_HarvestBVContent
+{
+	height:100%;
+	position:relative;
+	background: #EFEFEF;
+}
+.igtab_HarvestBVHolderNoScroll
+{
+	display:block;
+	position:relative;
+	width:100%;
+}
+.igtab_HarvestBVHolder
+{
+	background:url(./images/igtab_HolderBorder.png) repeat-x top left;
+	position:relative;
+	display:block;
+	width:100%;
+	padding:0px;
+	margin:0px;
+	overflow:hidden;
+	white-space:nowrap;
+}
+.igtab_HarvestBVRoundedForHolder
+{
+	background:none;
+	margin-left:5px;
+}
+.igtab_HarvestBVHolderScroll
+{
+	position:relative;
+	width:100%;
+	margin-left:-45px;
+	display:block;
+	overflow:hidden;
+}
+.igtab_HarvestBVHolderScrollInner
+{
+	position:relative;
+	display:block;
+	width:9999px;
+	left:45px;
+}
+.igtab_HarvestBVScrollButtons
+{
+	font-size:1px;
+	position:absolute;
+	left:100%;
+	display:block;
+	margin-left:-45px;
+	margin-top:3px;
+	width:45px;
+	z-index:20000;
+	text-align:right;
+	padding-top:2px;
+}
+.igtab_HarvestBVRoundedForScroll
+{
+	margin-left:-66px;
+}
+.igtab_HarvestBVImage
+{
+	margin-left:10%;
+	display:block;
+}
+.igtab_HarvestBVClose
+{
+	position:absolute;
+	left:100%;
+	top:100%;
+	margin-left:-24px;
+	margin-top:-18px;
+	cursor: pointer;
+}
+.igtab_HarvestBVScrollButton
+{
+	padding:1px;
+}
+.igtab_HarvestBVText
+{
+	margin-top:3px;
+	margin-bottom:5px;
+	font-family:Verdana;
+	font-size:11px;
+	white-space:nowrap;
+	border:0px;
+	line-height:11px;
+	display:block;
+	text-align:center;
+	overflow:hidden;
+	margin-left:5px;
+	width:20px;
+}
+.igtab_HarvestBVCenter
+{
+	padding-bottom:5px;
+	display:block;
+	position:relative;
+	overflow:hidden;
+}
+.igtab_HarvestBVCloseSize
+{
+	padding-bottom:17px;
+}
+.igtab_HarvestBVMirrorCenter
+{
+	background:url(./images/igtab_BVRight.png) top right repeat-y;
+	display:block;
+	margin-top:-12px;
+	width:100%;
+	height:100%;
+}
+.igtab_HarvestBVMirror
+{
+	background:url(./images/igtab_BVRightBot.png) bottom right no-repeat;
+	display:block;
+	position:absolute;
+	margin-left:8px;
+	width:26px;
+	height:100%;
+}
+.igtab_HarvestBVTail
+{
+	background:url(./images/igtab_BVLeft.png) repeat-y;
+	padding:0px;
+	display:block;
+	position:absolute;
+	width:12px;
+	margin-top:-12px;
+	height:100%;
+}
+.igtab_HarvestBVTab
+{
+	display:inline;
+	position:relative;
+	padding:0px;
+	float:left;
+	background:url(./images/igtab_BVLeftBot.png) bottom left no-repeat;
+	margin:0px;
+	overflow:hidden;
+	width:34px;
+	border-top:1px solid #97482E;
+}
+.igtab_HarvestBVOverlap
+{
+	margin-left:-7px;
+}
+.igtab_HarvestBVRoundedLastTab
+{
+	margin-right:10px;
+}
+.igtab_HarvestBVTextHov
+{
+	color: #FFFFFF;
+}
+.igtab_HarvestBVCenterHov
+{
+}
+.igtab_HarvestBVMirrorCenterHov
+{
+	background-image:url(./images/igtab_BVRightHov.png);
+}
+.igtab_HarvestBVMirrorHov
+{
+	background-image:url(./images/igtab_BVRightBotHov.png);
+}
+.igtab_HarvestBVTailHov
+{
+	background-position: -50px 0px;
+}
+.igtab_HarvestBVTabHov
+{
+	background-image:url(./images/igtab_BVLeftBotHov.png);
+}
+.igtab_HarvestBVTextSel
+{
+	color: #FFFFFF;
+}
+.igtab_HarvestBVCenterSel
+{
+}
+.igtab_HarvestBVMirrorCenterSel
+{
+	background-image:url(./images/igtab_BVRightSel.png);
+}
+.igtab_HarvestBVMirrorSel
+{
+	background-image:url(./images/igtab_BVRightBotSel.png);
+}
+.igtab_HarvestBVTailSel
+{
+	background-position: -100px 0px;
+}
+.igtab_HarvestBVTabSel
+{
+	background-image:url(./images/igtab_BVLeftBotSel.png);
+}
+.igtab_HarvestBVTextAct
+{
+	margin: 2px 0px 0px 4px;
+	border:1px dotted #000;
+}
+.igtab_HarvestBVCenterAct
+{
+}
+.igtab_HarvestBVMirrorCenterAct
+{
+}
+.igtab_HarvestBVMirrorAct
+{
+}
+.igtab_HarvestBVTailAct
+{
+}
+.igtab_HarvestBVTabAct
+{
+}
+.igtab_HarvestBVTextDis
+{
+	color:#AAAAAA;
+}
+.igtab_HarvestBVCenterDis
+{
+}
+.igtab_HarvestBVMirrorCenterDis
+{
+	background-image:url(./images/igtab_BVRightDis.png);
+}
+.igtab_HarvestBVMirrorDis
+{
+	background-image:url(./images/igtab_BVRightBotDis.png);
+}
+.igtab_HarvestBVTailDis
+{
+	background-position: -150px 0px;
+}
+.igtab_HarvestBVTabDis
+{
+	background-image:url(./images/igtab_BVLeftBotDis.png);
+}
+.igtab_HarvestBVTabMoving
+{
+	filter:alpha(opacity:30);
+	opacity:0.3;
+}
+.igtab_HarvestBVTabMovingMarkUp
+{
+	filter:alpha(opacity:70);
+	opacity:0.7;
+}
+.igtab_HarvestBVRoundedCorners
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_BRoundCorners.png);
+	background-repeat:no-repeat;
+}
+.igtab_HarvestBVRoundedTopBottom
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_BRoundTopBot.png);
+	background-repeat:repeat-x;
+}
+.igtab_HarvestBVRoundedLeftRight
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_BRoundLeftRight.png);
+	background-repeat:repeat-y;
+}
+.igtab_HarvestBVRoundedFill
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_BRoundFill.png);
+}
+
+
+
+
+
+
+
+
+.igtab_HarvestLVControl
+{
+	overflow:hidden;
+	position:relative;
+}
+.igtab_HarvestLVContentHolder
+{
+	background:#FFFFFF;
+	border:1px solid #97482e;
+	height:99%;
+	margin-left:24px;
+	position:relative;
+	overflow:hidden;
+	z-index:9;
+}
+.igtab_HarvestLVContent
+{
+	height:100%;
+	position:relative;
+	background-color:#FFFFFF;
+}
+.igtab_HarvestLVHolder
+{
+	overflow:hidden;
+	position:absolute;
+	z-index:999;
+	left:0px;
+	top:0px;
+	height:100%;
+	width:25px;
+}
+.igtab_HarvestLVHolderScroll
+{	
+	top:-47px;
+}
+.igtab_HarvestLVHolderScrollInner
+{
+	top:47px;
+}
+.igtab_HarvestLVRoundedForHolder
+{
+	top:-6px;
+}
+.igtab_HarvestLVRoundedForHolderInner
+{
+	top:12px;
+}
+.igtab_HarvestLVRoundedForHolderScroll
+{
+	top:-53px;
+}
+.igtab_HarvestLVRoundedForHolderScrollInner
+{
+	top:59px;
+}
+.igtab_HarvestLVScrollButtons
+{
+	font-size:1px;
+	position:absolute;
+	top:100%;
+	margin-top:-47px;
+	margin-left:5px;	
+	z-index:20000; 
+	left:0px;
+}
+.igtab_HarvestLVRoundedForScroll
+{
+	margin-top:-53px;
+}
+.igtab_HarvestLVScrollButton
+{
+	display:block;
+	margin-top:2px;
+}
+.igtab_HarvestLVClose
+{
+	position:absolute;
+	cursor:pointer;
+	margin-top:-15px;
+	margin-left:6px;
+}
+.igtab_HarvestLVCloseSize 
+{
+	padding-bottom:14px;
+}
+.igtab_HarvestLVImage
+{
+	vertical-align:middle;
+	position:relative;
+	display:block;
+}
+.igtab_HarvestLVText
+{
+	vertical-align:middle;
+	line-height:14px;
+	font-family:Verdana;
+	font-size:11px;
+	display:block;
+	padding-left:6px;
+	position:relative;
+	
+	cursor:default;
+}
+.igtab_HarvestLVCenter
+{
+	display:block;
+	position:relative;
+	overflow:hidden;	
+	background:url(./images/igtab_LVCenter.gif) repeat-y;
+	background-color:#fcf5ea;
+	padding-left:3px;
+}
+.igtab_HarvestLVTail
+{
+	display:block;
+	background:url(./images/igtab_LVBot.gif) bottom left;
+	padding-top:3px;
+}
+.igtab_HarvestLVTab
+{
+	background:url(./images/igtab_LVTop.gif) no-repeat top left;
+	display:block;
+	overflow:hidden;
+	position:relative;
+	padding-top:3px;
+	border-right:1px solid #97482e;
+}
+.igtab_HarvestLVOverlap
+{
+	margin-top:-5px;
+}
+.igtab_HarvestLVTextHov
+{
+}
+.igtab_HarvestLVCenterHov
+{
+	background-image:url(./images/igtab_LVCenterHov.gif);
+	background-color:#ff9e33;
+}
+.igtab_HarvestLVTailHov
+{
+	background-image:url(./images/igtab_LVBotHov.gif);
+}
+.igtab_HarvestLVTabHov
+{
+	background-image:url(./images/igtab_LVTopHov.gif);
+	color:#ffffff;
+}
+.igtab_HarvestLVTextSel
+{
+}
+.igtab_HarvestLVCenterSel
+{
+	background-image:url(./images/igtab_LVCenterSel.gif);
+	background-color:#834b06;
+}
+.igtab_HarvestLVTailSel
+{
+	background-image:url(./images/igtab_LVBotSel.gif);
+	border-right-color:#834b06;
+}
+.igtab_HarvestLVTabSel
+{
+	background-image:url(./images/igtab_LVTopSel.gif);
+	border-right-color:#854b06;
+}
+.igtab_HarvestLVTextAct
+{	
+	border:1px dotted #000;
+}
+.igtab_HarvestLVCenterAct
+{
+}
+.igtab_HarvestLVTailAct
+{
+}
+.igtab_HarvestLVTabAct
+{
+}
+.igtab_HarvestLVTextDis
+{
+}
+.igtab_HarvestLVCenterDis
+{
+	background-image:url(./images/igtab_LVCenterDis.gif);
+	background-color:#cccccc;
+}
+.igtab_HarvestLVTailDis
+{
+	background-image:url(./images/igtab_LVBotDis.gif);
+}
+.igtab_HarvestLVTabDis
+{
+	background-image:url(./images/igtab_LVTopDis.gif);
+}
+.igtab_HarvestLVTabMoving
+{
+	filter:alpha(opacity:30);
+	opacity:0.3;
+}
+.igtab_HarvestLVTabMovingMarkUp
+{
+	filter:alpha(opacity:70);
+	opacity:0.7;
+}
+.igtab_HarvestLVRoundedCorners
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundCorners.png);
+	background-repeat:no-repeat;
+}
+.igtab_HarvestLVRoundedTopBottom
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundTopBot.png);
+	background-repeat:repeat-x;
+}
+.igtab_HarvestLVRoundedLeftRight
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundLeftRight.png);
+	background-repeat:repeat-y;
+}
+.igtab_HarvestLVRoundedFill
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundFill.png);
+}
+
+
+
+.igtab_HarvestRVControl
+{
+	overflow:hidden;
+	position:relative;
+}
+.igtab_HarvestRVContentHolder
+{
+	background:#FFFFFF;
+	border-right:1px solid #97482e;
+	border-bottom:1px solid #97482e;
+	border-top:1px solid #97482e;
+	height:99%;
+	margin-left:-24px;
+	position:relative;
+	overflow:hidden;
+	width:100%;
+	z-index:9;
+}
+.igtab_HarvestRVContentHolderInner
+{
+	border-left:1px solid #97482e;
+	height:100%;
+	margin-left:24px;
+	position:relative;
+	overflow:hidden;
+	z-index:9;
+}
+.igtab_HarvestRVContent
+{
+	height:100%;
+	position:relative;
+	background-color:#FFFFFF;
+}
+.igtab_HarvestRVHolder
+{
+	overflow:hidden;
+	position:absolute;
+	z-index:999;
+	left:100%;
+	top:0px;
+	height:100%;
+	width:24px;
+	margin-left:-24px;
+}
+.igtab_HarvestRVHolderScroll
+{
+	top:-47px;
+}
+.igtab_HarvestRVHolderScrollInner
+{
+	top:47px;
+}
+.igtab_HarvestRVRoundedForHolder
+{
+	top:-6px;
+}
+.igtab_HarvestRVRoundedForHolderInner
+{
+	top:12px;
+}
+.igtab_HarvestRVRoundedForHolderScroll
+{
+	top:-53px;
+}
+.igtab_HarvestRVRoundedForHolderScrollInner
+{
+	top:59px;
+}
+.igtab_HarvestRVScrollButtons
+{
+	font-size:1px;
+	position:absolute;
+	top:100%;	
+	z-index:20000;
+	left:100%;
+	margin-top:-47px;
+	margin-left:-22px;
+}
+.igtab_HarvestRVRoundedForScroll
+{
+	margin-top:-53px;
+}
+.igtab_HarvestRVScrollButton
+{
+	display:block;
+	margin-top:2px;
+}
+.igtab_HarvestRVClose
+{
+	position:absolute;
+	margin-top:-15px;
+	margin-left:4px;
+	cursor:pointer;
+}
+.igtab_HarvestRVCloseSize
+{
+	padding-bottom:14px;
+}
+.igtab_HarvestRVImage
+{
+	vertical-align:middle;
+	position:relative;
+	display:block;
+}
+.igtab_HarvestRVText
+{
+	vertical-align:middle;
+	line-height:14px;
+	font-family:Verdana;
+	font-size:11px;
+	display:block;
+	padding-left:5px;
+	width:13px;
+	position:relative;
+	
+	cursor:default;
+}
+.igtab_HarvestRVCenter
+{
+	display:block;
+	position:relative;
+	overflow:hidden;
+	background:url(./images/igtab_RVCenter.gif) repeat-y top right;
+	background-color:#fcf5ea;
+	padding-left:1px;
+}
+.igtab_HarvestRVTail
+{
+	display:block;
+	background:url(./images/igtab_RVBot.gif) bottom right;
+	padding-top:3px;
+}
+.igtab_HarvestRVTab
+{
+	background:url(./images/igtab_RVTop.gif) no-repeat top right;
+	display:block;
+	overflow:hidden;
+	position:relative;
+	padding-top:3px;
+	border-left:1px solid #97482e;
+}
+.igtab_HarvestRVOverlap
+{
+	margin-top:-5px;
+}
+.igtab_HarvestRVTextHov
+{
+}
+.igtab_HarvestRVCenterHov
+{
+	background-image:url(./images/igtab_RVCenterHov.gif);
+	background-color:#ff9e33;
+}
+.igtab_HarvestRVTailHov
+{
+	background-image:url(./images/igtab_RVBotHov.gif);
+}
+.igtab_HarvestRVTabHov
+{
+	background-image:url(./images/igtab_RVTopHov.gif);
+	color:#ffffff;
+}
+.igtab_HarvestRVTextSel
+{
+}
+.igtab_HarvestRVCenterSel
+{
+	background-image:url(./images/igtab_RVCenterSel.gif);
+	background-color:#834b06;
+}
+.igtab_HarvestRVTailSel
+{
+	background-image:url(./images/igtab_RVBotSel.gif);
+	border-left-color:#834b06;
+}
+.igtab_HarvestRVTabSel
+{
+	background-image:url(./images/igtab_RVTopSel.gif);
+	border-left-color:#854b06;
+}
+.igtab_HarvestRVTextAct
+{
+	border:1px dotted #000;
+}
+.igtab_HarvestRVCenterAct
+{
+}
+.igtab_HarvestRVTailAct
+{
+}
+.igtab_HarvestRVTabAct
+{
+}
+.igtab_HarvestRVTextDis
+{
+}
+.igtab_HarvestRVCenterDis
+{
+	background-image:url(./images/igtab_RVCenterDis.gif);
+	background-color:#cccccc;
+}
+.igtab_HarvestRVTailDis
+{
+	background-image:url(./images/igtab_RVBotDis.gif);
+}
+.igtab_HarvestRVTabDis
+{
+	background-image:url(./images/igtab_RVTopDis.gif);
+}
+.igtab_HarvestRVTabMoving
+{
+	filter:alpha(opacity:30);
+	opacity:0.3;
+}
+.igtab_HarvestRVTabMovingMarkUp
+{
+	filter:alpha(opacity:70);
+	opacity:0.7;
+}
+.igtab_HarvestRVRoundedCorners
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundCorners.png);
+	background-repeat:no-repeat;
+}
+.igtab_HarvestRVRoundedTopBottom
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundTopBot.png);
+	background-repeat:repeat-x;
+}
+.igtab_HarvestRVRoundedLeftRight
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundLeftRight.png);
+	background-repeat:repeat-y;
+}
+.igtab_HarvestRVRoundedFill
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundFill.png);
+}
+
+
+
+
+
+
+
+.igtab_HarvestLHControl
+{
+	overflow:hidden;
+	position:relative;
+}
+.igtab_HarvestLHContentHolder
+{
+	background:#FFFFFF;
+	border:1px solid #97482e;
+	height:99%;
+	left:-1px;
+	position:relative;
+	overflow:hidden;
+	z-index:9;
+}
+.igtab_HarvestLHContent
+{
+	height:100%;
+	position:relative;
+	background-color:#FFFFFF;
+}
+.igtab_HarvestLHHolder
+{
+	overflow:hidden;
+	position:absolute;
+	z-index:999;
+	left:0px;
+	top:0px;
+	height:100%;
+}
+.igtab_HarvestLHHolderScroll
+{
+	top:-47px;
+}
+.igtab_HarvestLHHolderScrollInner
+{
+	top:47px;
+}
+.igtab_HarvestLHRoundedForHolder
+{
+	top:-6px;
+}
+.igtab_HarvestLHRoundedForHolderInner
+{
+	top:12px;
+}
+.igtab_HarvestLHRoundedForHolderScroll
+{
+	top:-53px;
+}
+.igtab_HarvestLHRoundedForHolderScrollInner
+{
+	top:59px;
+}
+.igtab_HarvestLHScrollButtons
+{
+	font-size:1px;
+	position:absolute;
+	top:100%;
+	margin-top:-47px;
+	margin-left:-21px;
+	z-index:20000;
+}
+.igtab_HarvestLHRoundedForScroll
+{
+	margin-top:-53px;
+}
+.igtab_HarvestLHScrollButton
+{
+	display:block;
+	margin-top:2px;
+}
+.igtab_HarvestLHClose
+{
+	position:absolute;
+	left:100%;
+	top:12px;
+	margin-left:-17px;
+	cursor:pointer;
+}
+.igtab_HarvestLHCloseSize
+{
+	padding-right:10px;
+}
+.igtab_HarvestLHImage
+{
+	vertical-align:middle;
+	position:relative;
+	margin-top:2px;
+}
+.igtab_HarvestLHText
+{
+	vertical-align:middle;	
+	line-height:24px;
+	font-family:Verdana;
+	font-size:11px;
+	white-space:nowrap;
+	position:relative;
+	cursor:default;
+}
+.igtab_HarvestLHCenter
+{
+	display:block;
+	background:url(./images/igtab_LHTop.gif) repeat-x;
+	background-color:#fcf5ea;
+	font:1px verdana;
+	line-height:1px;
+	height:100%;
+}
+.igtab_HarvestLHTail
+{
+	display:block;
+	background:url(./images/igtab_LHTopLeft.gif) no-repeat;
+	padding-left:10px;
+	white-space:nowrap;
+	border-right:1px solid #97482e;
+	height:24px;
+}
+.igtab_HarvestLHMirror
+{
+	display:block;
+	padding-left:10px;
+	background:url(./images/igtab_LHBotLeft.gif) bottom left no-repeat;
+	border-right:1px solid #97482e;
+	height:3px;
+}
+.igtab_HarvestLHMirrorCenter
+{
+	display:block;
+	background:url(./images/igtab_LHBot.gif) bottom left repeat-x;
+	font:1px verdana;
+	line-height:1px;
+	height:100%;
+}
+.igtab_HarvestLHTab
+{
+	display:block;
+	overflow:hidden;
+	position:relative;
+}
+.igtab_HarvestLHOverlap
+{
+	margin-top:-5px;
+}
+.igtab_HarvestLHTextHov
+{
+}
+.igtab_HarvestLHCenterHov
+{
+	background-image:url(./images/igtab_LHTopHov.gif);
+	background-color:#ff9e33;
+}
+.igtab_HarvestLHTailHov
+{
+	background-image:url(./images/igtab_LHTopLeftHov.gif);
+}
+.igtab_HarvestLHMirrorHov
+{
+	background-image:url(./images/igtab_LHBotLeftHov.gif);
+}
+.igtab_HarvestLHMirrorCenterHov
+{
+	background-image:url(./images/igtab_LHBotHov.gif);
+}
+.igtab_HarvestLHTabHov
+{
+}
+.igtab_HarvestLHTextSel
+{
+}
+.igtab_HarvestLHCenterSel
+{
+	background-image:url(./images/igtab_LHTopSel.gif);
+	background-color:#834b06;
+}
+.igtab_HarvestLHTailSel
+{
+	background-image:url(./images/igtab_LHTopLeftSel.gif);
+	border-right-color:#834b06;
+}
+.igtab_HarvestLHMirrorSel
+{
+	background-image:url(./images/igtab_LHBotLeftSel.gif);
+	border-right-color:#834b06;
+}
+.igtab_HarvestLHMirrorCenterSel
+{
+	background-image:url(./images/igtab_LHBotSel.gif);
+}
+.igtab_HarvestLHTabSel
+{
+}
+.igtab_HarvestLHTextAct
+{
+	border:1px dotted blue;
+}
+.igtab_HarvestLHCenterAct
+{
+}
+.igtab_HarvestLHTailAct
+{
+}
+.igtab_HarvestLHMirrorAct
+{
+}
+.igtab_HarvestLHMirrorCenterAct
+{
+}
+.igtab_HarvestLHTabAct
+{
+}
+.igtab_HarvestLHTextDis
+{
+}
+.igtab_HarvestLHCenterDis
+{
+	background-image:url(./images/igtab_LHTopDis.gif);
+	background-color:#cccccc;
+}
+.igtab_HarvestLHTailDis
+{
+	background-image:url(./images/igtab_LHTopLeftDis.gif);
+}
+.igtab_HarvestLHMirrorDis
+{
+	background-image:url(./images/igtab_LHBotLeftDis.gif);
+}
+.igtab_HarvestLHMirrorCenterDis
+{
+	background-image:url(./images/igtab_LHBotDis.gif);
+}
+.igtab_HarvestLHTabDis
+{
+}
+.igtab_HarvestLHTabMoving
+{
+	filter:alpha(opacity:30);
+	opacity:0.3;
+}
+.igtab_HarvestLHTabMovingMarkUp
+{
+	filter:alpha(opacity:70);
+	opacity:0.7;
+}
+.igtab_HarvestLHRoundedCorners
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundCorners.png);
+	background-repeat:no-repeat;
+}
+.igtab_HarvestLHRoundedTopBottom
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundTopBot.png);
+	background-repeat:repeat-x;
+}
+.igtab_HarvestLHRoundedLeftRight
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundLeftRight.png);
+	background-repeat:repeat-y;
+}
+.igtab_HarvestLHRoundedFill
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundFill.png);
+}
+
+
+
+
+
+
+
+.igtab_HarvestRHControl
+{
+	overflow:hidden;
+	position:relative;
+}
+.igtab_HarvestRHContentHolder
+{
+	background:#FFFFFF;
+	border-right:1px solid #97482e;
+	border-bottom:1px solid #97482e;
+	border-top:1px solid #97482e;
+	height:99%;
+	position:relative;
+	overflow:hidden;
+	width:100%;
+	z-index:9;
+}
+.igtab_HarvestRHContentHolderInner
+{
+	border-left:1px solid #97482e;
+	height:100%;
+	position:relative;
+	overflow:hidden;
+	z-index:9;
+}
+.igtab_HarvestRHContent
+{
+	height:100%;
+	position:relative;
+	background-color:#FFFFFF;
+}
+.igtab_HarvestRHHolder
+{
+	overflow:hidden;
+	position:absolute;
+	z-index:999;
+	left:100%;
+	top:0px;
+	height:100%;
+}
+.igtab_HarvestRHHolderScroll
+{
+	top:-47px;
+}
+.igtab_HarvestRHHolderScrollInner
+{
+	top:47px;
+}
+.igtab_HarvestRHRoundedForHolder
+{
+	top:-6px;
+}
+.igtab_HarvestRHRoundedForHolderInner
+{
+	top:12px;
+}
+.igtab_HarvestRHRoundedForHolderScroll
+{
+	top:-53px;
+}
+.igtab_HarvestRHRoundedForHolderScrollInner
+{
+	top:59px;
+}
+.igtab_HarvestRHScrollButtons
+{
+	font-size:1px;
+	position:absolute;
+	top:100%;
+	margin-top:-47px;
+	z-index:20000;
+	left:100%;
+}
+.igtab_HarvestRHRoundedForScroll
+{
+	margin-top:-53px;
+}
+.igtab_HarvestRHScrollButton
+{
+	display:block;
+	margin-top:2px;
+	margin-left:3px;
+}
+.igtab_HarvestRHClose
+{
+	position:absolute;
+	top:12px;
+	margin-left:3px;
+	cursor:pointer;
+}
+.igtab_HarvestRHCloseSize
+{
+	padding-left:10px;
+}
+.igtab_HarvestRHImage
+{
+	vertical-align:middle;
+	position:relative;
+	margin-top:2px;
+}
+.igtab_HarvestRHText
+{
+	vertical-align:middle;
+	line-height:24px;
+	font-family:Verdana;
+	font-size:11px;
+	white-space:nowrap;
+	position:relative;
+	cursor:default;
+}
+.igtab_HarvestRHCenter
+{
+	display:block;
+	background:url(./images/igtab_RHTop.gif) repeat-x;
+	background-color:#fcf5ea;
+	line-height:20px;
+	font:22px sans-serif;
+	text-align:right;
+	white-space:nowrap;
+	overflow:hidden;
+}
+.igtab_HarvestRHTail
+{
+	display:block;
+	padding-right:10px;
+	background:url(./images/igtab_RHTopRight.gif) top right no-repeat;
+	white-space:nowrap;
+	border-left:1px solid #97482e;
+	height:24px;
+}
+.igtab_HarvestRHMirror
+{
+	display:block;
+	padding-right:10px;
+	background:url(./images/igtab_RHBotRight.gif) bottom right no-repeat;
+	border-left:1px solid #97482e;
+	height:3px;
+}
+.igtab_HarvestRHMirrorCenter
+{
+	display:block;
+	background:url(./images/igtab_RHBot.gif) bottom left repeat-x;
+	font:1px verdana;
+	line-height:1px;
+	height:100%;
+}
+.igtab_HarvestRHTab
+{
+	display:block;
+	overflow:hidden;
+	position:relative;
+}
+.igtab_HarvestRHOverlap
+{
+	margin-top:-5px;
+}
+.igtab_HarvestRHTextHov
+{
+}
+.igtab_HarvestRHCenterHov
+{
+	background-image:url(./images/igtab_RHTopHov.gif);
+	background-color:#ff9e33;
+}
+.igtab_HarvestRHTailHov
+{
+	background-image:url(./images/igtab_RHTopRightHov.gif);
+}
+.igtab_HarvestRHMirrorHov
+{
+	background-image:url(./images/igtab_RHBotRightHov.gif);
+}
+.igtab_HarvestRHMirrorCenterHov
+{
+	background-image:url(./images/igtab_RHBotHov.gif);
+}
+.igtab_HarvestRHTabHov
+{
+}
+.igtab_HarvestRHTextSel
+{
+}
+.igtab_HarvestRHCenterSel
+{
+	background-image:url(./images/igtab_RHTopSel.gif);
+	background-color:#834b06;
+}
+.igtab_HarvestRHTailSel
+{
+	background-image:url(./images/igtab_RHTopRightSel.gif);
+	border-left-color:#834b06;
+}
+.igtab_HarvestRHMirrorSel
+{
+	background-image:url(./images/igtab_RHBotRightSel.gif);
+	border-left-color:#834b06;
+}
+.igtab_HarvestRHMirrorCenterSel
+{
+	background-image:url(./images/igtab_RHBotSel.gif);
+}
+.igtab_HarvestRHTabSel
+{
+}
+.igtab_HarvestRHTextAct
+{
+	border:1px dotted blue;
+}
+.igtab_HarvestRHCenterAct
+{
+}
+.igtab_HarvestRHTailAct
+{
+}
+.igtab_HarvestRHMirrorAct
+{
+}
+.igtab_HarvestRHMirrorCenterAct
+{
+}
+.igtab_HarvestRHTabAct
+{
+}
+.igtab_HarvestRHTextDis
+{
+}
+.igtab_HarvestRHCenterDis
+{
+	background-image:url(./images/igtab_RHTopDis.gif);
+	background-color:#cccccc;
+}
+.igtab_HarvestRHTailDis
+{
+	background-image:url(./images/igtab_RHTopRightDis.gif);
+}
+.igtab_HarvestRHMirrorDis
+{
+	background-image:url(./images/igtab_RHBotRightDis.gif);
+}
+.igtab_HarvestRHMirrorCenterDis
+{
+	background-image:url(./images/igtab_RHBotDis.gif);
+}
+.igtab_HarvestRHTabDis
+{
+}
+.igtab_HarvestRHRoundedCorners
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundCorners.png);
+	background-repeat:no-repeat;
+}
+.igtab_HarvestRHRoundedTopBottom
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundTopBot.png);
+	background-repeat:repeat-x;
+}
+.igtab_HarvestRHRoundedLeftRight
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundLeftRight.png);
+	background-repeat:repeat-y;
+}
+.igtab_HarvestRHRoundedFill
+{
+	position:absolute;
+	display:block;
+	background-image:url(./images/igtab_TRoundFill.png);
+}

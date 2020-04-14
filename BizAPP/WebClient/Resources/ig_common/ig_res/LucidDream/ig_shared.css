@@ -1,0 +1,159 @@
+.ig_LucidDreamControl
+{
+	background-color:White;
+	font-size:xx-small;
+	font-family: verdana;
+	color:Black;
+}
+
+
+.ig_LucidDreamItem
+{
+	background-color:White;
+	font-size:10px;
+	font-family: verdana;
+	padding-left:1px;
+}
+
+
+.ig_LucidDreamButton
+{
+	cursor:hand;
+}
+
+
+.ig_LucidDreamButtonHover
+{
+}
+
+
+.ig_LucidDreamButtonPressed
+{
+}
+
+
+.ig_LucidDreamButtonDisabled
+{
+}
+
+
+.ig_LucidDreamHover
+{
+}
+
+
+.ig_LucidDreamSelected
+{
+}
+
+
+.ig_LucidDreamDisabled
+{
+}
+
+
+.ig_LucidDreamHeader
+{
+}
+
+
+.ig_LucidDreamFooter
+{
+}
+
+
+.ig_LucidDreamEditWithButtons
+{
+}
+
+
+.ig_LucidDreamEdit
+{
+}
+
+
+.ig_LucidDreamEditInContainer
+{
+}
+
+
+.ig_LucidDreamAlt
+{
+	border-top:solid 1px #E3EFFF;
+	border-right:solid 0px #FFFFFF;
+	border-bottom:solid 1px #E3EFFF;
+	border-left:solid 0px #FFFFFF;
+}
+
+
+.ig_LucidDreamDropDown
+{
+}
+
+
+.ig_LucidDreamEditSelected
+{
+}
+
+
+Body
+{
+}
+
+
+.ms-WPBody .igte_LucidDreamEditWithButtons TABLE
+{
+	font-size:1px;
+}
+
+
+.ms-wpbody .ig_LucidDreamControl td
+{
+	background-color: inherit;
+	font-style:inherit;
+	font-size:xx-small;
+	border-bottom-style:none;
+}
+
+
+.ms-WPBody .igmc_LucidDreamControl TABLE
+{
+	font-style:inherit;
+	font-size:xx-small;
+}
+
+
+.ms-WPBody .igte_LucidDreamEditWithButtons TD
+{
+	background-color:Transparent;
+	font-size:1px;
+	border-bottom-style:none;
+}
+
+
+.ms-WPBody .igdw_LucidDreamControl TD
+{
+	background-color:White;
+}
+
+
+.ms-WPBody .igmc_LucidDreamControl TD
+{
+	background-color: inherit;
+	font-style:inherit;
+	font-size:xx-small;
+	border-style:inherit;
+}
+
+
+.ms-wpbody .ig_LucidDreamControl table
+{
+	font-style:inherit;
+	font-size:xx-small;
+	border-collapse:Separate;
+}
+
+.ie7_DisplayInlineFix { display: inline-block; }
+.ie7_DisplayInlineFix { display: inline; }
+
+

@@ -1,0 +1,88 @@
+.igcal_HarvestControl
+{
+	border:solid 1px #97462C;
+	cursor:hand;
+}
+
+
+.igcal_HarvestCalendar
+{
+}
+
+
+.igcal_HarvestDOW
+{
+	font-weight:bold;
+	font-size:xx-small;
+	border-width:0px;
+	border-bottom:solid 1px #4F7600;
+	padding:5px 0px 0px 0px;
+}
+
+
+.igcal_HarvestDay
+{
+	font-size:xx-small;
+	border-width:0px;
+}
+
+
+.igcal_HarvestNextPrev
+{
+	background-color:#B95C07;
+	padding-right:5px;
+	padding-left:5px;
+}
+
+
+.igcal_HarvestFooter
+{
+	background-color:#F0F0F0;
+	padding:3px;
+	text-align:center;
+}
+
+
+.igcal_HarvestHeader
+{
+	background-color:#B95C07;
+	font-weight:bold;
+	font-size:10px;
+	height: 16px;
+	color:White;
+}
+
+
+.igcal_HarvestDropDown
+{
+}
+
+
+.igcal_HarvestWeekendDay
+{
+}
+
+
+.igcal_HarvestOtherMonthDay
+{
+	color:#B3B3B3;
+}
+
+
+.igcal_HarvestWeekendDayMajor
+{
+}
+
+
+.igcal_HarvestTodayDay
+{
+	border:solid 1px #BB5503;
+}
+
+
+.igcal_HarvestSelectedDay
+{
+	background-color:#FBC84F;
+}
+
+

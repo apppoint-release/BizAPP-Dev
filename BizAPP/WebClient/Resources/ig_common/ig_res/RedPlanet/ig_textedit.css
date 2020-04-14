@@ -1,0 +1,85 @@
+.igtxt_RedPlanetEditWithButtons
+{
+	background-position:bottom;
+	background-image:url(images/item_back.gif);
+	font-family: Verdana;
+	font-size:10px;
+	line-height:1px;
+	height:20px;
+	width:130px;
+	border:solid 1px Gainsboro;
+}
+
+
+.igtxt_RedPlanetEdit
+{
+	background-position:bottom;
+	background-image:url(images/gridbg.gif);
+	font-size:11px;
+	font-family: Verdana;
+	border:solid 1px Gainsboro;
+	outline:0;
+}
+
+.igtxt_RedPlanetTextArea
+{
+	background-position:bottom;
+	background-image:url(images/gridbg.gif);
+	font-size:11px;
+	font-family:Verdana;
+	border:solid 1px Gainsboro;
+	outline:0;
+}
+
+.igtxt_RedPlanetEditInContainer
+{
+	background-position:bottom;
+	background-image:url(images/gridbg.gif);
+	font-size:11px;
+	font-family: Verdana;
+	border:0px;
+	outline:0;
+}
+
+.igtxt_RedPlanetFocus
+{
+	border-color:#C0C080;
+}
+
+.igtxt_RedPlanetButtonSize
+{
+	width:15px;
+	height:100%;
+}
+
+.igtxt_RedPlanetButton
+{
+	background-color:White;
+	line-height:normal;
+	border:solid 1px Silver;
+}
+
+.igtxt_RedPlanetButtonFocus
+{
+	background-color:#F0F0B0;
+}
+
+.igtxt_RedPlanetButtonHover
+{
+	border:solid 1px #BA001F;
+}
+
+
+.igtxt_RedPlanetButtonPressed
+{
+	border:solid 1px IndianRed;
+}
+
+
+.igtxt_RedPlanetButtonDisabled
+{
+	background-color:#EAF2FB;
+	border:solid 1px White;
+}
+
+

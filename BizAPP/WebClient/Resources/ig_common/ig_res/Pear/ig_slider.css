@@ -1,0 +1,475 @@
+.igsli_PearControl
+{
+	overflow:hidden;
+	border: none;
+	background: transparent;
+}
+.igsli_PearTicksHolderT
+{
+	position:relative;
+	width:100%;
+	font-size:1px;
+	height:5px;
+	border-bottom:0px solid blue;
+	margin-bottom:2px;
+}
+.igsli_PearTicksHolderB
+{
+	position:relative;
+	width:100%;
+	font-size:1px;
+	height:5px;
+	border-top:0px solid blue;
+	margin-top:2px;
+}
+.igsli_PearTickMinorT
+{
+	position:absolute;
+	font-size:1px;
+	border-left:1px solid #A9A9A9;
+	margin-top:2px;
+	height:3px;
+}
+.igsli_PearTickMajorT
+{
+	position:absolute;
+	font-size:1px;
+	border-left:1px solid #A9A9A9;
+	height:5px;
+}
+.igsli_PearTickLastT
+{
+	width:1px;
+	margin-left:-1px;
+}
+.igsli_PearTickMinorB
+{
+	position:absolute;
+	font-size:1px;
+	border-left:1px solid #A9A9A9;
+	height:3px;
+}
+.igsli_PearTickMajorB
+{
+	position:absolute;
+	font-size:1px;
+	border-left:1px solid #A9A9A9;
+	height:5px;
+}
+.igsli_PearTickLastB
+{
+	width:1px;
+	margin-left:-1px;
+}
+.igsli_PearMarginH
+{
+	width:10px;
+	font-size:1px;
+	height:100%;
+}
+.igsli_PearLabelsHolderH
+{
+	position:relative;
+	width:100%;
+	font-family:verdana;
+	font-size:10px;
+}
+/* it should be after margin */
+/* if labels are on edges, then position and margin are disabled by inline style */
+.igsli_PearLabelEdgeH
+{
+	overflow:hidden;
+	text-align:center;
+	width:26px;
+	height:14px;
+	white-space:nowrap;
+	font-family:verdana;
+	font-size:10px;
+	color: #666666;
+}
+.igsli_PearLabelT
+{
+	position:absolute;
+	overflow:hidden;
+	text-align:center;
+	margin-left:-23px;
+	width:46px; 
+	height:14px; 
+	white-space:nowrap;
+	font-family:verdana;
+	font-size:10px;
+	color: #666666;
+}
+.igsli_PearLabelB
+{
+	position:absolute;
+	overflow:hidden;
+	text-align:center;
+	margin-left:-23px;
+	width:46px;
+	height:14px;
+	white-space:nowrap;
+	font-family:verdana;
+	font-size:10px;
+	color: #666666;
+}
+.igsli_PearTrackH
+{
+	position:relative;
+	text-align:left;
+	margin-left:-1px;
+	border:1px solid #ADC654;
+	background:#FFFFFF;
+	width:100%;
+	font-size:1px;
+	height:5px;
+	filter:alpha(opacity:80);
+	opacity:0.8;
+}
+.igsli_PearTrackValueH
+{
+	position:absolute;
+	background:#ADC654;
+	height:5px;
+}
+.igsli_PearTrackValue2H
+{
+	position:absolute;
+	background:#636A4C;
+	height:5px;
+}
+.igsli_PearButton
+{
+	margin:2px;
+	cursor:pointer;
+}
+.igsli_PearThumbsHolderH
+{
+	position:relative;
+	z-index:1;
+	font-size:1px;
+	width:100%;
+}
+.igsli_PearThumbH
+{
+	position:absolute;
+	margin-left:-3px;
+	margin-top:-14px;
+	cursor: hand;
+	z-index:2;
+}
+.igsli_PearValueLabel
+{
+	white-space:nowrap;
+	overflow:hidden;
+	font-family:verdana;
+	font-size:10px;
+	text-align:center;
+	width:46px;
+	color: #808080;
+}
+.igsli_PearValueLabelFloatT
+{
+	position:absolute;
+	background:white;
+	border:1px solid #A9A9A9;
+	filter:alpha(opacity:0);
+	opacity:0;
+	height:13px;
+	overflow:visible;
+	width: auto;
+	min-width: 28px;
+	margin-left:-23px;
+	margin-top:-31px;
+	color: #808080;
+	padding-left:1px;
+	padding-right: 1px;
+}
+.igsli_PearValueLabelFloatB
+{
+	position:absolute;
+	overflow:visible;
+	width: auto;
+	min-width: 28px;
+	background:white;
+	border:1px solid #A9A9A9;
+	filter:alpha(opacity:0);
+	opacity:0;
+	height:13px;
+	margin-left:-23px;
+	margin-top:10px;
+	color: #808080;
+	padding-left:1px;
+	padding-right: 1px;
+}
+
+.igsli_PearTicksHolderL
+{
+	position:relative;
+	height:100%;
+	font-size:1px;
+	width:5px;
+	border-right:0px solid blue;
+	text-align:left;
+	margin-right:2px;
+}
+.igsli_PearTicksHolderR
+{
+	position:relative;
+	height:100%;
+	font-size:1px;
+	width:5px;
+	border-left:0px solid blue;
+	text-align:left;
+	margin-left:2px;
+}
+.igsli_PearTickMinorL
+{
+	position:absolute;
+	font-size:1px;
+	border-top:1px solid #A9A9A9;
+	margin-left:2px;
+	width:3px;
+}
+.igsli_PearTickMajorL
+{
+	position:absolute;
+	font-size:1px;
+	border-top:1px solid #A9A9A9;
+	width:5px;
+}
+.igsli_PearTickLastL
+{
+	height:1px;
+	margin-top:-1px;
+}
+.igsli_PearTickMinorR
+{
+	position:absolute;
+	font-size:1px;
+	border-top:1px solid #A9A9A9;
+	width:3px;
+}
+.igsli_PearTickMajorR
+{
+	position:absolute;
+	font-size:1px;
+	border-top:1px solid #A9A9A9;
+	width:5px;
+}
+.igsli_PearTickLastR
+{
+	height:1px;
+	margin-top:-1px;
+}
+.igsli_PearMarginV
+{
+	height:10px;
+	font-size:1px;
+}
+/* it should be after margin */
+/* if labels are on edges, then position and margin are disabled by inline style */
+.igsli_PearLabelEdgeV
+{
+	overflow:hidden;
+	white-space:nowrap;
+	width:20px;
+	height:14px;
+	font-family:verdana;
+	font-size:10px;
+	text-align:center;
+	color: #666666;
+}
+.igsli_PearLabelL
+{
+	position:absolute;
+	overflow:hidden;
+	white-space:nowrap;
+	width:40px;
+	height:14px;
+	margin-top:-7px;
+	margin-left: -25px;
+	font-family:verdana;
+	font-size:10px;
+	text-align:right;
+	color: #666666;
+}
+.igsli_PearLabelR
+{
+	position:absolute;
+	overflow:visible;
+	white-space:nowrap;
+	width:40px;
+	height:14px;
+	margin-top:-7px;
+	margin-left: 5px;
+	font-family:verdana;
+	font-size:10px;
+	color: #666666;
+}
+.igsli_PearLabelsHolderV
+{
+	position:relative;
+	text-align:left;
+	height:100%;
+	font-family:verdana;
+	font-size:10px;
+	width:20px;
+}
+.igsli_PearTrackV
+{
+	position:relative;
+	text-align:left;
+	border:1px solid #ADC654;
+	background:#ffffff;
+	height:100%;
+	font-size:1px;
+	width:5px;
+}
+.igsli_PearTrackValueV
+{
+	position:absolute;
+	background:#80A000;
+	width:100%;
+	margin-top:1px;
+}
+.igsli_PearTrackValue2V
+{
+	position:absolute;
+	background:#636A4C;
+	width:100%;
+
+}
+.igsli_PearThumbsHolderV
+{
+	position:relative;
+	z-index:1;
+	font-size:1px;
+	height:100%;
+}
+.igsli_PearThumbV
+{
+	position:absolute;
+	margin-left:-12px;
+	margin-top:-3px;
+	z-index:2;
+}
+.igsli_PearValueLabelFloatL
+{
+	position:absolute;
+	overflow:visible;
+	background:white;
+	border:1px solid #A9A9A9;
+	filter:alpha(opacity:0);
+	opacity:0;
+	height:13px;
+	text-align:right;
+	margin-top:-7px;	
+	margin-left:-46px;
+	width:auto;
+	min-width: 28px;
+	color: #808080;
+	padding-left: 1px;
+	padding-right: 1px;
+}
+.igsli_PearValueLabelFloatR
+{
+	position:absolute;
+	overflow:visible;
+	background:white;
+	border:1px solid #A9A9A9;
+	filter:alpha(opacity:0);
+	opacity:0;
+	height:13px;
+	text-align:left;
+	margin-left:8px;
+	margin-top:-7px;
+	min-width: 28px;
+	width: auto;
+	color: #808080;
+	padding-left: 1px;
+	padding-right: 1px;
+}
+.igsli_PearValueLabelFloatHover
+{
+	filter:alpha(opacity:100);
+	opacity:1;
+}
+/* applied to control when it has focus and when rounded corners are disabled */
+.igsli_PearFocus
+{
+}
+/* applied to control when mouse moved over it and when rounded corners are disabled */
+.igsli_PearHover
+{
+}
+/* applied to control when it is disabled and when rounded corners are disabled */
+.igsli_PearDisabled
+{
+	background:#C0C0C0;
+}
+/* applied to track bar when control focus and when rounded corners of track are disabled */
+.igsli_PearTrackFocus
+{
+	filter:alpha(opacity:50);
+	opacity:0.5;
+}
+/* applied to track bar when mouse is moved over control and when rounded corners of track are disabled */
+.igsli_PearTrackHover
+{
+	filter:alpha(opacity:100);
+	opacity:1;
+}
+/* applied to track bar when control is disabled and when rounded corners of track are disabled */
+.igsli_PearTrackDisabled
+{
+	background:#A0A0A0;
+}
+/* applied to left edge of horizontal track bar */
+.igsli_PearTrackEdgeL
+{
+	position:absolute;
+	width:6px;
+	height:100%;
+	top:0px;
+	left:-5px;
+}
+/* applied to right edge of horizontal track bar */
+.igsli_PearTrackEdgeR
+{
+	position:absolute;
+	width:7px;
+	height:100%;
+	top:0px;
+	left:100%; 
+}
+/* applied to top edge of vertical track bar */
+.igsli_PearTrackEdgeT
+{
+	position:absolute;
+	width:100%;
+	height:0px;
+	top:-0px;
+	left:0px;
+	background:url(none);
+}
+/* applied to left edge of vertical track bar */
+.igsli_PearTrackEdgeB
+{
+	position:absolute;
+	width:100%;
+	height:0px;
+	top:100%;
+	left:0px;
+	background:url(none) left bottom;
+}
+/* applied to left edge of horizontal track bar when TrackValue is enabled */
+.igsli_PearTrackValueEdgeL
+{
+	background:url(none);
+}
+/* applied to bottom edge of vertical track bar when TrackValue is enabled */
+.igsli_PearTrackValueEdgeB
+{
+	background:url(none);
+}

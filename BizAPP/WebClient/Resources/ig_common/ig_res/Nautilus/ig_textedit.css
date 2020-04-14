@@ -1,0 +1,86 @@
+.igtxt_NautilusEditWithButtons
+{
+	background-color:#D3DACB;
+	font-size:10px;
+	font-family: Verdana;
+	line-height:1px;
+	height:20px;
+	width:130px;
+	border:solid 1px #A7A6AA;
+}
+
+
+.igtxt_NautilusEdit
+{
+	background-color:#D3DACB;
+	font-size:11px;
+	font-family:verdana;
+	border:solid 1px #A7A6AA;
+	outline:0;
+}
+
+.igtxt_NautilusTextArea
+{
+	background-color:#D3DACB;
+	border:solid 1px #A7A6AA;
+	font-size:11px;
+	font-family:verdana;
+	outline:0;
+}
+
+.igtxt_NautilusEditInContainer
+{
+	background-color:#D3DACB;
+	font-size:11px;
+	font-family: verdana;
+	border-width:0px;
+	margin:0px;
+	padding-top:0px;
+	padding-bottom:0px;
+	outline:0;
+}
+
+.igtxt_NautilusFocus
+{
+	border-color:#C0C080;
+}
+
+.igtxt_NautilusButtonSize
+{
+	width:15px;
+	height:100%;
+}
+
+.igtxt_NautilusButton
+{
+	background-color:#C1D8E6;
+	line-height:normal;
+	border:solid 1px #EAF2FB;
+}
+
+.igtxt_NautilusButtonFocus
+{
+	background-color:#F0F0B0;
+}
+
+.igtxt_NautilusButtonHover
+{
+	background-color:#FF8A16;
+	border:solid 1px #ABC1DE;
+}
+
+
+.igtxt_NautilusButtonPressed
+{
+	background-color:#FFA738;
+	border:solid 1px #ABC1DE;
+}
+
+
+.igtxt_NautilusButtonDisabled
+{
+	background-color:#EAF2FB;
+	border:solid 1px White;
+}
+
+

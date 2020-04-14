@@ -1,0 +1,662 @@
+/* The CSS Class that will be applied to the outer control.*/
+.igiv_ClaymationControl
+{
+	background-color:Transparent;
+	border: 0px;
+	border-width: 0px;
+	padding-bottom: 45px;
+}
+
+
+/*
+	This class should be used for setting any padding that might be 
+	needed if the Header is placed above the control.
+*/
+.igiv_ClaymationHeaderPadding
+{
+	padding-top: 45px;
+}
+
+
+/*
+	This class should be used for adjusting the padding of the control
+	to account for the additional size of the header and footer.
+*/
+.igiv_ClaymationFooterPadding
+{
+	padding-bottom: 45px;
+}
+
+
+/*
+	The CSS class that will be applied to the header. 
+    The header can be absolutely positoned anywhere in the control, because the WebImageViewerhas an internal DIV that
+    wraps the control with a position set to relative. </para>
+*/
+.igiv_ClaymationHeaderContentArea
+{
+	font-size:14px;
+	padding-top:5px;
+	width: 100%;
+	position: absolute;
+	top: -27px;
+	right: 0px;
+	color:#666666;
+	text-align:left;
+}
+
+
+/*The CSS class that will be applied to the Left Corner of the Header. */
+.igiv_ClaymationHeaderContentLeft
+{
+}
+
+
+/*The CSS class that will be applied to the actual content of the Header.*/
+.igiv_ClaymationHeaderContent
+{
+	padding-top:-5px;
+	padding-left:3px;
+}
+
+
+/*The CSS class that will be applied to the Right Corner of the Header. */
+.igiv_ClaymationHeaderContentRight
+{
+}
+
+
+/*
+	A TR that wraps the TopLeft, TopArea, and TopRight elements. 
+    This CSS class is useful in setting the height of the entire row.
+*/
+.igiv_ClaymationHeaderArea
+{
+	height: 9px;
+}
+
+
+/*
+	The CSS class that will be applied to the footer. 
+    The footer can be absolutely positoned anywhere in the control, because the WebImageViewer has an internal DIV that
+    wraps the control with a position set to relative. </para>
+*/
+.igiv_ClaymationFooterContentArea
+{
+	font-size:14px;
+	padding-bottom:5px;
+	width: 100%;
+	position: absolute;
+	bottom: -45px;
+	right: 0px;
+	color:#666666;
+	text-align:right;
+}
+
+
+/*The CSS class that will be applied to the Left Corner of the Footer. */
+.igiv_ClaymationFooterContentLeft
+{
+}
+
+
+/*The CSS class that will be applied to the actual content of the Footer.*/
+.igiv_ClaymationFooterContent
+{
+	position: absolute;
+	bottom: 5px;
+	right: 0px;
+}
+
+
+/* The CSS class that will be applied to the Right Corner of the Footer. */
+.igiv_ClaymationFooterContentRight
+{
+}
+
+
+/*
+	 A TR that wraps the BottomLeft, BottomArea, and BottomRight elements. 
+     This CSS class is useful in setting the height of the entire row.
+*/
+.igiv_ClaymationFooterArea
+{
+	height: 9px;
+}
+
+
+/*
+	A TD that wraps the Header.
+    This CSS Class should be used for applying a Background-Image along the top border of the control.
+*/
+.igiv_ClaymationEdgeTop
+{
+	background-repeat:repeat-x;
+	background-image: url(./images/igiv_EdgeTop.gif);
+	height: 9px;
+}
+
+
+/*
+	A TD on the left side of the ImageArea.
+    This CSS Class should be used for applying a Background-Image along the left border of the control.
+*/
+.igiv_ClaymationEdgeLeft
+{
+	background-repeat:repeat-y;
+	background-image: url(./images/igiv_EdgeLeft.gif);
+	width: 9px;
+}
+
+
+/*
+	A TD that wraps the Footer.
+    This CSS Class should be used for applying a Background-Image along the bottom border of the control.
+*/
+.igiv_ClaymationEdgeBottom
+{
+	background-repeat:repeat-x;
+	background-image: url(./images/igiv_EdgeBottom.gif);
+}
+
+
+/*
+	 A TD on the right side of the ImageArea.
+     This CSS Class should be used for applying a Background-Image along the right border of the control.
+       
+*/
+.igiv_ClaymationEdgeRight
+{
+	background-repeat:repeat-y;
+	background-image: url(./images/igiv_EdgeRight.gif);
+	width: 9px;
+}
+
+
+/*
+	 The Top Left corner of the control.
+     This CSS Class should be used for rounded corners.
+*/
+.igiv_ClaymationCornerTopLeft
+{
+	background-repeat:no-repeat;
+	background-image: url(./images/igiv_CornerTopLeft.gif);
+	width: 9px;
+}
+
+
+/*
+	The Top Right corner of the control.
+    This CSS Class should be used for rounded corners.
+*/
+.igiv_ClaymationCornerTopRight
+{
+	background-repeat:no-repeat;
+	background-position:right ;
+	background-image: url(./images/igiv_CornerTopRight.gif);
+	width: 9px;
+}
+
+
+/*
+	The Bottom Left corner of the control.
+    This CSS Class should be used for rounded corners.
+*/
+.igiv_ClaymationCornerBottomLeft
+{
+	background-repeat:no-repeat;
+	background-image: url(./images/igiv_CornerBottomLeft.gif);
+}
+
+
+/*
+	The Bottom Right corner of the control.
+    This CSS Class should be used for rounded corners.
+*/
+.igiv_ClaymationCornerBottomRight
+{
+	background-repeat:no-repeat;
+	background-position:top right ;
+	background-image: url(./images/igiv_CornerBottomRight.gif);
+}
+
+
+/*
+	The CSS class that will be applied to the Container of the Previous Button. 
+    This css Class is the TD in which the Image element is rendered. This style can be used
+    to set the vertical-align CSS attribute.
+*/
+.igiv_ClaymationPrevButtonArea
+{
+	vertical-align:middle;
+}
+
+
+/*
+	The CSS class that will be applied to the Previous Button. 
+    The Previous Button can be absolutely positoned anywhere in the control, because the WebImageViewer has an internal DIV that
+    wraps the control with a position set to relative. 
+*/
+.igiv_ClaymationPrevButton
+{
+	cursor:pointer;
+}
+
+
+/*
+	The CSS class that will be applied to the Container of the Next Button. 
+    This css Class is the TD in which the Image element is rendered. This style can be used
+    to set the vetical-align CSS attribute.
+*/
+.igiv_ClaymationNextButtonArea
+{
+	cursor:pointer;
+	vertical-align:middle;
+}
+
+
+/*
+	The CSS class that will be applied to the Next Button. 
+    The Next Button can be absolutely positoned anywhere in the control, because the WebImageViewer has an internal DIV that
+    wraps the control with a position set to relative.
+*/
+.igiv_ClaymationNextButton
+{
+}
+
+
+/*
+	A TD that contains the ImageArea.
+    If you would like a border around the ImageArea, this is the class to use.
+*/
+.igiv_ClaymationImageAreaContainer
+{
+	border:solid 1px DimGray; 
+}
+
+
+/*
+	A DIV that contains all of the Images. 
+    In XHTML, to apply a border around the images a padding-bottom must be set to the size of the 
+	border-top-width plus the border-bottom-width.
+*/
+.igiv_ClaymationImageArea
+{
+	background-color:White;
+	padding-bottom: 2px;
+}
+
+
+/*
+	An IMG element that is contained by the ImageAra.
+    In XHTML, to apply a border around an image a padding-bottom must be set to the size of the 
+	border-top-width plus the border-bottom-width on the ImageArea.
+*/
+.igiv_ClaymationImage
+{
+}
+
+
+/*Applied to an IMG when it is selected.*/
+.igiv_ClaymationImageSelected
+{
+}
+
+
+/*Applied to an IMG when the mouse is over it.*/
+.igiv_ClaymationImageHover
+{
+}
+
+
+/*
+	When an image is hovered, this style gets applied to all other images.
+    A good use of this style is to apply an opacity to all other images that aren't being hovered, 
+	so that the hovered image has more focus.
+*/
+.igiv_ClaymationOtherImageHover
+{
+	opacity: .5;
+	filter: alpha(opacity=50);
+}
+
+
+/*Applied to an IMG when the image is disabled.*/
+.igiv_ClaymationImageDisabled
+{
+	opacity: .25;
+	filter: alpha(opacity=25);
+}
+
+
+/**************************** VERTICAL ***************************************/
+/*The CSS Class that will be applied to the outer control.*/
+.igiv_ClaymationControl_Vert
+{
+	background-color:Transparent;
+	border: 0px;
+	border-width: 0px;
+	padding-bottom: 55px;
+}
+
+
+/*
+	This class should be used for setting any padding that might be 
+	needed if the Header is placed above the control.
+*/
+.igiv_ClaymationHeaderPadding_Vert
+{
+	padding-top: 55px;
+}
+
+
+/*
+	This class should be used for adjusting the padding of the control
+	to account for the additional size of the header and footer.
+*/
+.igiv_ClaymationFooterPadding_Vert
+{
+	padding-bottom: 55px;
+}
+
+
+/*
+	The CSS class that will be applied to the header. 
+    The header can be absolutely positoned anywhere in the control, because the WebImageViewer has an internal DIV that
+    wraps the control with a position set to relative.
+*/
+.igiv_ClaymationHeaderContentArea_Vert
+{
+	font-size:14px;
+	margin-left:-13px;
+	padding-top:7px;
+	width: 100%;
+	position: absolute;
+	top: -30px;
+	color:#666666;
+	text-align:left;
+}
+
+
+/*The CSS class that will be applied to the Left Corner of the Header. */
+.igiv_ClaymationHeaderContentLeft_Vert
+{
+}
+
+
+/*The CSS class that will be applied to the actual content of the Header.*/
+.igiv_ClaymationHeaderContent_Vert
+{
+}
+
+
+/*The CSS class that will be applied to the Right Corner of the Header. */
+.igiv_ClaymationHeaderContentRight_Vert
+{
+}
+
+
+/*
+	A TR that wraps the TopLeft_Vert, TopArea_Vert, and TopRight_Vert elements. 
+    This CSS class is useful in setting the height of the entire row.
+*/
+.igiv_ClaymationHeaderArea_Vert
+{
+	height: 9px;
+}
+
+
+/*
+	The CSS class that will be applied to the footer. 
+    The footer can be absolutely positoned anywhere in the control, because the WebImageViewer has an internal DIV that
+    wraps the control with a position set to relative. 
+*/
+.igiv_ClaymationFooterContentArea_Vert
+{
+	font-size:14px;
+	padding-bottom:5px;
+	width: 100%;
+	position: absolute;
+	bottom: -50px;
+	right: 0px;
+	color:#666666;
+	text-align:right;
+}
+
+
+/*The CSS class that will be applied to the Left Corner of the Footer. */
+.igiv_ClaymationFooterContentLeft_Vert
+{
+}
+
+
+/*The CSS class that will be applied to the actual content of the Footer.*/
+.igiv_ClaymationFooterContent_Vert
+{
+	position: absolute;
+	bottom: 5px;
+	right: 0px;
+}
+
+
+/*The CSS class that will be applied to the Right Corner of the Footer. */
+.igiv_ClaymationFooterContentRight_Vert
+{
+}
+
+
+/*
+	A TR that wraps the BottomLeft_Vert, BottomArea_Vert, and BottomRight_Vert elements. 
+    This CSS class is useful in setting the height of the entire row.
+*/
+.igiv_ClaymationFooterArea_Vert
+{
+	height: 9px;
+}
+
+
+/*
+	A TD that wraps the Header_Vert.
+    This CSS Class should be used for applying a Background-Image along the top border of the control.
+*/
+.igiv_ClaymationEdgeTop_Vert
+{
+	background-repeat:repeat-x;
+	background-image: url(./images/igiv_EdgeTop_Vert.gif);
+}
+
+
+/*
+	A TD on the left side of the ImageArea_Vert.
+    This CSS Class should be used for applying a Background-Image along the left border of the control.
+*/
+.igiv_ClaymationEdgeLeft_Vert
+{
+	background-repeat:repeat-y;
+	background-image: url(./images/igiv_EdgeLeft_Vert.gif);
+}
+
+
+/*
+	A TD that wraps the Footer_Vert.
+    This CSS Class should be used for applying a Background-Image along the bottom border of the control.
+*/
+.igiv_ClaymationEdgeBottom_Vert
+{
+	background-repeat:repeat-x;
+	background-position:bottom ;
+	background-image: url(./images/igiv_EdgeBottom_Vert.gif);
+}
+
+
+/*
+	A TD on the right side of the ImageArea_Vert.
+    This CSS Class should be used for applying a Background-Image along the right border of the control.
+*/
+.igiv_ClaymationEdgeRight_Vert
+{
+	background-repeat:repeat-y;
+	background-position:right top ;
+	background-image: url(./images/igiv_EdgeRight_Vert.gif);
+}
+
+
+/*
+	The Top Left corner of the control.
+    This CSS Class should be used for rounded corners.
+*/
+.igiv_ClaymationCornerTopLeft_Vert
+{
+	background-repeat:no-repeat;
+	background-position:top left ;
+	background-image: url(./images/igiv_CornerTopLeft_Vert.gif);
+	width: 9px;
+}
+
+
+/*
+	The Top Right corner of the control.
+    This CSS Class should be used for rounded corners.
+*/
+.igiv_ClaymationCornerTopRight_Vert
+{
+	background-repeat:no-repeat;
+	background-position:right top ;
+	background-image: url(./images/igiv_CornerTopRight_Vert.gif);
+	width: 9px;
+}
+
+
+/*
+	The Bottom Left corner of the control.
+    This CSS Class should be used for rounded corners.
+*/
+.igiv_ClaymationCornerBottomLeft_Vert
+{
+	background-repeat:no-repeat;
+	background-position:bottom ;
+	background-image: url(./images/igiv_CornerBottomLeft_Vert.gif);
+}
+
+
+/*
+	The Bottom Right corner of the control.
+    This CSS Class should be used for rounded corners.
+*/
+.igiv_ClaymationCornerBottomRight_Vert
+{
+	background-repeat:no-repeat;
+	background-position:bottom right ;
+	background-image: url(./images/igiv_CornerBottomRight_Vert.gif);
+}
+
+
+/*
+	The CSS class that will be applied to the Container of the PreviousButton. 
+    This css Class is the TD in which the Image element is rendered. This style can be used
+    to set the text-align CSS attribute.
+*/
+.igiv_ClaymationPrevButtonArea_Vert
+{
+	position: relative;
+	width: 100%;
+	text-align:center;
+}
+
+
+/*
+	The CSS class that will be applied to the Previous Button. 
+    The Previous Button can be absolutely positoned anywhere in the control, because the WebImageViewer has an internal DIV that
+    wraps the control with a position set to relative. 
+*/
+.igiv_ClaymationPrevButton_Vert
+{
+}
+
+
+/*
+	The CSS class that will be applied to the Container of the Next Button. 
+    This css Class is the TD in which the Image element is rendered. This style can be used
+    to set the text-align CSS attribute.
+*/
+.igiv_ClaymationNextButtonArea_Vert
+{
+	position: relative;
+	width: 100%;
+	text-align:center;
+}
+
+
+/*
+	The CSS class that will be applied to the Next Button. 
+    The Next Button can be absolutely positoned anywhere in the control, because the WebImageViewer has an internal DIV that
+    wraps the control with a position set to relative. 
+*/
+.igiv_ClaymationNextButton_Vert
+{
+}
+
+
+/*
+	A TD that contains the ImageArea.
+    If you would like a border around the ImageArea, this is the class to use.
+*/
+.igiv_ClaymationImageAreaContainer_Vert
+{
+	border:solid 1px DimGray;
+}
+
+
+/*
+	A DIV that contains all of the Images. 
+    In XHTML, to apply a border around the images a padding-right must be set to the size of the 
+	border-left-width plus the border-right-width.
+*/
+.igiv_ClaymationImageArea_Vert
+{
+	padding-right: 2px;
+}
+
+
+/*
+	An IMG element that is contained by the ImageAra.
+    In XHTML, to apply a border around an image a padding-right must be set to the size of the 
+	border-left-width plus the border-right-width on the ImageArea_Vert.
+*/
+.igiv_ClaymationImage_Vert
+{
+}
+
+
+/*Applied to an IMG when it is selected.*/
+.igiv_ClaymationImageSelected_Vert
+{
+}
+
+
+/*Applied to an IMG when the mouse is over it.*/
+.igiv_ClaymationImageHover_Vert
+{
+}
+
+
+/*
+	When an image is hovered, this style gets applied to all other images.
+    A good use of this style is to apply an opacity to all other images that aren't being hovered, 
+	so that the hovered image has more focus.
+*/
+.igiv_ClaymationOtherImageHover_Vert
+{
+	opacity: .5;
+	filter: alpha(opacity=50);
+}
+
+
+/*Applied to an IMG when the image is disabled.*/
+.igiv_ClaymationImageDisabled_Vert
+{
+	opacity: .25;
+	filter: alpha(opacity=25);
+}
+
+

@@ -1,0 +1,423 @@
+/*
+
+Main control CSS class
+*/
+.igdd_HarvestControl
+{
+}
+
+
+/*
+ Main Control CSS class when it's disabled
+*/
+.igdd_HarvestControlDisabled
+{
+}
+
+
+/*
+ Main control css class on hover
+*/
+.igdd_HarvestControlHover
+{
+	background-color:#FCF5EC;
+}
+
+
+/*
+
+*/
+.igdd_HarvestControlFocus
+{
+	background-color:#FCF5EC;
+	border:solid 1px #97472D;
+	table-layout: fixed;
+}
+
+
+.igdd_HarvestControlArea
+{
+	border:solid 1px #97472D;
+	table-layout: fixed;
+}
+
+
+/*
+CSS class for the actual input field (<input type="text" />)
+*/
+.igdd_HarvestValueDisplay
+{
+	background-color:Transparent;
+	font-weight:normal;
+	font-size:10pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	border-width:0px;
+	width: 100%;
+	z-index: 0;
+}
+
+
+/*
+
+*/
+.igdd_HarvestValueDisplayHover
+{
+}
+
+
+/*
+
+*/
+.igdd_HarvestValueDisplayFocus
+{
+}
+
+
+/*
+
+*/
+.igdd_HarvestValueDisplayDisabled
+{
+    background-color:Transparent;
+    border:0px;
+    font-family:Verdana,Arial,Helvetica,sans-serif;
+    font-size:10pt;
+    font-weight:normal;
+    width:100%;
+    z-index:0;
+}
+
+
+/*
+
+*/
+.igdd_HarvestValueDisplayReadOnly
+{
+}
+
+
+/*
+
+*/
+.igdd_HarvestDropDownList
+{
+	background-color:White;
+	font-size:10pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin:0px;
+	padding:1px;
+}
+
+
+/*
+
+*/
+.igdd_HarvestDropDownListHover
+{
+}
+
+
+/*
+
+*/
+.igdd_HarvestDropDownListReadOnly
+{
+}
+
+
+/*
+	
+*/
+.igdd_HarvestDropDownListContainer
+{
+	background-color:White;
+	border:solid 1px #97472D;
+	float: left;
+}
+
+
+/*
+
+*/
+.igdd_HarvestDropDownListContainerHover
+{
+}
+
+
+/*
+
+*/
+.igdd_HarvestDropDownButton
+{
+	width: 17px;
+	z-index: 9999;
+}
+
+.igdd_HarvestDropDownButton img 
+{
+    display:block;
+}
+
+
+/*
+
+*/
+.igdd_HarvestDropDownButtonHover
+{
+}
+
+
+/*
+CSS class that controls the style of the LI items in the list
+*/
+.igdd_HarvestListItem
+{
+	font-size:10pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	border:solid 1px Transparent;
+	padding:3px 5px 3px 5px;
+	list-style-type: none;
+	width: auto;
+	min-height: 15px;
+	height: auto !important;
+	cursor:pointer;
+}
+	/* IE 6 fix */
+	.ie6 .igdd_HarvestListItem {
+		border:solid 1px white;
+	}
+
+/*
+
+*/
+.igdd_HarvestListItemActive
+{
+	background-color:#FDF7EE;
+	border:solid 1px #AAAAAA;
+	list-style-type: none;
+	color:#333333;
+}
+
+
+/*
+
+*/
+.igdd_HarvestListItemHover
+{
+	background-color:#FCF4E9;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(images/igdd_listitemhover.png);
+	border:solid 1px #B7928F;
+	list-style-type: none;
+}
+	/* IE 6 fix */
+	.ie6 .igdd_HarvestListItemHover {
+		border:solid 1px white;
+	}
+
+/*
+
+*/
+.igdd_HarvestListItemSelected
+{
+	background-color:#FCF4E9;
+	list-style-type: none;
+	color:#333333;
+}
+
+
+/*
+
+*/
+.igdd_HarvestListItemDisabled
+{
+	list-style-type: none;
+	width: auto;
+	cursor:default;
+}
+
+
+/*
+Applied to the whole pager
+*/
+.igdd_HarvestPager
+{
+	background-color:#FCF4E9;
+	border-top:solid 1px #97472D;
+	vertical-align:middle;
+}
+
+
+/*
+Loading message container
+*/
+.igdd_HarvestLoadingItemsMessage
+{
+	background-color:#97472D;
+	font-weight:bold;
+	font-size:10pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin:1px 0px 0px 1px;
+	padding:3px;
+	color:White;
+}
+
+
+/*
+Styles the current page link only
+*/
+.igdd_HarvestPageCurrent
+{
+	font-size:8pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin-top:5px;
+	margin-right:3px;
+	float: left;
+	cursor:pointer;
+	color:#97472D;
+	text-decoration:underline;
+	vertical-align:middle;
+}
+
+
+/*
+Styles all page links in general 
+*/
+.igdd_HarvestPageLink
+{
+	font-size:8pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin-top:5px;
+	margin-right:3px;
+	float: left;
+	cursor:pointer;
+	color:#333333;
+	vertical-align:middle;
+}
+
+
+/*
+
+*/
+.igdd_HarvestDropDownButtonDisabled
+{
+}
+
+
+/*
+Styling for anchor when hovered anywhere on ListItem
+*/
+.igdd_HarvestListItemHover a:link
+{
+	color:#333333;
+	text-decoration:none;
+}
+
+
+.igdd_ListItem a:hover
+{
+}
+
+
+.igdd_HarvestListItem a:visited
+{
+	color:#333333;
+	text-decoration:none;
+}
+
+
+.igdd_HarvestListItem a:active
+{
+}
+
+
+.igdd_HarvestListItemActive a:link
+{
+	color:#333333;
+	text-decoration:none;
+}
+
+
+/*
+	
+*/
+.igdd_HarvestDropDownButtonFocus
+{
+}
+
+
+/*
+
+*/
+.igdd_HarvestListItemFocus
+{
+	list-style-type: none;
+	width: auto;
+}
+
+
+/*
+
+*/
+.igdd_HarvestDropDownListDisabled
+{
+}
+
+
+/*
+ CSS class for the table that accomodates the value display and the drop down button, and which is a 
+ child of the main control (div)
+*/
+.igdd_HarvestValueDisplayTable
+{
+}
+
+
+/*
+
+*/
+.igdd_HarvestDropDownListFocus
+{
+}
+
+
+.igdd_HarvestListItem a:link
+{
+	color:#333333;
+	text-decoration:none;
+}
+
+
+/*
+For Disabled=True of a DropDownItem
+*/
+.igdd_HarvestListItemDisabled a:link
+{
+	cursor:default;
+	color:#CCCCCC;
+}
+
+
+/*
+pseudo class used so Value Display input does not have focus
+glow in some browsers like GoogleChrome or AppleSafari
+*/
+input:focus
+{
+	outline: none;
+}
+
+
+/*
+
+*/
+.igdd_HarvestDropDownListContainerFocus
+{
+}
+
+/* hide IE 10 clear button */
+.igdd_HarvestValueDisplay::-ms-clear
+{
+    display : none;
+}

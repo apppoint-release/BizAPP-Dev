@@ -1,0 +1,168 @@
+.igdt_HarvestControl {
+	background-color:transparent;
+	border:1px solid transparent;
+	color:#333333;
+	font-size: xx-small;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.igdt_HarvestControlActive {
+}
+
+.igdt_HarvestNode
+{
+	cursor:hand;
+	color:#333333;
+	text-decoration:none;	
+	padding:1px 3px 1px 3px;
+	line-height: 15px;
+	vertical-align: middle;
+}
+
+.igdt_HarvestNodeRoot {
+	font-weight:bold;
+	vertical-align:middle;
+}
+
+.igdt_HarvestNodeImage {	
+	vertical-align: middle;
+}
+
+.igdt_HarvestNodeSelected {
+	color:#B22222;
+	
+}
+
+.igdt_HarvestNodeActive 
+{
+	border: dotted 1px #B22222;
+	padding: 0px 3px 0px 2px;
+}
+
+.igdt_HarvestNodeHover 
+{
+	color:#B22222;
+	text-decoration:underline;
+}
+
+.igdt_HarvestNodeDisabled
+{
+	color:Gray;
+}
+
+.igdt_HarvestInternalNodeEditor
+{
+	border:1px solid #B22222;
+	padding-left: 2px;
+}
+
+
+
+/* //////////////////// GROUP STYLES //////////////////// */
+.igdt_HarvestNodeGroup {
+	list-style :none;	
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+.igdt_HarvestNodeHolder {
+	white-space:nowrap;
+	clear:left;
+}
+
+/* Bug #62259 K.D. December 27, 2010 removing float: left because it was causing the nodes to display diagonally */
+.igdt_HarvestNodeHolder img
+{
+	vertical-align: middle;
+}
+
+/* M.H. 8 June 2011 - fix bug 32892: add alignment for table */
+.igdt_HarvestNodeHolder table {
+	vertical-align: bottom;
+	*vertical-align: middle;
+}
+
+/* //////////////////// GROUP STYLES //////////////////// */
+
+/****************************************************/
+/* Added for WebDataTree Drag And Drop funtionality */
+/****************************************************/
+
+
+/*CSS class that will define the style applied before or after some node. 
+If the space between the nodes is accepted as potential drop target this class will define 
+some separator/dashed line that will show where the new node will be placed*/
+/*The DropIndicator purpose is to guide the user where the node will be inserted 
+when they drop it*/
+.igdt_HarvestDropIndicator
+{
+    border      : 1px solid #97462c;
+    padding     : 1px 8px 3px 4px;
+    background  : #C29E94  url(./images/igdt_DropIndicatorBg.jpg) repeat-x scroll 0 0 ;;
+    color       : #333333;
+    cursor      : default;
+    font-family : Segoe UI,Arial,Verdana,Helvetica,sans-serif;
+    font-size   : 12px;
+
+    height:20px;
+}
+
+.igdt_HarvestDropIndicator img
+{
+    position:relative;
+    top:3px;
+    margin-right:5px;
+    width:16px;
+    height:16px;
+}
+.igdt_HarvestDropIndicator span
+{
+    position:relative;
+    top:-1px;
+}
+
+/*CSS class that will be applied just before the Dropping event is fired on a node if it is a possible drop target. For example when you drag over concrete node its color will change to alert the user he will drop inside the highlighted node.*/
+.igdt_HarvestDropTarget
+{
+    background  : #fdf6ec;
+}
+
+/*Applied on the cloned node that is being dragged*/
+.igdt_HarvestDragMarkup
+{
+    cursor      : move;
+    padding:1px 3px;
+    font-family:Verdana,Arial,Helvetica,sans-serif;
+    font-size:xx-small;
+}
+
+/* Applied to the line shown, when inserting between two nodes.*/
+.igdt_HarvestDropInsertLine
+{
+  border: 2px dotted #97462c;
+}
+
+.igdt_HarvestNodeGroupDragDrop
+{
+	list-style :none;	
+	margin-left: 0px;
+	padding-left: 0px;
+	padding-bottom: 2px;
+	padding-top: 2px;
+}
+
+.igdt_HarvestNodeGroupDragDrop li
+{
+    clear:left;
+}
+
+.igdt_HarvestNodeHolderDragDrop
+{
+	white-space:nowrap;
+}
+
+.igdt_HarvestNodeHolderDragDrop img
+{
+    vertical-align:middle;
+    float:left;
+}

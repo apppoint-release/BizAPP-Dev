@@ -1,0 +1,41 @@
+﻿.igfeb_LucidDreamControl
+{
+	background-color: Transparent;
+}
+
+.igfeb_LucidDreamControlHover
+{
+				
+				
+}
+
+.igfeb_LucidDreamFishEyeItemLabel
+{
+}
+
+.igfeb_LucidDreamFishEyeItem
+{
+}
+
+.igfeb_LucidDreamFishEyeItemHover
+{			
+}
+
+.igfeb_LucidDreamFishEyeItemDisabled
+{
+				
+				
+}
+
+.igfeb_LucidDreamControlFocus
+{
+				
+				
+}
+
+.igfeb_LucidDreamFishEyeItemSelected
+{
+	background-position: bottom;
+	background-image: url(images/igfeb_itemselected.png);	
+	background-repeat:  no-repeat;
+}

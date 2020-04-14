@@ -1,0 +1,94 @@
+.igmn_RedPlanetControl
+{
+	background-color:White;
+	background-repeat:repeat-x;
+	background-position:bottom ;
+	border:solid 1px Gainsboro;
+	color:White;
+}
+
+
+.igmn_RedPlanetIsland
+{
+	background-color:White;
+	background-repeat:repeat-y;
+	background-position:left ;
+	background-image: url(images/buttonbg.png);
+	border:solid 1px DarkGray;
+	text-align:left;
+}
+
+
+.igmn_RedPlanetItem
+{
+	background-color:Transparent;
+	border:solid 1px Transparent;
+	cursor:hand;
+	color:Black;
+}
+
+
+.igmn_RedPlanetLeaf
+{
+	text-align:left;
+}
+
+
+.igmn_RedPlanetParent
+{
+}
+
+
+.igmn_RedPlanetTopLevelLeaf
+{
+}
+
+
+.igmn_RedPlanetTopLevelParent
+{
+}
+
+
+.igmn_RedPlanetHeader
+{
+}
+
+
+.igmn_RedPlanetSeparator
+{
+	background-color:Yellow;
+	color:Black;
+}
+
+
+.igmn_RedPlanetHover
+{
+	background-position:top ;
+	background-image: url(images/header_large2.gif);
+	border:solid 1px Firebrick;
+	color:White;
+}
+
+
+.igmn_RedPlanetTopLevelHover
+{
+	background-position:top ;
+	background-image: url(images/header_large2.gif);
+	border:solid 1px Firebrick;
+	color:White;
+}
+
+
+.igmn_RedPlanetTopSelected
+{
+}
+
+
+.igmn_RedPlanetDisabled
+{
+	font-size:xx-small;
+	font-family: Verdana;
+	color: LightGrey;
+}
+
+

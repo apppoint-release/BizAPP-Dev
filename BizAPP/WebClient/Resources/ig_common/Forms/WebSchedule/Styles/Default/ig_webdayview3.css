@@ -1,0 +1,42 @@
+
+.DayView
+{
+	background-color :Lime;
+}
+
+
+.Caption {
+	FILTER: Alpha(Opacity=20, FinishOpacity=80, Style=1);
+}
+
+.DayHeader {
+	FILTER: Alpha(Opacity=20, FinishOpacity=100, Style=1, startX=100, startY=0, finishX=100, finishY=100);
+}
+
+.TodayHeader {
+	FILTER: Alpha(Opacity=20, FinishOpacity=80, Style=1, startX=100, startY=0, finishX=100, finishY=100);
+}
+.TimeSlotLabel {
+	FILTER: Alpha(Opacity=20, FinishOpacity=100, Style=1, startX=100, startY=0, finishX=100, finishY=100);
+}
+
+
+.AllDayEventArea {
+	FILTER: Alpha(Opacity=20, FinishOpacity=80, Style=1, startX=100, startY=0, finishX=100, finishY=100);
+}
+
+.WorkingTimeSlot {
+	FILTER: Alpha(Opacity=20, FinishOpacity=100, Style=1, startX=100, startY=0, finishX=100, finishY=100);
+}
+
+
+
+.ActivityEdgeSelected
+{
+	FILTER: Alpha(Opacity=20, FinishOpacity=80, Style=1, startX=100, startY=0, finishX=100, finishY=100);
+}
+
+.ActivityEdgeLeftSelected
+{
+	FILTER: Alpha(Opacity=20, FinishOpacity=80, Style=1, startX=100, startY=0, finishX=100, finishY=100);
+}

@@ -1,0 +1,90 @@
+.igcal_PearControl
+{
+	border:solid 1px #4F7600;
+	cursor:hand;
+}
+
+
+.igcal_PearCalendar
+{
+}
+
+
+.igcal_PearDOW
+{
+	font-weight:bold;
+	font-size:xx-small;
+	border-width:0px;
+	border-bottom:solid 1px #4F7600;
+	padding:5px 0px 0px 0px;
+}
+
+
+.igcal_PearDay
+{
+	font-size:xx-small;
+	border-width:0px;
+}
+
+
+.igcal_PearNextPrev
+{
+	background-color:#BBD17E;
+	padding-right:5px;
+	padding-left:5px;
+}
+
+
+.igcal_PearFooter
+{
+	background-color:WhiteSmoke;
+	padding-top:5px;
+	padding-bottom:5px;
+	text-align:center;
+}
+
+
+.igcal_PearHeader
+{
+	background-color:#BBD17E;
+	font-weight:bold;
+	font-size:10px;
+	height: 16px;
+	color:White;
+}
+
+
+.igcal_PearDropDown
+{
+}
+
+
+.igcal_PearWeekendDay
+{
+}
+
+
+.igcal_PearOtherMonthDay
+{
+	color:#B3B3B3;
+}
+
+
+.igcal_PearWeekendDayMajor
+{
+}
+
+
+.igcal_PearTodayDay
+{
+	font-weight:bold;
+	border:solid 1px #BBD17E;
+}
+
+
+.igcal_PearSelectedDay
+{
+	background-color:#BBD17E;
+}
+
+

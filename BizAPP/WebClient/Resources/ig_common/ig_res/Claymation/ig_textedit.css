@@ -1,0 +1,82 @@
+.igtxt_ClaymationEditWithButtons
+{
+	background-color:#F0F0F0;
+	font-family:Verdana;
+	font-size:10px;
+	line-height:1px;
+	height:20px;
+	width:130px;
+	border:solid 1px #C0C0C0;
+}
+
+
+.igtxt_ClaymationEdit
+{
+	background-color:#F0F0F0;
+	border:solid 1px Gainsboro;
+	outline:0;
+}
+
+.igtxt_ClaymationTextArea
+{
+	background-color:#F0F0F0;
+	border:solid 1px Gainsboro;
+	font-family:arial;
+	font-size:12px;
+	outline:0;
+}
+
+.igtxt_ClaymationEditInContainer
+{
+	background-color:#F0F0F0;
+	border-width:0px;
+	margin:0px;
+	padding-top:0px;
+	padding-bottom:0px;
+	outline:0;
+}
+
+.igtxt_ClaymationFocus
+{
+	border-color:#C0C080;
+}
+
+.igtxt_ClaymationButtonSize
+{
+	width:15px;
+	height:100%;
+}
+
+.igtxt_ClaymationButton
+{
+	background-color:#A5A5A5;
+	line-height:normal;
+	border:solid 1px Gainsboro;
+}
+
+.igtxt_ClaymationButtonFocus
+{
+	background-color:#F0F0B0;
+}
+
+.igtxt_ClaymationButtonHover
+{
+	background-color:#C3C3C3;
+	border:solid 1px Gainsboro;
+}
+
+
+.igtxt_ClaymationButtonPressed
+{
+	background-color:#BBBCBE;
+	border:solid 0px White;
+}
+
+
+.igtxt_ClaymationButtonDisabled
+{
+	background-color:#F0F0F0;
+	border:solid 1px White;
+}
+
+

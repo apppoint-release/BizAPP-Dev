@@ -1,0 +1,50 @@
+﻿body
+{
+}
+.igpb_PearBaseLabel
+{
+	text-align:left;
+	white-space:nowrap;
+	position:absolute;
+	padding:2px;
+}
+.igpb_PearBackgroundLabel
+{
+	color:Black;
+}
+.igpb_PearForegroundLabel
+{
+	color:white;
+}
+.igpb_PearInnerDiv
+{
+	height:100%;
+	width:100%;
+	position:absolute;
+	overflow:hidden;
+	
+}
+.igpb_PearFill_Horiz
+{
+
+	background-color: #636A4C;
+}
+.igpb_PearFill_Vert
+{
+	background-color: #636A4C;
+}
+.igpb_PearBackground_Horiz
+{
+}
+.igpb_PearBackground_Vert
+{
+	
+}
+.igpb_PearContainer
+{
+	height:100%;
+	width:100%;
+	position:relative;
+	border: solid 1px #D5E88F;
+	overflow: hidden;
+}

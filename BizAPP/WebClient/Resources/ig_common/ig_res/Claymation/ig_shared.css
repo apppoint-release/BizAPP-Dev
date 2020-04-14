@@ -1,0 +1,160 @@
+.ig_ClaymationControl
+{
+	background-color:White;
+	font-size:xx-small;
+	font-family: verdana;
+	color:Black;
+}
+
+
+.ig_ClaymationItem
+{
+	background-color:White;
+	font-size:10px;
+	font-family: verdana;
+	padding-left:1px;
+}
+
+
+.ig_ClaymationButton
+{
+	cursor:hand;
+}
+
+
+.ig_ClaymationButtonHover
+{
+}
+
+
+.ig_ClaymationButtonPressed
+{
+}
+
+
+.ig_ClaymationButtonDisabled
+{
+}
+
+
+.ig_ClaymationHover
+{
+}
+
+
+.ig_ClaymationSelected
+{
+}
+
+
+.ig_ClaymationDisabled
+{
+}
+
+
+.ig_ClaymationHeader
+{
+}
+
+
+.ig_ClaymationFooter
+{
+}
+
+
+.ig_ClaymationEditWithButtons
+{
+}
+
+
+.ig_ClaymationEdit
+{
+}
+
+
+.ig_ClaymationEditInContainer
+{
+}
+
+
+.ig_ClaymationAlt
+{
+	border-top:solid 1px #D3D3D3;
+	border-right:solid 0px #FFFFFF;
+	border-bottom:solid 1px #D3D3D3;
+	border-left:solid 0px #FFFFFF;
+}
+
+
+.ig_ClaymationDropDown
+{
+}
+
+
+.ig_ClaymationEditSelected
+{
+}
+
+
+Body
+{
+}
+
+
+.ms-WPBody .igmc_ClaymationControl TD
+{
+	background-color: inherit;
+	font-style:inherit;
+	font-size:xx-small;
+	border-style:inherit;
+}
+
+
+.ms-WPBody .igte_ClaymationEditWithButtons TD
+{
+	background-color:Transparent;
+	font-size:1px;
+	border-bottom-style:none;
+}
+
+
+.ms-WPBody .igdw_ClaymationControl TD
+{
+	background-color:White;
+}
+
+
+.ms-WPBody .igmc_ClaymationControl TABLE
+{
+	font-style:inherit;
+	font-size:xx-small;
+}
+
+
+.ms-WPBody .igte_ClaymationEditWithButtons TABLE
+{
+	font-size:1px;
+}
+
+
+.ms-wpbody .ig_ClaymationControl table
+{
+	font-style:inherit;
+	font-size:xx-small;
+	border-collapse:Separate;
+}
+
+
+.ms-wpbody .ig_ClaymationControl td
+{
+	background-color: inherit;
+	font-style:inherit;
+	font-size:xx-small;
+	border-bottom-style:none;
+}
+
+.ie7_DisplayInlineFix { display: inline-block; }
+.ie7_DisplayInlineFix { display: inline; }
+
+
+

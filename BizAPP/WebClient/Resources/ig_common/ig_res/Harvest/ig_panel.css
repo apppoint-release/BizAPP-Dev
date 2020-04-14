@@ -1,0 +1,50 @@
+.igpnl_HarvestControl
+{
+	border:solid 1px #97462C;
+}
+
+
+.igpnl_HarvestPanel
+{
+	background-color:#FFFDF9;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(images/itembg.jpg);
+	cursor:default;
+}
+
+
+.igpnl_HarvestHeaderExpanded
+{
+	background-position:center ;
+	background-image: url(images/header.gif);
+	font-weight:bold;
+	font-size:xx-small;
+	font-family: Verdana;
+	margin-top:3px;
+	margin-bottom:3px;
+	padding-top:4px;
+	padding-bottom:4px;
+	cursor:hand;
+	color:White;
+}
+
+
+.igpnl_HarvestHeaderCollapsed
+{
+}
+
+
+.igpnl_HarvestHeaderHover
+{
+	background-image: url(images/header_hover.gif);
+}
+
+
+.igpnl_HarvestGroupBoxControl
+{
+	border:solid 1px #97462C;
+	cursor:default;
+}
+
+

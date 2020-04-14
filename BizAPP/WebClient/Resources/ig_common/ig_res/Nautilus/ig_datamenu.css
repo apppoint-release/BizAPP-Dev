@@ -1,0 +1,993 @@
+/**************************** VERTICAL (Default / No suffixes) *************************************************/
+.igdm_NautilusControlVertical
+{
+	background-color:#F6F9FB;
+	font-family: Verdana,Arial,Lucida Grande,Lucida Sans Unicode,Lucida,Helvetica,Sans-serif;
+	border-style:none;
+	border-width:1px;
+	white-space: nowrap;
+	overflow: hidden;
+	cursor:default;
+}
+
+
+/*
+ Main Control CSS class when it's active 
+*/
+.igdm_NautilusControlVerticalActive
+{
+}
+
+
+/*
+ Main Control CSS class when it's disabled
+*/
+.igdm_NautilusControlVerticalDisabled
+{
+	background-color:#F8F8F8;
+}
+
+
+/******************************** ROOT ELEMENTS ***************************************************/
+.igdm_NautilusMenuGroupVerticalRoot
+{
+	background-color:Transparent;
+	margin:0px;
+	padding-top:0px;
+	padding-left:0px;
+	list-style-type: none;
+	cursor:default;
+	color:Black;
+}
+
+
+.igdm_NautilusMenuItemVerticalRoot
+{
+	font-size:10px;
+	border:solid 1px Transparent;
+	padding:6px 30px 6px 12px;
+	color:#333333;
+}
+
+
+.igdm_NautilusMenuItemVerticalIcon
+{
+	border-style:none;
+	border-width:0px;
+	padding-right:6px;
+	clear: none;
+	text-align:left;
+	vertical-align:middle;
+}
+
+
+.igdm_NautilusMenuItemVerticalRootLink
+{
+	font-size:12px;
+	font-family: Verdana,Arial,Lucida Grande,Lucida Sans Unicode,Lucida,Helvetica,Sans-serif;
+	line-height: 12px;
+	display: block;
+	cursor:default;
+	color:#333333;
+	text-decoration:none;
+}
+
+
+.igdm_NautilusMenuItemVerticalRootSelected
+{
+	background-color:#4B709B;
+	background-repeat:repeat-x;
+	background-position:left top ;
+	background-image: url(images/igdm_rootselected.png);
+	border:solid 1px #24406F;
+}
+
+
+.igdm_NautilusMenuItemVerticalRootActive
+{
+	background-color:#FF6600;
+	border:solid 1px #24406F;
+}
+
+
+.igdm_NautilusMenuItemVerticalRootHover
+{
+	background-color:#FFA014;
+	background-repeat:repeat-x;
+	background-position:left top ;
+	background-image: url(images/igdm_roothover.png);
+	border:solid 1px #FF6600;
+}
+
+
+.igdm_NautilusMenuItemVerticalRootDisabled
+{
+}
+
+
+/********************************** END ROOT ELEMENTS *********************************************/
+/****************************** MenuGroup (UL) ELEMENTS (SubMenu) *********************************/
+/* UL (List) */
+.igdm_NautilusMenuGroupVertical
+{
+	background-color:White;
+	border:solid 1px #CCCCCC;
+	margin:0px;
+	padding-top:0px;
+	padding-left:0px;
+	list-style-type: none;
+	cursor:default;
+	color:Black;
+}
+
+
+/**************************** END Menu Group Elemnts ********************************************/
+/************ MenuItem elements (single menu item - LI (base element) has > a > span) ***********/
+/* List Item (Li) */
+.igdm_NautilusMenuItemVertical
+{
+	background-attachment:scroll;
+	background-color: #FFFFFF none repeat scroll 0 0;
+	background-repeat:repeat;
+	background-position:notset notset ;
+	border:solid 1px Transparent;
+	margin:0px;
+	padding:5px 30px 5px 5px;
+	color:#000333;
+}
+
+
+.igdm_NautilusMenuItemVerticalLink
+{
+	font-size:12px;
+	font-family: Verdana,Arial,Lucida Grande,Lucida Sans Unicode,Lucida,Helvetica,Sans-serif;
+	line-height: 12px;
+	display: block;
+	cursor:default;
+	color:#000333;
+	text-decoration:none;
+}
+
+
+/* List Item (Li) that is a parent of a menu which will appear on the bottom */
+.igdm_NautilusMenuItemVerticalParent
+{
+}
+
+
+.igdm_NautilusMenuItemVerticalParentLink
+{
+	font-size:12px;
+	font-family: Verdana,Arial,Lucida Grande,Lucida Sans Unicode,Lucida,Helvetica,Sans-serif;
+	display: block;
+	cursor:default;
+	color:#000333;
+	text-decoration:none;
+}
+
+
+/* List Item (Li) */
+.igdm_NautilusMenuItemVerticalSelected
+{
+	background-color:#FF6600;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(images/igdm_itemhover.png);
+	border:solid 1px #24406F;
+	margin:0px;
+	color:White;
+}
+
+
+/* List Item (Li) */
+.igdm_NautilusMenuItemVerticalActive
+{
+	background-color:#FF6600;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(images/igdm_itemhover.png);
+	border:solid 1px #24406F;
+	margin:0px;
+	color:White;
+}
+
+
+/* List Item (Li) */
+.igdm_NautilusMenuItemVerticalHover
+{
+	background-color:#FF6600;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(images/igdm_itemhover.png);
+	border:solid 1px Transparent;
+	margin:0px;
+	color:White;
+}
+
+
+.igdm_NautilusMenuItemVerticalDisabled
+{
+}
+
+
+/* List Item (LI) no inner content */
+.igdm_NautilusMenuItemVerticalSeparator
+{
+	background-color:#CCCCCC;
+	border-style:none;
+	border-width:0px;
+	margin-top:0px;
+	padding:0px;
+	display: block;
+	height: 1px;
+	height: 1px;
+	width: 100%;
+	margin: 0px auto;
+	position: absolute;
+	clear: both;
+}
+
+
+.igdm_NautilusMenuScrollContainerVertical
+{
+	background-color:White;
+	border:solid 1px #CCCCCC;
+	color:Black;
+}
+
+
+.igdm_NautilusMenuScrollerRootTop
+{
+}
+
+
+.igdm_NautilusMenuScrollerRootBottom
+{
+}
+
+
+.igdm_NautilusMenuScrollerTop
+{
+	height: 10px;
+	width: 100%;
+}
+
+
+.igdm_NautilusMenuScrollerBottom
+{
+	height: 10px;
+	width: 100%;
+}
+
+
+/************************************************************************************************\
+
+********************** Horizontal / Suffixed with "Horizontal" *********************************
+
+\************************************************************************************************/
+.igdm_NautilusControlHorizontal
+{
+	background-color:#F6F9FB;
+	font-family: Verdana,Arial,Lucida Grande,Lucida Sans Unicode,Lucida,Helvetica,Sans-serif;
+	border-style:none;
+	border-width:0px;
+	white-space: nowrap;
+	overflow: hidden;
+	cursor:default;
+}
+
+
+.igdm_NautilusControlHorizontalActive
+{
+}
+
+
+/*
+ Main Control CSS class when it's disabled
+*/
+.igdm_NautilusControlHorizontalDisabled
+{
+	background-color:#F8F8F8;
+}
+
+
+/************** End Main Control Definitions ********************/
+/******************************** ROOT ELEMENTS - Group and Item ***************************************/
+/** Definitions for Root elements should be always before definitions of subElements **/
+.igdm_NautilusMenuGroupHorizontalRoot
+{
+	margin:0px;
+	padding-top:0px;
+	padding-left:0px;
+	list-style-type: none;
+	cursor:default;
+	color:Black;
+}
+
+
+.igdm_NautilusMenuItemHorizontalRoot
+{
+	font-size:10px;
+	border:solid 1px Transparent;
+	padding:6px 6px 6px 12px;
+	float: left;
+	color:#000FFF;
+}
+
+
+.igdm_NautilusMenuItemHorizontalIcon
+{
+	border-style:none;
+	border-width:0px;
+	padding-right:6px;
+	clear: none;
+	float: left;
+	text-align:left;
+	vertical-align:middle;
+}
+
+
+.igdm_NautilusMenuItemHorizontalRootLink
+{
+	font-size:12px;
+	font-family: Verdana,Arial,Lucida Grande,Lucida Sans Unicode,Lucida,Helvetica,Sans-serif;
+	display: block;
+	cursor:default;
+	color:#333333;
+	text-decoration:none;
+}
+
+
+.igdm_NautilusMenuItemHorizontalRootSelected
+{
+	background-color:#4B709B;
+	background-repeat:repeat-x;
+	background-position:left top ;
+	background-image: url(images/igdm_rootselected.png);
+	border:solid 1px #24406F;
+}
+
+
+.igdm_NautilusMenuItemHorizontalRootActive
+{
+	background-color:#FFA014;
+	border:solid 1px #24406F;
+}
+
+
+.igdm_NautilusMenuItemHorizontalRootHover
+{
+	background-color:#FFA014;
+	background-repeat:repeat-x;
+	background-position:left top ;
+	background-image: url(images/igdm_roothover.png);
+	border:solid 1px #FF6600;
+}
+
+
+.igdm_NautilusMenuItemHorizontalRootDisabled
+{
+	float: left;
+}
+
+
+/********************************** END ROOT ELEMENTS *********************************************/
+/****************************** MenuGroup (UL) ELEMENTS (SubMenu) *********************************/
+/* UL (List) */
+.igdm_NautilusMenuGroupHorizontal
+{
+	background-color:White;
+	border:solid 1px #CCCCCC;
+	margin:0px;
+	padding-top:0px;
+	padding-left:0px;
+	list-style-type: none;
+	cursor:default;
+	color:Black;
+}
+
+
+/**************************** END Menu Group Elemnts ********************************************/
+/************ MenuItem elements (single menu item - LI (base element) has > a > span) ***********/
+/* List Item (Li) */
+.igdm_NautilusMenuItemHorizontal
+{
+	background-attachment:scroll;
+	background-color: #FFFFFF none repeat scroll 0 0;
+	background-repeat:repeat;
+	background-position:notset notset ;
+	border:solid 1px Transparent;
+	margin:0px;
+	padding:5px 30px 5px 5px;
+	color:#000333;
+}
+
+
+.igdm_NautilusMenuItemHorizontalLink
+{
+	font-size:12px;
+	font-family: Verdana,Arial,Lucida Grande,Lucida Sans Unicode,Lucida,Helvetica,Sans-serif;
+	display: block;
+	cursor:default;
+	color:#000333;
+	text-decoration:none;
+}
+
+
+/* List Item (Li) that is a parent of a menu which will appear on the bottom */
+.igdm_NautilusMenuItemHorizontalParent
+{
+	font-weight:normal;
+	margin:0px;
+}
+
+
+.igdm_NautilusMenuItemHorizontalParentLink
+{
+	font-size:12px;
+	font-family: Verdana,Arial,Lucida Grande,Lucida Sans Unicode,Lucida,Helvetica,Sans-serif;
+	display: block;
+	cursor:default;
+	color:#000333;
+	text-decoration:none;
+}
+
+
+/* List Item (Li) */
+.igdm_NautilusMenuItemHorizontalSelected
+{
+	background-color:#FF6600;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(images/igdm_itemhover.png);
+	border:solid 1px #24406F;
+	margin:0px;
+	color:White;
+}
+
+
+/* List Item (Li) */
+.igdm_NautilusMenuItemHorizontalActive
+{
+	background-color:#FF6600;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(images/igdm_itemhover.png);
+	border:solid 1px #24406F;
+	margin:0px;
+	color:White;
+}
+
+
+/* List Item (Li) */
+.igdm_NautilusMenuItemHorizontalHover
+{
+	background-color:#FF6600;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(images/igdm_itemhover.png);
+	border:solid 1px Transparent;
+	margin:0px;
+	color:White;
+}
+
+
+.igdm_NautilusMenuItemHorizontalDisabled
+{
+}
+
+
+/* List Item (LI) no inner content */
+.igdm_NautilusMenuItemHorizontalSeparator
+{
+	background-color:#CCCCCC;
+	border-style:none;
+	border-width:0px;
+	margin-top:0px;
+	padding:0px;
+	display: block;
+	width: 1px;
+	width: 1px;
+	height: 100%;
+	margin: 0px auto;
+}
+
+
+/* Scrolling container - DIV */
+.igdm_NautilusMenuScrollContainerHorizontal
+{
+	background-color:White;
+	border:solid 1px #CCCCCC;
+	color:Black;
+}
+
+
+/* Left scrolling element for root level items Horizontal orientation - DIV */
+.igdm_NautilusMenuScrollerRootLeft
+{
+}
+
+
+/* Right scrolling element for root level items Horizontal orientation - DIV */
+.igdm_NautilusMenuScrollerRootRight
+{
+}
+
+
+/* Left scrolling element for non-root level items Horizontal orientation - DIV */
+.igdm_NautilusMenuScrollerLeft
+{
+	background-repeat:repeat-y;
+	background-position:right -70px ;
+	border-left:solid 1px #182D56;
+	width: 10px;
+	height: 28px;
+	display: block;
+}
+
+
+/* Right scrolling element for non-root level items Horizontal orientation - DIV */
+.igdm_NautilusMenuScrollerRight
+{
+	background-repeat:repeat-y;
+	background-position:right -70px ;
+	border-right:solid 1px #182D56;
+	width: 10px;
+	height: 28px;
+	display: block;
+}
+
+
+/*************************************** SCROLLING ROLES ************************************/
+.igdm_NautilusMenuScrollButton
+{
+	background-color:#4a6c97;
+	background-repeat:repeat-x;
+	background-position:center -57px ;
+	background-image: url(images/igwdm_scrollsprite.png);
+	border:solid 1px #182D56;
+	margin:0px;
+	padding:0px;
+	position: absolute;
+	text-decoration:none;
+}
+
+
+.igdm_NautilusMenuScrollIcon
+{
+	background-repeat:no-repeat;
+	background-image: url(images/igwdm_scrollsprite.png);
+	margin:0px;
+	padding:0px;
+	display: block;
+	height: 10px;
+	cursor:pointer;
+}
+
+
+.igdm_NautilusMenuScrollIconTop
+{
+	background-position:center -1px ;
+	margin-left:-5px;
+	width: 10px;
+	position: relative;
+	left: 50%;
+}
+
+
+.igdm_NautilusMenuScrollIconBottom
+{
+	background-position:center -25px ;
+	margin-left:-5px;
+	width: 10px;
+	position: relative;
+	left: 50%;
+}
+
+
+.igdm_NautilusMenuScrollIconLeft
+{
+	background-position:-15px -15px ;
+	margin-top:-6px;
+	position: relative;
+	top: 50%;
+}
+
+
+.igdm_NautilusMenuScrollIconRight
+{
+	background-position:-30px -15px ;
+	margin-top:-6px;
+	position: relative;
+	top: 50%;
+}
+
+
+.igdm_NautilusMenuScrollContainer
+{
+	margin:0px;
+	padding-top:0px;
+	padding-left:0px;
+}
+
+
+.igdm_NautilusMenuScrollContainerRootVertical
+{
+}
+
+
+.igdm_NautilusMenuScrollContainerRootHorizontal
+{
+}
+
+
+.igdm_NautilusMenuGroupScrollingVertical
+{
+	background-color:White;
+	margin:0px;
+	padding-top:0px;
+	padding-left:0px;
+	list-style-type: none;
+	cursor:default;
+	color:Black;
+}
+
+
+.igdm_NautilusMenuGroupScrollingHorizontal
+{
+	background-color:White;
+	margin:0px;
+	padding-top:0px;
+	padding-left:0px;
+	list-style-type: none;
+	cursor:default;
+	color:Black;
+}
+
+
+.ie6 .igdm_NautilusMenuItemHorizontalRoot
+{
+	border-width:0px;
+}
+
+
+.ie6 .igdm_NautilusMenuItemHorizontalRootHover .igdm_NautilusMenuItemHorizontalRootLink
+{
+	color:White;
+}
+
+
+.ie6 .igdm_NautilusMenuItemVerticalRoot.igdm_NautilusMenuItemVerticalParent.igdm_NautilusMenuItemVerticalRootSelected
+{
+	background-color: #4B709B!important;
+	background-position:left top  !important;
+	background-image: url(images/igdm_rootselected.png)!important;
+	border-width:0px;
+	background-repeat: repeat-x!important;
+}
+
+
+.ie6 .igdm_NautilusMenuItemVerticalRoot.igdm_NautilusMenuItemVerticalRootActive .igdm_Nautilusmenuitemverticalrootlink, .ie6 .igdm_NautilusMenuItemVerticalRoot.igdm_NautilusMenuItemVerticalRootSelected .igdm_NautilusMenuItemVerticalRootLink
+{
+	color:White;
+}
+
+
+.igdm_NautilusMenuItemHorizontalSelected > a
+{
+	color:White;
+}
+
+
+.igdm_NautilusMenuItemHorizontal.igdm_NautilusMenuItemHorizontalParent
+{
+	background-repeat:no-repeat;
+	background-position:center right ;
+}
+
+
+.igdm_NautilusMenuItemHorizontalHover .igdm_NautilusMenuItemHorizontalParent
+{
+	background-repeat:repeat-x;
+	background-position:center top ;
+	border:solid 1px Transparent;
+}
+
+
+.ie6 .igdm_NautilusMenuItemVerticalActive
+{
+	border-width:0px;
+}
+
+
+.igdm_NautilusMenuItemHorizontalRootActive > a
+{
+	color:White;
+}
+
+
+.igdm_NautilusMenuItemVerticalActive > a
+{
+	color:White;
+}
+
+
+/* List Item (Li) */
+.igdm_NautilusMenuItemVerticalDisabled > a
+{
+	color:#BBBBBB;
+}
+
+
+.igdm_NautilusMenuItemVerticalHover.igdm_NautilusMenuItemVerticalParent
+{
+	background-color:#FF6600;
+	background-repeat:repeat-x;
+	background-position:top right ;
+	background-image: url(images/igdm_itemhoverparent.png);
+	font-weight:normal;
+	border:solid 1px Transparent;
+}
+
+
+.ie6 .igdm_NautilusMenuItemHorizontal
+{
+	border-width:0px;
+}
+
+
+.igdm_NautilusMenuItemVerticalSelected > a
+{
+	color:White;
+}
+
+
+.igdm_NautilusMenuItemHorizontalRootHover > a
+{
+	color:#333333;
+}
+
+
+.ie6 .igdm_NautilusMenuItemVertical.igdm_NautilusMenuItemVerticalParent
+{
+	border-width:0px;
+}
+
+
+.igdm_NautilusMenuItemHorizontalSelected.igdm_NautilusMenuItemHorizontalParent
+{
+	background-repeat:repeat-x;
+	background-position:center right ;
+	border:solid 1px #24406F;
+}
+
+
+.igdm_NautilusMenuScrollerBottom hover, .igdm_NautilusMenuScrollerRight active
+{
+	background-position:center -42px ;
+}
+
+
+.ie6 .igdm_NautilusMenuItemHorizontalRootActive .igdm_NautilusMenuItemHorizontalRootLink
+{
+	color:White;
+}
+
+
+.ie6 .igdm_NautilusMenuItemVertical
+{
+	border-width:0px;
+	height: 15px;
+}
+
+
+.igdm_NautilusMenuItemHorizontalRootSelected > a
+{
+	color:White;
+}
+
+
+.igdm_NautilusMenuItemHorizontalHover > a
+{
+	color:White;
+}
+
+
+.igdm_NautilusMenuItemVerticalRootActive .igdm_NautilusMenuItemVerticalRootLink
+{
+	color:White;
+}
+
+
+.igdm_NautilusMenuItemHorizontalRootDisabled > a
+{
+	color:#AAAAAA;
+}
+
+
+.igdm_NautilusMenuItemHorizontalRootHover .igdm_NautilusMenuItemHorizontalRootLink
+{
+	color:White;
+}
+
+
+.ie6 .igdm_NautilusMenuItemVerticalHover.igdm_NautilusMenuItemVerticalParent
+{
+	border-width:0px;
+}
+
+
+.igdm_NautilusMenuItemVerticalRootActive > a
+{
+	color:#333333;
+}
+
+
+.igdm_NautilusMenuScrollerTop hover, .igdm_NautilusMenuScrollerRight active
+{
+	background-position:center -42px ;
+}
+
+
+.ie6 .igdm_NautilusMenuItemVerticalSeparator
+{
+	overflow: hidden;
+}
+
+
+.igdm_NautilusMenuItemVerticalActive.igdm_NautilusMenuItemVerticalParent
+{
+	background-color:#FF6600;
+	background-repeat:repeat-x;
+	background-position:center right ;
+	background-image: url(images/igdm_itemhoverparent.png);
+	font-weight:normal;
+	border:solid 1px #24406F;
+}
+
+
+.igdm_NautilusMenuItemVerticalHover > a
+{
+	color:White;
+}
+
+
+/*************************************** END SCROLLING ROLES ********************************/
+/***************
+*   IE6 Fixes  *
+****************/
+/*/
+/*/
+/////////////////////////////// .ie6 .igdm_NautilusMenuItemVerticalRoot.igdm_NautilusMenuItemVerticalParent.igdm_NautilusMenuItemVerticalRootHover
+{
+	background-color: #FFA014!important;
+	background-position:left ;
+	background-image: url(images/igdm_roothover.png)!important;
+	border-width:0px;
+	background-repeat: repeat-x!important;
+}
+
+
+.igdm_NautilusMenuItemHorizontalActive > a
+{
+	color:White;
+}
+
+
+.igdm_NautilusMenuItemVerticalRootDisabled > a
+{
+	color:#AAAAAA;
+}
+
+
+/* List Item (Li) */
+.igdm_NautilusMenuItemHorizontalDisabled > a
+{
+	color:#BBBBBB;
+}
+
+
+.ie6 .igdm_NautilusMenuItemVerticalRootHover
+{
+	border-width:0px;
+}
+
+
+.igdm_NautilusMenuItemVertical.igdm_NautilusMenuItemVerticalParent
+{
+	background-repeat:no-repeat;
+	background-position:right center ;
+	background-image: url(images/igwdm_submenuindicator.gif);
+}
+
+
+.ie6 .igdm_NautilusMenuItemVerticalHover
+{
+	border-width:0px;
+}
+
+
+.igdm_NautilusMenuItemVerticalRootHover > a
+{
+	color:White;
+}
+
+
+.ie6 .igdm_NautilusMenuItemHorizontalHover
+{
+	border-width:0px;
+}
+
+
+.ie6 .igdm_NautilusMenuItemVerticalRootSelected
+{
+	border-width:0px;
+}
+
+
+.ie6 .igdm_NautilusMenuItemHorizontalRootSelected
+{
+	border-width:0px;
+}
+
+
+.igdm_NautilusMenuItemVerticalSelected.igdm_NautilusMenuItemVerticalParent
+{
+	background-color:#FF6600;
+	background-repeat:repeat-x;
+	background-position:center right ;
+	background-image: url(images/igdm_itemhoverparent.png);
+	border:solid 1px #24406F;
+}
+
+
+.ie6 .igdm_NautilusMenuItemHorizontalSeparator
+{
+	overflow: hidden;
+}
+
+
+.igdm_NautilusMenuScrollerLeft hover, .igdm_NautilusMenuScrollerRight active
+{
+	background-position:left -70px ;
+}
+
+
+.ie6 ul.igdm_NautilusMenuGroupVerticalRoot li.igdm_NautilusMenuItemVerticalParent.igdm_NautilusMenuItemVerticalRoot
+{
+	background-color: none;
+}
+
+
+.igdm_NautilusMenuItemHorizontalActive.igdm_NautilusMenuItemHorizontalParent
+{
+	background-repeat:repeat-x;
+	background-position:right center ;
+	border:solid 1px #24406F;
+}
+
+
+.ie6 .igdm_NautilusMenuItemVerticalRoot
+{
+	border-width:0px;
+}
+
+
+.igdm_NautilusMenuScrollerRight hover, .igdm_NautilusMenuScrollerRight active
+{
+	background-position:left -70px ;
+}
+
+
+.ie6 .igdm_NautilusMenuItemVerticalRootHover .igdm_NautilusMenuItemVerticalRootLink
+{
+	color:White;
+}
+
+
+.igdm_NautilusMenuItemVerticalRootSelected > a
+{
+	color:White;
+}
+
+

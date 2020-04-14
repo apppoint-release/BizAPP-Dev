@@ -1,0 +1,110 @@
+﻿.igc_NautilusControl
+{
+	border:solid 1px #678AB0;
+	background-color:#ffffff;
+	padding:10px;
+	margin:0px;
+	font-family:Segoe UI,Verdana,Arial,Sans-Serif;
+    font-size:12px;
+}
+
+.igc_NautilusControlActive
+{
+	
+}
+
+.igc_NautilusCaptchaInput
+{
+    border:1px solid #678AB0;
+    display:block;
+    padding:5px 0;
+    
+    margin-bottom:10px;
+    /*IE6 and IE7 specific hack*/
+    *margin-bottom:0;
+    
+}
+
+.igc_NautilusRefreshAndAudioButtonsArea
+{
+    margin-left:10px;
+	border-width:0;
+	text-decoration:none;
+    display:block;
+}
+
+    .igc_NautilusRefreshAndAudioButtonsArea img
+    {
+	    border-width:0px;
+	    text-decoration:none;
+	    margin-bottom:3px;
+    }
+
+.igc_NautilusSubmitButton {
+    background:#4A6E99 url(./images/igc_submitButtonBg.png) repeat-x top left;
+    border:1px solid #24406F;
+    clear:left;
+    display:block;
+    height:30px;
+    width:177px;
+    cursor:pointer;
+    color:#ffffff;
+    margin-top:10px;
+    font-family:Segoe UI,Verdana,Arial,Sans-Serif;
+    font-size:12px;
+    font-weight:bold;
+    padding:0px;
+}
+
+.igc_NautilusErrorLabel
+{
+    background-color:#FF6666;
+    color:white;
+    padding:3px;
+}
+
+.igc_NautilusCaptchaImageLabel
+{
+	border:1px solid #678AB0;
+}
+
+.igc_NautilusCaptchaInputLabel{
+}
+
+.igc_NautilusCaptchaInfoTextLabel
+{
+    display:block;
+    margin:10px 0 5px 0;
+}
+
+.igc_NautilusCaptchaImage
+{
+    display:block;
+    margin-bottom:10px;
+}
+
+.igc_NautilusCaptchaImageArea
+{
+    display:block;
+    float:left;
+    padding:0;
+    margin:0;
+}
+    .igc_NautilusCaptchaImageArea label 
+    {
+        display:block
+    }
+	    
+.igc_NautilusRefreshAndAudioButtonsArea 
+{
+    float:left;
+}
+    .igc_NautilusRefreshAndAudioButtonsArea a 
+    {
+        display:block
+    }
+    .igc_NautilusRefreshAndAudioButtonsArea a,
+    .igc_NautilusRefreshAndAudioButtonsArea img 
+    {
+        cursor:pointer
+    }

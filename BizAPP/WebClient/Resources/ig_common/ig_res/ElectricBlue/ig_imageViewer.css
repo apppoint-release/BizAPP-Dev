@@ -1,0 +1,650 @@
+/* The CSS Class that will be applied to the outer control.*/
+.igiv_ElectricBlueControl
+{
+	background-color:Transparent;
+	padding-bottom:50px;
+}
+
+
+/*
+	This class should be used for setting any padding that might be 
+	needed if the Header is placed above the control.
+*/
+.igiv_ElectricBlueHeaderPadding
+{
+	padding-top:50px;
+}
+
+
+/*
+	This class should be used for adjusting the padding of the control
+	to account for the additional size of the header and footer.
+*/
+.igiv_ElectricBlueFooterPadding
+{
+	padding-bottom:50px;
+}
+
+
+/*
+	The CSS class that will be applied to the header. 
+    The header can be absolutely positoned anywhere in the control, because the WebImageViewerhas an internal DIV that
+    wraps the control with a position set to relative. </para>
+*/
+.igiv_ElectricBlueHeaderContentArea
+{
+	font-size:14px;
+	padding-top:5px;
+	width: 100%;
+	position: absolute;
+	top: -27px;
+	right: 0px;
+	color:#666666;
+	text-align:left;
+}
+
+
+/*The CSS class that will be applied to the Left Corner of the Header. */
+.igiv_ElectricBlueHeaderContentLeft
+{
+}
+
+
+/*The CSS class that will be applied to the actual content of the Header.*/
+.igiv_ElectricBlueHeaderContent
+{
+	padding-top:-5px;
+	padding-left:3px;
+}
+
+
+/*The CSS class that will be applied to the Right Corner of the Header. */
+.igiv_ElectricBlueHeaderContentRight
+{
+}
+
+
+/*
+	A TR that wraps the TopLeft, TopArea, and TopRight elements. 
+    This CSS class is useful in setting the height of the entire row.
+*/
+.igiv_ElectricBlueHeaderArea
+{
+	height: 9px;
+}
+
+
+/*
+	The CSS class that will be applied to the footer. 
+    The footer can be absolutely positoned anywhere in the control, because the WebImageViewer has an internal DIV that
+    wraps the control with a position set to relative. </para>
+*/
+.igiv_ElectricBlueFooterContentArea
+{
+	font-size:14px;
+	padding-bottom:5px;
+	/*width: 100%; */
+	position: absolute;
+	bottom: -45px;
+	right: 0px;
+	color:#666666;
+	text-align:right;
+}
+
+
+/*The CSS class that will be applied to the Left Corner of the Footer. */
+.igiv_ElectricBlueFooterContentLeft
+{
+}
+
+
+/*The CSS class that will be applied to the actual content of the Footer.*/
+.igiv_ElectricBlueFooterContent
+{
+}
+
+
+/* The CSS class that will be applied to the Right Corner of the Footer. */
+.igiv_ElectricBlueFooterContentRight
+{
+}
+
+
+/*
+	 A TR that wraps the BottomLeft, BottomArea, and BottomRight elements. 
+     This CSS class is useful in setting the height of the entire row.
+*/
+.igiv_ElectricBlueFooterArea
+{
+	height: 9px;
+}
+
+
+/*
+	A TD that wraps the Header.
+    This CSS Class should be used for applying a Background-Image along the top border of the control.
+*/
+.igiv_ElectricBlueEdgeTop
+{
+	background-repeat:repeat-x;
+	background-image: url(./images/igiv_EdgeTop.gif);
+	height: 9px;
+}
+
+
+/*
+	A TD on the left side of the ImageArea.
+    This CSS Class should be used for applying a Background-Image along the left border of the control.
+*/
+.igiv_ElectricBlueEdgeLeft
+{
+	background-repeat:repeat-y;
+	background-image: url(./images/igiv_EdgeLeft.gif);
+	width: 9px;
+}
+
+
+/*
+	A TD that wraps the Footer.
+    This CSS Class should be used for applying a Background-Image along the bottom border of the control.
+*/
+.igiv_ElectricBlueEdgeBottom
+{
+	background-repeat:repeat-x;
+	background-image: url(./images/igiv_EdgeBottom.gif);
+}
+
+
+/*
+	 A TD on the right side of the ImageArea.
+     This CSS Class should be used for applying a Background-Image along the right border of the control.
+       
+*/
+.igiv_ElectricBlueEdgeRight
+{
+	background-repeat:repeat-y;
+	background-image: url(./images/igiv_EdgeRight.gif);
+	width: 9px;
+}
+
+
+/*
+	 The Top Left corner of the control.
+     This CSS Class should be used for rounded corners.
+*/
+.igiv_ElectricBlueCornerTopLeft
+{
+	background-repeat:no-repeat;
+	background-image: url(./images/igiv_CornerTopLeft.gif);
+	width: 9px;
+}
+
+
+/*
+	The Top Right corner of the control.
+    This CSS Class should be used for rounded corners.
+*/
+.igiv_ElectricBlueCornerTopRight
+{
+	background-repeat:no-repeat;
+	background-position:right ;
+	background-image: url(./images/igiv_CornerTopRight.gif);
+	width: 9px;
+}
+
+
+/*
+	The Bottom Left corner of the control.
+    This CSS Class should be used for rounded corners.
+*/
+.igiv_ElectricBlueCornerBottomLeft
+{
+	background-repeat:no-repeat;
+	background-image: url(./images/igiv_CornerBottomLeft.gif);
+}
+
+
+/*
+	The Bottom Right corner of the control.
+    This CSS Class should be used for rounded corners.
+*/
+.igiv_ElectricBlueCornerBottomRight
+{
+	background-repeat:no-repeat;
+	background-position:top right ;
+	background-image: url(./images/igiv_CornerBottomRight.gif);
+}
+
+
+/*
+	The CSS class that will be applied to the Container of the Previous Button. 
+    This css Class is the TD in which the Image element is rendered. This style can be used
+    to set the vertical-align CSS attribute.
+*/
+.igiv_ElectricBluePrevButtonArea
+{
+	vertical-align:middle;
+}
+
+
+/*
+	The CSS class that will be applied to the Previous Button. 
+    The Previous Button can be absolutely positoned anywhere in the control, because the WebImageViewer has an internal DIV that
+    wraps the control with a position set to relative. 
+*/
+.igiv_ElectricBluePrevButton
+{
+	cursor:pointer;
+}
+
+
+/*
+	The CSS class that will be applied to the Container of the Next Button. 
+    This css Class is the TD in which the Image element is rendered. This style can be used
+    to set the vetical-align CSS attribute.
+*/
+.igiv_ElectricBlueNextButtonArea
+{
+	cursor:pointer;
+	vertical-align:middle;
+}
+
+
+/*
+	The CSS class that will be applied to the Next Button. 
+    The Next Button can be absolutely positoned anywhere in the control, because the WebImageViewer has an internal DIV that
+    wraps the control with a position set to relative.
+*/
+.igiv_ElectricBlueNextButton
+{
+}
+
+
+/*
+	A TD that contains the ImageArea.
+    If you would like a border around the ImageArea, this is the class to use.
+*/
+.igiv_ElectricBlueImageAreaContainer
+{
+	border:solid 1px DimGray;
+}
+
+
+/*
+	A DIV that contains all of the Images. 
+    In XHTML, to apply a border around the images a padding-bottom must be set to the size of the 
+	border-top-width plus the border-bottom-width.
+*/
+.igiv_ElectricBlueImageArea
+{
+	background-color:White;
+}
+
+
+/*
+	An IMG element that is contained by the ImageAra.
+    In XHTML, to apply a border around an image a padding-bottom must be set to the size of the 
+	border-top-width plus the border-bottom-width on the ImageArea.
+*/
+.igiv_ElectricBlueImage
+{
+}
+
+
+/*Applied to an IMG when it is selected.*/
+.igiv_ElectricBlueImageSelected
+{
+}
+
+
+/*Applied to an IMG when the mouse is over it.*/
+.igiv_ElectricBlueImageHover
+{
+}
+
+
+/*
+	When an image is hovered, this style gets applied to all other images.
+    A good use of this style is to apply an opacity to all other images that aren't being hovered, 
+	so that the hovered image has more focus.
+*/
+.igiv_ElectricBlueOtherImageHover
+{
+	opacity: .5;
+	filter: alpha(opacity=50);
+}
+
+
+/*Applied to an IMG when the image is disabled.*/
+.igiv_ElectricBlueImageDisabled
+{
+	opacity: .25;
+	filter: alpha(opacity=25);
+}
+
+
+/**************************** VERTICAL ***************************************/
+/*The CSS Class that will be applied to the outer control.*/
+.igiv_ElectricBlueControl_Vert
+{
+	background-color:Transparent;
+	padding-bottom:27px;
+}
+
+
+/*
+	This class should be used for setting any padding that might be 
+	needed if the Header is placed above the control.
+*/
+.igiv_ElectricBlueHeaderPadding_Vert
+{
+	padding-top:27px;
+}
+
+
+/*
+	This class should be used for adjusting the padding of the control
+	to account for the additional size of the header and footer.
+*/
+.igiv_ElectricBlueFooterPadding_Vert
+{
+	padding-bottom:57px;
+}
+
+
+/*
+	The CSS class that will be applied to the header. 
+    The header can be absolutely positoned anywhere in the control, because the WebImageViewer has an internal DIV that
+    wraps the control with a position set to relative.
+*/
+.igiv_ElectricBlueHeaderContentArea_Vert
+{
+	font-size:14px;
+	margin-left:-13px;
+	padding-top:7px;
+	width: 100%;
+	position: absolute;
+	top: -30px;
+	color:#666666;
+	text-align:left;
+}
+
+
+/*The CSS class that will be applied to the Left Corner of the Header. */
+.igiv_ElectricBlueHeaderContentLeft_Vert
+{
+}
+
+
+/*The CSS class that will be applied to the actual content of the Header.*/
+.igiv_ElectricBlueHeaderContent_Vert
+{
+}
+
+
+/*The CSS class that will be applied to the Right Corner of the Header. */
+.igiv_ElectricBlueHeaderContentRight_Vert
+{
+}
+
+
+/*
+	A TR that wraps the TopLeft_Vert, TopArea_Vert, and TopRight_Vert elements. 
+    This CSS class is useful in setting the height of the entire row.
+*/
+.igiv_ElectricBlueHeaderArea_Vert
+{
+	height: 9px;
+}
+
+
+/*
+	The CSS class that will be applied to the footer. 
+    The footer can be absolutely positoned anywhere in the control, because the WebImageViewer has an internal DIV that
+    wraps the control with a position set to relative. 
+*/
+.igiv_ElectricBlueFooterContentArea_Vert
+{
+	font-size:14px;
+	padding-bottom:5px;
+	/*width: 100%;*/
+	position: absolute;
+	bottom: -50px;
+	right: 0px;
+	color:#666666;
+	text-align:right;
+}
+
+
+/*The CSS class that will be applied to the Left Corner of the Footer. */
+.igiv_ElectricBlueFooterContentLeft_Vert
+{
+}
+
+
+/*The CSS class that will be applied to the actual content of the Footer.*/
+.igiv_ElectricBlueFooterContent_Vert
+{
+}
+
+
+/*The CSS class that will be applied to the Right Corner of the Footer. */
+.igiv_ElectricBlueFooterContentRight_Vert
+{
+}
+
+
+/*
+	A TR that wraps the BottomLeft_Vert, BottomArea_Vert, and BottomRight_Vert elements. 
+    This CSS class is useful in setting the height of the entire row.
+*/
+.igiv_ElectricBlueFooterArea_Vert
+{
+	height: 9px;
+}
+
+
+/*
+	A TD that wraps the Header_Vert.
+    This CSS Class should be used for applying a Background-Image along the top border of the control.
+*/
+.igiv_ElectricBlueEdgeTop_Vert
+{
+	background-repeat:repeat-x;
+	background-image: url(./images/igiv_EdgeTop_Vert.gif);
+}
+
+
+/*
+	A TD on the left side of the ImageArea_Vert.
+    This CSS Class should be used for applying a Background-Image along the left border of the control.
+*/
+.igiv_ElectricBlueEdgeLeft_Vert
+{
+	background-repeat:repeat-y;
+	background-image: url(./images/igiv_EdgeLeft_Vert.gif);
+}
+
+
+/*
+	A TD that wraps the Footer_Vert.
+    This CSS Class should be used for applying a Background-Image along the bottom border of the control.
+*/
+.igiv_ElectricBlueEdgeBottom_Vert
+{
+	background-repeat:repeat-x;
+	background-position:bottom ;
+	background-image: url(./images/igiv_EdgeBottom_Vert.gif);
+}
+
+
+/*
+	A TD on the right side of the ImageArea_Vert.
+    This CSS Class should be used for applying a Background-Image along the right border of the control.
+*/
+.igiv_ElectricBlueEdgeRight_Vert
+{
+	background-repeat:repeat-y;
+	background-position:right top ;
+	background-image: url(./images/igiv_EdgeRight_Vert.gif);
+}
+
+
+/*
+	The Top Left corner of the control.
+    This CSS Class should be used for rounded corners.
+*/
+.igiv_ElectricBlueCornerTopLeft_Vert
+{
+	background-repeat:no-repeat;
+	background-position:top left ;
+	background-image: url(./images/igiv_CornerTopLeft_Vert.gif);
+	width: 9px;
+}
+
+
+/*
+	The Top Right corner of the control.
+    This CSS Class should be used for rounded corners.
+*/
+.igiv_ElectricBlueCornerTopRight_Vert
+{
+	background-repeat:no-repeat;
+	background-position:right top ;
+	background-image: url(./images/igiv_CornerTopRight_Vert.gif);
+	width: 9px;
+}
+
+
+/*
+	The Bottom Left corner of the control.
+    This CSS Class should be used for rounded corners.
+*/
+.igiv_ElectricBlueCornerBottomLeft_Vert
+{
+	background-repeat:no-repeat;
+	background-position:bottom ;
+	background-image: url(./images/igiv_CornerBottomLeft_Vert.gif);
+}
+
+
+/*
+	The Bottom Right corner of the control.
+    This CSS Class should be used for rounded corners.
+*/
+.igiv_ElectricBlueCornerBottomRight_Vert
+{
+	background-repeat:no-repeat;
+	background-position:bottom right ;
+	background-image: url(./images/igiv_CornerBottomRight_Vert.gif);
+}
+
+
+/*
+	The CSS class that will be applied to the Container of the PreviousButton. 
+    This css Class is the TD in which the Image element is rendered. This style can be used
+    to set the text-align CSS attribute.
+*/
+.igiv_ElectricBluePrevButtonArea_Vert
+{
+	position: relative;
+	width: 100%;
+	text-align:center;
+}
+
+
+/*
+	The CSS class that will be applied to the Previous Button. 
+    The Previous Button can be absolutely positoned anywhere in the control, because the WebImageViewer has an internal DIV that
+    wraps the control with a position set to relative. 
+*/
+.igiv_ElectricBluePrevButton_Vert
+{
+}
+
+
+/*
+	The CSS class that will be applied to the Container of the Next Button. 
+    This css Class is the TD in which the Image element is rendered. This style can be used
+    to set the text-align CSS attribute.
+*/
+.igiv_ElectricBlueNextButtonArea_Vert
+{
+	position: relative;
+	width: 100%;
+	text-align:center;
+}
+
+
+/*
+	The CSS class that will be applied to the Next Button. 
+    The Next Button can be absolutely positoned anywhere in the control, because the WebImageViewer has an internal DIV that
+    wraps the control with a position set to relative. 
+*/
+.igiv_ElectricBlueNextButton_Vert
+{
+}
+
+
+/*
+	A TD that contains the ImageArea.
+    If you would like a border around the ImageArea, this is the class to use.
+*/
+.igiv_ElectricBlueImageAreaContainer_Vert
+{
+	border:solid 1px DimGray;
+}
+
+
+/*
+	A DIV that contains all of the Images. 
+    In XHTML, to apply a border around the images a padding-right must be set to the size of the 
+	border-left-width plus the border-right-width.
+*/
+.igiv_ElectricBlueImageArea_Vert
+{
+}
+
+
+/*
+	An IMG element that is contained by the ImageAra.
+    In XHTML, to apply a border around an image a padding-right must be set to the size of the 
+	border-left-width plus the border-right-width on the ImageArea_Vert.
+*/
+.igiv_ElectricBlueImage_Vert
+{
+}
+
+
+/*Applied to an IMG when it is selected.*/
+.igiv_ElectricBlueImageSelected_Vert
+{
+}
+
+
+/*Applied to an IMG when the mouse is over it.*/
+.igiv_ElectricBlueImageHover_Vert
+{
+}
+
+
+/*
+	When an image is hovered, this style gets applied to all other images.
+    A good use of this style is to apply an opacity to all other images that aren't being hovered, 
+	so that the hovered image has more focus.
+*/
+.igiv_ElectricBlueOtherImageHover_Vert
+{
+	opacity: .5;
+	filter: alpha(opacity=50);
+}
+
+
+/*Applied to an IMG when the image is disabled.*/
+.igiv_ElectricBlueImageDisabled_Vert
+{
+	opacity: .25;
+	filter: alpha(opacity=25);
+}
+
+

@@ -1,0 +1,196 @@
+.igmc_ClaymationControl
+{
+	background-color: #eee;
+	border:1px solid #C5C7CB;
+	width: 225px;
+	height: 200px;
+	padding: 0px;
+	margin: 0px;
+	font-family: Segoe UI, Verdana, Arial, Georgia, Sans-Serif;
+}
+
+.igmc_ClaymationDOW
+{
+	background-color: #F3F3F3;
+	font-size:0.8em;
+	border-width:0px;
+	border-bottom:solid 1px #CCCCCC;
+	text-align:center;
+	font-weight: bold;
+	height: 35px;
+}
+
+.igmc_ClaymationNextPrev
+{
+	margin: 0px;
+	font-size: 0.8em;
+	color: #333333;
+	padding: 0px 8px;
+}
+
+.igmc_ClaymationHoverNextPrev
+{
+	cursor: pointer;
+	color: #00bfff;
+}
+
+.igmc_ClaymationPressedNextPrev
+{
+}
+
+.igmc_ClaymationFooter
+{
+	background-color: #FFFFFF;
+	background-image: url(images/igmc_footerbg.gif);
+	background-repeat:repeat-x;
+	background-position: bottom;
+	border-top: 1px solid #dddddd;
+	font-size: 0.8em;
+	text-align:center;
+	height: 35px;
+}
+
+.igmc_ClaymationHoverFooter
+{
+	background-color: #F5F5F5;
+	background-image: url(images/igmc_footerbghover.gif);
+	background-repeat:repeat-x;
+	color: #00bfff;
+	cursor: pointer
+}
+
+.igmc_ClaymationPressedFooter
+{
+	background-color: #EEEEEE;
+	background-image: url(images/igmc_footerbgpressed.gif);
+	background-repeat:repeat-x;
+}
+
+.igmc_ClaymationHeader
+{
+	background-color: #cccccc;
+	background-repeat:repeat-x;
+	background-position:top;
+	background-image: url(images/igmc_headerbg.png);
+	border-bottom: 1px solid #BBBBBB;
+	height: 50px;
+}
+
+.igmc_ClaymationMonthYear
+{
+	font-size:1em;
+	font-weight:bold;
+	padding:0px 2px;
+	color: #333333;
+}
+
+.igmc_ClaymationPressedMonthYear
+{
+	color: #00BFFF;
+}
+
+.igmc_ClaymationHoverMonthYear
+{
+	cursor: pointer;
+	color: #00BFFF;
+}
+
+.igmc_ClaymationDay
+{
+	background-color:#FFFFFF;
+	font-size: 0.9em;
+	text-align:center;
+	border: 1px solid #FFFFFF;
+	font-weight: bold;
+}
+
+.igmc_ClaymationDay.igmc_ClaymationOtherMonthDay
+{
+	background-image:none;
+	color: #a4a4a4;
+	font-size:0.9em;
+	font-weight:normal;
+}
+
+.igmc_ClaymationWeekNumber
+{
+	border: 1px solid #EEEEEE;
+	background-color: #EEEEEE;
+	font-weight: bold;
+}
+
+.igmc_ClaymationWeekendDay
+{
+	background-color:#f9f9f9;
+	border: 1px solid #f9f9f9;
+}
+
+.igmc_ClaymationOtherMonthDay
+{
+	color:#AAAAAA;
+	background-image: none;
+}
+
+.igmc_ClaymationTodayDay, .igmc_ClaymationTodayDay.igmc_ClaymationSelectedDay
+{
+	background-color: #CCCCCC;
+}
+
+.igmc_ClaymationSelectedDay
+{
+	background-color: #e3f8ff;
+	font-weight:bold;
+	color: #696969;
+}
+
+.igmc_ClaymationFocusDay, .igmc_ClaymationOtherMonthDay.igmc_ClaymationFocusDay
+{
+	background-color: #EFEFEF;
+	border-color: #00BFFF;
+	font-weight:bold;
+	color: #696969;
+}
+
+.igmc_ClaymationHoverDay, .igmc_ClaymationTodayDay.igmc_ClaymationHoverDay, .igmc_ClaymationOtherMonthDay.igmc_ClaymationHoverDay
+{
+	background-color: #00BFFF;
+	border: #fff;
+	color:#FFFFFF;
+	font-weight: bold;
+}
+
+.igmc_ClaymationDisabledDay
+{
+	color:#FFFFFF;
+}
+
+/* CSS classes for Month and Year selection Popup in header */
+.igmc_ClaymationList
+{
+	background-color: #fff;
+	border:1px solid #bbb;
+}
+
+.igmc_ClaymationItem
+{
+	background-color:#fff;
+	border:1px solid #fff;
+	font-size: 1em;
+	text-align: center;
+}
+
+.igmc_ClaymationSelectedItem
+{
+	background-color: #efefef;
+	border:1px solid #00BFFF;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.igmc_ClaymationHoverItem
+{
+	background-color: #00BFFF;
+	color: #fff;
+	font-weight: bold;
+	cursor: pointer;
+}

@@ -1,0 +1,55 @@
+﻿body
+{
+}
+.igpb_LucidDreamBaseLabel
+{
+	text-align:left;
+	white-space:nowrap;
+	position:absolute;
+	padding:2px;
+}
+.igpb_LucidDreamBackgroundLabel
+{
+	color:Black;
+}
+.igpb_LucidDreamForegroundLabel
+{
+	color:white;
+}
+.igpb_LucidDreamInnerDiv
+{
+	height:100%;
+	width:100%;
+	position:absolute;
+	overflow:hidden;
+	
+}
+.igpb_LucidDreamFill_Horiz
+{
+	background-image: url(./images/igpb_horizontalFill.gif);
+	background-repeat: repeat-x;
+	background-color:#75BAE5;
+	
+}
+.igpb_LucidDreamFill_Vert
+{
+	background-image: url(./images/igpb_VerticalFill.gif);
+	background-repeat: repeat-y;
+	background-color:#75BAE5;
+	
+}
+.igpb_LucidDreamBackground_Horiz
+{
+}
+.igpb_LucidDreamBackground_Vert
+{
+	
+}
+.igpb_LucidDreamContainer
+{
+	height:100%;
+	width:100%;
+	position:relative;
+	border:solid 1px #ABC1DE;
+	overflow: hidden;
+}

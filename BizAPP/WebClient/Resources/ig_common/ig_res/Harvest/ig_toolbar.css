@@ -1,0 +1,61 @@
+.igtb_HarvestControl
+{
+	background-color:#F0F0F0;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(images/itembg.jpg);
+	border:solid 1px WhiteSmoke;
+}
+
+
+.igtb_HarvestItem
+{
+	background-color:Transparent;
+}
+
+
+.igtb_HarvestButton
+{
+	background-color:Transparent;
+	border:solid 1px Transparent;
+	padding-left:4px;
+}
+
+
+.igtb_HarvestButtonHover
+{
+	background-position:center ;
+	background-image: url(images/header.gif);
+	border:solid 1px #97462C;
+	color:White;
+	padding-left:4px;
+}
+
+
+.igtb_HarvestButtonPressed
+{
+}
+
+
+.igtb_HarvestLabel
+{
+}
+
+
+.igtb_HarvestTextBox
+{
+	background-color:White;
+}
+
+
+.igtb_HarvestSeparator
+{
+	background-color:Transparent;
+}
+
+
+.igtb_HarvestButtonDisabled
+{
+}
+
+

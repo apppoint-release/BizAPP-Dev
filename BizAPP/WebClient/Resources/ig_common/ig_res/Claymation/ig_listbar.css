@@ -1,0 +1,182 @@
+.iglb_ClaymationControl
+{
+	font-size:small;
+	border:solid 1px #E1E1E1;
+	margin-bottom:0px;
+}
+
+
+.iglb_ClaymationControl_Exp
+{
+	font-size:smaller;
+	border:solid 1px #E1E1E1;
+}
+
+
+.iglb_ClaymationButton
+{
+	background-position:top ;
+	background-image: url(images/header.jpg);
+	font-size:smaller;
+	padding-top:8px;
+	padding-bottom:6px;
+	padding-left:3px;
+	color:Black;
+}
+
+
+.iglb_ClaymationButtonHover
+{
+	background-position:top ;
+	background-image: url(images/header_hover.jpg);
+	font-size:smaller;
+	padding-top:8px;
+	padding-bottom:6px;
+	padding-left:3px;
+}
+
+
+.iglb_ClaymationButtonSelected
+{
+	background-position:top ;
+	background-image: url(images/header_hover.jpg);
+	font-weight:bold;
+	font-size:smaller;
+	border-bottom:solid 1px #E1E1E1;
+	padding-top:8px;
+	padding-bottom:6px;
+	padding-left:3px;
+	cursor:hand;
+}
+
+
+.iglb_ClaymationHeaderCollapsed
+{
+	background-image: url(images/header.jpg);
+	font-size:smaller;
+	padding-top:8px;
+	padding-bottom:6px;
+	padding-left:3px;
+	color:Black;
+}
+
+
+.iglb_ClaymationHeaderExpanded
+{
+	background-image: url(images/header.jpg);
+	font-size:smaller;
+	border-bottom:solid 1px Gainsboro;
+	padding-top:8px;
+	padding-bottom:6px;
+	padding-left:3px;
+	color:Black;
+}
+
+
+.iglb_ClaymationHeaderHover
+{
+	background-image: url(images/header_hover.jpg);
+	font-size:smaller;
+	border-bottom:solid 1px Gainsboro;
+	padding-top:8px;
+	padding-bottom:6px;
+	padding-left:3px;
+	cursor:hand;
+}
+
+
+.iglb_ClaymationGroup
+{
+	background-image: url(images/day_bg.jpg);
+	cursor:default;
+}
+
+
+.iglb_ClaymationGroup_Exp
+{
+	background-image: url(images/day_bg.jpg);
+	margin-bottom:0px;
+	cursor:default;
+}
+
+
+.iglb_ClaymationItem
+{
+	background-color:Transparent;
+	font-size:xx-small;
+	margin-top:8px;
+	margin-bottom:3px;
+	padding-left:4px;
+	text-align:left;
+}
+
+
+.iglb_ClaymationItem_Exp
+{
+	background-color:Transparent;
+	font-size:xx-small;
+	margin-top:4px;
+	margin-bottom:0px;
+	padding-bottom:3px;
+	padding-left:4px;
+	cursor:hand;
+	text-align:left;
+}
+
+
+.iglb_ClaymationItemHover
+{
+	font-size:xx-small;
+	margin-top:8px;
+	margin-bottom:3px;
+	padding-left:4px;
+	cursor:hand;
+	color:Gray;
+	text-align:left;
+	text-decoration:underline;
+}
+
+
+.iglb_ClaymationItemHover_Exp
+{
+	font-size:xx-small;
+	margin-top:4px;
+	margin-bottom:0px;
+	padding-bottom:3px;
+	padding-left:4px;
+	cursor:hand;
+	color:Gray;
+	text-align:left;
+	text-decoration:underline;
+}
+
+
+.iglb_ClaymationItemSelected
+{
+	background-color:Transparent;
+	font-weight:bold;
+	font-size:xx-small;
+	margin-top:8px;
+	margin-bottom:3px;
+	padding-left:4px;
+	cursor:hand;
+	color:Gray;
+	text-align:left;
+}
+
+
+.iglb_ClaymationItemSelected_Exp
+{
+	background-color:Transparent;
+	font-weight:bold;
+	font-size:xx-small;
+	margin-top:4px;
+	margin-bottom:0px;
+	padding-bottom:3px;
+	padding-left:4px;
+	cursor:hand;
+	color:Gray;
+	text-align:left;
+}
+
+

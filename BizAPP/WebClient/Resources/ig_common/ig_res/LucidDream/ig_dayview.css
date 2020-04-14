@@ -1,0 +1,246 @@
+.igdv_LucidDreamControl
+{
+	border: 1px solid #999999;
+}
+
+
+.igdv_LucidDreamCaptionHeader
+{
+	background-color:#77b9e5;
+	background-repeat:repeat-x;
+	background-image: url(images/header.gif);
+	font-weight:bold;
+	border-width:0;
+	border-bottom: 1px solid #679AC7;
+	padding:3px;
+	line-height: 16pt;
+	color:#FFFFFF;
+	text-align:center;
+}
+
+
+.igdv_LucidDreamDayHeader
+{
+	background-color: #DCE9F1;
+	background-repeat:repeat-x;
+	background-image: url(images/dayheader.jpg);
+	border-bottom: 1px solid #cccccc;
+	font-size:8pt;
+	padding: 5px;
+	text-align:center;
+	overflow: hidden;
+}
+
+
+.igdv_LucidDreamNonWorkingTimeSlot
+{
+	background-color:#F1F3F7;
+	border-right:solid 1px #D5E1F1;
+	border-bottom:solid 1px #D5E1F1;
+	height: 20px;
+}
+
+
+.igdv_LucidDreamWorkingTimeSlot
+{
+	background-color:#FFFFFF;
+	border-right:solid 1px #E6EDF7;
+	border-bottom:solid 1px #E6EDF7;
+	height: 20px;
+}
+
+
+.igdv_LucidDreamAllDayEventArea
+{
+	border-bottom: 1px solid #D3D3D3;
+}
+
+
+.igdv_LucidDreamAllDayEvent
+{
+	background-color:#FDFEFE;
+	background-repeat:repeat-x;
+	background-image: url(images/groupbyheader.gif);
+	font-size:8pt;
+	border: solid 1px #D3D3D3;
+	padding:5px;
+	white-space: nowrap;
+	text-align:center;
+	overflow: hidden;
+}
+
+
+.igdv_LucidDreamAppointment
+{
+	background-color:#477AA7;
+	background-repeat:repeat-x;
+	background-image: url(images/header_hover.gif);
+	font-size:8pt;
+	border:solid 1px #999999;
+	color:#FFFFFF;
+	overflow: hidden;
+}
+
+.igdv_LucidDreamFadedAppointment
+{
+	filter:alpha(opacity=50);
+	-moz-opacity:0.5;
+	-khtml-opacity: 0.5;
+	opacity: 0.5;
+}
+
+.igdv_LucidDreamActivityEdge
+{
+	font-size: 1px;
+	height: 5px;
+	cursor:n-resize;
+}
+
+
+.igdv_LucidDreamActivityEdgeLeft
+{
+	font-size:2px;
+	width: 6px;
+	cursor:move;
+}
+
+
+.igdv_LucidDreamTodayHeader
+{
+	background-color: #DCE9F1;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(images/dayheader.jpg);
+	font-size:8pt;
+	padding: 5px;
+	text-align:center;
+	font-weight: bold;
+}
+
+
+.igdv_LucidDreamTimeSlotLabel
+{
+	background-color:#FFFFFF;
+	font-size:medium;
+	border-right:solid 1px LightGrey;
+	border-bottom:solid 1px LightGrey;
+	width: 60px;
+	color: #333333;
+	text-align:center;
+	vertical-align:middle;
+}
+
+
+.igdv_LucidDreamTimeSlotLabelMinutes
+{
+	font-size:8pt;
+}
+
+
+.igdv_LucidDreamAllDayEventSelected
+{	
+	border-color: #FF9933;
+	background-color: #FF9933;
+	background-repeat: repeat-x;
+	background-image: url(images/igmc_dayselected.gif);
+}
+
+
+.igdv_LucidDreamAllDayEventAreaSelected
+{
+}
+
+
+.igdv_LucidDreamActivityHover
+{
+	z-index: 10000;
+}
+
+
+.igdv_LucidDreamActivityEdgeBusy
+{
+}
+
+
+.igdv_LucidDreamActivityEdgeTentative
+{
+	background-color:#90C0FF;
+}
+
+
+.igdv_LucidDreamActivityEdgeOutofOffice
+{
+	background-color:#900090;
+}
+
+
+.igdv_LucidDreamActivityEdgeFree
+{
+	background-color:#F0F0F0;
+}
+
+
+.igdv_LucidDreamNavigationButton
+{
+	background-color:Transparent;
+	border-width:0px;
+	width: 30px;
+	vertical-align:middle;
+	cursor: pointer;
+}
+
+
+.igdv_LucidDreamSelectedAppointment
+{
+	background-color:#477AA7;
+	z-index: 9999;
+}
+
+.igdv_LucidDreamResourceButton
+{
+	border-width: 0;
+	border-right: solid 1px #999999;
+	border-bottom: solid 1px #999999;
+	padding: 4px;
+	font-size: 8pt;
+	color: #333;
+	background-color: #DCE9F1;
+	background-repeat:repeat-x;
+	background-image: url(images/dayheader.jpg);
+}
+
+.igdv_LucidDreamResourceButton:focus, .igdv_LucidDreamResourceButtonActive
+{
+	filter:alpha(opacity=100);
+	-moz-opacity:1.0;
+	-khtml-opacity: 1.0;
+	opacity: 1.0;
+}
+
+.igdv_LucidDreamResourceButton:hover
+{
+	filter:alpha(opacity=100);
+	-moz-opacity:1.0;
+	-khtml-opacity: 1.0;
+	opacity: 1.0;
+}
+
+.igdv_LucidDreamMultiDayEventArrowLeft
+{
+      background-image: url(images/igws_arrowLeft.gif);
+      background-repeat: no-repeat;
+      background-position: center center;
+      display: inline-block;
+      width: 9px;
+      height: 9px;
+}
+
+.igdv_LucidDreamMultiDayEventArrowRight
+{
+      background-image: url(images/igws_arrowRight.gif);
+      background-repeat: no-repeat;
+      background-position: center center;
+      display: inline-block;
+      width: 9px;
+      height: 9px;
+}

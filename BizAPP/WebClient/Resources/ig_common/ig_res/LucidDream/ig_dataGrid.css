@@ -1,0 +1,926 @@
+.igg_LucidDreamControl
+{
+	background-color:White;
+	background-repeat:repeat-x;
+	font-size:11px;
+	border:solid 1px #999999;
+}
+
+.igg_LucidDreamControl table
+{
+    border-collapse:separate;
+}
+
+.igg_LucidDreamHeader
+{
+	background-color:#6EA3CC;
+	background-repeat:repeat-x;
+	background-image: url(images/igg_header.gif);
+	color:White;
+}
+
+.igg_LucidDreamHeaderCaption
+{
+	font-size: 12px;
+	padding:3px 0 3px 8px;
+	overflow: hidden;
+	text-align:left;
+	border-top:1px solid #ecf3f8;
+    border-right:1px solid #94bbd9;
+    border-bottom:1px solid #7babd0;
+    border-left:1px solid #d3e3ef;
+}
+
+.igg_LucidDreamGroupFieldHeaderCaption
+{
+    text-align: center;
+    text-shadow: 1px 1px #1d3a52;
+    font-size: 14px;
+}
+
+.igg_LucidDreamFooter
+{
+	background-color:#F0F0F0;
+	height: 21px;
+	line-height: 21px;
+}
+
+
+.igg_LucidDreamFooterCaption
+{
+	font-weight:normal;
+	font-size:10px;
+	padding-left:8px;
+	overflow: hidden;
+	text-align:left;
+}
+
+
+tbody.igg_LucidDreamItem>tr>td
+{
+	background-color:White;
+	border-top:solid 1px #D8D8D8;
+	overflow: hidden;
+	height: 20px;
+	line-height: 20px;
+	padding:5px 8px 5px 8px;
+	text-align:left;
+	vertical-align:middle;
+}
+
+
+.igg_LucidDreamScrollbarIntersection
+{
+}
+
+
+.igg_LucidDreamRowSelector
+{
+	background-color:White;
+	border-top:solid 1px #D8D8D8;
+	border-right:solid 1px #D8D8D8;
+	border-left:solid 1px #D8D8D8;
+	width: 35px;
+	color:Black;
+	text-align:center;
+	vertical-align:middle;
+}
+
+
+.igg_LucidDreamPager
+{
+	background-color:#F0F0F0;
+	padding-top:10px;
+	padding-right:10px;
+	padding-bottom:10px;
+	text-align:right;
+}
+
+
+.igg_LucidDreamPageLink
+{
+	padding-right:10px;
+	cursor:pointer;
+	color:DimGray;
+	text-decoration:underline;
+}
+
+
+.igg_LucidDreamFilterRuleDropDown
+{
+	background-attachment:scroll;
+	background-color:White;
+	background-repeat:repeat-x;
+	background-image: url(images/igg_summarydropdownbg.png);
+	font-size:xx-small;
+	font-family: verdana;
+	border:solid 1px #83AFDF;
+	width: 150px;
+	overflow: auto;
+	max-height: 150px;
+	height: auto !important;
+	height: 150px;
+	box-shadow: 0 4px 8px 0 #5A5A5A;
+	filter: progid : DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#5A5A5A');
+}
+
+
+.igg_LucidDreamFilterButton
+{
+	background-color:Transparent;
+	border-style:solid;
+	border-width:0px;
+	height: 18px;
+}
+
+
+.igg_LucidDreamResizeIndicator
+{
+	background-color:#4679A6;
+	width: 2px;
+}
+
+
+.igg_LucidDreamFixedColumnSeparatorCssClass
+{
+	background-color:#AAAAAA;
+	width: 3px;
+}
+
+
+.igg_LucidDreamFixedColumnPinButtonCssClass
+{
+	padding-top:0px;
+	padding-right:3px;
+	cursor:pointer;
+	vertical-align:middle;
+}
+
+
+.igg_LucidDreamVirtualScrollTooltip
+{
+	background-color:#6EA3CC;
+	font-size:10px;
+	border:solid 1px #F0F0F0;
+	padding:3px;
+	color:White;
+	text-align:center;
+}
+
+
+.igg_LucidDreamTopDragIndicator
+{
+	background-repeat:no-repeat;
+	background-image: url(images/igg_topdragindicator.png);
+	margin-top:2px;
+	width: 11px;
+	height: 6px;
+	z-index: 100;
+}
+
+
+.igg_LucidDreamMiddleDragIndicator
+{
+	background-repeat:repeat-y;
+	background-position:center ;
+	background-image: url(images/igg_middledragindicator.png);
+	width: 11px;
+}
+
+
+.igg_LucidDreamBottomDragIndicator
+{
+	background-repeat:no-repeat;
+	background-image: url(images/igg_bottomdragindicator.png);
+	margin-top:-2px;
+	width: 11px;
+	height: 6px;
+	position: absolute;
+	z-index: 100;
+}
+
+
+.igg_LucidDreamDragMarkup
+{
+}
+
+
+.igg_LucidDreamSummary
+{
+	font-weight:bold;
+	font-size:9px;
+	border-bottom:solid 1px #CCCCCC;
+	overflow: hidden;
+	line-height: 20px;
+	color:#444444;
+	text-align:right;
+}
+
+
+.igg_LucidDreamSummaryButton
+{
+	background-color: none;
+	border-style:none;
+	border-color: medium;
+	margin:0px;
+	padding:0px;
+	cursor:pointer;
+}
+
+
+.igg_LucidDreamSummaryDropDown
+{
+	background-attachment:scroll;
+	background-color:White;
+	background-repeat:repeat-x;
+	background-image: url(images/igg_summarydropdownbg.png);
+	font-size:11px;
+	font-family: verdana;
+	border:solid 1px #83AFDF;
+	padding:12px;
+	width: 146px;
+	_overflow: hidden!important;
+	box-shadow: 0 4px 8px 0 #5A5A5A;
+	filter: progid : DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#5A5A5A');
+}
+
+
+.igg_LucidDreamSummaryDropDownItem
+{
+	font-weight:normal;
+	cursor:default;
+	color:Black;
+}
+
+
+.igg_LucidDreamSummaryRow
+{
+}
+
+
+.igg_LucidDreamFixedColumnHeaderCssClass
+{
+}
+
+
+tbody>tr.igg_LucidDreamAlt>td
+{
+	background-color:White;
+}
+
+
+.igg_LucidDreamHeaderRowSelector
+{
+    background-color: Transparent;
+    border-color: #ECF3F8 #94BBD9 #7BABD0 #D3E3EF;
+    border-style: solid;
+    border-width: 1px;
+}
+
+
+
+
+.igg_LucidDreamFooterRowSelector
+{
+	background-color:Transparent;
+	background-image: url(transparent);
+	border-width:0px;
+}
+
+
+.igg_LucidDreamSelectedHeader
+{
+}
+
+
+.igg_LucidDreamPageCurrent
+{
+	padding-right:10px;
+}
+
+
+tr.igg_LucidDreamAddNewRow>td
+{
+	background-color:#F7F7F7;
+	font-size:10px;
+	border-top:solid 1px #CCCCCC;
+	border-right:solid 1px #CCCCCC;
+	border-bottom:solid 0px #CCCCCC;
+	border-left:solid 0px #CCCCCC;
+	padding-left:7px;
+	height: 22px;
+	overflow: hidden;
+}
+
+
+.igg_LucidDreamAddNewRowSelectorImageCssClass
+{
+	background-color:Transparent;
+	background-repeat:no-repeat;
+	background-position:center ;
+	background-image: url(images/addnewrow_image.gif);
+}
+
+
+.igg_LucidDreamAddNewRowSelectorCssClass
+{
+	background-color:#F7F7F7;
+	border-top:solid 1px #CCCCCC;
+	border-right:solid 1px #CCCCCC;
+	border-bottom:solid 0px #CCCCCC;
+	border-left:solid 0px #CCCCCC;
+}
+
+
+.igg_LucidDreamAddNewRowExpansionColumnCssClass
+{
+}
+
+
+.igg_LucidDreamFilterRow
+{
+	font-size:10px;
+	border-top:solid 0px #CCCCCC;
+	border-right:solid 0px #CCCCCC;
+	border-bottom:solid 1px #CCCCCC;
+	border-left:solid 1px #CCCCCC;
+	height: 22px;
+	color:Black;
+}
+
+
+.igg_LucidDreamFilterRuleDropDownItem
+{
+	font-size:11px;
+	padding:1px 3px 1px 3px;
+}
+
+
+.igg_LucidDreamFilterRowSelectorImage
+{
+}
+
+
+.igg_LucidDreamFilterRowSelectorCssClass
+{
+	background-color:White;
+	background-repeat:repeat-x;
+	background-image: url(images/igg_filterrow.gif);
+	border-top:solid 1px #CCCCCC;
+	border-right:solid 1px #CCCCCC;
+	border-bottom:solid 0px #CCCCCC;
+	border-left:solid 0px #CCCCCC;
+}
+
+
+tr.igg_LucidDreamFilterRow>td
+{
+	background-color:White;
+	background-repeat:repeat-x;
+	background-image: url(images/igg_filterrow.gif);
+	border-top:solid 1px #CCCCCC;
+	border-right:solid 1px #CCCCCC;
+	border-bottom:solid 0px #CCCCCC;
+	border-left:solid 0px #CCCCCC;
+}
+
+
+.igg_LucidDreamFilterRowExpansionColumnCssClass
+{
+}
+
+
+tbody.igg_LucidDreamFixedColumnCellCssClass>tr>td
+{
+	background-color:#EFF3F8;
+}
+
+
+.igg_LucidDreamFixedColumnFooterCssClass
+{
+	font-weight:bold;
+}
+
+
+.igg_LucidDreamHeaderScrollbarIntersection
+{
+}
+
+
+.igg_LucidDreamFooterScrollbarIntersection
+{
+}
+
+
+.igg_LucidDreamSelectedRowSelector
+{
+	background-color:#8DC6EC;
+	background-repeat:no-repeat;
+	background-position:left center ;
+	background-image: url(images/selectedrowselector.gif);
+	color:White;
+}
+
+
+.igg_LucidDreamSelectedRowSelectorImage
+{
+}
+
+
+tr.igg_LucidDreamAddNewRowTop>td
+{
+}
+
+
+tr.igg_LucidDreamAddNewRowBottom>td
+{
+}
+
+
+.igg_LucidDreamFilterRowTop
+{
+}
+
+
+.igg_LucidDreamFilterRowBottom
+{
+}
+
+
+.igg_LucidDreamFilterRuleDropDownSelectedItem
+{
+	background-image: url(images/igg_header.gif);
+	font-size:11px;
+	padding:1px 3px 1px 3px;
+}
+
+
+tr.igg_LucidDreamFilterRowTop>td
+{
+}
+
+
+tr.igg_LucidDreamFilterRowBottom>td
+{
+}
+
+
+tbody>tr>td.igg_LucidDreamSelectedCell
+{
+	background-color:#8DC6EC;
+}
+
+
+.igg_LucidDreamAddNewRowScrollbarIntersection
+{
+	background-color:#F7F7F7;
+	border-top:solid 1px #CCCCCC;
+	border-right:solid 0px #CCCCCC;
+	border-bottom:solid 0px #CCCCCC;
+	border-left:solid 0px #CCCCCC;
+}
+
+
+.igg_LucidDreamFilterDisabled
+{
+	background-color:#969696;
+	border:solid 4px Black;
+}
+
+
+.igg_LucidDreamFilterScrollbarIntersection
+{
+	background-color:#EEEEEE;
+	background-repeat:repeat-x;
+	background-image: url(images/igg_filterrow.gif);
+	border-top:solid 1px #CCCCCC;
+	border-right:solid 0px #CCCCCC;
+	border-bottom:solid 0px #CCCCCC;
+	border-left:solid 0px #CCCCCC;
+}
+
+
+tbody>tr>td.igg_LucidDreamActiveCell
+{
+}
+
+
+.igg_LucidDreamActiveRow
+{
+}
+
+
+.igg_LucidDreamActiveColumn
+{
+}
+
+
+.igg_LucidDreamActiveRowSelectorImage
+{
+	color:White;
+}
+
+
+.igg_LucidDreamActiveRowSelector
+{
+	background-color:#8DC6EC;
+	background-repeat:no-repeat;
+	background-position:left center ;
+	background-image: url(images/selectedrowselector.gif);
+}
+
+
+.igg_LucidDreamFilterRuleDropDownHoverItem
+{
+	background-image: url(images/igg_header.gif);
+	font-size:11px;
+	padding:1px 3px 1px 3px;
+}
+
+
+.igg_LucidDreamEditCell
+{
+	background-color:White;
+	border:solid 1px #AAAAAA !important;
+}
+
+
+tr.igg_LucidDreamFilterRowIE6 td
+{
+	background-color:White;
+	background-repeat:repeat-x;
+	background-image: url(images/igg_filterrow.gif);
+	border-top:solid 1px #CCCCCC;
+	border-right:solid 1px #CCCCCC;
+	border-bottom:solid 0px #CCCCCC;
+	border-left:solid 0px #CCCCCC;
+}
+
+
+tbody.igg_LucidDreamItemIE6 tr td
+{
+	background-color:White;
+	border-top:solid 1px #D8D8D8;
+	padding:5px 8px 5px 8px;
+	overflow: hidden;
+	height: 20px;
+	text-align:left;
+	vertical-align:middle;
+}
+
+
+.igg_LucidDreamSummaryRow th
+{
+	background-color:#F7F7F7;
+	border-bottom:solid 1px #CCCCCC;
+}
+
+
+tr.igg_LucidDreamAddNewRowBottomIE6 td
+{
+}
+
+
+.igg_LucidDreamSummaryDropDownItem img
+{
+	margin-right:5px;
+	cursor:pointer;
+}
+
+
+tr.igg_LucidDreamAddNewRowTopIE6 td
+{
+}
+
+
+tr.igg_LucidDreamFilterRowTopIE6 td
+{
+}
+
+
+tbody tr.igg_LucidDreamAltIE6 td
+{
+	background-color:White;
+	padding:5px 8px 5px 8px;
+	text-align:left;
+	vertical-align:middle;
+}
+
+
+tr.igg_LucidDreamAddNewRowIE6 td
+{
+	background-color:#F7F7F7;
+	font-size:10px;
+	border-top:solid 1px #CCCCCC;
+	border-right:solid 1px #CCCCCC;
+	border-bottom:solid 0px #CCCCCC;
+	border-left:solid 0px #CCCCCC;
+	padding-left:7px;
+	height: 22px;
+	overflow: hidden;
+}
+
+
+.igg_LucidDreamSummaryDropDown input
+{
+	background-attachment:scroll;
+	background-color:#78BAE5;
+	background-repeat:repeat-x;
+	background-image: url(images/igg_buttonsbg.png);
+	border:solid 1px #6A9CC9;
+	margin-top:10px;
+	margin-right:3px;
+	width: 70px;
+	color:#000FFF;
+}
+
+
+tbody tr td.igg_LucidDreamSelectedCellIE6
+{
+	background-color:#8DC6EC;
+}
+
+
+tr.igg_LucidDreamFilterRowBottomIE6 td
+{
+}
+
+
+tbody tr td.igg_LucidDreamActiveCellIE6
+{
+}
+
+
+.igg_LucidDreamFooter tr[mkr="columnheaderrow"] th
+{
+	background-color:#F7F7F7;
+	border-top:solid 1px Gainsboro;
+	border-bottom:solid 1px Gainsboro;
+}
+
+/******************/
+
+/*Batch Editing*/
+
+@-webkit-keyframes addingHighlight {
+	0% {background-color:#ff9933;}
+	100% {background-color:#ffffff;}
+	}
+@-moz-keyframes addingHighlight {
+	 0% {background-color:#ff9933;}	
+	 100% {background-color:#ffffff;}
+	}
+
+tbody>tr.igg_LucidDreamAddingRow>td
+{	
+   	background-image: none;
+
+	-webkit-animation-name: addingHighlight;
+	-webkit-animation-timing-function: ease-in-out;
+	-webkit-animation-duration: 2s;
+		
+	-moz-animation-name: addingHighlight;
+	-moz-animation-timing-function: ease-in-out;
+	-moz-animation-duration: 2s;	
+	
+    -o-animation-name: addingHighlight;
+	-o-animation-timing-function: ease-in-out;
+	-o-animation-duration: 2s;
+	
+    animation-name: addingHighlight;
+	animation-timing-function: ease-in-out;
+	animation-duration: 2s;
+}
+
+tbody tr.igg_LucidDreamAddedRow td
+{
+   	background-color: #FFFFFF;
+	color:#666;
+    	font-style: italic;
+	background-image: none;
+}
+
+.igg_LucidDreamDeletedRow
+{
+    color: #666;
+    font-style: italic;
+    text-decoration: line-through;
+}
+.igg_LucidDreamDeletedRow td
+{
+    color: #666;
+    font-style: italic;
+    text-decoration: line-through;
+}
+.igg_LucidDreamDeletedRow th
+{
+    color: #666;
+    font-style: italic;
+    text-decoration: line-through;
+}
+
+.igg_LucidDreamUndoButton 
+{
+   	background-color: #8EBEE0;
+	background-image: url(images/igte_spinbuttonbg.gif);
+	background-position:top left;
+	background-repeat: repeat-x;
+	line-height:normal;
+	border:solid 1px #4679a6;
+	color: #FFFFFF;
+	text-shadow: 1px 1px #4679a6;
+	cursor: pointer;
+	padding:3px;
+	
+	-webkit-border-radius:2px;
+    -moz-border-radius:2px;
+    -o-border-radius:2px;
+    -ms-border-radius:2px;
+    -khtml-border-radius:2px;
+    border-radius:2px;
+    
+    -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; 
+}
+    
+.igg_LucidDreamUndoButtonHover 
+{
+    background-color: #60a1d0;
+	background-image: url(images/igte_spinbuttonbghover.gif);
+}
+
+.igg_LucidDreamUndoButtonPressed
+{
+	background-color: #C7E5F9;
+	background-image: url(images/igte_spinbuttonbgpressed.gif);
+}
+
+
+.igg_LucidDreamUpdatedRow
+{    
+	 color:#666;
+     font-style: italic;
+}
+.igg_LucidDreamAddedRow th
+{    
+	 color:#666;
+     font-style: italic;
+}
+tbody > tr.igg_LucidDreamUpdatedRow td.igg_LucidDreamMergedCell
+{    
+	 color:#666;
+     font-style: italic;
+}
+.igg_LucidDreamAlt.igg_LucidDreamUpdatedRow td
+{    
+	 color:#666;
+     font-style: italic;
+}
+
+tbody > tr.igg_LucidDreamUpdatedRow td.igg_LucidDreamSelectedCell
+{    
+    color: black;
+}
+
+.igg_LucidDreamUpdatedRow th {color:#666;}
+.igg_LucidDreamAlt.igg_LucidDreamUpdatedRow th {color:#666;}
+.igg_LucidDreamAddedRow th {color:#666;}
+.igg_LucidDreamAlt.igg_LucidDreamAddedRow th {color:#666;}
+
+.igg_LucidDreamUpdatedRow .igg_LucidDreamActiveRowSelectorImage {color:#ddd;}
+.igg_LucidDreamAlt.igg_LucidDreamUpdatedRow .igg_LucidDreamActiveRowSelectorImage {color:#ddd;}
+.igg_LucidDreamAddedRow .igg_LucidDreamActiveRowSelectorImage {color:#ddd;}
+.igg_LucidDreamAlt.igg_LucidDreamAddedRow .igg_LucidDreamActiveRowSelectorImage {color:#ddd;}
+
+@media print{.igg_LucidDreamControl, 
+.igg_LucidDreamControl tr[mkr="columnHeaderRow"] div,
+.igg_LucidDreamControl div[mkr="container"],
+.igg_LucidDreamControl div[mkr="hScrBar"],
+.igg_LucidDreamControl div[mkr="vScrBar"]{width:auto !important; height:auto !important; overflow: visible !important;}
+}
+
+/********************/
+/**  Cell Merging  **/
+/********************/
+/*Any future change please port it to WHDG*/
+
+tbody>tr>td.igg_LucidDreamMergedCellVisible
+{
+    color: Black;
+}
+
+tbody>tr>td.igg_LucidDreamMergedCell /*tbody>tr>td.igg_LucidDreamMergedCellAlt*/
+{
+    color: #FFF;
+    background-color: #FFF;
+    
+    border-top-width: 0;
+    border-left:  1px solid #d8d8d8;
+    border-right: 1px solid #d8d8d8;
+}
+
+tbody>tr>td.igg_LucidDreamMergedCellTop /*tbody>tr>td.igg_LucidDreamMergedCellAltTop*/
+{
+    color: Black;
+    border-top: 1px solid #d8d8d8;
+}
+
+tbody>tr>td.igg_LucidDreamMergedCell.igg_LucidDreamSelectedCell /*tbody>tr>td.igg_LucidDreamMergedCellAlt.igg_LucidDreamSelectedCell*/
+{
+    color: Black;
+    background-color: #AAD8F7;
+    
+    border-top: 1px solid #bebebe;
+    border-left: 1px dotted #bebebe;
+    border-right: 1px dotted #bebebe;
+}
+
+tbody>tr>td.igg_LucidDreamMergedCellTop.igg_LucidDreamSelectedCell /*tbody>tr>td.igg_LucidDreamMergedCellAltTop.igg_LucidDreamSelectedCell*/
+{
+    color: Black;
+}
+
+.igg_LucidDreamMergedCell.igg_LucidDreamActiveCell
+{
+    color: Black
+}
+
+tbody>tr>td.igg_LucidDreamMergedCellVisible
+{
+    color: Black;
+}
+
+tbody.igg_LucidDreamFixedColumnCellCssClass>tr>td.igg_LucidDreamMergedCell
+{
+	background-color:#EFF3F8;
+	color: #EFF3F8;
+}
+
+tbody.igg_LucidDreamFixedColumnCellCssClass>tr>td.igg_LucidDreamMergedCellTop
+{
+	color: Black;
+}
+
+
+/*********************/
+/**  Filter styles **/
+/*********************/
+
+.igg_LucidDreamFilterRuleDropDown 
+{
+	color: #000;
+	max-height: 180px;
+	min-width:160px;
+	height: auto;
+	width: auto;
+	padding: 12px;
+    
+    /*Rounded corners*/
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	
+    /*Shadow*/
+	-moz-box-shadow: 0 4px 8px 0 #5A5A5A;
+	-webkit-box-shadow: 0 4px 8px 0 #5A5A5A;
+	box-shadow : 0 4px 8px 0 #5A5A5A; /* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#5A5A5A')"; /* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#5A5A5A');
+}
+
+.igg_LucidDreamFilterRuleDropDown input
+{
+    margin-top:10px;
+    margin-right:3px;
+    width:70px;		
+   
+    background: #78BAE5 url(images/igg_ButtonsBG.png) repeat-x scroll;
+	color:#FFFFFF;
+	border:solid 1px #6A9CC9;
+		
+    -webkit-border-radius: 3px;    
+    -moz-border-radius: 3px;
+}    
+
+.igg_LucidDreamFilterRuleDropDown img
+{
+    margin-right: 5px;
+    vertical-align: bottom;
+}
+
+.igg_LucidDreamFilterCheckboxList li
+{
+    list-style-type: none;
+    margin-bottom: 3px;
+    line-height: 15px;
+}
+
+.igg_LucidDreamFilterCheckboxList
+{
+    margin: 10px 0 0 0;
+    height: auto;
+    max-height: 120px;
+    overflow: auto;
+    width: 160px;
+}

@@ -1,0 +1,481 @@
+.igsli_LucidDreamControl
+{
+	overflow:hidden;
+	border: none;
+	background: transparent;
+}
+.igsli_LucidDreamTicksHolderT
+{
+	position:relative;
+	width:100%;
+	font-size:1px;
+	height:5px;
+	border-bottom:0px solid blue;
+	margin-bottom:2px;
+}
+.igsli_LucidDreamTicksHolderB
+{
+	position:relative;
+	width:100%;
+	font-size:1px;
+	height:5px;
+	border-top:0px solid blue;
+	margin-top:2px;
+}
+.igsli_LucidDreamTickMinorT
+{
+	position:absolute;
+	font-size:1px;
+	border-left:1px solid #A9A9A9;
+	margin-top:2px;
+	height:3px;
+}
+.igsli_LucidDreamTickMajorT
+{
+	position:absolute;
+	font-size:1px;
+	border-left:1px solid #808080;
+	height:5px;
+}
+.igsli_LucidDreamTickLastT
+{
+	width:1px;
+	margin-left:-1px;
+}
+.igsli_LucidDreamTickMinorB
+{
+	position:absolute;
+	font-size:1px;
+	border-left:1px solid #A9A9A9;
+	height:3px;
+}
+.igsli_LucidDreamTickMajorB
+{
+	position:absolute;
+	font-size:1px;
+	border-left:1px solid #808080;
+	height:5px;
+}
+.igsli_LucidDreamTickLastB
+{
+	width:1px;
+	margin-left:-1px;
+}
+.igsli_LucidDreamMarginH
+{
+	width:10px;
+	font-size:1px;
+	height:100%;
+}
+.igsli_LucidDreamLabelsHolderH
+{
+	position:relative;
+	width:100%;
+	font-family:verdana;
+	font-size:10px;
+}
+/* it should be after margin */
+/* if labels are on edges, then position and margin are disabled by inline style */
+.igsli_LucidDreamLabelEdgeH
+{
+	overflow:hidden;
+	text-align:center;
+	width:26px;
+	height:14px;
+	white-space:nowrap;
+	font-family:verdana;
+	font-size:10px;
+	color: #808080;
+}
+.igsli_LucidDreamLabelT
+{
+	position:absolute;
+	overflow:hidden;
+	text-align:center;
+	margin-left:-23px;
+	width:46px; 
+	height:14px;
+	white-space:nowrap;
+	font-family:verdana;
+	font-size:10px;
+	color: #808080;
+}
+.igsli_LucidDreamLabelB
+{
+	position:absolute;
+	overflow:hidden;
+	text-align:center;
+	margin-left:-23px;
+	width:46px;
+	height:14px;
+	white-space:nowrap;
+	font-family:verdana;
+	font-size:10px;
+	color: #808080;
+}
+.igsli_LucidDreamTrackH
+{
+	position:relative;
+	text-align:left;
+	margin-left:-1px;
+	border:0px solid black;
+	background:url(images/igsli_TrackFill.gif);
+	width:100%;
+	font-size:1px;
+	height:15px;
+}
+.igsli_LucidDreamTrackValueH
+{
+	position:absolute;
+	background:url(images/igsli_TrackValueFillH.gif);
+	height:15px;
+}
+.igsli_LucidDreamTrackValue2H
+{
+	position:absolute;
+	background:url(images/igsli_TrackValueFill2H.gif);
+	height:15px;
+}
+.igsli_LucidDreamButton
+{
+	margin:2px;
+	cursor:pointer;
+}
+.igsli_LucidDreamThumbsHolderH
+{
+	position:relative;
+	z-index:1;
+	font-size:1px;
+	width:100%;
+}
+.igsli_LucidDreamThumbH
+{
+	position:absolute;
+	margin-left:-6px;
+	margin-top:-14px;
+	cursor: hand;
+	z-index:2;
+}
+.igsli_LucidDreamValueLabel
+{
+	white-space:nowrap;
+	overflow:hidden;
+	font-family:verdana;
+	font-size:10px;
+	text-align:center;
+	width:46px;
+	color: #808080;
+}
+.igsli_LucidDreamValueLabelFloatT
+{
+	position:absolute;
+	background:white;
+	border:1px solid #A9A9A9;
+	filter:alpha(opacity:0);
+	opacity:0;
+	height:13px;
+	overflow:visible;
+	width: auto;
+	min-width: 28px;
+	margin-left:-23px;
+	margin-top:-40px;
+	color: #808080;
+	padding-left:1px;
+	padding-right: 1px;
+}
+.igsli_LucidDreamValueLabelFloatB
+{
+	position:absolute;
+	overflow:visible;
+	width: auto;
+	min-width: 28px;
+	background:white;
+	border:1px solid #A9A9A9;
+	filter:alpha(opacity:0);
+	opacity:0;
+	height:13px;
+	margin-left:-23px;
+	margin-top:10px;
+	color: #808080;
+	padding-left:1px;
+	padding-right: 1px;
+}
+
+.igsli_LucidDreamTicksHolderL
+{
+	position:relative;
+	height:100%;
+	font-size:1px;
+	width:5px;
+	border-right:0px solid blue;
+	text-align:left;
+	margin-right:2px;
+}
+.igsli_LucidDreamTicksHolderR
+{
+	position:relative;
+	height:100%;
+	font-size:1px;
+	width:5px;
+	border-left:0px solid blue;
+	text-align:left;
+	margin-left:2px;
+}
+.igsli_LucidDreamTickMinorL
+{
+	position:absolute;
+	font-size:1px;
+	border-top:1px solid #808080;
+	margin-left:2px;
+	width:3px;
+}
+.igsli_LucidDreamTickMajorL
+{
+	position:absolute;
+	font-size:1px;
+	border-top:1px solid #808080;
+	width:5px;
+}
+.igsli_LucidDreamTickLastL
+{
+	height:1px;
+	margin-top:-1px;
+}
+.igsli_LucidDreamTickMinorR
+{
+	position:absolute;
+	font-size:1px;
+	border-top:1px solid #808080;
+	width:3px;
+}
+.igsli_LucidDreamTickMajorR
+{
+	position:absolute;
+	font-size:1px;
+	border-top:1px solid #808080;
+	width:5px;
+}
+.igsli_LucidDreamTickLastR
+{
+	height:1px;
+	margin-top:-1px;
+}
+.igsli_LucidDreamMarginV
+{
+	height:10px;
+	font-size:1px;
+}
+/* it should be after margin */
+/* if labels are on edges, then position and margin are disabled by inline style */
+.igsli_LucidDreamLabelEdgeV
+{
+	overflow:hidden;
+	white-space:nowrap;
+	width:auto;
+	height:auto;
+	font-family:verdana;
+	font-size:10px;
+	text-align:center;
+	color: #808080;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+.igsli_LucidDreamLabelL
+{
+	position:absolute;
+	overflow:hidden;
+	white-space:nowrap;
+	width:40px;
+	height:14px;
+	margin-top:-7px;
+	margin-left: -25px;
+	font-family:verdana;
+	font-size:10px;
+	text-align:right;
+	color: #808080;
+}
+.igsli_LucidDreamLabelR
+{
+	position:absolute;
+	overflow:visible;
+	white-space:nowrap;
+	width:40px;
+	height:14px;
+	margin-top:-7px;
+	margin-left: 5px;
+	font-family:verdana;
+	font-size:10px;
+	color: #808080
+}
+.igsli_LucidDreamLabelsHolderV
+{
+	position:relative;
+	text-align:left;
+	height:100%;
+	font-family:verdana;
+	font-size:10px;
+	width:20px;
+}
+.igsli_LucidDreamTrackV
+{
+	position:relative;
+	text-align:left;
+	border:0px solid blue;
+	background:url(images/igsli_TrackFillV.gif);
+	height:99.9%;
+	font-size:1px;
+	width:15px;
+}
+.igsli_LucidDreamTrackValueV
+{
+	position:absolute;
+	background:url(images/igsli_TrackValueFillV.gif);
+	width:100%;
+}
+.igsli_LucidDreamTrackValue2V
+{
+	position:absolute;
+	background:url(images/igsli_TrackValueFill2V.gif);
+	width:100%;
+	margin-top:-1px;
+}
+.igsli_LucidDreamThumbsHolderV
+{
+	position:relative;
+	z-index:1;
+	font-size:1px;
+	height:100%;
+}
+.igsli_LucidDreamThumbV
+{
+	position:absolute;
+	margin-left:-14px;
+	margin-top:-6px;
+	z-index:2;
+}
+.igsli_LucidDreamValueLabelFloatL
+{
+	position:absolute;
+	overflow:visible;
+	background:white;
+	border:1px solid #A9A9A9;
+	filter:alpha(opacity:0);
+	opacity:0;
+	height:13px;
+	text-align:right;
+	margin-top:-7px;	
+	margin-left:-52px;
+	width:auto;
+	min-width: 28px;
+	color: #808080;
+	padding-left: 1px;
+	padding-right: 1px;
+}
+.igsli_LucidDreamValueLabelFloatR
+{
+	position:absolute;
+	overflow:visible;
+	background:white;
+	border:1px solid #A9A9A9;
+	filter:alpha(opacity:0);
+	opacity:0;
+	height:13px;
+	text-align:left;
+	margin-left:1px;
+	margin-top:-7px;
+	min-width: 28px;
+	width: auto;
+	color: #808080;
+	padding-left: 1px;
+	padding-right: 1px;
+}
+.igsli_LucidDreamValueLabelFloatHover
+{
+	filter:alpha(opacity:100);
+	opacity:1;
+}
+/* applied to control when it has focus and when rounded corners are disabled */
+.igsli_LucidDreamFocus
+{
+}
+/* applied to control when mouse moved over it and when rounded corners are disabled */
+.igsli_LucidDreamHover
+{
+}
+/* applied to control when it is disabled and when rounded corners are disabled */
+.igsli_LucidDreamDisabled
+{
+	background:#C0C0C0;
+}
+/* applied to track bar when control focus and when rounded corners of track are disabled */
+.igsli_LucidDreamTrackFocus
+{
+}
+/* applied to track bar when mouse is moved over control and when rounded corners of track are disabled */
+.igsli_LucidDreamTrackHover
+{
+}
+/* applied to track bar when control is disabled and when rounded corners of track are disabled */
+.igsli_LucidDreamTrackDisabled
+{
+	background:#A0A0A0;
+}
+/* applied to left edge of horizontal track bar */
+.igsli_LucidDreamTrackEdgeL
+{
+	position:absolute;
+	width:6px;
+	height:100%;
+	top:0px;
+	left:-5px;
+	background:url(images/igsli_TrackEdges.gif);
+}
+/* applied to right edge of horizontal track bar */
+.igsli_LucidDreamTrackEdgeR
+{
+	position:absolute;
+	width:7px;
+	height:100%;
+	top:0px;
+	left:100%; 
+	background:url(images/igsli_TrackEdges.gif) top right;
+}
+/* applied to top edge of vertical track bar */
+.igsli_LucidDreamTrackEdgeT
+{
+	position:absolute;
+	width:100%;
+	height:7px;
+	top:-5px;
+	left:0px;
+	background:url(images/igsli_TrackEdgesV.gif);
+}
+/* applied to left edge of vertical track bar */
+.igsli_LucidDreamTrackEdgeB
+{
+	position:absolute;
+	width:100%;
+	height:10px;
+	margin-top: -2px;
+	top:100%;
+	left:0px;
+	background:url(images/igsli_TrackEdgesV.gif) left bottom;
+}
+/* applied to left edge of horizontal track bar when TrackValue is enabled */
+.igsli_LucidDreamTrackValueEdgeL
+{
+	background-image:url(images/igsli_TrackValueEdgesH.gif);
+}
+/* applied to bottom edge of vertical track bar when TrackValue is enabled */
+.igsli_LucidDreamTrackValueEdgeB
+{
+	background-image:url(images/igsli_TrackValueEdgesV.gif);
+}
+/* applied to left edge of horizontal track bar when TrackValue2 is enabled */
+.igsli_LucidDreamTrackValue2EdgeL
+{
+}
+/* applied to bottom edge of vertical track bar when TrackValue2 is enabled */
+.igsli_LucidDreamTrackValue2EdgeB
+{
+}

@@ -1,0 +1,84 @@
+.json-editor { 
+  margin-left: 10px;
+  padding: 20px;
+}
+
+.json-editor.expanded .item { 
+  display: block !important;
+}
+
+.json-editor .property,
+.json-editor .value { 
+  border: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  padding: 3px;
+  margin-right: 2px;
+}
+
+.json-editor .value { 
+  background-color: #C7D5E0;
+  width: 70%;
+}
+.json-editor .property { 
+  width: 20%;
+  background-color: #123F76;
+  color: white;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px black;
+}
+.json-editor button.property { 
+  width: 160px;
+}
+
+.json-editor .editing { 
+  border: 1px solid gray;
+  outline: none;
+}
+
+.json-editor .item { 
+  line-height: 20px;
+  margin-top: 2px;
+}
+.json-editor .item:last-child { 
+  border-bottom: none;
+}
+
+.json-editor .item > .item { 
+  margin-left: 30px;
+  display: none;
+}
+
+.json-editor .item.expanded > .item { 
+  display: block;
+}
+
+.json-editor .expander { 
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  margin-left: -14px;
+  cursor: pointer;
+  border: 0;
+  padding-top: 6px;
+  font: normal normal normal 10px/1 FontAwesome;
+  color: midnightblue;
+  background-color: white;
+  position: relative;
+}
+.json-editor .item.expanded > .expander { 
+  font: normal normal normal 10px/1 FontAwesome;
+  color: midnightblue;
+  background-color: white;
+}
+
+.json-editor .item.appender > .property { 
+   background-color: #999999; 
+   cursor: pointer;
+   width: 100px;
+}
+.json-editor .item.string > .property { background-color: #123F76; }
+.json-editor .item.array  > .property { background-color: #123F76; }
+.json-editor .item.object > .property { background-color: #123F76; }
+.json-editor .item.number > .property { background-color: #123F76; }

@@ -1,0 +1,175 @@
+.igdt_ElectricBlueControl
+{
+	background-color:transparent;
+	border:1px solid transparent;
+	color:#2F3660;
+	font-size: xx-small;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.igdt_ElectricBlueControlActive
+{
+}
+
+.igdt_ElectricBlueNode
+{
+	cursor:hand;
+	color:#2F3660;
+	text-decoration:none;	
+	line-height: 15px;
+	vertical-align: middle;
+}
+
+.igdt_ElectricBlueNodeRoot
+{
+	font-weight:bold;
+	color:#2F3660;
+    vertical-align:middle;
+
+}
+
+.igdt_ElectricBlueNodeImage
+{	
+	vertical-align: middle;
+}
+
+.igdt_ElectricBlueNodeSelected
+{
+	background-color:#A6C4E0;
+}
+
+.igdt_ElectricBlueNodeActive 
+{
+	border:1px solid #A6C4E0;
+	padding: 0px 3px 0px 2px;
+}
+
+.igdt_ElectricBlueNodeHover
+{
+	background-color:#C8E6F1;
+}
+
+.igdt_ElectricBlueNodeDisabled
+{
+	color:Gray;
+}
+
+.igdt_ElectricBlueInternalNodeEditor
+{
+	border:1px solid #A6C4E0;
+	padding-left: 2px;
+}
+
+
+/* //////////////////// GROUP STYLES //////////////////// */
+.igdt_ElectricBlueNodeGroup
+{
+	list-style :none;	
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+.igdt_ElectricBlueNodeHolder
+{
+	white-space:nowrap;
+	clear:left;
+}
+
+/* Bug #62259 K.D. December 27, 2010 removing float: left because it was causing the nodes to display diagonally */
+.igdt_ElectricBlueNodeHolder img
+{
+	vertical-align: middle;
+}
+
+/* M.H. 8 June 2011 - fix bug 32892: add alignment for table */
+.igdt_ElectricBlueNodeHolder table
+{
+	vertical-align: bottom;
+	*vertical-align: middle;
+}
+
+
+/* //////////////////// GROUP STYLES //////////////////// */
+
+/****************************************************/
+/* Added for WebDataTree Drag And Drop funtionality */
+/****************************************************/
+
+
+/*CSS class that will define the style applied before or after some node. 
+If the space between the nodes is accepted as potential drop target this class will define 
+some separator/dashed line that will show where the new node will be placed*/
+/*The DropIndicator purpose is to guide the user where the node will be inserted 
+when they drop it*/
+.igdt_ElectricBlueDropIndicator
+{
+    border:1px solid #123554;
+    padding:1px 8px 3px 4px;
+    background:#A6C4E0  url(./images/igdt_DropIndicatorBg.jpg) repeat-x scroll 0 0 ;;
+    color:#052684;
+    cursor:default;
+    font-family:Segoe UI,Arial,Verdana,Helvetica,sans-serif;
+    font-size:12px;
+    height:20px;
+}
+
+.igdt_ElectricBlueDropIndicator img
+{
+    position:relative;
+    top:3px;
+    margin-right:5px;
+    width:16px;
+    height:16px;
+}
+
+.igdt_ElectricBlueDropIndicator span
+{
+    position:relative;
+    top:-1px;
+}
+
+/*CSS class that will be applied just before the Dropping event is fired on a node if it is a possible drop target. For example when you drag over concrete node its color will change to alert the user he will drop inside the highlighted node.*/
+.igdt_ElectricBlueDropTarget
+{
+    background: #d4ecf6;
+}
+
+/*Applied on the cloned node that is being dragged*/
+.igdt_ElectricBlueDragMarkup
+{
+    cursor: move;
+    padding:1px 3px;
+    font-family:Verdana,Arial,Helvetica,sans-serif;
+    font-size:xx-small;
+}
+
+/* Applied to the line shown, when inserting between two nodes.*/
+.igdt_ElectricBlueDropInsertLine
+{
+  border: 2px dotted #123554;
+}
+
+.igdt_ElectricBlueNodeGroupDragDrop
+{
+	list-style :none;	
+	margin-left: 0px;
+	padding-left: 0px;
+	padding-bottom: 2px;
+	padding-top: 2px;
+}
+
+.igdt_ElectricBlueNodeGroupDragDrop li
+{
+    clear:left;
+}
+
+.igdt_ElectricBlueNodeHolderDragDrop
+{
+	white-space:nowrap;
+}
+
+.igdt_ElectricBlueNodeHolderDragDrop img 
+{
+    vertical-align:middle;
+    float:left;
+}

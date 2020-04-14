@@ -1,0 +1,59 @@
+.igtb_ClaymationControl
+{
+	background-color:#F2F2F2;
+	background-repeat:repeat-x;
+	background-position:bottom ;
+	background-image: url(images/dayview_day_header.jpg);
+	border:solid 1px WhiteSmoke;
+}
+
+
+.igtb_ClaymationItem
+{
+	background-color:Transparent;
+}
+
+
+.igtb_ClaymationButton
+{
+	background-color:Transparent;
+	border:solid 1px Transparent;
+	padding-left:7px;
+}
+
+
+.igtb_ClaymationButtonHover
+{
+	background-image: url(images/header_hover.jpg);
+	border:solid 1px Gainsboro;
+	padding-left:7px;
+}
+
+
+.igtb_ClaymationButtonPressed
+{
+}
+
+
+.igtb_ClaymationLabel
+{
+}
+
+
+.igtb_ClaymationTextBox
+{
+	background-color:White;
+}
+
+
+.igtb_ClaymationSeparator
+{
+	background-color:Transparent;
+}
+
+
+.igtb_ClaymationButtonDisabled
+{
+}
+
+

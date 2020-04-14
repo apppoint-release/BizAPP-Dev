@@ -1,0 +1,142 @@
+.igspell_PearWrapper
+{
+	background-repeat:no-repeat;
+	background-image: url(images/pear.jpg);
+	font-size:x-small;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	border-style:solid;
+	border-width:0px;
+	margin:0px;
+	padding:5px;
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+
+.igspell_PearDocumentTextPanel
+{
+	background-color:#EEF5DD;
+	border:solid 1px #CCCCCC;
+	position: absolute;
+	height: 85px;
+	width: 230px;
+	left: 10px;
+	top: 76px;
+	overflow: auto;
+}
+
+
+.igspell_PearButton
+{
+	background-color:Transparent;
+	background-repeat:no-repeat;
+	background-image: url(images/button_bg.png);
+	font-size:xx-small;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	border-width:0px;
+	width: 95px;
+	height: 21px;
+	position: absolute;
+	left: 250px;
+	cursor:hand;
+}
+
+
+.igspell_PearChangeToBox
+{
+	background-color:#EEF5DD;
+	border:solid 1px #CCCCCC;
+	position: absolute;
+	left: 10px;
+	top: 197px;
+	width: 230px;
+	height: 25px;
+}
+
+
+.igspell_PearSuggestions
+{
+	background-color:#EEF5DD;
+	border:solid 1px #CCCCCC;
+	position: absolute;
+	left: 10px;
+	top: 262px;
+	width: 340px;
+	height: 109px;
+}
+
+
+.igspell_PearLabel
+{
+	font-weight:bold;
+	font-size:xx-small;
+	margin-bottom:2px;
+	position: absolute;
+	left: 10px;
+	color:#1E1E1E;
+}
+
+
+.igspell_PearBadWord
+{
+	border-bottom-width:1px;
+	border-bottom-style:solid;
+}
+
+
+.igspell_PearIgnoreButton
+{
+	top: 76px;
+}
+
+
+.igspell_PearIgnoreAllButton
+{
+	top: 102px;
+}
+
+
+.igspell_PearChangeButton
+{
+	top: 197px;
+}
+
+
+.igspell_PearChangeAllButton
+{
+	top: 223px;
+}
+
+
+.igspell_PearFinishButton
+{
+	top: 374px;
+}
+
+
+.igspell_PearAddButton
+{
+	margin-top:13px;
+	top: 128px;
+}
+
+
+.igspell_PearChangeToLabel
+{
+	top: 180px;
+}
+
+
+.igspell_PearSuggestionsLabel
+{
+	top: 246px;
+}
+
+
+.igspell_PearNotFoundLabel
+{
+	top: 10px;
+}
+
+

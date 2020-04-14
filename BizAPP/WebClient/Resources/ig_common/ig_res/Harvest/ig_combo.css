@@ -1,0 +1,109 @@
+.igcmb_HarvestControl
+{
+	border:solid 1px #97462C;
+}
+
+
+.igcmb_HarvestEditWithButtons
+{
+	border:solid 1px #D2D2D2;
+	cursor:hand;
+}
+
+
+.igcmb_HarvestPagerArea
+{
+}
+
+
+.igcmb_HarvestPageCurrent
+{
+}
+
+
+.igcmb_HarvestPageLink
+{
+}
+
+
+.igcmb_HarvestItem
+{
+	background-image: url(images/itembg.jpg);
+	border-width:0px;
+	border-top:dotted 1px LightGrey;
+}
+
+
+.igcmb_HarvestAlt
+{
+	background-image:none;
+}
+
+
+.igcmb_HarvestHeader
+{
+	background-position:center ;
+	background-image: url(images/header.gif);
+	border-width:0px;
+	padding-top:5px;
+	padding-bottom:5px;
+	color:White;
+	text-align:left;
+}
+
+
+.igcmb_HarvestFooter
+{
+}
+
+
+.igcmb_HarvestLabel
+{
+	background-color:WhiteSmoke;
+	background-image:none;
+	border-top-width:1px;
+	border-top-color:#E1E1E1;
+	border-right-width:1px;
+	border-right-color:#F0F0F0;
+}
+
+
+.igcmb_HarvestSelected
+{
+	background-color:#B57752;
+	background-position:center ;
+	background-image: url(images/header.gif);
+	font-weight:bold;
+	border-right-color:#B57752;
+	border-left-color:#B57752;
+	color:White;
+}
+
+
+.igcmb_HarvestEditSelected
+{
+	background-color:White;
+	font-size:x-small;
+	font-family: Verdana;
+	border:solid 1px Transparent;
+	padding-top:7px;
+	text-align:left;
+	vertical-align:middle;
+}
+
+
+.igcmb_HarvestActiveBorderTopBottom
+{
+}
+
+
+.igcmb_HarvestActiveBorderLeft
+{
+}
+
+
+.igcmb_HarvestActiveBorderRight
+{
+}
+
+

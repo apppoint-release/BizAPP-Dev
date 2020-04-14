@@ -1,0 +1,196 @@
+.igtbl_HarvestControl
+{
+	border:solid 1px #97462C;
+}
+
+
+.igtbl_HarvestPagerArea
+{
+	background-color:White;
+	border-width:0px;
+	padding:15px;
+}
+
+
+.igtbl_HarvestPageCurrent
+{
+	margin-right:10px;
+}
+
+
+.igtbl_HarvestPageLink
+{
+	margin-right:10px;
+	color:Firebrick;
+}
+
+
+.igtbl_HarvestGroupByBox
+{
+	background-image: url(images/tab_top_hover_f.gif);
+	height: 30px;
+}
+
+
+.igtbl_HarvestAddNewBox
+{
+	background-color:#FFFDF9;
+	background-repeat:repeat-x;
+	background-position:bottom ;
+	background-image: url(images/addnew.jpg);
+}
+
+
+TBODY.igtbl_HarvestItem TR TD, THEAD.igtbl_HarvestItem TR TH, TFOOT.igtbl_HarvestItem TR TH, TBODY.igtbl_HarvestItem TR TH
+{
+	background-image: url(images/itembg.jpg);
+	border-width:0px;
+	border-top:dotted 1px LightGrey;
+	height: 30px;
+}
+
+
+.igtbl_HarvestFilterOperandButton
+{
+	background-color:Transparent;
+	background-repeat:no-repeat;
+	background-position:center ;
+	background-image: url(images/submit_up.gif);
+	border-width:0px;
+	padding-top:2px;
+	width: 18px;
+	vertical-align:middle;
+}
+
+
+TBODY.igtbl_HarvestItem TR.igtbl_HarvestAlt TD
+{
+	background-image:none;
+}
+
+
+.igtbl_HarvestEdit
+{
+	background-color:White;
+	font-size:x-small;
+	font-family: Verdana;
+	border:solid 1px Transparent;
+	padding-top:7px;
+	text-align:left;
+	vertical-align:middle;
+}
+
+
+.igtbl_HarvestButton
+{
+}
+
+
+TBODY.igtbl_HarvestItem TR TD.igtbl_HarvestFxdCell
+{
+}
+
+
+THEAD.igtbl_HarvestHeader TR TH, TFOOT.igtbl_HarvestHeader TR TH, TBODY.igtbl_HarvestHeader TR TH
+{
+	background-position:center ;
+	background-image: url(images/header.gif);
+	border-width:0px;
+	padding-top:3px;
+	padding-bottom:3px;
+	height: 30px;
+	color:White;
+	text-align:left;
+}
+
+
+TFOOT.igtbl_HarvestFooter TR TH
+{
+	background-color:#B68168;
+	background-image:none;
+}
+
+
+TBODY.igtbl_HarvestHeader TR TH.igtbl_HarvestLabel
+{
+	background-color:#FAFAFA;
+	background-image:none;
+	border-top-width:1px;
+	border-top-color:#E1E1E1;
+	border-right-width:1px;
+	border-right-color:#F0F0F0;
+	height: 25px;
+}
+
+
+TBODY.igtbl_HarvestHeader TR TH.igtbl_HarvestExpArea, TFOOT.igtbl_HarvestHeader TR TH.igtbl_HarvestExpArea
+{
+	background-color:White;
+	background-image:none;
+	border-top-width:1px;
+	border-top-color:#996B57;
+	text-align:center;
+}
+
+
+TBODY.igtbl_HarvestHeader TR TH.igtbl_HarvestGrpItem
+{
+}
+
+
+THEAD.igtbl_HarvestHeader TR TH.igtbl_HarvestFxdHeader
+{
+}
+
+
+.igtbl_HarvestGroupBandLabel
+{
+}
+
+
+TFOOT.igtbl_HarvestHeader TR TH.igtbl_HarvestFxdFooter
+{
+}
+
+
+.igtbl_HarvestDropDown
+{
+	background-color:WhiteSmoke;
+	font-size:xx-small;
+	font-family: Verdana;
+	border:solid 1px LightGrey;
+}
+
+
+.igtbl_HarvestDropDownSel
+{
+}
+
+
+TBODY.igtbl_HarvestItem TR.igtbl_HarvestSelected TD, TBODY.igtbl_HarvestItem TR TD.igtbl_HarvestSelected, .igtbl_HarvestSelected
+{
+	background-color:#B57752;
+	background-position:center ;
+	background-image: url(images/header.gif);
+	font-weight:bold;
+	border-right-color:#B57752;
+	border-left-color:#B57752;
+	color:White;
+}
+
+
+TBODY.igtbl_HarvestItem TR TD.igtbl_HarvestActiveBorderTopBottom, .igtbl_HarvestActiveBorderTopBottom
+{
+}
+
+
+TBODY.igtbl_HarvestItem TR TD.igtbl_HarvestActiveBorderLeft, .igtbl_HarvestActiveBorderLeft
+{
+}
+
+
+TBODY.igtbl_HarvestItem TR TD.igtbl_HarvestActiveBorderRight, .igtbl_HarvestActiveBorderRight
+{
+}
+
+

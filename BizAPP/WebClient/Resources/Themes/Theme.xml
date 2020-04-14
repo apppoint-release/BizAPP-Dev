@@ -1,0 +1,26 @@
+<Theme>
+	<Theme ID="Violet" Name="Violet" Default="true" Color="#56458C">
+		<Stylesheet File="/Resources/CRM/common.css" />
+		<Stylesheet File="/Resources/CRM/crm.css" />
+		<Stylesheet File="/Resources/CRM/violet.css" />
+		<Stylesheet File="/Resources/CRM/jquery/jquery-ui.css" /><!--http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.12/themes/base/jquery-ui.css-->
+	</Theme>
+	<Theme ID="Green" Name="Green" Color="#567A00">
+		<Stylesheet File="/Resources/CRM/common.css" />
+		<Stylesheet File="/Resources/CRM/crm.css" />
+		<Stylesheet File="/Resources/CRM/green.css" />
+		<Stylesheet File="/Resources/CRM/jquery/jquery-ui.css" />
+	</Theme>
+	<Theme ID="Brown" Name="Brown" Color="#B7A752">
+		<Stylesheet File="/Resources/CRM/common.css" />
+		<Stylesheet File="/Resources/CRM/crm.css" />
+		<Stylesheet File="/Resources/CRM/brown.css" />
+		<Stylesheet File="/Resources/CRM/jquery/jquery-ui.css" />
+	</Theme>
+	<Theme ID="Orange" Name="Orange" Color="#E39321">
+		<Stylesheet File="/Resources/CRM/common.css" />
+		<Stylesheet File="/Resources/CRM/crm.css" />
+		<Stylesheet File="/Resources/CRM/orange.css" />
+		<Stylesheet File="/Resources/CRM/jquery/jquery-ui.css" />
+	</Theme>
+</Theme>

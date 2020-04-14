@@ -1,0 +1,213 @@
+.igmc_Office2007BlackControl
+{
+	background-color: #FFFFFF;
+	border:1px solid #4C535C;
+	width: 225px;
+	height: 200px;
+	padding: 0px;
+	margin: 0px;
+	font-family: Segoe UI, Verdana, Arial, Georgia, Sans-Serif;
+}
+
+.igmc_Office2007BlackDOW
+{
+	background-color: #F0F1F2;
+	font-size:0.8em;
+	border-width:0px;
+	border-bottom:solid 1px #9199A4;
+	padding: 0px ;
+	text-align:center;
+	font-weight: bold;
+	height: 35px;
+}
+
+.igmc_Office2007BlackNextPrev
+{
+	margin: 0px;
+	font-size: 0.8em;
+	color: #000;
+	padding: 0px 8px;
+}
+
+.igmc_Office2007BlackHoverNextPrev
+{
+	cursor: pointer;
+	color: #fee07a;
+}
+
+.igmc_Office2007BlackPressedNextPrev
+{
+}
+
+.igmc_Office2007BlackFooter
+{
+	background-color: #353a41;
+	background-image: url(images/igmc_footerbg.gif);
+	background-repeat:repeat-x;
+	border-top: 1px solid #9199A4;
+	font-size: 0.8em;
+	text-align:center;
+	color: #FFFFFF;
+	height: 35px;
+}
+
+.igmc_Office2007BlackHoverFooter
+{
+	background-color: #171b1e;
+	background-image: url(images/igmc_footerbghover.gif);
+	background-repeat:repeat-x;
+	cursor: pointer;
+}
+
+.igmc_Office2007BlackPressedFooter
+{
+	background-color: #737d8c;
+	background-image: url(images/igmc_footerbgpressed.gif);
+	background-repeat:repeat-x;
+}
+
+.igmc_Office2007BlackHeader
+{
+	background-color: #dbdee1;
+	background-repeat:repeat-x;
+	background-position:top;
+	background-image: url(images/igmc_headerbg.png);
+	border-bottom: 1px solid #9199A4;
+	height: 50px;
+}
+
+.igmc_Office2007BlackMonthYear
+{
+	font-size:1em;
+	font-weight:bold;
+	padding:0px 2px;
+	color: #000;
+}
+
+.igmc_Office2007BlackPressedMonthYear
+{
+	color: #fee07a;
+}
+
+.igmc_Office2007BlackHoverMonthYear
+{
+	cursor: pointer;
+	color: #fee07a;
+	
+}
+
+.igmc_Office2007BlackDay
+{
+	background-color:#FFFFFF;
+	font-size: 0.9em;
+	text-align:center;
+	border: 1px solid #FFFFFF;
+	font-weight: bold;
+}
+
+.igmc_Office2007BlackDay.igmc_Office2007BlackOtherMonthDay
+{
+	background-image:none;
+	color: #a4a4a4;
+	font-size:0.9em;
+	font-weight:normal;
+}
+
+.igmc_Office2007BlackWeekNumber
+{
+	border: 1px solid #fff2ce;
+	background-color: #fff2ce;
+	background-repeat:repeat-y;
+	background-position:top left;
+	background-image: url(images/igmc_weekbg.gif);
+	font-weight: bold;
+}
+
+.igmc_Office2007BlackWeekendDay
+{
+	background-color:#f9f9f9;
+	border: 1px solid #f9f9f9;
+}
+
+.igmc_Office2007BlackOtherMonthDay
+{
+	color:#AAAAAA;
+	background-image: none;
+}
+
+.igmc_Office2007BlackSelectedDay
+{
+	background-color: #e0e0e0;
+	font-weight:bold;
+	color: #696969;
+}
+
+.igmc_Office2007BlackTodayDay, .igmc_Office2007BlackTodayDay.igmc_Office2007BlackSelectedDay
+{
+	background-color: #ffe69f;
+	border-color: #FFD151;
+	font-weight:bold;
+}
+
+.igmc_Office2007BlackFocusDay, .igmc_Office2007BlackOtherMonthDay.igmc_Office2007BlackFocusDay
+{
+	background-color: #fee07a;
+	background-image: url(images/igmc_dayfocus.gif);
+	background-repeat: repeat-x;
+	border-color: #FFD151;
+	font-weight:bold;
+	color: #696969;
+}
+
+.igmc_Office2007BlackHoverDay, .igmc_Office2007BlackTodayDay.igmc_Office2007BlackHoverDay, .igmc_Office2007BlackOtherMonthDay.igmc_Office2007BlackHoverDay
+{
+	background-color: #fee07a;
+	border-color: #FFD151;
+	font-weight: bold;
+}
+
+.igmc_Office2007BlackOtherMonthDay.igmc_Office2007BlackHoverDay
+{
+	background-color: #fee07a;
+	border-color: #FFD151;
+	font-weight: bold;
+}
+
+.igmc_Office2007BlackDisabledDay
+{
+	color:#EEE;
+}
+
+/* CSS classes for Month and Year selection Popup in header */
+.igmc_Office2007BlackList
+{
+	background-color: #fff;
+	border:1px solid #bbb;
+}
+
+.igmc_Office2007BlackItem
+{
+	background-color:#fff;
+	border: 1px solid #fff;
+	font-size: 1em;
+	text-align: center;
+}
+
+.igmc_Office2007BlackSelectedItem
+{
+	background-color: #fee07a;
+	background-image: url(images/igmc_dayfocus.gif);
+	background-repeat: repeat-x;
+	border: 1px solid #FFD151;
+	font-weight: bold;
+	cursor:pointer;
+}
+
+.igmc_Office2007BlackHoverItem
+{
+	background-color: #fee07a;
+	border: 1px solid #FFD151;
+	font-weight: bold;
+	cursor:pointer;
+}
+

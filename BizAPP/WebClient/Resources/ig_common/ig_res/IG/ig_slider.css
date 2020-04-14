@@ -1,0 +1,600 @@
+.igsli_IGControl
+{
+	background-color:Transparent;
+	border-style:none;
+	overflow: hidden;
+}
+
+
+.igsli_IGTrackH
+{
+	background-image: url(images/igsli_TrackFill.gif);
+	font-size:1px;
+	border:solid 0px Black;
+	margin-left:-1px;
+	position: relative;
+	width: 100%;
+	height: 4px;
+	text-align:left;
+}
+
+
+.igsli_IGTrackValueH
+{
+	background-image: url(images/igsli_TrackValueFillH.gif);
+	position: absolute;
+	height: 4px;
+}
+
+
+.igsli_IGTrackValue2H
+{
+	background-image: url(images/igsli_TrackValueFill2H.gif);
+	position: absolute;
+	height: 4px;
+}
+
+
+.igsli_IGTrackV
+{
+	background-image: url(images/igsli_TrackFillV.gif);
+	font-size:1px;
+	border:solid 0px Blue;
+	position: relative;
+	height: 99.9%;
+	width: 4px;
+	text-align:left;
+}
+
+
+.igsli_IGTrackValueV
+{
+	background-image: url(images/igsli_TrackValueFillV.gif);
+	position: absolute;
+	width: 100%;
+}
+
+
+.igsli_IGTrackValue2V
+{
+	background-image: url(images/igsli_TrackValueFill2V.gif);
+	margin-top:-1px;
+	position: absolute;
+	width: 100%;
+}
+
+
+.igsli_IGMarginH
+{
+	font-size:1px;
+	width: 10px;
+	height: 100%;
+}
+
+
+.igsli_IGLabelsHolderH
+{
+	font-size:10px;
+	font-family: verdana;
+	position: relative;
+	width: 100%;
+}
+
+
+.igsli_IGLabelT
+{
+	font-size:10px;
+	font-family: verdana;
+	margin-left:-23px;
+	position: absolute;
+	overflow: hidden;
+	width: 46px;
+	height: 14px;
+	white-space: nowrap;
+	color:Gray;
+	text-align:center;
+}
+
+
+.igsli_IGLabelB
+{
+	font-size:10px;
+	font-family: verdana;
+	margin-left:-23px;
+	position: absolute;
+	overflow: hidden;
+	width: 46px;
+	height: 14px;
+	white-space: nowrap;
+	color:Gray;
+	text-align:center;
+}
+
+
+/* it should be after margin */
+/* if labels are on edges, then position and margin are disabled by inline style */
+.igsli_IGLabelEdgeH
+{
+	font-size:10px;
+	font-family: verdana;
+	overflow: hidden;
+	width: 26px;
+	height: 14px;
+	white-space: nowrap;
+	color:Gray;
+	text-align:center;
+}
+
+
+.igsli_IGTicksHolderT
+{
+	font-size:1px;
+	border-bottom:solid 0px Blue;
+	margin-bottom:2px;
+	position: relative;
+	width: 100%;
+	height: 5px;
+}
+
+
+.igsli_IGTickMajorT
+{
+	font-size:1px;
+	border-left:solid 1px #808080;
+	position: absolute;
+	height: 5px;
+}
+
+
+.igsli_IGTickMinorT
+{
+	font-size:1px;
+	border-left:solid 1px #A9A9A9;
+	margin-top:2px;
+	position: absolute;
+	height: 3px;
+}
+
+
+.igsli_IGTickLastT
+{
+	margin-left:-1px;
+	width: 1px;
+}
+
+
+.igsli_IGTicksHolderB
+{
+	font-size:1px;
+	border-top:solid 0px Blue;
+	margin-top:2px;
+	position: relative;
+	width: 100%;
+	height: 5px;
+}
+
+
+.igsli_IGTickMajorB
+{
+	font-size:1px;
+	border-left:solid 1px #808080;
+	position: absolute;
+	height: 5px;
+}
+
+
+.igsli_IGTickMinorB
+{
+	font-size:1px;
+	border-left:solid 1px #A9A9A9;
+	position: absolute;
+	height: 3px;
+}
+
+
+.igsli_IGTickLastB
+{
+	margin-left:-1px;
+	width: 1px;
+}
+
+
+.igsli_IGMarginV
+{
+	font-size:1px;
+	height: 10px;
+}
+
+
+.igsli_IGLabelsHolderV
+{
+	font-size:10px;
+	font-family: verdana;
+	position: relative;
+	height: 100%;
+	width: 20px;
+	text-align:left;
+}
+
+
+.igsli_IGLabelL
+{
+	font-size:10px;
+	font-family: verdana;
+	margin-top:-7px;
+	margin-left:-25px;
+	position: absolute;
+	overflow: hidden;
+	white-space: nowrap;
+	width: 40px;
+	height: 14px;
+	color:Gray;
+	text-align:right;
+}
+
+
+.igsli_IGLabelR
+{
+	font-size:10px;
+	font-family: verdana;
+	margin-top:-7px;
+	margin-left:5px;
+	position: absolute;
+	overflow: visible;
+	white-space: nowrap;
+	width: 40px;
+	height: 14px;
+	color:Gray;
+}
+
+
+/* it should be after margin */
+/* if labels are on edges, then position and margin are disabled by inline style */
+.igsli_IGLabelEdgeV
+{
+	font-size:10px;
+	font-family: verdana;
+	padding-top:7px;
+	padding-bottom:7px;
+	overflow: hidden;
+	white-space: nowrap;
+	width: auto;
+	height: auto;
+	color:Gray;
+	text-align:center;
+}
+
+
+.igsli_IGTicksHolderL
+{
+	font-size:1px;
+	border-right:solid 0px Blue;
+	margin-right:2px;
+	position: relative;
+	height: 100%;
+	width: 5px;
+	text-align:left;
+}
+
+
+.igsli_IGTickMajorL
+{
+	font-size:1px;
+	border-top:solid 1px #808080;
+	position: absolute;
+	width: 5px;
+}
+
+
+.igsli_IGTickMinorL
+{
+	font-size:1px;
+	border-top:solid 1px #808080;
+	margin-left:2px;
+	position: absolute;
+	width: 3px;
+}
+
+
+.igsli_IGTickLastL
+{
+	margin-top:-1px;
+	height: 1px;
+}
+
+
+.igsli_IGTicksHolderR
+{
+	font-size:1px;
+	border-left:solid 0px Blue;
+	margin-left:2px;
+	position: relative;
+	height: 100%;
+	width: 5px;
+	text-align:left;
+}
+
+
+.igsli_IGTickMajorR
+{
+	font-size:1px;
+	border-top:solid 1px #808080;
+	position: absolute;
+	width: 5px;
+}
+
+
+.igsli_IGTickMinorR
+{
+	font-size:1px;
+	border-top:solid 1px #808080;
+	position: absolute;
+	width: 3px;
+}
+
+
+.igsli_IGTickLastR
+{
+	margin-top:-1px;
+	height: 1px;
+}
+
+
+.igsli_IGButton
+{
+	margin:2px;
+	cursor:pointer;
+}
+
+
+.igsli_IGValueLabel
+{
+	font-size:10px;
+	font-family: verdana;
+	white-space: nowrap;
+	overflow: hidden;
+	width: 46px;
+	color:Gray;
+	text-align:center;
+}
+
+
+.igsli_IGThumbsHolderH
+{
+	font-size:1px;
+	position: relative;
+	z-index: 1;
+	width: 100%;
+}
+
+
+.igsli_IGThumbH
+{
+	margin-top:-8px;
+	margin-left:-4px;
+	position: absolute;
+	z-index: 2;
+	cursor:hand;
+}
+
+
+.igsli_IGThumbsHolderV
+{
+	font-size:1px;
+	position: relative;
+	z-index: 1;
+	height: 100%;
+}
+
+
+.igsli_IGThumbV
+{
+	margin-top:-4px;
+	margin-left:-8px;
+	position: absolute;
+	z-index: 2;
+}
+
+
+/* applied to left edge of horizontal track bar */
+.igsli_IGTrackEdgeL
+{
+	background-image: url(images/igsli_TrackEdges.gif);
+	position: absolute;
+	width: 6px;
+	height: 100%;
+	top: 0px;
+	left: -5px;
+}
+
+
+/* applied to right edge of horizontal track bar */
+.igsli_IGTrackEdgeR
+{
+	background-position:top right ;
+	background-image: url(images/igsli_TrackEdges.gif);
+	position: absolute;
+	width: 7px;
+	height: 100%;
+	top: 0px;
+	left: 100%;
+}
+
+
+/* applied to top edge of vertical track bar */
+.igsli_IGTrackEdgeT
+{
+	background-image: url(images/igsli_TrackEdgesV.gif);
+	position: absolute;
+	width: 100%;
+	height: 7px;
+	top: -5px;
+	left: 0px;
+}
+
+
+/* applied to left edge of vertical track bar */
+.igsli_IGTrackEdgeB
+{
+	background-position:left bottom ;
+	background-image: url(images/igsli_TrackEdgesV.gif);
+	margin-top:-2px;
+	position: absolute;
+	width: 100%;
+	height: 10px;
+	top: 100%;
+	left: 0px;
+}
+
+
+.igsli_IGValueLabelFloatT
+{
+	background-color:White;
+	border:solid 1px #A9A9A9;
+	margin-top:-30px;
+	margin-left:-23px;
+	padding-right:1px;
+	padding-left:1px;
+	position: absolute;
+	filter: alpha(opacity : 0);
+	opacity: 0;
+	height: 13px;
+	overflow: visible;
+	width: auto;
+	min-width: 28px;
+	color:Gray;
+}
+
+
+.igsli_IGValueLabelFloatB
+{
+	background-color:White;
+	border:solid 1px #A9A9A9;
+	margin-top:10px;
+	margin-left:-23px;
+	padding-right:1px;
+	padding-left:1px;
+	position: absolute;
+	overflow: visible;
+	width: auto;
+	min-width: 28px;
+	filter: alpha(opacity : 0);
+	opacity: 0;
+	height: 13px;
+	color:Gray;
+}
+
+
+.igsli_IGValueLabelFloatL
+{
+	background-color:White;
+	border:solid 1px #A9A9A9;
+	margin-top:-7px;
+	margin-left:-52px;
+	padding-right:1px;
+	padding-left:1px;
+	position: absolute;
+	overflow: visible;
+	filter: alpha(opacity : 0);
+	opacity: 0;
+	height: 13px;
+	width: auto;
+	min-width: 28px;
+	color:Gray;
+	text-align:right;
+}
+
+
+.igsli_IGValueLabelFloatR
+{
+	background-color:White;
+	border:solid 1px #A9A9A9;
+	margin-top:-7px;
+	margin-left:1px;
+	padding-right:1px;
+	padding-left:1px;
+	position: absolute;
+	overflow: visible;
+	filter: alpha(opacity : 0);
+	opacity: 0;
+	height: 13px;
+	min-width: 28px;
+	width: auto;
+	color:Gray;
+	text-align:left;
+}
+
+
+/* applied to control when it is disabled and when rounded corners are disabled */
+.igsli_IGDisabled
+{
+	background-color:Silver;
+}
+
+
+/* applied to track bar when control is disabled and when rounded corners of track are disabled */
+.igsli_IGTrackDisabled
+{
+	background-color:#A0A0A0;
+}
+
+
+/* applied to left edge of horizontal track bar when TrackValue is enabled */
+.igsli_IGTrackValueEdgeL
+{
+	background-image: url(images/igsli_TrackValueEdgesH.gif);
+}
+
+
+/* applied to bottom edge of vertical track bar when TrackValue is enabled */
+.igsli_IGTrackValueEdgeB
+{
+	background-image: url(images/igsli_TrackValueEdgesV.gif);
+}
+
+
+/* applied to control when it has focus and when rounded corners are disabled */
+.igsli_IGFocus
+{
+}
+
+
+/* applied to track bar when control focus and when rounded corners of track are disabled */
+.igsli_IGTrackFocus
+{
+}
+
+
+/* applied to left edge of horizontal track bar when TrackValue2 is enabled */
+.igsli_IGTrackValue2EdgeL
+{
+	/*background-image: url(images/igsli_TrackValueEdges2H.gif);*/
+}
+
+
+/* applied to bottom edge of vertical track bar when TrackValue2 is enabled */
+.igsli_IGTrackValue2EdgeB
+{
+	/*background-image: url(images/igsli_TrackValueEdges2V.gif);*/
+}
+
+
+.igsli_IGValueLabelFloatHover
+{
+	filter: alpha(opacity : 100);
+	opacity: 1;
+}
+
+
+/* applied to control when mouse moved over it and when rounded corners are disabled */
+.igsli_IGHover
+{
+}
+
+
+/* applied to track bar when mouse is moved over control and when rounded corners of track are disabled */
+.igsli_IGTrackHover
+{
+}
+
+

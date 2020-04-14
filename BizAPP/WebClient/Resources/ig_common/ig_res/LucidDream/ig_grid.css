@@ -1,0 +1,208 @@
+.igtbl_LucidDreamControl
+{
+	border-color:Gainsboro;
+	cursor:default;
+}
+
+
+.igtbl_LucidDreamPagerArea
+{
+	background-color:WhiteSmoke;
+	border-width:0px;
+	padding-top:10px;
+	padding-right:10px;
+	padding-bottom:10px;
+}
+
+
+.igtbl_LucidDreamPageCurrent
+{
+	background-repeat:no-repeat;
+	background-image: url(images/submit_hover.gif);
+	margin-right:10px;
+	padding:2px 8px 5px 5px;
+}
+
+
+.igtbl_LucidDreamPageLink
+{
+	margin-right:10px;
+	color:DimGray;
+}
+
+
+.igtbl_LucidDreamGroupByBox
+{
+	background-color:#F9FBFC;
+	background-image: url(images/groupbyheader.gif);
+	font-weight:bold;
+	font-size:11px;
+	height: 23px;
+	color:#699BC9;
+}
+
+
+.igtbl_LucidDreamAddNewBox
+{
+	background-color:#FAFAFA;
+	background-repeat:repeat-x;
+	background-image:none;
+	border-bottom-width:1px;
+	border-bottom-style:solid;
+}
+
+
+.igtbl_LucidDreamItem
+{
+	border:solid 1px Transparent;
+	border-right-color: LightGrey;
+	border-bottom-color: LightGrey;
+	height: 18px;
+}
+
+
+.igtbl_LucidDreamFilterOperandButton
+{
+	background-color:Transparent;
+	background-repeat:no-repeat;
+	background-position:center ;
+	background-image: url(images/submit_disable.gif);
+	border-width:0px;
+	padding-top:2px;
+	width: 18px;
+}
+
+
+.igtbl_LucidDreamAlt
+{
+}
+
+
+.igtbl_LucidDreamEdit
+{
+	background-color:White;
+	font-size:x-small;
+	font-family: Verdana;
+	border:solid 1px Transparent;
+	padding-top:7px;
+	text-align:left;
+	vertical-align:middle;
+}
+
+
+.igtbl_LucidDreamButton
+{
+}
+
+
+.igtbl_LucidDreamFxdCell
+{
+}
+
+
+.igtbl_LucidDreamHeader
+{
+	background-color:Transparent;
+	background-position:bottom ;
+	background-image: url(images/header.gif);
+	border-width:0px;
+	border-color:Transparent;
+	padding-top:3px;
+	padding-bottom:3px;
+	color:White;
+}
+
+
+.igtbl_LucidDreamFooter
+{
+	background-color:#D8DFEA;
+	background-image:none;
+	border-width:0px;
+}
+
+
+.igtbl_LucidDreamLabel
+{
+	background-color:White;
+	background-image:none;
+	border-right-width:1px;
+	border-right-color: LightGrey;
+	border-bottom-width:0px;
+	border-bottom-color:#D0D7E5;
+	padding-top:3px;
+	padding-bottom:3px;
+	height: 10px;
+}
+
+
+.igtbl_LucidDreamExpArea
+{
+	background-color:#D8DFEA;
+	background-image:none;
+	border-width:1px;
+	border-color:#D0D7E5;
+	border-top-style:solid;
+	border-top-color:Gainsboro;
+	border-bottom-style:solid;
+	text-align:left;
+}
+
+
+.igtbl_LucidDreamGrpItem
+{
+}
+
+
+.igtbl_LucidDreamFxdHeader
+{
+}
+
+
+.igtbl_LucidDreamGroupBandLabel
+{
+}
+
+
+.igtbl_LucidDreamFxdFooter
+{
+}
+
+
+.igtbl_LucidDreamDropDown
+{
+	background-color:WhiteSmoke;
+	font-size:xx-small;
+	font-family: Verdana;
+	border:solid 1px LightGrey;
+}
+
+
+.igtbl_LucidDreamDropDownSel
+{
+}
+
+
+.igtbl_LucidDreamSelected
+{
+	background-color:#699BC9;
+	border-top-width:0px;
+	border-left-width:0px;
+	color:White;
+}
+
+
+.igtbl_LucidDreamActiveBorderTopBottom
+{
+}
+
+
+.igtbl_LucidDreamActiveBorderLeft
+{
+}
+
+
+.igtbl_LucidDreamActiveBorderRight
+{
+}
+
+

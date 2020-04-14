@@ -1,0 +1,104 @@
+.igcv_RedPlanetControl
+{
+	background-color:#7D0000;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(images/header_large2.gif);
+	border:solid 1px Silver;
+}
+
+
+.igcv_RedPlanetCaptionHeader
+{
+	background-color:Transparent;
+	font-weight:bold;
+	font-size:8pt;
+	padding:3px;
+	width: 100%;
+	white-space: nowrap;
+	color:White;
+	text-align:center;
+}
+
+
+.igcv_RedPlanetDayHeader
+{
+	background-color:White;
+	background-repeat:repeat-x;
+	font-size:10px;
+	border-bottom:solid 1px Silver;
+	height: 16px;
+	color:Black;
+}
+
+
+.igcv_RedPlanetDay
+{
+	background-color:White;
+	font-size:11px;
+	border-width:0px;
+	cursor:hand;
+	text-align:center;
+}
+
+
+.igcv_RedPlanetFooter
+{
+	background-color:#EEEEEE;
+	font-size:8pt;
+	padding:3px;
+	white-space: nowrap;
+	cursor:pointer;
+	text-align:center;
+}
+
+
+.igcv_RedPlanetDropDown
+{
+	font-size:8pt;
+}
+
+
+.igcv_RedPlanetOtherMonthDay
+{
+	background-color:White;
+	color:#B3B3B3;
+}
+
+
+.igcv_RedPlanetWeekendDay
+{
+	background-color:#FAFAFA;
+}
+
+
+.igcv_RedPlanetNavigationButton
+{
+	background-color:Transparent;
+	padding-right:3px;
+	padding-left:3px;
+	cursor:pointer;
+	color:#9C2131;
+}
+
+
+.igcv_RedPlanetTodayDay
+{
+	border:solid 1px Brown;
+}
+
+
+.igcv_RedPlanetActivityDay
+{
+	font-weight:bold;
+}
+
+
+.igcv_RedPlanetActiveDay
+{
+	background-color:Brown;
+	background-image:none;
+	color:White;
+}
+
+

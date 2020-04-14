@@ -1,0 +1,400 @@
+.igtab_ClaymationControl
+{
+	background-position:bottom ;
+	background-image: url(images/addnew.gif);
+	border:solid 1px #535353;
+}
+
+
+.igtab_ClaymationControl_Outer
+{
+	border-left-width:0px;
+	border-left-style:solid;
+}
+
+
+.igtab_ClaymationDefaultTab_Top
+{
+	font-size:9pt;
+	font-family: Tahoma;
+	border:solid 1px LightGrey;
+	border-bottom-color:DimGray;
+	padding:2px;
+	cursor:hand;
+	text-align:center;
+}
+
+
+.igtab_ClaymationDefaultTab_Top_Rounded
+{
+	background-color:Transparent !important;
+	font-size:10pt;
+	font-family: Tahoma;
+	border-style:solid;
+	border-width:0px;
+	border-bottom-width:1px;
+	border-bottom-color:#535353;
+	padding:2px 0px 1px 10px;
+	height: 100%;
+	cursor:pointer;
+	color:#666666;
+	text-align:center;
+}
+
+
+.igtab_ClaymationDefaultTab_Top_Edge
+{
+	background-position:right top ;
+	font-size:2px;
+	padding:4px;
+}
+
+
+.igtab_ClaymationButton
+{
+}
+
+
+.igtab_ClaymationDefaultTab_Bottom
+{
+	font-size:9pt;
+	font-family: Tahoma;
+	border:solid 1px LightGrey;
+	border-top-color:DimGray;
+	padding:2px;
+	cursor:hand;
+}
+
+
+.igtab_ClaymationDefaultTab_Bottom_Rounded
+{
+	background-color:Transparent !important;
+	background-repeat:no-repeat;
+	background-position:left bottom ;
+	font-size:9pt;
+	font-family: Tahoma;
+	border:solid 1px #535353;
+	border-right-width:0px;
+	border-bottom-width:0px;
+	border-left-width:0px;
+	padding:3px 4px 4px 12px;
+	height: 100%;
+	cursor:pointer;
+	color:#666666;
+}
+
+
+.igtab_ClaymationDefaultTab_Bottom_Edge
+{
+	background-position:right bottom ;
+	font-size:2px;
+	padding:4px;
+}
+
+
+.igtab_ClaymationDefaultTab_Left
+{
+	font-size:9pt;
+	font-family: Tahoma;
+	border:solid 1px Gainsboro;
+	border-right-color:DimGray;
+	padding:2px;
+	cursor:hand;
+}
+
+
+.igtab_ClaymationDefaultTab_Left_Rounded
+{
+	background-color:Transparent !important;
+	background-repeat:no-repeat;
+	background-position:left top ;
+	font-size:9pt;
+	font-family: Tahoma;
+	border:solid 1px #535353;
+	border-top-width:0px;
+	border-bottom-width:0px;
+	border-left-width:0px;
+	margin-top:0px;
+	margin-right:5px;
+	margin-bottom:0px;
+	padding:8px 0px 0px 4px;
+	cursor:pointer;
+	color:#666666;
+	text-align:left;
+}
+
+
+.igtab_ClaymationDefaultTab_Left_Edge
+{
+	background-position:left bottom ;
+	font-size:2px;
+	padding:3px;
+}
+
+
+.igtab_ClaymationDefaultTab_Right
+{
+	font-size:9pt;
+	font-family: Tahoma;
+	border:solid 1px Gainsboro;
+	border-left-color:DimGray;
+	padding:2px;
+	cursor:hand;
+}
+
+
+.igtab_ClaymationDefaultTab_Right_Rounded
+{
+	background-color:Transparent !important;
+	background-repeat:no-repeat;
+	background-position:right top ;
+	font-size:9pt;
+	font-family: Tahoma;
+	border:solid 1px #535353;
+	border-top-width:0px;
+	border-right-width:0px;
+	border-bottom-width:0px;
+	padding:9px 4px 0px 0px;
+	cursor:pointer;
+	color:#666666;
+	text-align:right;
+}
+
+
+.igtab_ClaymationDefaultTab_Right_Edge
+{
+	background-position:right bottom ;
+	font-size:2px;
+	padding:4px;
+}
+
+
+.igtab_ClaymationButtonHover
+{
+}
+
+
+.igtab_ClaymationButtonPressed
+{
+}
+
+
+.igtab_ClaymationButtonDisabled
+{
+}
+
+
+.igtab_ClaymationHoverTab_Top
+{
+	background-color:#F0F0FF;
+	background-image: url(images/tab_top_hover_f.gif);
+}
+
+
+.igtab_ClaymationSeparator_Top
+{
+	border-bottom:solid 1px #666666;
+	border-top-width:0px;
+	border-right-width:0px;
+	border-left-width:0px;
+}
+
+
+.igtab_ClaymationHoverTab_Top_Rounded
+{
+	background-image: url(images/tab_top_hover.gif);
+	border-bottom:solid 1px #535353;
+	color:Black;
+}
+
+
+.igtab_ClaymationHoverTab_Bottom
+{
+	background-color:#F0F0FF;
+	background-image: url(images/tab_bottom_hover_f.gif);
+}
+
+
+.igtab_ClaymationSeparator_Bottom
+{
+	border-top:solid 1px #535353;
+	border-right-width:0px;
+	border-bottom-width:0px;
+	border-left-width:0px;
+}
+
+
+.igtab_ClaymationHoverTab_Bottom_Rounded
+{
+	background-image: url(images/tab_bottom_hover.gif);
+	color:Black;
+}
+
+
+.igtab_ClaymationHoverTab_Left
+{
+	background-color:#F0F0FF;
+	background-image: url(images/tab_left_hover_f.gif);
+}
+
+
+.igtab_ClaymationSeparator_Left
+{
+	border-right:solid 1px #535353;
+	border-top-width:0px;
+	border-bottom-width:0px;
+	border-left-width:0px;
+}
+
+
+.igtab_ClaymationHoverTab_Left_Rounded
+{
+	background-image: url(images/tab_left_hover.gif);
+	color:Black;
+}
+
+
+.igtab_ClaymationHoverTab_Right
+{
+	background-color:#F0F0FF;
+	background-position:right ;
+	background-image: url(images/tab_right_hover_f.gif);
+}
+
+
+.igtab_ClaymationSeparator_Right
+{
+	border-left:solid 1px #535353;
+	border-top-width:0px;
+	border-right-width:0px;
+	border-bottom-width:0px;
+}
+
+
+.igtab_ClaymationHoverTab_Right_Rounded
+{
+	background-image: url(images/tab_right_hover.gif);
+	color:Black;
+}
+
+
+.igtab_ClaymationSelectedTab_Top
+{
+	background-color:#FEF0F0;
+	background-image: url(images/tab_top_f.gif);
+	border-color:DimGray;
+	border-bottom-color:#535353;
+}
+
+
+.igtab_ClaymationSelectedTab_Top_Rounded
+{
+	background-image: url(images/tab_top.gif);
+	border-width:0px;
+	border-bottom:solid 1px #E5E5E6;
+	cursor:default;
+	color:Black;
+}
+
+
+.igtab_ClaymationSelectedTab_Bottom
+{
+	background-color:#FEF0F0;
+	background-image: url(images/tab_bottom_f.gif);
+	border-color:DimGray;
+}
+
+
+.igtab_ClaymationSelectedTab_Bottom_Rounded
+{
+	background-image: url(images/tab_bottom.gif);
+	border-top-color:#E5E5E6;
+	cursor:default;
+	color:Black;
+}
+
+
+.igtab_ClaymationSelectedTab_Left
+{
+	background-color:#FEF0F0;
+	background-image: url(images/tab_left_f.gif);
+	border-color:DimGray;
+}
+
+
+.igtab_ClaymationSelectedTab_Left_Rounded
+{
+	background-image: url(images/tab_left.gif);
+	border-color:#535353;
+	border-right-color:#E5E5E6;
+	cursor:default;
+	color:Black;
+}
+
+
+.igtab_ClaymationSelectedTab_Right
+{
+	background-color:#FEF0F0;
+	background-position:right ;
+	background-image: url(images/tab_right_f.gif);
+	border-color:DimGray;
+}
+
+
+.igtab_ClaymationSelectedTab_Right_Rounded
+{
+	background-image: url(images/tab_right.gif);
+	border-left-color:#E5E5E6;
+	cursor:default;
+	color:Black;
+}
+
+
+.igtab_ClaymationDisabledTab_Top
+{
+	color:#E1E1E1;
+}
+
+
+.igtab_ClaymationDisabledTab_Top_Rounded
+{
+	text-decoration:line-through;
+}
+
+
+.igtab_ClaymationDisabledTab_Bottom
+{
+	color:#E1E1E1;
+}
+
+
+.igtab_ClaymationDisabledTab_Bottom_Rounded
+{
+	text-decoration:line-through;
+}
+
+
+.igtab_ClaymationDisabledTab_Left
+{
+	color:#E1E1E1;
+}
+
+
+.igtab_ClaymationDisabledTab_Left_Rounded
+{
+	text-decoration:line-through;
+}
+
+
+.igtab_ClaymationDisabledTab_Right
+{
+	color:#E1E1E1;
+}
+
+
+.igtab_ClaymationDisabledTab_Right_Rounded
+{
+	text-decoration:line-through;
+}
+
+

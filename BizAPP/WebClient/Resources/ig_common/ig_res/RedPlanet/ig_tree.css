@@ -1,0 +1,63 @@
+.igtr_RedPlanetControl
+{
+	border-width:0px;
+	color:Black;
+}
+
+
+.igtr_RedPlanetIsland
+{
+}
+
+
+.igtr_RedPlanetNode
+{
+	color:Black;
+}
+
+
+.igtr_RedPlanetParent
+{
+}
+
+
+.igtr_RedPlanetLeaf
+{
+	margin-top:0px;
+	margin-bottom:0px;
+	color:Black;
+}
+
+
+.igtr_RedPlanetEdit
+{
+}
+
+
+.igtr_RedPlanetRoot
+{
+	font-weight:bold;
+}
+
+
+.igtr_RedPlanetHover
+{
+	cursor:hand;
+	color:Firebrick;
+	text-decoration:underline;
+}
+
+
+.igtr_RedPlanetSelected
+{
+	font-weight:bold;
+	color:Black;
+}
+
+
+.igtr_RedPlanetDisabled
+{
+	color: LightGrey;
+}
+
+

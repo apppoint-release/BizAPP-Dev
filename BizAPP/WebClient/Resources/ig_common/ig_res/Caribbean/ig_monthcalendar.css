@@ -1,0 +1,218 @@
+.igmc_CaribbeanControl
+{
+	background-color: #FFFFFF;
+	border:1px solid #CCCCCC;
+	width: 225px;
+	height: 200px;
+	padding: 0px;
+	margin: 0px;
+	font-family: Segoe UI, Verdana, Arial, Georgia, Sans-Serif;
+}
+
+.igmc_CaribbeanDOW
+{
+	background-color: #c6e6f2;
+	background-repeat:repeat-x;
+	background-position:top;
+	background-image: url(images/igmc_dowbg.gif);
+	font-size: 0.8em;
+	border-width:0px;
+	border-bottom:solid 1px #CCCCCC;
+	padding: 0px ;
+	text-align:center;
+	font-weight: bold;
+	height: 35px;
+}
+
+.igmc_CaribbeanNextPrev
+{
+	margin: 0px;
+	font-size: 0.8em;
+	color: #FFFFFF;
+	padding: 0px 8px;
+}
+
+.igmc_CaribbeanHoverNextPrev
+{
+	cursor: pointer;
+	color: #000;
+}
+
+.igmc_CaribbeanPressedNextPrev
+{
+}
+
+.igmc_CaribbeanFooter
+{
+	background-color: #c6e6f2;
+	background-image: url(images/igmc_footerbg.gif);
+	background-repeat:repeat-x;
+	background-position: bottom;
+	border-top: 1px solid #CCCCCC;
+	font-size: 0.8em;
+	text-align:center;
+	height: 35px;
+}
+
+.igmc_CaribbeanHoverFooter
+{
+	background-color: #e6f5fc;
+	background-image: url(images/igmc_footerbghover.gif);
+	background-repeat:repeat-x;
+	cursor: pointer;
+}
+
+.igmc_CaribbeanPressedFooter
+{
+	background-color: #c6e6f2;
+	background-image: url(images/igmc_footerbgpressed.gif);
+	background-repeat:repeat-x;
+}
+
+.igmc_CaribbeanHeader
+{
+	background-color: #3A73D7;
+	background-repeat:repeat-x;
+	background-position:top;
+	background-image: url(images/igmc_headerbg.png);
+	border-bottom: 1px solid #CCCCCC;
+	height: 50px;
+}
+
+.igmc_CaribbeanMonthYear
+{
+	font-size:1em;
+	font-weight:bold;
+	padding:0px 2px;
+	color: #FFFFFF;
+}
+
+.igmc_CaribbeanPressedMonthYear
+{
+	color: #000;
+}
+
+.igmc_CaribbeanHoverMonthYear
+{
+	cursor: pointer;
+	color: #000000;
+}
+
+.igmc_CaribbeanDay
+{
+	background-color:#FFFFFF;
+	font-size: 0.9em;
+	text-align:center;
+	border: 1px solid #FFFFFF;
+	font-weight: bold;
+}
+
+.igmc_CaribbeanWeekNumber
+{
+	border: 1px solid #EEEEEE;
+	background-color: #EEEEEE;
+	font-weight: bold;
+}
+
+.igmc_CaribbeanWeekendDay
+{
+	background-color:#f9f9f9;
+	border: 1px solid #f9f9f9;
+}
+
+.igmc_CaribbeanOtherMonthDay
+{
+	color:#AAAAAA;
+	background-image: none;
+}
+
+.igmc_CaribbeanDay.igmc_CaribbeanOtherMonthDay
+{
+	background-image:none;
+	color: #a4a4a4;
+	font-size:0.9em;
+	font-weight:normal;
+}
+
+.igmc_CaribbeanOtherMonthDay.igmc_CaribbeanHoverDay
+{
+	background-color: #3d75d8;
+	background-image: url(images/igmc_dayselected.gif);
+	background-repeat: repeat-x;
+	border-color: #4189CB;
+	color:#FFFFFF;
+	font-weight: bold;
+}
+
+.igmc_CaribbeanSelectedDay
+{
+    background-color: #d3ecfa;
+	font-weight:bold;
+	color: #696969;
+}
+
+.igmc_CaribbeanTodayDay, .igmc_CaribbeanTodayDay.igmc_CaribbeanSelectedDay
+{
+	background-color: #4189CB;
+	color: #FFFFFF;
+}
+
+.igmc_CaribbeanFocusDay, .igmc_CaribbeanOtherMonthDay.igmc_CaribbeanFocusDay
+{
+	background-color: #79C8F2;
+	color:#FFFFFF;
+	border-color: #4bb5ed;
+	font-weight:bold;
+}
+
+.igmc_CaribbeanHoverDay, .igmc_CaribbeanTodayDay.igmc_CaribbeanHoverDay, .igmc_CaribbeanOtherMonthDay.igmc_CaribbeanHoverDay
+{
+	background-color: #3d75d8;
+	background-image: url(images/igmc_dayselected.gif);
+	background-repeat: repeat-x;
+	border-color: #4189CB;
+	color:#FFFFFF;
+	font-weight: bold;
+}
+
+.igmc_CaribbeanDisabledDay
+{
+	color:#EEE;
+}
+
+
+
+/* CSS classes for Month and Year selection Popup in header */
+.igmc_CaribbeanList
+{
+	background-color: #fff;
+	border:1px solid #bbb;
+}
+
+.igmc_CaribbeanItem
+{
+	background-color:#fff;
+	border:1px solid #fff;
+	font-size: 1em;
+	text-align: center;
+}
+
+.igmc_CaribbeanSelectedItem
+{
+	background-color: #79c8f2;
+	border:1px solid #4bb5ed;
+	color: #FFFFFF;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.igmc_CaribbeanHoverItem
+{
+	background-color: #3d75d8;
+	border:1px solid #4189cb;
+	background-image: url(images/igmc_dayselected.gif);
+	background-repeat: repeat-x;
+	color:#FFFFFF;
+	font-weight: bold;
+	cursor: pointer;
+}

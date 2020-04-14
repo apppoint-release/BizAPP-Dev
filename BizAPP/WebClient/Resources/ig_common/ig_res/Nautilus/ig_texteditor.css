@@ -1,0 +1,117 @@
+.igte_NautilusEditWithButtons
+{
+	font-size: 10px;
+	font-family: Segoe UI, Verdana, Arial, Sans-Serif;
+	background-color: #FFFFFF;
+	line-height:1px;
+	height:20px;
+	width: 130px;
+	border:solid 1px #9AA9C7;
+}
+
+.igte_NautilusEdit::-ms-clear, .igte_NautilusEditInContainer::-ms-clear
+{
+	display: none;
+}
+
+.igte_NautilusEdit
+{
+	font-size: 12px;
+	font-family: Segoe UI, Verdana, Arial, Sans-Serif;
+	background-color: #FFFFFF;
+	border:solid 1px #9AA9C7;
+	outline:0;
+}
+
+.igte_NautilusTextArea
+{
+	font-size: 12px;
+	font-family: Segoe UI, Verdana, Arial, Sans-Serif;
+	background-color: #FFFFFF;
+	border:solid 1px #9AA9C7;
+	outline:0;
+	resize:none;
+}
+
+.igte_NautilusEditInContainer
+{
+	font-size: 12px;
+	font-family: Segoe UI, Verdana, Arial, Sans-Serif;
+	background-color: Transparent;
+	border-width:0px;
+	outline:0;
+}
+
+.igte_NautilusFocus
+{
+	border-color:#FFAA72;
+}
+
+.igte_NautilusHover
+{
+	border-color:#24406F;
+}
+
+.igte_NautilusInner
+{
+	border-width: 0;
+}
+
+.igte_NautilusInnerFocus
+{
+}
+
+.igte_NautilusInnerHover
+{
+}
+
+.igte_NautilusButtonSize
+{
+	width:15px;
+	height:100%;
+}
+
+.igte_NautilusButton
+{
+	background-color: #4b709b;
+	background-image: url(images/igte_spinbuttonbg.gif);
+	background-repeat: repeat-x;
+	line-height:normal;
+	border:solid 1px #24406F;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+
+.igte_NautilusButtonFocus
+{
+}
+
+.igte_NautilusNullText
+{
+	color: #666666;
+}
+
+.igte_NautilusButtonHover
+{
+	background-color: #3f4e7c;
+	background-image: url(images/igte_spinbuttonbghover.gif);
+}
+
+
+.igte_NautilusButtonPressed
+{
+	background-color: #4b709b;
+	background-image: url(images/igte_spinbuttonbgpressed.gif);
+}
+
+
+.igte_NautilusButtonDisabled
+{
+	background-image: none;
+	background-color: #CCCCCC;
+}
+
+
+.igte_NautilusButtonImg
+{
+}

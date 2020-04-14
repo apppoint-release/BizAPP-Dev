@@ -1,0 +1,199 @@
+.igdw_IGControl
+{
+	background-color:Transparent;
+	border-width:0px;
+}
+
+
+.igdw_IGHeaderArea
+{
+	background-color:Transparent;
+	font-weight:normal;
+	border-width:0px;
+	height: 24px;
+	cursor:default;
+	color:#333;
+	font-family:'Segoe UI', verdana, sans-serif ;
+	font-size:13px;
+}
+
+
+.igdw_IGBodyContent
+{
+	border:solid 0px #999999;
+}
+
+
+.igdw_IGHeaderButton
+{
+	margin:4px 3px 3px 3px;
+	cursor:pointer;
+}
+
+
+.igdw_IGHeaderCaption
+{
+	font-weight:normal;
+	color:#333;
+	font-family:'Segoe UI', verdana, sans-serif ;
+	font-size:13px;
+}
+
+
+.igdw_IGHeaderButtonArea
+{
+	width: 120px;
+	vertical-align:top;
+}
+
+
+.igdw_IGHeaderButtonArea img
+{
+	margin-left:2px;
+}
+
+
+.igdw_IGHeaderImage
+{
+	cursor:default;
+}
+
+
+.igdw_IGModalBackground
+{
+	background-color:White;
+	filter: alpha(opacity : 50);
+	opacity: 0.5;
+	z-index: 99999;
+}
+
+
+.igdw_IGResizingHandle
+{
+	cursor:se-resize;
+}
+
+
+/* used only when header visible */
+.igdw_IGHeaderCornerLeft
+{
+	background-color:Transparent;
+	background-position:top left ;
+	background-image: url(images/igdw_HeaderCornerLeft.gif);
+	width: 6px;
+	background-repeat:no-repeat;
+}
+
+
+/* used only when header visible */
+.igdw_IGHeaderContent
+{
+	background-image: url(images/igdw_HeaderContent.gif);
+	background-repeat:repeat-x;
+}
+
+
+/* used only when header visible */
+.igdw_IGHeaderCornerRight
+{
+	background-position:top right ;
+	background-image: url(images/igdw_HeaderCornerRight.gif);
+	width: 6px;	
+	background-repeat:no-repeat;
+}
+
+
+/* used only when header hidden */
+.igdw_IGBodyCornerTopLeft
+{
+	background-repeat:no-repeat;
+	background-image: url(images/igdw_BodyCornerTopLeft.gif);
+	width: 6px;
+}
+
+
+/* used only when header hidden */
+.igdw_IGBodyEdgeTop
+{
+	background-repeat:repeat-x;
+	background-image: url(images/igdw_BodyEdgeTop.gif);
+}
+
+
+/* used only when header hidden */
+.igdw_IGBodyCornerTopRight
+{
+	background-repeat:no-repeat;
+	background-position:right ;
+	background-image: url(images/igdw_BodyCornerTopRight.gif);
+	width: 6px;
+}
+
+
+.igdw_IGBodyEdgeLeft
+{
+	background-image:url(images/igdw_EdgeLeft.gif);
+	background-position:left bottom;
+	font-size:1px;
+	width:5px;
+	background-color:#DDDDDD;
+	background-repeat:repeat-x;
+	border-right:solid 1px #B1B1B1;
+	border-left:solid 1px #9B9B9B;
+}
+
+
+.igdw_IGBodyEdgeRight
+{
+	background-image:url(images/igdw_EdgeRight.gif);
+	background-position:right bottom;
+	font-size:1px;
+	width:5px;
+	background-color:#DDDDDD;
+	background-repeat:repeat-x;
+	border-left:solid 1px #B1B1B1;
+	border-right:solid 1px #9B9B9B;
+}
+
+
+.igdw_IGBodyCornerBottomLeft
+{
+	background-color:White;
+	background-repeat:no-repeat;
+	background-image: url(images/igdw_BodyCornerBottomLeft.gif);
+	font-size:1px;
+	height: 7px;
+	width: 7px;
+}
+
+
+.igdw_IGBodyContentArea
+{
+	background:White url(images/igdw_BodyContentArea.gif) repeat-x left bottom;
+	vertical-align:top;
+}
+
+
+.igdw_IGBodyCornerBottomRight
+{
+	background-color:White;
+	background-repeat:no-repeat;
+	background-image: url(images/igdw_BodyCornerBottomRight.gif);
+	background-position:right top;	
+	font-size:1px;
+	height: 7px;
+	width: 7px;
+}
+
+
+.igdw_IGBodyEdgeBottom
+{
+	background-color:White;
+	background-repeat:repeat-x;
+	background-image: url(images/igdw_BodyEdgeBottom.gif);
+	font-size:1px;
+	border-top:solid 1px #b1b1b1;
+	height: 6px;
+}
+
+

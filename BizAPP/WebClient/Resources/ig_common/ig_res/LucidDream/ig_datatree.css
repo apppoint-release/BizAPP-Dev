@@ -1,0 +1,167 @@
+.igdt_LucidDreamControl {
+	background-color:transparent;
+	border:1px solid transparent;
+	color:#000000;
+	font-size: xx-small;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.igdt_LucidDreamControlActive {
+}
+
+.igdt_LucidDreamNode
+{
+	cursor:hand;
+	color:#333333;
+	text-decoration:none;	
+	padding:1px 3px 1px 3px;
+	line-height: 15px;
+	vertical-align: middle;
+}
+
+.igdt_LucidDreamNodeRoot {
+	font-weight:bold;
+	color:#74B8E4;
+	vertical-align:middle;
+
+}
+
+.igdt_LucidDreamNodeImage {	
+	vertical-align: middle;
+}
+
+.igdt_LucidDreamNodeSelected {
+	background-color:#9EDEFF;
+	color: White;
+}
+
+.igdt_LucidDreamNodeActive 
+{
+	border:1px solid #74B8E4;
+	padding: 0px 3px 0px 2px;
+}
+
+.igdt_LucidDreamNodeHover {
+	
+	background-color:#BEE2F8;
+}
+
+.igdt_LucidDreamNodeDisabled
+{
+	color:Gray;
+}
+
+.igdt_LucidDreamInternalNodeEditor
+{
+	border:1px solid #74B8E4;
+	padding-left: 2px;
+}
+
+
+/* //////////////////// GROUP STYLES //////////////////// */
+.igdt_LucidDreamNodeGroup {
+	list-style :none;	
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+.igdt_LucidDreamNodeHolder {
+	white-space:nowrap;
+	clear:left;
+}
+
+/* Bug #62259 K.D. December 27, 2010 removing float: left because it was causing the nodes to display diagonally */
+.igdt_LucidDreamNodeHolder img
+{
+	vertical-align: middle;
+}
+
+/* M.H. 8 June 2011 - fix bug 32892: add alignment for table */
+.igdt_LucidDreamNodeHolder table {
+	vertical-align: bottom;
+	*vertical-align: middle;
+}
+
+/* //////////////////// GROUP STYLES //////////////////// */
+
+/****************************************************/
+/* Added for WebDataTree Drag And Drop funtionality */
+/****************************************************/
+
+
+/*CSS class that will define the style applied before or after some node. 
+If the space between the nodes is accepted as potential drop target this class will define 
+some separator/dashed line that will show where the new node will be placed*/
+/*The DropIndicator purpose is to guide the user where the node will be inserted 
+when they drop it*/
+.igdt_LucidDreamDropIndicator
+{
+    border      : 1px solid #69b5e7;
+    padding     : 1px 8px 3px 4px;
+    background  : #CFEAFA url(./images/igdt_DropIndicatorBg.jpg) repeat-x scroll 0 0 ;
+    
+    color       : #003366;
+    cursor      : default;
+    font-family : Segoe UI,Arial,Verdana,Helvetica,sans-serif;
+    font-size   : 12px;
+
+    height:20px;
+}
+
+.igdt_LucidDreamDropIndicator img
+{
+    position:relative;
+    top:3px;
+    margin-right:5px;
+    width:16px;
+    height:16px;
+}
+.igdt_LucidDreamDropIndicator span
+{
+    position:relative;
+    top:-1px;
+}
+
+/*CSS class that will be applied just before the Dropping event is fired on a node if it is a possible drop target. For example when you drag over concrete node its color will change to alert the user he will drop inside the highlighted node.*/
+.igdt_LucidDreamDropTarget
+{
+    background  : #9EDEFF;
+}
+
+/*Applied on the cloned node that is being dragged*/
+.igdt_LucidDreamDragMarkup
+{
+    cursor      : move;
+    padding:1px 3px;
+    font-family:Verdana,Arial,Helvetica,sans-serif;
+    font-size:xx-small;
+}
+
+/* Applied to the line shown, when inserting between two nodes.*/
+.igdt_LucidDreamDropInsertLine
+{
+  border: 2px dotted #69b5e7;
+}
+
+.igdt_LucidDreamNodeGroupDragDrop {
+	list-style :none;	
+	margin-left: 0px;
+	padding-left: 0px;
+	padding-bottom: 2px;
+	padding-top: 2px;
+}
+
+.igdt_LucidDreamNodeGroupDragDrop li
+{
+    clear:left;
+}
+
+.igdt_LucidDreamNodeHolderDragDrop {
+	white-space:nowrap;
+}
+
+.igdt_LucidDreamNodeHolderDragDrop img
+{
+    vertical-align:middle;
+    float:left;
+}

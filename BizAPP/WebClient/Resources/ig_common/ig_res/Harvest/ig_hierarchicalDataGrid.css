@@ -1,0 +1,224 @@
+﻿.ighg_HarvestExpandButton
+{
+	cursor: pointer;
+	cursor: hand;
+	padding-left: 5px;
+}
+
+TBODY>TR>TD.ighg_HarvestExpandableArea
+{
+	padding: 0px 0px 0px 25px;
+	background-color: #FFFFFF;
+	background-image: none;
+}
+
+.ighg_HarvestExpansionColumn
+{
+	width: 25px;
+	padding: 0 !important;
+}
+
+.ighg_HarvestExpansionColumnHeader
+{
+	width: 25px;
+	background-color: Transparent;
+    border-color: #F49E28 #DE850B #CE7C0A;
+    border-style: solid;
+    border-width: 1px 1px 1px 0;
+}
+
+.ighg_HarvestExpansionColumnFooter
+{
+	width: 25px;
+}
+
+/* START -- GroupBy CSS Classes */
+.ighg_HarvestGroupIndentHeaderCell
+{
+    background-color: Transparent;
+    border-color: #F49E28 #DE850B #CE7C0A;
+    border-style: solid;
+    border-width: 1px 1px 1px 0;
+}
+
+TBODY>TR.ighg_HarvestGroupedRow>TD
+{
+	background:#f9e4c9 url(images/ighg_GroupedRowBg.png) repeat-x;
+}
+
+
+TBODY>TR>TD.ighg_HarvestGroupIndentCell
+{
+	border-right: 1px solid #D8D8D8;
+}
+
+.ighg_HarvestGroupArea
+{
+	background-color: #F3F4F3;
+	border-bottom: 1px solid #97462C;
+	padding: 10px;
+}
+
+.ighg_HarvestGroupedColumn
+{
+	display: inline-block;
+	background: url(images/ighg_GroupedColumnBg.png) repeat-x;
+	height: 16px;
+	padding: 3px 5px 0px 10px;
+	color: #FFFFFF;
+}
+.ighg_HarvestGroupedColumnRightEdgeEnd
+{
+	display: inline-block;
+	background: url(images/ighg_GroupedColumnRightEdgeEndBg.gif) no-repeat;		
+	width: 10px;
+	height: 16px;
+	padding-top: 3px;
+}
+.ighg_HarvestGroupedColumnRightEdge
+{
+	display: inline-block;
+	background: url(images/ighg_GroupedColumnRightEdgeBg.png) no-repeat;
+	width: 10px;
+	height: 16px;
+	padding-top: 3px;
+}
+
+.ighg_HarvestGroupedColumnLeftEdge
+{
+	display: inline-block;
+	background: url(images/ighg_GroupedColumnLeftEdgeBg.gif) no-repeat;
+	width: 9px;
+	height: 16px;
+	padding-top: 3px;
+}
+
+.ighg_HarvestGroupedBand
+{
+	display: inline-block;
+	background: url(images/ighg_GroupedBandBg.png) repeat-x;
+	border-left: 1px solid #97462C;
+	height: 16px;
+	padding: 3px 0px 0px 10px;
+}
+.ighg_HarvestGroupedBandRightEdge
+{		
+	display: inline-block;
+	background: url(images/ighg_GroupedBandBg.png) repeat-x;
+	border-right: 1px solid #97462C;
+	width: 10px;
+	height: 16px;
+	padding: 3px 0px 0px 0px;
+}
+
+.ighg_HarvestColumnGroupingTopDragIndicator
+{
+	background-image:url(images/ighg_TopDragIndicator.gif);
+	background-repeat: no-repeat;
+	width:5px; 
+	height:3px;
+	z-index: 100;
+}
+
+.ighg_HarvestColumnGroupingMiddleDragIndicator
+{
+      background-image:url(images/ighg_MiddleDragIndicator.gif);
+      background-repeat: repeat-y;
+      background-position: center;
+      width:3px; 
+}
+
+.ighg_HarvestColumnGroupingBottomDragIndicator
+{
+      background-image:url(images/ighg_BottomDragIndicator.gif);
+      background-repeat: no-repeat;
+      width:5px; 
+      height:3px;
+      position: absolute;
+      z-index: 100;   
+}
+/* END -- GroupBy CSS Classes */
+
+/********************/
+/**  Cell Merging  **/
+/********************/
+/*Any future change please port it to WHDG*/
+
+tbody>tr>td.ighg_HarvestMergedCellVisible
+{
+    color: Black;
+}
+
+tbody>tr>td.ighg_HarvestMergedCell /*tbody>tr>td.ighg_HarvestMergedCellAlt*/
+{
+    color: #FFF;
+    background-color: #FFF;
+    background-image: none;
+    
+    border-top-width: 0;
+    border-left: 1px dotted #d8d8d8;
+    border-right: 1px dotted #d8d8d8;
+}
+
+tbody>tr>td.ighg_HarvestMergedCellTop /*tbody>tr>td.ighg_HarvestMergedCellAltTop*/
+{
+    color: Black;
+    border-top: 1px solid #d8d8d8;
+}
+
+tbody>tr>td.ighg_HarvestMergedCell.igg_HarvestSelectedCell /*tbody>tr>td.ighg_HarvestMergedCellAlt.igg_HarvestSelectedCell*/
+{
+    color: #FFFFFF;
+    background-color: #cca795;
+    
+    border-top: 1px solid #d8d8d8;
+    border-left: 1px dotted #d8d8d8;
+    border-right: 1px dotted #d8d8d8;
+}
+
+tbody>tr>td.ighg_HarvestMergedCellTop.igg_HarvestSelectedCell /*tbody>tr>td.ighg_HarvestMergedCellAltTop.igg_HarvestSelectedCell*/
+{
+    color: #FFFFFF;
+    border-top: none;    
+}
+	
+tbody>tr>td.ighg_HarvestMergedCellExpanded
+{
+    color: Black;
+}	
+
+tbody > tr.igg_HarvestUpdatedRow td.ighg_HarvestMergedCell
+{
+    color: #666666;
+    font-style: italic;
+}
+
+tbody > tr.igg_HarvestUpdatedRow td.ighg_HarvestMergedCellTop.igg_HarvestSelectedCell
+{
+    color: #FFF;
+    font-style: italic;
+}
+
+tbody > tr.igg_HarvestUpdatedRow td.ighg_HarvestMergedCellTop
+{
+    color: #666666;
+    font-style: italic;
+}
+
+tbody > tr.igg_HarvestUpdatedRow td.ighg_HarvestMergedCellTop.igg_HarvestSelectedCell
+{
+    color: #FFF;
+    font-style: italic;
+}
+
+tbody>tr>td.ighg_HarvestMergedCellVisible
+{
+    color: black;
+}
+
+tbody>tr>td.igg_HarvestActiveCell
+{
+    color: #000;
+}
+
+@media print{.ighg_HarvestControl, .ighg_HarvestControl div{width:auto !important; height:auto !important; overflow: visible !important;}}

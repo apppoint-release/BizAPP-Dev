@@ -1,0 +1,41 @@
+﻿.igfeb_RedPlanetControl
+{
+	background-color: Transparent;
+}
+
+.igfeb_RedPlanetControlHover
+{
+				
+				
+}
+
+.igfeb_RedPlanetFishEyeItemLabel
+{
+}
+
+.igfeb_RedPlanetFishEyeItem
+{
+}
+
+.igfeb_RedPlanetFishEyeItemHover
+{			
+}
+
+.igfeb_RedPlanetFishEyeItemDisabled
+{
+				
+				
+}
+
+.igfeb_RedPlanetControlFocus
+{
+				
+				
+}
+
+.igfeb_RedPlanetFishEyeItemSelected
+{
+	background-position: bottom;
+	background-image: url(images/igfeb_itemselected.png);	
+	background-repeat:  no-repeat;
+}

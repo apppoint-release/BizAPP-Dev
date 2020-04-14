@@ -1,0 +1,44 @@
+.igpnl_ClaymationControl
+{
+}
+
+
+.igpnl_ClaymationPanel
+{
+	background-color:#FBFBFB;
+	background-position:bottom ;
+	background-image: url(images/addnew.gif);
+	border:solid 1px #F0F0F0;
+}
+
+
+.igpnl_ClaymationHeaderExpanded
+{
+	background-image: url(images/header.jpg);
+	font-weight:bold;
+	font-size:xx-small;
+	font-family: Verdana;
+	padding-top:3px;
+	padding-bottom:3px;
+	cursor:hand;
+}
+
+
+.igpnl_ClaymationHeaderCollapsed
+{
+}
+
+
+.igpnl_ClaymationHeaderHover
+{
+	background-image: url(images/header_hover.jpg);
+}
+
+
+.igpnl_ClaymationGroupBoxControl
+{
+	background-position:bottom ;
+	background-image: url(images/addnew.gif);
+}
+
+

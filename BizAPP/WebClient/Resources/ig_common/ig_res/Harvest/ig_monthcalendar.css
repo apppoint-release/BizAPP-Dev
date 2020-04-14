@@ -1,0 +1,223 @@
+.igmc_HarvestControl
+{
+	background-color: #FFFFFF;
+	border:1px solid #D8D8D8;
+	width: 225px;
+	height: 200px;
+	padding: 0px;
+	margin: 0px;
+	font-family: Segoe UI, Verdana, Arial, Georgia, Sans-Serif;
+}
+
+.igmc_HarvestDOW
+{
+	background-color: #fcf4e9;
+	background-repeat:repeat-x;
+	background-position:top;
+	background-image: url(images/igmc_dowbg.gif);
+	font-size: 0.8em;
+	border-width:0px;
+	border-bottom:solid 1px #D8D8D8;
+	padding: 0px ;
+	text-align:center;
+	font-weight: bold;
+	height: 35px;
+}
+
+.igmc_HarvestNextPrev
+{
+	margin: 0px;
+	font-size: 0.8em;
+	color: #fff;
+	padding: 0px 8px;
+}
+
+.igmc_HarvestHoverNextPrev
+{
+	cursor: pointer;
+	color: #000;
+}
+
+.igmc_HarvestPressedNextPrev
+{
+}
+
+.igmc_HarvestFooter
+{
+	background-color: #FFFFFF;
+	background-image: url(images/igmc_footerbg.gif);
+	background-repeat:repeat-x;
+	background-position: bottom;
+	border-top: 1px solid #D8D8D8;
+	font-size: 0.8em;
+	text-align:center;
+	height: 35px;
+	
+}
+
+.igmc_HarvestHoverFooter
+{
+	background-color: #FFFFFF;
+	background-image: url(images/igmc_footerbghover.gif);
+	background-repeat:repeat-x;
+	cursor: pointer;
+}
+
+.igmc_HarvestPressedFooter
+{
+	background-color: #EEEEEE;
+	background-image: url(images/igmc_footerbgpressed.gif);
+	background-repeat:repeat-x;
+}
+
+.igmc_HarvestHeader
+{
+	background-color: #ee8f0c;
+	background-repeat: repeat-x;
+	background-position: top;
+	background-image: url(images/igmc_headerbg.png);
+	border-bottom: 1px solid #D8D8D8;
+	height: 50px;
+	
+}
+
+.igmc_HarvestMonthYear
+{
+	font-size:1em;
+	font-weight:bold;
+	padding:0px 2px;
+	color: #FFFFFF;
+}
+
+.igmc_HarvestPressedMonthYear
+{
+	color: #000000;
+}
+
+.igmc_HarvestHoverMonthYear
+{
+	cursor: pointer;
+	color: #000;
+	
+}
+
+.igmc_HarvestDay
+{
+	background-color:#FFFFFF;
+	font-size: 0.9em;
+	text-align:center;
+	border: 1px solid #FFFFFF;
+	font-weight: bold;
+}
+
+.igmc_HarvestDay.igmc_HarvestOtherMonthDay
+{
+	background-image:none;
+	color: #a4a4a4;
+	font-size:0.9em;
+	font-weight:normal;
+}
+
+.igmc_HarvestWeekNumber
+{
+	border: 1px solid #fef9f3;
+	background-color: #fef9f3;
+	background-repeat:repeat-x;
+	background-position:top;
+	font-weight: bold;
+}
+
+.igmc_HarvestWeekendDay
+{
+	background-color:#f9f9f9;
+	border: 1px solid #f9f9f9;
+}
+
+.igmc_HarvestOtherMonthDay
+{
+	color:#AAAAAA;
+	background-image: none;
+}
+
+.igmc_HarvestTodayDay, .igmc_HarvestTodayDay.igmc_HarvestSelectedDay
+{
+	background-color: #97462C;
+	border: 1px solid #703421;
+	color: #FFFFFF;
+}
+
+.igmc_HarvestSelectedDay
+{
+	background-color: #ffdeb1;
+	font-weight:bold;
+	color: #696969;
+}
+
+.igmc_HarvestFocusDay, .igmc_HarvestOtherMonthDay.igmc_HarvestFocusDay
+{
+	background-color: #ee8f0c;
+	color:#FFFFFF;
+	border-color: #6691B8;
+	border: 1px solid #b35706;
+	font-weight:bold;
+}
+
+.igmc_HarvestHoverDay, .igmc_HarvestTodayDay.igmc_HarvestHoverDay
+{
+	background-color: #ee8f0c;
+	background-image: url(images/igmc_dayselected.gif);
+	background-repeat: repeat-x;
+	border: 1px solid #b35706;
+	color:#FFFFFF;
+	font-weight: bold;
+}
+
+.igmc_HarvestOtherMonthDay.igmc_HarvestHoverDay
+{
+	background-color: #ee8f0c;
+	background-image: url(images/igmc_dayselected.gif);
+	background-repeat: repeat-x;
+	border: 1px solid #b35706;
+	color:#FFFFFF;
+	font-weight: bold;
+}
+
+.igmc_HarvestDisabledDay
+{
+	color:#EEE;
+}
+
+/* CSS classes for Month and Year selection Popup in header */
+.igmc_HarvestList
+{
+	background-color: #fff;
+	border:1px solid #bbb;
+}
+
+.igmc_HarvestItem
+{
+	background-color:#fff;
+	border:1px solid #fff;
+	font-size: 1em;
+	text-align: center;
+}
+
+.igmc_HarvestSelectedItem
+{
+	background-color: #ee8f0c;
+	border: 1px solid #b35706;
+	color: #FFFFFF;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.igmc_HarvestHoverItem
+{
+	background-color: #ee8f0c;
+	background-image: url(images/igmc_dayselected.gif);
+	background-repeat: repeat-x;
+	border: 1px solid #b35706;
+	color:#FFFFFF;
+	font-weight: bold;
+	cursor: pointer;
+}

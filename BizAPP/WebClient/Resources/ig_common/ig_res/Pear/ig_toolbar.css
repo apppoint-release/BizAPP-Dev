@@ -1,0 +1,63 @@
+.igtb_PearControl
+{
+	background-color:#BBD17E;
+	border-color:Transparent;
+}
+
+
+.igtb_PearItem
+{
+	background-color:Transparent;
+}
+
+
+.igtb_PearButton
+{
+	background-color:Transparent;
+	font-weight:bold;
+	border:solid 1px Transparent;
+	margin:0px;
+	padding:0px 0px 0px 4px;
+	color:White;
+}
+
+
+.igtb_PearButtonHover
+{
+	background-color:#636A4C;
+	border:solid 1px #E1E1E1;
+	margin:0px;
+	padding:0px 0px 0px 4px;
+}
+
+
+.igtb_PearButtonPressed
+{
+	background-color:#8D9D5E;
+}
+
+
+.igtb_PearLabel
+{
+	font-weight:bold;
+	color:White;
+}
+
+
+.igtb_PearTextBox
+{
+	background-color:White;
+}
+
+
+.igtb_PearSeparator
+{
+	background-color:Transparent;
+}
+
+
+.igtb_PearButtonDisabled
+{
+}
+
+

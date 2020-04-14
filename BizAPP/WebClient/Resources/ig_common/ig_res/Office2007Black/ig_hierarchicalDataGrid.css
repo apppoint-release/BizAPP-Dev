@@ -1,0 +1,227 @@
+﻿.ighg_Office2007BlackExpandButton
+{
+	cursor: pointer;
+	cursor: hand;
+	padding-left: 5px;
+}
+
+TBODY>TR>TD.ighg_Office2007BlackExpandableArea
+{
+	padding: 0px 0px 0px 25px;
+}
+
+.ighg_Office2007BlackExpansionColumn
+{
+	width: 25px;
+	padding: 0 !important;
+}
+
+.ighg_Office2007BlackExpansionColumnHeader
+{
+	background-color: Transparent;
+    border-color: #F0F0F0 #CECECE #B5B5B5 #FFFFFF;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.ighg_Office2007BlackExpansionColumnFooter
+{
+	width: 25px;
+}
+
+
+/* START -- GroupBy CSS Classes */
+.ighg_Office2007BlackGroupIndentHeaderCell
+{
+	background-color: Transparent;
+    border-color: #F0F0F0 #B6B6B6 #B6B6B6;
+    border-style: solid;
+    border-width: 1px 1px 1px 0;
+}
+
+TBODY>TR.ighg_Office2007BlackGroupedRow>TD
+{
+	background:#DDE0E3;
+	border-bottom: 2px solid #9199A4;
+}
+
+
+TBODY>TR>TD.ighg_Office2007BlackGroupIndentCell
+{
+	border-right: 1px solid #D0D7E5;
+}
+
+.ighg_Office2007BlackGroupArea
+{
+	background-color: #F3F4F3;
+	border-bottom: 1px solid #CCCCCC;
+	padding: 10px;
+}
+
+.ighg_Office2007BlackGroupedColumn
+{
+	display: inline-block;
+	background: url(images/ighg_GroupedColumnBg.png) repeat-x;
+	height: 16px;
+	padding: 3px 5px 0px 10px;
+}
+.ighg_Office2007BlackGroupedColumnRightEdgeEnd
+{
+	display: inline-block;
+	background: url(images/ighg_GroupedColumnRightEdgeEndBg.gif) no-repeat;		
+	width: 10px;
+	height: 16px;
+	padding-top: 3px;
+}
+.ighg_Office2007BlackGroupedColumnRightEdge
+{
+	display: inline-block;
+	background: url(images/ighg_GroupedColumnRightEdgeBg.png) no-repeat;
+	width: 10px;
+	height: 16px;
+	padding-top: 3px;
+}
+
+.ighg_Office2007BlackGroupedColumnLeftEdge
+{
+	display: inline-block;
+	background: url(images/ighg_GroupedColumnLeftEdgeBg.gif) no-repeat;
+	width: 9px;
+	height: 16px;
+	padding-top: 3px;
+}
+
+.ighg_Office2007BlackGroupedBand
+{
+	display: inline-block;
+	background: url(images/ighg_GroupedBandBg.png) repeat-x;
+	border-left: 1px solid #8A8A8A;
+	height: 16px;
+	padding: 3px 0px 0px 10px;
+}
+.ighg_Office2007BlackGroupedBandRightEdge
+{		
+	display: inline-block;
+	background: url(images/ighg_GroupedBandBg.png) repeat-x;
+	border-right: 1px solid #8A8A8A;
+	width: 10px;
+	height: 16px;
+	padding: 3px 0px 0px 0px;
+}
+
+.ighg_Office2007BlackColumnGroupingTopDragIndicator
+{
+	background-image:url(images/ighg_TopDragIndicator.gif);
+	background-repeat: no-repeat;
+	width:5px; 
+	height:3px;
+	z-index: 100;
+}
+
+.ighg_Office2007BlackColumnGroupingMiddleDragIndicator
+{
+      background-image:url(images/ighg_MiddleDragIndicator.gif);
+      background-repeat: repeat-y;
+      background-position: center;
+      width:3px; 
+}
+
+.ighg_Office2007BlackColumnGroupingBottomDragIndicator
+{
+      background-image:url(images/ighg_BottomDragIndicator.gif);
+      background-repeat: no-repeat;
+      width:5px; 
+      height:3px;
+      position: absolute;
+      z-index: 100;   
+}
+/* END -- GroupBy CSS Classes */
+
+/********************/
+/**  Cell Merging  **/
+/********************/
+/*Any future change please port it to WHDG*/
+
+tbody>tr>td.ighg_Office2007BlackMergedCellVisible
+{
+    color: Black;
+}
+	
+tbody>tr>td.ighg_Office2007BlackMergedCell, tbody>tr>td.ighg_Office2007BlackMergedCellAlt /* main reg */
+{
+    color: #FFF;
+    background-color : #FFF;
+    
+    border-top-width : 0;
+    border-left: 1px dotted #d0d7e5;
+    border-right: 1px dotted #d0d7e5;
+}
+
+tbody>tr>td.ighg_Office2007BlackMergedCellTop, tbody>tr>td.ighg_Office2007BlackMergedCellAltTop
+{
+    color: Black;
+    border-top: 1px solid #d0d7e5;
+}
+
+tbody>tr>td.ighg_Office2007BlackMergedCell.igg_Office2007BlackSelectedCell, tbody>tr>td.ighg_Office2007BlackMergedCellAlt.igg_Office2007BlackSelectedCell /* main reg */
+{
+    color: Black;
+    background-image: none;
+    background-color: #fec271;
+    
+    border-top: 1px solid #ca9e62;
+    border-left: 1px dotted #ca9e62;
+    border-right: 1px dotted #ca9e62;
+}
+
+tbody>tr>td.ighg_Office2007BlackMergedCellTop.igg_Office2007BlackSelectedCell, tbody>tr>td.ighg_Office2007BlackMergedCellAltTop.igg_Office2007BlackSelectedCell
+{
+    color: Black;
+}
+		
+tbody>tr>td.ighg_Office2007BlackMergedCellExpanded
+{
+    color: Black;
+}
+
+tbody > tr.igg_Office2007BlackUpdatedRow td.ighg_Office2007BlackMergedCell
+{
+    color: #666666;
+    font-style: italic;
+}
+
+tbody > tr.igg_Office2007BlackUpdatedRow td.ighg_Office2007BlackMergedCellTop.igg_Office2007BlackSelectedCell
+{
+    color: black;
+    font-style: italic;
+}
+
+tbody > tr.igg_Office2007BlackUpdatedRow td.ighg_Office2007BlackMergedCellTop
+{
+    color: #666666;
+    font-style: italic;
+}
+
+tbody > tr.igg_Office2007BlackUpdatedRow td.ighg_Office2007BlackMergedCellTop.igg_Office2007BlackSelectedCell
+{
+    color: black;
+    font-style: italic;
+}
+
+tbody > tr.igg_Office2007BlackUpdatedRow td.ighg_Office2007BlackMergedCellBottom.igg_Office2007BlackSelectedCell
+{
+    color: black;
+    font-style: italic;
+}
+
+tbody>tr>td.ighg_Office2007BlackMergedCellVisible
+{
+    color: black;
+}
+
+tbody>tr>td.igg_Office2007BlackActiveCell
+{
+    color: #000;
+}
+
+@media print{.ighg_Office2007BlackControl, .ighg_Office2007BlackControl div{width:auto !important; height:auto !important; overflow: visible !important;}}

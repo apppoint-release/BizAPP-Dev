@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<modules>
+	<!-- Form designer control extensions -->
+	<modeler.formdesigner.extensions>
+		<assemblies>
+		</assemblies>
+	</modeler.formdesigner.extensions>
+	<!-- Runtime expression evaluator extensions -->
+	<runtime.expressioneval.extensions>
+		<assemblies>
+			<assembly name="BizAPP.Runtime.Core.Framework, Version=1.1.0.37, Culture=neutral, PublicKeyToken=5cd91901593ba07f" />
+			<assembly name="SystemUnit.Tenancy, Version=1.1.0.37, Culture=neutral, PublicKeyToken=5cd91901593ba07f" />
+		</assemblies>
+	</runtime.expressioneval.extensions>
+	<runtime.cache.extensions>
+		<assemblies>
+		</assemblies>
+	</runtime.cache.extensions>
+</modules>

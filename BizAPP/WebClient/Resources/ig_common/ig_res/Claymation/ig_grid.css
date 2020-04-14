@@ -1,0 +1,191 @@
+.igtbl_ClaymationControl
+{
+}
+
+
+.igtbl_ClaymationPagerArea
+{
+	background-color:#F0F0F0;
+	padding-top:10px;
+	padding-right:10px;
+	padding-bottom:10px;
+}
+
+
+.igtbl_ClaymationPageCurrent
+{
+	background-image: url(images/submit_down.gif);
+	margin-right:10px;
+	padding:3px 6px 3px 5px;
+}
+
+
+.igtbl_ClaymationPageLink
+{
+	margin-right:10px;
+	color:DimGray;
+}
+
+
+.igtbl_ClaymationGroupByBox
+{
+	background-color:#F2F2F2;
+	background-repeat:repeat-x;
+	background-position:bottom ;
+	background-image: url(images/dayview_day_header.jpg);
+	border-bottom:solid 1px #E1E1E1;
+}
+
+
+.igtbl_ClaymationAddNewBox
+{
+	background-position:bottom ;
+	background-image: url(images/addnew.gif);
+}
+
+
+.igtbl_ClaymationItem
+{
+	background-color:WhiteSmoke;
+	border-top:solid 1px Gainsboro;
+	border-bottom:solid 1px Transparent;
+	height: 30px;
+}
+
+
+.igtbl_ClaymationFilterOperandButton
+{
+	background-color:Transparent;
+	background-repeat:no-repeat;
+	background-position:center ;
+	background-image: url(images/submit_down.gif);
+	border-width:0px;
+	padding-top:2px;
+	width: 18px;
+}
+
+
+.igtbl_ClaymationAlt
+{
+	background-color:White;
+	border-bottom:solid 1px Transparent;
+}
+
+
+.igtbl_ClaymationEdit
+{
+	background-color:White;
+	font-size:x-small;
+	font-family: Verdana;
+	border:solid 1px Transparent;
+	padding-top:9px;
+	text-align:left;
+	vertical-align:middle;
+}
+
+
+.igtbl_ClaymationButton
+{
+}
+
+
+.igtbl_ClaymationFxdCell
+{
+}
+
+
+.igtbl_ClaymationHeader
+{
+	background-position:top ;
+	background-image: url(images/header.jpg);
+	border-width:0px;
+	padding-top:4px;
+	height: 30px;
+	color:Black;
+	text-align:left;
+}
+
+
+.igtbl_ClaymationFooter
+{
+	background-color:#E1E1E1;
+	background-image:none;
+}
+
+
+.igtbl_ClaymationLabel
+{
+	background-image:none;
+	border-top:solid 1px Gainsboro;
+	border-right:solid 1px Gainsboro;
+	height: 30px;
+	padding-top:0px;
+}
+
+
+.igtbl_ClaymationExpArea
+{
+	background-color:#E1E1E1;
+	background-image:none;
+	border-top:solid 1px Gainsboro;
+	text-align:left;
+}
+
+
+.igtbl_ClaymationGrpItem
+{
+}
+
+
+.igtbl_ClaymationFxdHeader
+{
+}
+
+
+.igtbl_ClaymationGroupBandLabel
+{
+}
+
+
+.igtbl_ClaymationFxdFooter
+{
+}
+
+
+.igtbl_ClaymationDropDown
+{
+	background-color:WhiteSmoke;
+	font-size:xx-small;
+	font-family: Verdana;
+	border:solid 1px LightGrey;
+}
+
+
+.igtbl_ClaymationDropDownSel
+{
+}
+
+
+.igtbl_ClaymationSelected
+{
+	background-color:DimGray;
+	border-top-width:1px;
+	color:White;
+}
+
+
+.igtbl_ClaymationActiveBorderTopBottom
+{
+}
+
+
+.igtbl_ClaymationActiveBorderLeft
+{
+}
+
+
+.igtbl_ClaymationActiveBorderRight
+{
+}
+
+

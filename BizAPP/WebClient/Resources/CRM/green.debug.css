@@ -1,0 +1,325 @@
+.viewheader .viewbody, .boxheader, .right,.notesday, .viewheader, .container,.contextMenu, .contextMenuHighlighted, .viewheaderimgless,td.ob_t3,.vcpopupviewgroupmenucontentsselected
+{
+	background-color: #567A00;
+}
+.cboxbody,.boxbody, .container, .viewbody, .viewheader, .notesmonth, legend, .formnavigationcontrol, .viewbody,.contextMenu
+{
+	border-color:#567A00;
+}
+input[type=text],input[type=password],input[type=radio],input[type=checkbox], select, .select, .formtextbox, .formmultilinetextbox, .formnavigatabletextbox, formtextboxlabel,.vcdetailspopup,.vcpopupviewmenucontents
+{
+	border:solid 1px #95D100;
+}
+
+.viewcollectiontoolbarlistitem,.vcpopupviewmenucontents,
+.viewcollectiontoolbarlistitem:hover, .viewcollectiontoolbarlistseperator, legend
+{
+	color: #567A00;
+	cursor:pointer; 
+}
+.relatedheader, fieldset 
+{
+	border-top-color:#567A00;
+}
+.mainheader
+{
+	border-top-color: #567A00;
+	border-right-color: #567A00;
+}
+.cbody
+{
+	border-bottom-color: #567A00;
+	border-right-color: #567A00;
+}
+.tabLeftSelected, .tabbeddocumentLeftSelected
+{
+	background-position: left -2158px;
+}
+.tabRightSelected, .tabbeddocumentRightSelected
+{
+	background-position: right -6624px;
+}
+.viewtab
+{
+	background-image: url( '../Images/App_green/menu/tabBGGreen.gif' );
+}
+
+/*********************************************/
+/* ViewCollection */
+/*********************************************/
+
+.vcpopupviewgroupmenucontents
+{
+	background-image: url(../Images/common/Topmenu_selected.png);
+	color:#000000;
+}
+
+.vcpopupviewgroupmenucontentsselected,td.ob_t3
+{
+	color:#ffffff;
+}
+
+.vcpopupmenucontents
+{
+	
+}
+
+/*********************************************/
+/* Alert Control */
+/*********************************************/
+
+.configure
+{
+	background-image: url(../Images/App_Blue/icons/configure.png);
+}
+
+.configurepopup
+{
+	background-color: #FCDCB3; 
+}
+
+.alertimage
+{
+	background-image: url(../Images/App_green/alert/alert.png);
+}
+
+.alertimagetext
+{
+	color:Black;
+}
+.alertdetailspopuptopbottomimage
+{
+	background-image: url(../Images/common/alert/alerttopbottomheader.png);
+	color:#A5261D ;
+}
+
+.alertnewnotecontainer
+{
+	background-image: url(../Images/common/alert/alerttopbottomheader.png);
+	color:#A5261D ;
+}
+
+.alertshowallcontainer
+{
+	background-image: url(../Images/common/alert/alerttopbottomheader.png);
+	color:#A5261D ;
+}
+
+.alertdetailspopupnewnoteimage
+{
+	background-image: url(../Images/App_green/alert/newnote.png);
+}
+
+.alertmessageheader
+{
+	background-image: url(../Images/common/alert/noteheader.png);
+	color: #567A00;
+}
+
+.alertmessagetextstyle
+{
+}
+
+.alertnotebody
+{
+	background-image: url(../Images/App_green/alert/notebody.png);
+	background-repeat: repeat;
+}
+
+.alertmessage
+{
+	background-image: url(../Images/App_green/alert/message.png);
+}
+
+.alertnonotesavailable
+{
+	background-image: url(../Images/App_green/alert/notebody.png);
+}
+
+.alertseperator
+{
+	background-image: url(../Images/App_green/alert/seperator.png);
+}
+
+.alertdelete
+{
+	background-image: url(../Images/App_green/alert/delete.png);
+}
+
+.alertedit
+{
+	background-image: url(../Images/App_green/alert/reply.png);
+}
+
+.alertshowallmessages
+{
+	background-image: url(../Images/App_green/alert/all.png);
+}
+
+.alertmarkallasread
+{
+	background-image: url(../Images/App_green/alert/markallread.png);
+}
+
+.alertdetailspopup
+{
+	background-color: White; 
+}
+
+.alertdetailspopuponmoving
+{
+}
+
+
+.alertdeletecontainer
+{
+}
+
+.alerteditcontainer
+{
+}
+
+.alertrequest
+{
+}
+
+.alertdescription
+{
+}
+
+.alertnextpage
+{
+	background-image: url(../Images/App_green/alert/next.png);
+}
+
+.alertpreviouspage
+{
+	background-image: url(../Images/App_green/alert/previous.png);
+}
+
+.alertmessagecenter
+{
+	background-image: url(../Images/App_green/alert/mail.png);
+}
+
+.alertmessagecentercontainer
+{
+}
+
+/*********************************************/
+/* Processing control */
+/*********************************************/
+.processingimage
+{
+	background-image: url(../Images/common/Processing.gif);
+}
+
+/*********************************************/
+/* Job Control */
+/*********************************************/
+.sidebar
+{
+	border-color : #567A00; 
+}
+
+.jobtitle
+{
+	  
+}
+
+.jobprocessing
+{
+
+}
+.scbtnclosetext
+{
+	background-image: url(../Images/App_red/HTML/button_back.jpg);
+	background-repeat: repeat;
+}
+
+.alljobresults
+{
+}
+
+/*********************************************/
+/* Calendar Control */
+/*********************************************/
+
+.calendarweekenddaystyle
+{
+	background-color:#EEECD1;
+}
+.calendardayheaderstyle
+{
+	background-color:#567A00;
+	color:White;
+}
+.calendarselectorstyle
+{
+	background-color:#567A00;
+	color:White;
+}
+.calendartodaydaystyle
+{
+	background-color:#567A00;
+	color:White;
+}
+.calendartitlestyle
+{
+	background-color:#EEECD1;
+}
+.calanderselecteddaystyle
+{
+	background-color:#72B4D6;
+}
+/*********************************************/
+/* Context Menu */
+/*********************************************/
+.contextMenu
+{
+	background: url('../images/app_green/gradient.gif') repeat-y white; 
+}
+
+/*********************************************/
+/* Search Page */
+/*********************************************/
+.searchpage
+{
+}
+.searchpageheader
+{
+	background-image: url(../Images/App_Green/grid/search.gif);
+	background-repeat:no-repeat;
+}
+
+.searchcaption
+{
+}
+.searchtypecaption
+{
+}
+.searchcaptionrow
+{
+	background-color: #567A00;
+}
+/*menucontrol*/
+.menuControl a:link, .menuControl a:active, .menuControl a:visited
+{
+	border: 1px solid #567A00;
+	color: #fff;
+	background-color: #567A00;
+}
+.menuControl a:hover
+{
+	background-color: #fff;
+	color: #567A00;
+}
+/*custom drop down*/
+.menuControl .m-c a, .menuControl .m-i a
+{
+	background-color: Transparent;
+	color: black;
+	border: 0px;
+}
+/*custom drop down*/
+/*menucontrol*/

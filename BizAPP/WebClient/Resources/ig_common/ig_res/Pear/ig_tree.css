@@ -1,0 +1,63 @@
+.igtr_PearControl
+{
+	border-width:0px;
+	color:Black;
+}
+
+
+.igtr_PearIsland
+{
+}
+
+
+.igtr_PearNode
+{
+	color:#314900;
+}
+
+
+.igtr_PearParent
+{
+}
+
+
+.igtr_PearLeaf
+{
+	margin-top:0px;
+	margin-bottom:0px;
+	color:#314900;
+}
+
+
+.igtr_PearEdit
+{
+}
+
+
+.igtr_PearRoot
+{
+	font-weight:bold;
+}
+
+
+.igtr_PearHover
+{
+	cursor:hand;
+	color:#4F7600;
+	text-decoration:underline;
+}
+
+
+.igtr_PearSelected
+{
+	font-weight:bold;
+	color:Black;
+}
+
+
+.igtr_PearDisabled
+{
+	color:#C3C3C3;
+}
+
+

@@ -1,0 +1,189 @@
+.igtbl_PearControl
+{
+	border:solid 1px #4F7600;
+}
+
+
+.igtbl_PearPagerArea
+{
+	background-color:#EEF5DD;
+	border-width:0px;
+	padding-top:10px;
+	padding-right:10px;
+	padding-bottom:10px;
+}
+
+
+.igtbl_PearPageCurrent
+{
+	margin-right:10px;
+}
+
+
+.igtbl_PearPageLink
+{
+	margin-right:10px;
+	color:DimGray;
+}
+
+
+.igtbl_PearGroupByBox
+{
+	background-color:#636A4C;
+	color:White;
+}
+
+
+.igtbl_PearAddNewBox
+{
+	background-color:WhiteSmoke;
+}
+
+
+.igtbl_PearItem
+{
+	background-color:#F0F0F0;
+	border-top:solid 1px Gainsboro;
+	border-bottom:solid 1px Transparent;
+	height: 30px;
+}
+
+
+.igtbl_PearFilterOperandButton
+{
+	background-color:Transparent;
+	background-repeat:no-repeat;
+	background-position:center ;
+	background-image: url(images/submit_up.gif);
+	border-width:0px;
+	padding-top:2px;
+	width: 18px;
+}
+
+
+.igtbl_PearAlt
+{
+	background-image: url(images/item_bg.gif);
+	border-bottom:solid 1px #EFF5F7;
+}
+
+
+.igtbl_PearEdit
+{
+	background-color:White;
+	font-size:x-small;
+	font-family: Verdana;
+	border:solid 1px Transparent;
+	padding-top:7px;
+	text-align:left;
+	vertical-align:middle;
+}
+
+
+.igtbl_PearButton
+{
+}
+
+
+.igtbl_PearFxdCell
+{
+}
+
+
+.igtbl_PearHeader
+{
+	background-color:#BBD17E;
+	background-position:center ;
+	border-width:0px;
+	border-color:Transparent;
+	padding-top:4px;
+	padding-bottom:3px;
+	text-align:left;
+}
+
+
+.igtbl_PearFooter
+{
+	background-color:White;
+}
+
+
+.igtbl_PearLabel
+{
+	background-image: url(images/label.gif);
+	border-top-width:1px;
+	border-top-color:White;
+}
+
+
+.igtbl_PearExpArea
+{
+	background-color:White;
+	border-top:solid 1px #CDE489;
+	text-align:center;
+}
+
+
+.igtbl_PearGrpItem
+{
+}
+
+
+.igtbl_PearFxdHeader
+{
+}
+
+
+.igtbl_PearGroupBandLabel
+{
+}
+
+
+.igtbl_PearFxdFooter
+{
+}
+
+
+.igtbl_PearDropDown
+{
+	background-color:WhiteSmoke;
+	font-size:xx-small;
+	font-family: Verdana;
+	border:solid 1px #BBD17E;
+}
+
+
+.igtbl_PearDropDownSel
+{
+}
+
+
+.igtbl_PearSelected
+{
+	background-color:#636A4C;
+	background-image:none;
+	border-right-color:#BBD17E;
+	border-left-color:#BBD17E;
+	color:White;
+}
+
+
+.igtbl_PearActiveBorderTopBottom
+{
+	border-top:solid 1px Gray;
+	border-bottom:solid 1px Gray;
+}
+
+
+.igtbl_PearActiveBorderLeft
+{
+	border-left:solid 1px Gray;
+}
+
+
+.igtbl_PearActiveBorderRight
+{
+	border-right:solid 1px Gray;
+}
+
+

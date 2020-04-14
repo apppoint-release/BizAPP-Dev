@@ -1,0 +1,425 @@
+/*
+
+Main control CSS class
+*/
+.igdd_NautilusControl
+{
+}
+
+
+/*
+ Main Control CSS class when it's disabled
+*/
+.igdd_NautilusControlDisabled
+{
+}
+
+
+/*
+ Main control css class on hover
+*/
+.igdd_NautilusControlHover
+{
+	background-color:#D8E1EB;
+}
+
+
+/*
+
+*/
+.igdd_NautilusControlFocus
+{
+	background-color:#D8E1EB;
+	border:solid 1px #24406F;
+	table-layout: fixed;
+}
+
+
+.igdd_NautilusControlArea
+{
+	border:solid 1px #658AB0;
+	table-layout: fixed;
+}
+
+
+/*
+CSS class for the actual input field (<input type="text" />)
+*/
+.igdd_NautilusValueDisplay
+{
+	background-color:Transparent;
+	font-weight:normal;
+	font-size:10pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	border-width:0px;
+	width: 100%;
+	z-index: 0;
+}
+
+
+/*
+
+*/
+.igdd_NautilusValueDisplayHover
+{
+}
+
+
+/*
+
+*/
+.igdd_NautilusValueDisplayFocus
+{
+}
+
+
+/*
+
+*/
+.igdd_NautilusValueDisplayDisabled
+{
+    background-color:Transparent;
+    border:0px;
+    font-family:Verdana,Arial,Helvetica,sans-serif;
+    font-size:10pt;
+    font-weight:normal;
+    width:100%;
+    z-index:0;
+}
+
+
+/*
+
+*/
+.igdd_NautilusValueDisplayReadOnly
+{
+}
+
+
+/*
+
+*/
+.igdd_NautilusDropDownList
+{
+	background-color:White;
+	font-size:10pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin:0px;
+	padding:1px;
+}
+
+
+/*
+
+*/
+.igdd_NautilusDropDownListHover
+{
+}
+
+
+/*
+
+*/
+.igdd_NautilusDropDownListReadOnly
+{
+}
+
+
+/*
+	
+*/
+.igdd_NautilusDropDownListContainer
+{
+	background-color:White;
+	border:solid 1px #658AB0;
+	float: left;
+}
+
+
+/*
+
+*/
+.igdd_NautilusDropDownListContainerHover
+{
+}
+
+
+/*
+
+*/
+.igdd_NautilusDropDownButton
+{
+	width: 17px;
+	z-index: 9999;
+}
+
+.igdd_NautilusDropDownButton img 
+{
+    display:block;
+}
+
+
+/*
+
+*/
+.igdd_NautilusDropDownButtonHover
+{
+}
+
+
+/*
+CSS class that controls the style of the LI items in the list
+*/
+.igdd_NautilusListItem
+{
+	font-size:10pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	border:solid 1px Transparent;
+	padding:3px 5px 3px 5px;
+	list-style-type: none;
+	width: auto;
+	min-height: 15px;
+	height: auto !important;
+	cursor:pointer;
+}
+	/* IE 6 fix */
+	.ie6 .igdd_NautilusListItem {
+		border:solid 1px white;
+	}
+
+/*
+
+*/
+.igdd_NautilusListItemActive
+{
+	background-color:#D8E1EB;
+	border:solid 1px #B8C2D3;
+	list-style-type: none;
+}
+
+
+/*
+
+*/
+.igdd_NautilusListItemHover
+{
+	background-color:#FF3300;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(images/igdd_listitemhover.png);
+	border:solid 1px Transparent;
+	list-style-type: none;
+}
+	/* IE 6 fix */
+	.ie6 .igdd_NautilusListItemHover {
+		border:solid 1px white;
+	}
+
+/*
+
+*/
+.igdd_NautilusListItemSelected
+{
+	background-color:#EEEEEE;
+	border:solid 1px #EEEEEE;
+	list-style-type: none;
+}
+
+
+/*
+
+*/
+.igdd_NautilusListItemDisabled
+{
+	list-style-type: none;
+	width: auto;
+	cursor:default;
+}
+
+
+/*
+Applied to the whole pager
+*/
+.igdd_NautilusPager
+{
+	background-color:Transparent;
+	border-top:solid 1px #658AB0;
+	vertical-align:middle;
+}
+
+
+/*
+Loading message container
+*/
+.igdd_NautilusLoadingItemsMessage
+{
+	background-color:#FF9933;
+	font-weight:bold;
+	font-size:10pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin:1px 0px 0px 1px;
+	padding:3px;
+	color:White;
+}
+
+
+/*
+Styles the current page link only
+*/
+.igdd_NautilusPageCurrent
+{
+	font-size:8pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin-top:5px;
+	margin-right:3px;
+	float: left;
+	cursor:pointer;
+	color:#FF3300;
+	text-decoration:underline;
+	vertical-align:middle;
+}
+
+
+/*
+Styles all page links in general 
+*/
+.igdd_NautilusPageLink
+{
+	font-size:8pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin-top:5px;
+	margin-right:3px;
+	float: left;
+	cursor:pointer;
+	color:#24406F;
+	vertical-align:middle;
+}
+
+
+.igdd_NautilusListItem a:hover
+{
+}
+
+
+/*
+
+*/
+.igdd_NautilusListItemFocus
+{
+	list-style-type: none;
+	width: auto;
+}
+
+
+/*
+ CSS class for the table that accomodates the value display and the drop down button, and which is a 
+ child of the main control (div)
+*/
+.igdd_NautilusValueDisplayTable
+{
+}
+
+
+.igdd_NautilusListItem a:visited
+{
+	color:#333333;
+	text-decoration:none;
+}
+
+
+/*
+Styling for anchor when hovered anywhere on ListItem
+*/
+.igdd_NautilusListItemHover a:link
+{
+	color:White;
+	text-decoration:none;
+}
+
+
+.igdd_NautilusListItem a:active
+{
+}
+
+
+/*
+For Disabled=True of a DropDownItem
+*/
+.igdd_NautilusListItemDisabled a:link
+{
+	cursor:default;
+	color:#BBBBBB;
+}
+
+
+.igdd_NautilusListItem a:link
+{
+	color:#333333;
+	text-decoration:none;
+}
+
+
+/*
+Styling for anchor when hovered anywhere on ListItem
+*/
+.igdd_NautilusListItemActive a:link
+{
+	color:#333333;
+	text-decoration:none;
+}
+
+
+/*
+	
+*/
+.igdd_NautilusDropDownButtonFocus
+{
+}
+
+
+/*
+pseudo class used so Value Display input does not have focus
+glow in some browsers like GoogleChrome or AppleSafari
+*/
+input:focus
+{
+	outline: none;
+}
+
+
+/*
+
+*/
+.igdd_NautilusDropDownButtonDisabled
+{
+}
+
+
+/*
+
+*/
+.igdd_NautilusDropDownListDisabled
+{
+}
+
+
+/*
+
+*/
+.igdd_NautilusDropDownListFocus
+{
+}
+
+
+/*
+
+*/
+.igdd_NautilusDropDownListContainerFocus
+{
+}
+
+/* hide IE 10 clear button */
+.igdd_NautilusValueDisplay::-ms-clear
+{
+    display : none;
+}

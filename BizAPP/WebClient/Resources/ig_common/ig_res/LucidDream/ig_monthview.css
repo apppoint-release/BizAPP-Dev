@@ -1,0 +1,298 @@
+.igmv_LucidDreamControl
+{
+	border:solid 1px #999999;
+	overflow: auto;
+	position: relative;
+}
+
+
+.igmv_LucidDreamCaptionHeader
+{
+	background-color:#77b9e5;
+	background-repeat:repeat-x;
+	background-position: top;
+	background-image: url(images/header.gif);
+	font-weight:bold;
+	border-width:0;
+	border-bottom: 1px solid #679AC7;
+	line-height: 16pt;
+	color:#FFFFFF;
+	text-align:center;
+}
+
+
+.igmv_LucidDreamDayHeader
+{
+	background-color: #DCE9F1;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(images/dayheader.jpg);
+	font-size:8pt;
+	font-weight: bold;
+	border:solid 1px #999999;
+	border-right-width:0px;
+	padding: 3px;
+	cursor:default;
+	color:#333333;
+	text-align:left;
+	height: 1%;
+}
+
+
+.igmv_LucidDreamDay
+{
+	border:solid 1px #999999;
+	border-bottom-width:0px;
+	border-right-width:0px;
+	overflow: hidden;
+	cursor:hand;
+	color:Black;
+	vertical-align: top;
+}
+
+
+.igmv_LucidDreamAppointment
+{
+	background-color:#EFF5F8;
+	background-image: none;
+	border:solid 1px #999999;
+	font-size: 8pt;
+	padding: 3px;
+	margin: 1px;
+	cursor: hand;
+	text-align:left;
+	overflow: hidden;
+}
+
+.igmv_LucidDreamFadedAppointment
+{
+	filter:alpha(opacity=50);
+	-moz-opacity:0.5;
+	-khtml-opacity: 0.5;
+	opacity: 0.5;
+}
+
+.igmv_LucidDreamAllDayEvent
+{
+	background-color:#EFF5F8;
+	background-repeat:repeat-x;
+	background-position:bottom ;
+	background-image: url(images/groupbyheader.gif);
+	border:solid 1px #999999;
+	padding: 3px;
+	margin: 1px;
+	font-size: 8pt;
+	cursor: hand;
+	text-align:left;
+	overflow: hidden;
+}
+
+
+.igmv_LucidDreamNavigationButton
+{
+	background-color:Transparent;
+	border-width:0px;
+	margin:0px;
+	padding:0px;
+	width: 20px;
+	cursor:hand;
+}
+
+
+.igmv_LucidDreamWeekNumber
+{
+	background-color:#EFF5F8;
+	background-repeat:repeat-x;
+	background-position:bottom ;
+	background-image: url(images/groupbyheader.gif);
+	font-size:8pt;
+	font-weight: bold;
+	border: 1px solid #999999;
+	border-right-width:0px;
+	border-left-width:0px;
+	width: 30px;
+	text-align:center;
+}
+
+
+.igmv_LucidDreamCompressedDay
+{
+	border-left:solid 1px Silver;
+	vertical-align:top;
+}
+
+
+tr.igmv_LucidDreamCaptionHeader td.igmv_LucidDreamWeekNumber
+{
+	background-color:#77b9e5;
+	background-repeat:repeat-x;
+	background-position: top;
+	background-image: url(images/header.gif);
+	border-width:0px;
+	text-align: left;
+}
+
+.igmv_LucidDreamMonthDayOfWeekHeader.igmv_LucidDreamWeekNumber
+{
+	border-left-width:0px;
+}
+
+
+.igmv_LucidDreamMonthDayOfWeekHeader
+{
+	background-color:#EFF5F8;
+	background-repeat:repeat-x;
+	background-position:bottom ;
+	background-image: url(images/groupbyheader.gif);
+	font-size:8pt;
+	border:1px solid #999999;
+	border-right-width: 0px;
+	padding:3px;
+	color:#333333;
+	text-align:center;
+	height: 1%;
+}
+
+
+.igmv_LucidDreamOtherMonthDayHeader
+{
+	background-color: #F3F3F3;
+	background-image: none;
+	font-size:8pt;
+	border:solid 1px #999999;
+	border-right-width:0px;
+	padding: 3px;
+	color: #666666;
+	text-align: left;
+	height: 1%;
+}
+
+
+.igmv_LucidDreamOtherMonthDay
+{
+	background-color: #FAFAFA;
+	border:solid 1px #999999;
+	border-bottom-width:0px;
+	border-right-width:0px;
+	cursor:hand;
+	color:Black;
+	vertical-align: top;
+}
+
+
+.igmv_LucidDreamOtherCompressedDay
+{
+	border-left:solid 1px #999999;
+	vertical-align:top;
+}
+
+
+.igmv_LucidDreamTodayHeader
+{
+	background-color:#FF9D33;
+	background-repeat:repeat-x;
+	background-image: url(images/igdd_ListItemHover.png);
+	font-size:8pt;
+	color:White;
+}
+
+
+.igmv_LucidDreamToday
+{
+}
+
+
+.igmv_LucidDreamSelectedAppointment
+{
+	background-color: #FF9933;
+	background-repeat: repeat-x;
+	background-image: url(images/igmc_dayselected.gif);
+	font-size:8pt;
+	border:solid 1px #FF9933;
+	padding: 3px;
+	margin: 1px;
+	white-space: nowrap;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+
+.igmv_LucidDreamActiveDayHeader
+{
+	background-color:#9BD1F5;
+	background-repeat:repeat-x;
+	background-image: url(images/header_hover.gif);
+	color:White;
+}
+
+
+.igmv_LucidDreamActiveDay
+{
+}
+
+
+.igmv_LucidDreamNavigationButtonPrev
+{
+	margin-left: 3px;
+}
+
+
+.igmv_LucidDreamControl table
+{
+	border-collapse:Collapse;
+}
+
+
+.igmv_LucidDreamNavigationButtonNext
+{
+	margin-right: 3px;
+}
+
+.igmv_LucidDreamResourceButton
+{
+	border-width: 0;
+	border-right: solid 1px #999999;
+	border-bottom: solid 1px #999999;
+	padding: 4px;
+	font-size: 8pt;
+	color: #333;
+	background-color: #DCE9F1;
+	background-repeat:repeat-x;
+	background-image: url(images/dayheader.jpg);
+}
+
+.igmv_LucidDreamResourceButton:focus, .igmv_LucidDreamResourceButtonActive
+{
+	filter:alpha(opacity=100);
+	-moz-opacity:1.0;
+	-khtml-opacity: 1.0;
+	opacity: 1.0;
+}
+
+.igmv_LucidDreamResourceButton:hover
+{
+	filter:alpha(opacity=100);
+	-moz-opacity:1.0;
+	-khtml-opacity: 1.0;
+	opacity: 1.0;
+}
+
+.igmv_LucidDreamMultiDayEventArrowLeft
+{
+      background-image: url(images/igws_arrowLeft.gif);
+      background-repeat: no-repeat;
+      background-position: center center;
+      display: inline-block;
+      width: 9px;
+      height: 9px;
+}
+
+.igmv_LucidDreamMultiDayEventArrowRight
+{
+      background-image: url(images/igws_arrowRight.gif);
+      background-repeat: no-repeat;
+      background-position: center center;
+      display: inline-block;
+      width: 9px;
+      height: 9px;
+}

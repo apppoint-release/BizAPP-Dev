@@ -1,0 +1,84 @@
+.igpb_IGControl
+{
+}
+
+
+.igpb_IGContainer
+{
+	border:solid 1px #C4C4C4;
+	height: 100%;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	
+	/* Rounded corners */
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+
+.igpb_IGInnerDiv
+{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	overflow: hidden;
+}
+
+
+.igpb_IGBaseLabel
+{
+	padding:2px;
+	white-space: nowrap;
+	position: absolute;
+	text-align:left;
+}
+
+
+.igpb_IGForegroundLabel
+{
+	color:White;
+}
+
+
+.igpb_IGBackgroundLabel
+{
+	color:Black;
+}
+
+
+.igpb_IGFill_Horiz
+{
+	background-color:#2482AA;
+	background-repeat:repeat-x;
+	background-position:0 0;
+	background-image: url(./images/igpb_horizontalFill.gif);
+}
+
+
+.igpb_IGFill_Vert
+{
+	background-color:#2482AA;
+	background-repeat:repeat-y;
+	background-position: 0 0 ;
+	background-image: url(./images/igpb_verticalFill.gif);
+}
+
+
+.igpb_IGBackground_Horiz
+{
+	background-color:#FDFDFD;
+	background-repeat:repeat-x;
+	background-position:0 bottom;
+	background-image: url(./images/igpb_horizontalBg.png);
+}
+
+
+.igpb_IGBackground_Vert
+{
+	background-color:#FDFDFD;
+	background-repeat:repeat-y;
+	background-position: right top;
+	background-image: url(./images/igpb_verticalBg.png);
+}

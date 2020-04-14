@@ -1,0 +1,474 @@
+.igsli_ElectricBlueControl
+{
+	overflow:hidden;
+	border: none;
+	background: transparent;
+}
+.igsli_ElectricBlueTicksHolderT
+{
+	position:relative;
+	width:100%;
+	font-size:1px;
+	height:5px;
+	border-bottom:0px solid blue;
+	margin-bottom:2px;
+}
+.igsli_ElectricBlueTicksHolderB
+{
+	position:relative;
+	width:100%;
+	font-size:1px;
+	height:5px;
+	border-top:0px solid blue;
+	margin-top:2px;
+}
+.igsli_ElectricBlueTickMinorT
+{
+	position:absolute;
+	font-size:1px;
+	border-left:1px solid #082985;
+	margin-top:2px;
+	height:3px;
+}
+.igsli_ElectricBlueTickMajorT
+{
+	position:absolute;
+	font-size:1px;
+	border-left:2px solid #082985;
+	height:5px;
+}
+.igsli_ElectricBlueTickLastT
+{
+	width:1px;
+	margin-left:-1px;
+}
+.igsli_ElectricBlueTickMinorB
+{
+	position:absolute;
+	font-size:1px;
+	border-left:1px solid #082985;
+	height:3px;
+}
+.igsli_ElectricBlueTickMajorB
+{
+	position:absolute;
+	font-size:1px;
+	border-left:2px solid #082985;
+	height:5px;
+}
+.igsli_ElectricBlueTickLastB
+{
+	width:1px;
+	margin-left:-1px;
+}
+.igsli_ElectricBlueMarginH
+{
+	width:10px;
+	font-size:1px;
+	height:100%;
+}
+.igsli_ElectricBlueLabelsHolderH
+{
+	position:relative;
+	width:100%;
+	font-family:verdana;
+	font-size:10px;
+}
+/* it should be after margin */
+/* if labels are on edges, then position and margin are disabled by inline style */
+.igsli_ElectricBlueLabelEdgeH
+{
+	overflow:hidden;
+	text-align:center;
+	width:26px;
+	height:14px;
+	white-space:nowrap;
+	font-family:verdana;
+	font-size:10px;
+	color: #666666;
+}
+.igsli_ElectricBlueLabelT
+{
+	position:absolute;
+	overflow:hidden;
+	text-align:center;
+	margin-left:-23px;
+	width:46px;
+	height:14px;
+	white-space:nowrap;
+	font-family:verdana;
+	font-size:10px;
+	color: #666666;
+}
+.igsli_ElectricBlueLabelB 
+{
+	position:absolute;
+	overflow:hidden;
+	text-align:center;
+	margin-left:-23px;
+	width:46px;
+	height:14px;
+	white-space:nowrap;
+	font-family:verdana;
+	font-size:10px;
+	color: #666666;
+}
+.igsli_ElectricBlueTrackH
+{
+	position:relative;
+	text-align:left;
+	margin-left:-1px;
+	border:0px solid #E6EDF7;
+	background:#E6EDF7;
+	width:100%;
+	font-size:1px;
+	height:5px;
+	filter:alpha(opacity:80);
+	opacity:0.8;
+}
+.igsli_ElectricBlueTrackValueH
+{
+	position:absolute;
+	background:#236CA3;
+	height:5px;
+}
+.igsli_ElectricBlueTrackValue2H
+{
+	position:absolute;
+	background:#082985;
+	height:5px;
+}
+.igsli_ElectricBlueButton
+{
+	margin:2px;
+	cursor:pointer;
+}
+.igsli_ElectricBlueThumbsHolderH
+{
+	position:relative;
+	z-index:1;
+	font-size:1px;
+	width:100%;
+}
+.igsli_ElectricBlueThumbH
+{
+	position:absolute;
+	margin-left:-3px;
+	margin-top:-12px;
+	cursor: hand;
+	z-index:2;
+}
+.igsli_ElectricBlueValueLabel
+{
+	white-space:nowrap;
+	overflow:hidden;
+	font-family:verdana;
+	font-size:10px;
+	text-align:center;
+	width:46px;
+	color: #808080;
+}
+.igsli_ElectricBlueValueLabelFloatT
+{
+	position:absolute;
+	background:white;
+	border:1px solid #A9A9A9;
+	filter:alpha(opacity:0);
+	opacity:0;
+	height:13px;
+	overflow:visible;
+	width: auto;
+	min-width: 28px;
+	margin-left:-23px;
+	margin-top:-31px;
+	color: #808080;
+	padding-left:1px;
+	padding-right: 1px;
+}
+.igsli_ElectricBlueValueLabelFloatB
+{
+	position:absolute;
+	overflow:visible;
+	width: auto;
+	min-width: 28px;
+	background:white;
+	border:1px solid #A9A9A9;
+	filter:alpha(opacity:0);
+	opacity:0;
+	height:13px;
+	margin-left:-23px;
+	margin-top:10px;
+	color: #808080;
+	padding-left:1px;
+	padding-right: 1px;
+}
+
+.igsli_ElectricBlueTicksHolderL
+{
+	position:relative;
+	height:100%;
+	font-size:1px;
+	width:5px;
+	border-right:0px solid blue;
+	text-align:left;
+	margin-right:2px;
+}
+.igsli_ElectricBlueTicksHolderR
+{
+	position:relative;
+	height:100%;
+	font-size:1px;
+	width:5px;
+	border-left:0px solid blue;
+	text-align:left;
+	margin-left:2px;
+}
+.igsli_ElectricBlueTickMinorL
+{
+	position:absolute;
+	font-size:1px;
+	border-top:1px solid #082985;
+	margin-left:2px;
+	width:3px;
+}
+.igsli_ElectricBlueTickMajorL
+{
+	position:absolute;
+	font-size:1px;
+	border-top:2px solid #082985;
+	width:5px;
+}
+.igsli_ElectricBlueTickLastL
+{
+	height:1px;
+	margin-top:-1px;
+}
+.igsli_ElectricBlueTickMinorR
+{
+	position:absolute;
+	font-size:1px;
+	border-top:1px solid #082985;
+	width:3px;
+}
+.igsli_ElectricBlueTickMajorR
+{
+	position:absolute;
+	font-size:1px;
+	border-top:2px solid #082985;
+	width:5px;
+}
+.igsli_ElectricBlueTickLastR
+{
+	height:1px;
+	margin-top:-1px;
+}
+.igsli_ElectricBlueMarginV
+{
+	height:10px;
+	font-size:1px;
+}
+/* it should be after margin */
+/* if labels are on edges, then position and margin are disabled by inline style */
+.igsli_ElectricBlueLabelEdgeV
+{
+	overflow:hidden;
+	white-space:nowrap;
+	width:auto;
+	height:14px;
+	font-family:verdana;
+	font-size:10px;
+	text-align:center;
+	color: #666666;
+}
+.igsli_ElectricBlueLabelL
+{
+	position:absolute;
+	overflow:hidden;
+	white-space:nowrap;
+	width:40px;
+	height:14px;
+	margin-top:-7px;
+	margin-left: -25px;
+	font-family:verdana;
+	font-size:10px;
+	text-align:right;
+	color: #666666;
+}
+.igsli_ElectricBlueLabelR
+{
+	position:absolute;
+	overflow:visible;
+	white-space:nowrap;
+	width:40px;
+	height:14px;
+	margin-top:-7px;
+	margin-left: 5px;
+	font-family:verdana;
+	font-size:10px;
+	color: #666666;
+}
+.igsli_ElectricBlueLabelsHolderV
+{
+	position:relative;
+	text-align:left;
+	height:100%;
+	font-family:verdana;
+	font-size:10px;
+	width:20px;
+}
+.igsli_ElectricBlueTrackV
+{
+	position:relative;
+	text-align:left;
+	margin-top:-1px;
+	border:0px solid blue;
+	background:#E6EDF7;
+	height:100%;
+	font-size:1px;
+	width:5px;
+}
+.igsli_ElectricBlueTrackValueV
+{
+	position:absolute;
+	background:#236CA3;
+	width:100%;
+}
+.igsli_ElectricBlueTrackValue2V
+{
+	position:absolute;
+	background:#082985;
+	width:100%;
+}
+.igsli_ElectricBlueThumbsHolderV
+{
+	position:relative;
+	z-index:1;
+	font-size:1px;
+	height:100%;
+}
+.igsli_ElectricBlueThumbV
+{
+	position:absolute;
+	margin-left:-11px;
+	margin-top:-6px;
+	z-index:2;
+}
+.igsli_ElectricBlueValueLabelFloatL
+{
+	position:absolute;
+	overflow:visible;
+	background:white;
+	border:1px solid #A9A9A9;
+	filter:alpha(opacity:0);
+	opacity:0;
+	height:13px;
+	text-align:right;
+	margin-top:-7px;	
+	margin-left:-46px;
+	width:auto;
+	min-width: 28px;
+	color: #808080;
+	padding-left: 1px;
+	padding-right: 1px;
+}
+.igsli_ElectricBlueValueLabelFloatR
+{
+	position:absolute;
+	overflow:visible;
+	background:white;
+	border:1px solid #A9A9A9;
+	filter:alpha(opacity:0);
+	opacity:0;
+	height:13px;
+	text-align:left;
+	margin-left:8px;
+	margin-top:-7px;
+	min-width: 28px;
+	width: auto;
+	color: #808080;
+	padding-left: 1px;
+	padding-right: 1px;
+}
+.igsli_ElectricBlueValueLabelFloatHover
+{
+	filter:alpha(opacity:100);
+	opacity:1;
+}
+/* applied to control when it has focus and when rounded corners are disabled */
+.igsli_ElectricBlueFocus
+{
+}
+/* applied to control when mouse moved over it and when rounded corners are disabled */
+.igsli_ElectricBlueHover
+{
+}
+/* applied to control when it is disabled and when rounded corners are disabled */
+.igsli_ElectricBlueDisabled
+{
+	background:#C0C0C0;
+}
+/* applied to track bar when control focus and when rounded corners of track are disabled */
+.igsli_ElectricBlueTrackFocus
+{
+	filter:alpha(opacity:100);
+	opacity:1;
+}
+/* applied to track bar when mouse is moved over control and when rounded corners of track are disabled */
+.igsli_ElectricBlueTrackHover
+{
+	filter:alpha(opacity:100);
+	opacity:1;
+}
+/* applied to track bar when control is disabled and when rounded corners of track are disabled */
+.igsli_ElectricBlueTrackDisabled
+{
+	background:#A0A0A0;
+}
+/* applied to left edge of horizontal track bar */
+.igsli_ElectricBlueTrackEdgeL
+{
+	position:absolute;
+	width:6px;
+	height:100%;
+	top:0px;
+	left:-5px;
+}
+/* applied to right edge of horizontal track bar */
+.igsli_ElectricBlueTrackEdgeR
+{
+	position:absolute;
+	width:7px;
+	height:100%;
+	top:0px;
+	left:100%; 
+}
+/* applied to top edge of vertical track bar */
+.igsli_ElectricBlueTrackEdgeT
+{
+	position:absolute;
+	width:100%;
+	height:0px;
+	top:-0px;
+	left:0px;
+	background:url(none);
+}
+/* applied to left edge of vertical track bar */
+.igsli_ElectricBlueTrackEdgeB
+{
+	position:absolute;
+	width:100%;
+	height:0px;
+	top:100%;
+	left:0px;
+	background:url(none) left bottom;
+}
+/* applied to left edge of horizontal track bar when TrackValue is enabled */
+.igsli_ElectricBlueTrackValueEdgeL
+{
+	background:url(none);
+}
+/* applied to bottom edge of vertical track bar when TrackValue is enabled */
+.igsli_ElectricBlueTrackValueEdgeB
+{
+	background:url(none);
+}

@@ -1,0 +1,115 @@
+.igcmb_RedPlanetControl
+{
+}
+
+
+.igcmb_RedPlanetEditWithButtons
+{
+	border:solid 1px #D2D2D2;
+}
+
+
+.igcmb_RedPlanetPagerArea
+{
+}
+
+
+.igcmb_RedPlanetPageCurrent
+{
+}
+
+
+.igcmb_RedPlanetPageLink
+{
+}
+
+
+.igcmb_RedPlanetItem
+{
+	background-position:bottom ;
+	background-image: url(images/item_back.gif);
+	border-top:solid 1px Gainsboro;
+}
+
+
+.igcmb_RedPlanetFilterDropDown
+{
+}
+
+
+.igcmb_RedPlanetFilterOperandDropDown
+{
+}
+
+
+.igcmb_RedPlanetAlt
+{
+	background-color:White;
+	background-position:top ;
+	background-image: url(images/item_back.gif);
+	border-width:0px;
+	border-top-width:1px;
+}
+
+
+.igcmb_RedPlanetHeader
+{
+	background-position:center ;
+	background-image: url(images/header_large.gif);
+	border-width:0px;
+	padding-top:5px;
+	padding-bottom:5px;
+	color:White;
+	text-align:left;
+}
+
+
+.igcmb_RedPlanetFooter
+{
+}
+
+
+.igcmb_RedPlanetLabel
+{
+	background-image: url(images/label.gif);
+	border-top:solid 1px White;
+}
+
+
+.igcmb_RedPlanetSelected
+{
+	background-color:#F0F0F0;
+	background-position:center ;
+	background-image: url(images/header_large.gif);
+	font-weight:bold;
+	color:White;
+}
+
+
+.igcmb_RedPlanetEditSelected
+{
+	background-color:White;
+	border:solid 1px Transparent;
+	padding-top:2px;
+	padding-bottom:0px;
+	text-align:left;
+	vertical-align:middle;
+	line-height: 15px;
+}
+
+
+.igcmb_RedPlanetActiveBorderTopBottom
+{
+}
+
+
+.igcmb_RedPlanetActiveBorderLeft
+{
+}
+
+
+.igcmb_RedPlanetActiveBorderRight
+{
+}
+
+

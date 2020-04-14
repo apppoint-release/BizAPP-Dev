@@ -1,0 +1,60 @@
+.igtb_RedPlanetControl
+{
+	background-color:#F0F0F0;
+	background-position:bottom ;
+	background-image: url(images/gridbg.gif);
+	border:solid 1px Gainsboro;
+}
+
+
+.igtb_RedPlanetItem
+{
+	background-color:Transparent;
+}
+
+
+.igtb_RedPlanetButton
+{
+	background-color:Transparent;
+	border:solid 1px Transparent;
+	padding-left:4px;
+}
+
+
+.igtb_RedPlanetButtonHover
+{
+	background-position:top ;
+	background-image: url(images/header_large.gif);
+	border:solid 1px LightGrey;
+	color:White;
+	padding-left:4px;
+}
+
+
+.igtb_RedPlanetButtonPressed
+{
+}
+
+
+.igtb_RedPlanetLabel
+{
+}
+
+
+.igtb_RedPlanetTextBox
+{
+	background-color:White;
+}
+
+
+.igtb_RedPlanetSeparator
+{
+	background-color:Transparent;
+}
+
+
+.igtb_radioflyerButtonDisabled
+{
+}
+
+

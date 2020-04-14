@@ -1,0 +1,193 @@
+.igmc_PearControl
+{
+	background-color: #FFFFFF;
+	border:1px solid #507601;
+	width: 225px;
+	height: 200px;
+	padding: 0px;
+	margin: 0px;
+	font-family: Segoe UI, Verdana, Arial, Georgia, Sans-Serif;
+}
+
+.igmc_PearDOW
+{
+	background-color: #eff5f7;
+	background-repeat:repeat-x;
+	background-position:top;
+	background-image: url(images/igmc_dowbg.gif);
+	font-size:0.8em;
+	border-width:0px;
+	border-bottom:solid 1px #D8D8D8;
+	padding: 0px ;
+	text-align:center;
+	font-weight: bold;
+	height: 35px;
+}
+
+.igmc_PearNextPrev
+{
+	margin: 0px;
+	font-size: 0.8em;
+	color: #000;
+	padding: 0px 8px;
+}
+
+.igmc_PearHoverNextPrev
+{
+	cursor: pointer;
+	color: #FFF;
+}
+
+.igmc_PearPressedNextPrev
+{
+}
+
+.igmc_PearFooter
+{
+	background-color: #F3F6F6;
+	border-top: 1px solid #D8D8D8;
+	font-size: 0.8em;
+	text-align:center;
+	height: 35px;
+	
+}
+
+.igmc_PearHoverFooter
+{
+	background-color: #E8E8E8;
+	cursor: pointer;
+}
+
+.igmc_PearPressedFooter
+{
+	background-color: #D8D8D8;
+}
+
+.igmc_PearHeader
+{
+	background-color: #CBDC9C;
+	border-bottom: 1px solid #507601;
+	height: 50px;
+}
+
+.igmc_PearMonthYear
+{
+	font-size:1em;
+	font-weight:bold;
+	padding:0px 2px;
+	color: #000000;
+}
+
+.igmc_PearPressedMonthYear
+{
+	color: #FFFFFF;
+}
+
+.igmc_PearHoverMonthYear
+{
+	cursor: pointer;
+	color: #FFFFFF;
+	
+}
+
+.igmc_PearDay
+{
+	background-color:#FFFFFF;
+	font-size:0.9em;
+	text-align:center;
+	border: 1px solid #FFFFFF;
+	font-weight: bold;
+}
+
+.igmc_PearDay.igmc_PearOtherMonthDay
+{
+	background-image:none;
+	color: #a4a4a4;
+	font-size:0.9em;
+	font-weight:normal;
+}
+
+.igmc_PearWeekNumber
+{
+	border: 1px solid #F5F5F5;
+	background-color: #F5F5F5;
+	font-weight: bold;
+}
+
+.igmc_PearWeekendDay
+{
+	background-color:#f9f9f9;
+	border: 1px solid #f9f9f9;
+}
+
+.igmc_PearOtherMonthDay
+{
+	color:#AAAAAA;
+	background-image: none;
+}
+
+.igmc_PearTodayDay, .igmc_PearTodayDay.igmc_PearSelectedDay
+{
+	background-color: #D1DCDC;
+	border: 1px solid #a1b7b7;
+	font-weight: bold;
+}
+
+.igmc_PearSelectedDay
+{
+	background-color: #e3eec5;
+	font-weight:bold;
+	color: #696969;
+}
+
+.igmc_PearFocusDay, .igmc_PearOtherMonthDay.igmc_PearFocusDay
+
+{
+	background-color: #F0F5E2;
+	border: 1px solid #cfdfa3;
+	font-weight:bold;
+	color: #696969;
+}
+
+.igmc_PearHoverDay, .igmc_PearOtherMonthDay.igmc_PearHoverDay, .igmc_PearTodayDay.igmc_PearHoverDay
+{
+	background-color: #4F7600;
+	border: #fff;
+	color:#FFFFFF;
+	font-weight: bold;
+}
+
+.igmc_PearDisabledDay
+{
+	color:#EEE;
+}
+
+/* CSS classes for Month and Year selection Popup in header */
+.igmc_PearList
+{
+	background-color: #fff;
+	border:1px solid #bbb;
+}
+
+.igmc_PearItem
+{
+	background-color:#fff;
+	font-size:1em;
+	text-align: center;
+}
+
+.igmc_PearSelectedItem
+{
+    background-color: #F0F5E2;
+    border: 1px solid #cfdfa3;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.igmc_PearHoverItem
+{
+	background-color: #4F7600;
+	color:#FFFFFF;
+	font-weight: bold;
+	cursor: pointer;
+}

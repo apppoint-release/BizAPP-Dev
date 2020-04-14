@@ -1,0 +1,200 @@
+.igmc_IGControl
+{
+	background-color:white;
+	font-family: Segoe UI, Verdana, Arial, Georgia, Sans-Serif;
+	border:solid 1px #B1B1B1;
+	margin:0px;
+	padding:0px;
+	width: 225px;
+	height: 200px;
+	border-collapse: separate;
+}
+
+.igmc_IGDOW
+{
+	background:#E0E0E0 url(images/igc_sprite.png) repeat-x 0 bottom;
+	font-weight:bold;
+	font-size: 0.8em;
+	border-width:0px;
+	margin:0px;
+	padding:0px;
+	height: 30px;
+	text-align:center;
+	border-bottom:1px solid #B1B1B1;
+	color:#3B3B3B;
+}
+
+.igmc_IGHeader
+{
+	background:#4F4F4F url(images/gradient_1.png) repeat-x 0 0;
+	border-bottom-width:0px;
+	height: 30px;
+}
+
+.igmc_IGNextPrev
+{
+	font-size: 0.8em;
+	margin:0px;
+	padding:0px 8px;
+	color:White;
+}
+
+.igmc_IGHoverNextPrev
+{
+	cursor:pointer;
+	color:#3bb7eb;
+}
+
+.igmc_IGPressedNextPrev
+{
+}
+
+.igmc_IGFooter
+{
+	background:#4F4F4F url(images/gradient_1.png) repeat-x 0 0;
+	color:White;
+	font-size:0.8em;
+	text-align:center;
+	height: 30px;
+}
+
+.igmc_IGHoverFooter
+{
+	color:White;
+	background:#4F4F4F url(images/gradient_1.png) repeat-x 0 0;
+}
+
+.igmc_IGPressedFooter
+{
+	background:#4F4F4F url(images/gradient_1.png) repeat-x 0 0;
+}
+
+.igmc_IGMonthYear
+{
+	font-size:1em;
+	font-weight:bold;
+	padding:0px 2px;
+	color: #FFFFFF;
+}
+
+.igmc_IGHoverMonthYear
+{
+	cursor:pointer;
+	color:#3bb7eb;	
+}
+
+.igmc_IGPressedMonthYear
+{
+	color:White;
+}
+
+.igmc_IGOtherMonthDay
+{
+	background-image:none;
+	color:#999999;
+}
+
+.igmc_IGDay.igmc_IGOtherMonthDay
+{
+	background-image:none;
+	color: #a4a4a4;
+	font-size:0.9em;
+	font-weight:normal;
+}
+
+.igmc_IGDay
+{
+	background-color:transparent;
+	font-size:0.9em;
+	text-align:center;
+	border:solid 1px #FFFFFF;	
+	color: #4D4D4D;
+	
+	/* Rounded corners */
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-o-border-radius: 2px;
+}
+
+.igmc_IGSelectedDay
+{
+	background:#A9C1DE url(images/igc_sprite.png) repeat-x 0 bottom;
+	border:1px solid #8A8A8A;
+}
+
+.igmc_IGFocusDay, .igmc_IGOtherMonthDay.igmc_IGFocusDay
+{
+	background:#A9C1DE url(images/igc_sprite.png) repeat-x 0 bottom;
+	border:1px solid #39B1E4;
+}
+
+.igmc_IGHoverDay, .igmc_IGHoverDay.igmc_IGTodayDay
+{
+	background:#2686AE url(images/gradient_2.png) repeat-x 0 0;
+	color:#FFFFFF;
+	border:1px solid #2788B1;
+}
+
+.igmc_IGOtherMonthDay.igmc_IGHoverDay
+{
+	background:#2686AE url(images/gradient_2.png);
+	color:#FFF;
+	border:1px solid #2788B1;
+}
+
+.igmc_IGDisabledDay
+{
+	color:#000EEE;
+}
+
+.igmc_IGTodayDay
+{
+	color:#37ADDF;		
+}
+
+.igmc_IGWeekNumber
+{
+	background-color:transparent;
+	font-weight:bold;
+	color:#21272d;
+}
+
+.igmc_IGWeekendDay
+{
+    background-color:#f9f9f9;
+	border: 1px solid #f9f9f9;
+}
+
+/* CSS classes for Month and Year selection Popup in header */
+.igmc_IGList
+{
+	background-color: #fff;
+	border:1px solid #bbb;
+}
+
+.igmc_IGItem
+{
+	background-color:#fff;
+	font-size: 1em;
+	text-align: center;
+	border:1px solid White;
+    color:#4D4D4D;
+}
+
+.igmc_IGSelectedItem
+{
+	border:1px solid #2788B1;
+	background: url(images/gradient_5.png);
+	font-weight:bold;
+	cursor:pointer;
+}
+
+.igmc_IGHoverItem
+{
+	background:#2686AE url(images/gradient_2.png);
+	border:1px solid #2788B1;
+	color:#FFFFFF;
+	font-weight: bold;
+	cursor:pointer;
+}

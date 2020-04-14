@@ -1,0 +1,102 @@
+.igcmb_ClaymationControl
+{
+}
+
+
+.igcmb_ClaymationEditWithButtons
+{
+	border:solid 1px #ACACAC;
+	cursor:hand;
+}
+
+
+.igcmb_ClaymationPagerArea
+{
+}
+
+
+.igcmb_ClaymationPageCurrent
+{
+}
+
+
+.igcmb_ClaymationPageLink
+{
+}
+
+
+.igcmb_ClaymationItem
+{
+	background-color:WhiteSmoke;
+	border-top:solid 1px Gainsboro;
+	height: 20px;
+}
+
+
+.igcmb_ClaymationAlt
+{
+	background-color:White;
+	border-width:0px;
+}
+
+
+.igcmb_ClaymationHeader
+{
+	background-position:center ;
+	background-image: url(images/header.gif);
+	border-width:0px;
+	padding-top:4px;
+	padding-bottom:4px;
+	color:Black;
+	text-align:left;
+}
+
+
+.igcmb_ClaymationFooter
+{
+}
+
+
+.igcmb_ClaymationLabel
+{
+	background-image:none;
+	border-top:solid 1px Gainsboro;
+	border-right:solid 1px Gainsboro;
+	height: 25px;
+}
+
+
+.igcmb_ClaymationSelected
+{
+	background-color:DimGray;
+	color:White;
+}
+
+
+.igcmb_ClaymationEditSelected
+{
+	background-color:White;
+	font-size:x-small;
+	font-family: Verdana;
+	border:solid 1px Transparent;
+	padding-top:9px;
+	text-align:left;
+	vertical-align:middle;
+}
+
+
+.igcmb_ClaymationActiveBorderTopBottom
+{
+}
+
+
+.igcmb_ClaymationActiveBorderLeft
+{
+}
+
+
+.igcmb_ClaymationActiveBorderRight
+{
+}
+
+

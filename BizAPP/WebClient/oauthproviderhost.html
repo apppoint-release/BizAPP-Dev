@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8" />
+	<script src="resources/javascripts/jquery/jquery.js"></script>
+	<script>
+		window.addEventListener('message', function (e) {
+			var data = e.data;
+			if (data.intent == 'bizappoauth') {
+				if (window.localStorage) {
+					if (e.data.msg == 'clear') {
+						localStorage.removeItem('bizapp_oauthtoken');
+						localStorage.removeItem('bizapp_oauthtokenexpiry');
+					}
+					var token = window.localStorage.getItem('bizapp_oauthtoken');
+					if (token) {
+						var expiry = new Date(window.localStorage.getItem('bizapp_oauthtokenexpiry'));
+						if (expiry < new Date()) {
+							localStorage.removeItem('bizapp_oauthtoken');
+							localStorage.removeItem('bizapp_oauthtokenexpiry');
+							token = null;
+						}
+					}
+
+					if (token)
+						window.parent.postMessage({ intent: 'bizappoauth', success: 1, token: token }, e.origin);
+					else if (e.data.msg == 'login') {
+						var data1 = 'grant_type=password&username=' + data.args.UserName + '&password=' + data.args.Password + '&client_id=1&client_secret=2';
+
+						$.post('oauth/oauth/token', data1, function (a, b, c) {
+							localStorage.setItem('bizapp_oauthtoken', a.access_token);
+							localStorage.setItem('bizapp_oauthtokenexpiry', a[".expires"]);
+							token = a.access_token;
+							window.parent.postMessage({ intent: 'bizappoauth', success: 1, token: token }, e.origin);
+						}).fail(function (response) {
+							var error = JSON.parse(response.responseText);
+							error.intent = 'bizappoauth';
+							error.success = 0;
+							window.parent.postMessage(error, e.origin);
+						});
+					}
+					else
+						window.parent.postMessage({ intent: 'bizappoauth', success: 0 }, e.origin);
+				}
+			}
+		});
+	</script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,193 @@
+.iglb_HarvestControl
+{
+	font-size:medium;
+	border:solid 1px #97462C;
+	margin-bottom:0px;
+}
+
+
+.iglb_HarvestControl_Exp
+{
+	background-color:#FEFDFB;
+	font-size:medium;
+	border:solid 1px #97462C;
+}
+
+
+.iglb_HarvestButton
+{
+	background-position:center ;
+	background-image: url(images/header.gif);
+	font-size:smaller;
+	padding-top:2px;
+	padding-bottom:1px;
+	padding-left:3px;
+	cursor:hand;
+	color:White;
+}
+
+
+.iglb_HarvestButtonHover
+{
+	background-position:center ;
+	background-image: url(images/header_hover.gif);
+	font-size:smaller;
+	padding-top:2px;
+	padding-bottom:1px;
+	padding-left:3px;
+	cursor:hand;
+	color:#97462C;
+}
+
+
+.iglb_HarvestButtonSelected
+{
+	background-position:center ;
+	background-image: url(images/header_hover.gif);
+	font-size:smaller;
+	padding-top:2px;
+	padding-bottom:1px;
+	padding-left:3px;
+	cursor:hand;
+	color:White;
+}
+
+
+.iglb_HarvestHeaderCollapsed
+{
+	background-position:center ;
+	background-image: url(images/header.gif);
+	font-size:smaller;
+	padding-top:0px;
+	padding-bottom:3px;
+	padding-left:3px;
+	cursor:hand;
+	color:White;
+}
+
+
+.iglb_HarvestHeaderExpanded
+{
+	background-position:center ;
+	background-image: url(images/header.gif);
+	font-size:smaller;
+	padding-top:0px;
+	padding-bottom:3px;
+	padding-left:3px;
+	cursor:hand;
+	color:White;
+}
+
+
+.iglb_HarvestHeaderHover
+{
+	background-position:center ;
+	background-image: url(images/header_hover.gif);
+	font-size:smaller;
+	padding-top:0px;
+	padding-bottom:3px;
+	padding-left:3px;
+	cursor:hand;
+	color:#97462C;
+}
+
+
+.iglb_HarvestGroup
+{
+	background-color:#FFFDF9;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(images/itembg.jpg);
+	cursor:default;
+}
+
+
+.iglb_HarvestGroup_Exp
+{
+	background-color:#FFFDF9;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(images/itembg.jpg);
+	margin-bottom:0px;
+	cursor:default;
+}
+
+
+.iglb_HarvestItem
+{
+	background-color:#FFFDF9;
+	font-size:xx-small;
+	margin-top:8px;
+	margin-bottom:3px;
+	padding-left:4px;
+	text-align:left;
+}
+
+
+.iglb_HarvestItem_Exp
+{
+	background-color:Transparent;
+	font-size:xx-small;
+	margin-top:4px;
+	margin-bottom:0px;
+	padding-bottom:3px;
+	padding-left:4px;
+	cursor:hand;
+	text-align:left;
+}
+
+
+.iglb_HarvestItemHover
+{
+	font-size:xx-small;
+	margin-top:8px;
+	margin-bottom:3px;
+	padding-left:4px;
+	cursor:hand;
+	color:#97462C;
+	text-align:left;
+	text-decoration:underline;
+}
+
+
+.iglb_HarvestItemHover_Exp
+{
+	font-size:xx-small;
+	margin-top:4px;
+	margin-bottom:0px;
+	padding-bottom:3px;
+	padding-left:4px;
+	cursor:hand;
+	color:#97462C;
+	text-align:left;
+	text-decoration:underline;
+}
+
+
+.iglb_HarvestItemSelected
+{
+	font-weight:bold;
+	font-size:xx-small;
+	margin-top:8px;
+	margin-bottom:3px;
+	padding-left:4px;
+	cursor:hand;
+	color:#97462C;
+	text-align:left;
+}
+
+
+.iglb_HarvestItemSelected_Exp
+{
+	font-weight:bold;
+	font-size:xx-small;
+	margin-top:4px;
+	margin-bottom:0px;
+	padding-bottom:3px;
+	padding-left:4px;
+	cursor:hand;
+	color:#97462C;
+	text-align:left;
+}
+
+

@@ -1,0 +1,82 @@
+.igtxt_PearEditWithButtons
+{
+	background-color:#EEF5DD;
+	font-family: Verdana;
+	font-size:10px;
+	line-height:1px;
+	height:20px;
+	width:130px;
+	border:solid 1px #BBD17E;
+}
+
+
+.igtxt_PearEdit
+{
+	background-color:#EEF5DD;
+	border:solid 1px #BBD17E;
+	outline:0;
+}
+
+.igtxt_PearTextArea
+{
+	background-color:#EEF5DD;
+	border:solid 1px #BBD17E;
+	font-family:arial;
+	font-size:12px;
+	outline:0;
+}
+
+.igtxt_PearEditInContainer
+{
+	background-color:#EEF5DD;
+	border-width:0px;
+	margin:0px;
+	padding-top:0px;
+	padding-bottom:0px;
+	outline:0;
+}
+
+.igtxt_PearFocus
+{
+	border-color:#C0C080;
+}
+
+.igtxt_PearButtonSize
+{
+	width:15px;
+	height:100%;
+}
+
+.igtxt_PearButton
+{
+	background-color:#A1C806;
+	line-height:normal;
+	border:solid 1px #EAF2FB;
+}
+
+.igtxt_PearButtonFocus
+{
+	background-color:#F0F0B0;
+}
+
+.igtxt_PearButtonHover
+{
+	background-color:#B4B4B4;
+	border:solid 1px #ABC1DE;
+}
+
+
+.igtxt_PearButtonPressed
+{
+	background-color:#FFA738;
+	border:solid 1px #ABC1DE;
+}
+
+
+.igtxt_PearButtonDisabled
+{
+	background-color:#EAF2FB;
+	border:solid 1px White;
+}
+
+

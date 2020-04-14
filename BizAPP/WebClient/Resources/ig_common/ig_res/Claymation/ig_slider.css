@@ -1,0 +1,471 @@
+.igsli_ClaymationControl
+{
+	overflow:hidden;
+	border: none;
+	background: transparent;
+}
+.igsli_ClaymationTicksHolderT
+{
+	position:relative;
+	width:100%;
+	font-size:1px;
+	height:5px;
+	border-bottom:0px solid blue;
+	margin-bottom:2px;
+}
+.igsli_ClaymationTicksHolderB
+{
+	position:relative;
+	width:100%;
+	font-size:1px;
+	height:5px;
+	border-top:0px solid blue;
+	margin-top:2px;
+}
+.igsli_ClaymationTickMinorT
+{
+	position:absolute;
+	font-size:1px;
+	border-left:1px solid #A9A9A9;
+	margin-top:2px;
+	height:3px;
+}
+.igsli_ClaymationTickMajorT
+{
+	position:absolute;
+	font-size:1px;
+	border-left:1px solid #000000;
+	height:5px;
+}
+.igsli_ClaymationTickLastT
+{
+	width:1px;
+	margin-left:-1px;
+}
+.igsli_ClaymationTickMinorB
+{
+	position:absolute;
+	font-size:1px;
+	border-left:1px solid #A9A9A9;
+	height:3px;
+}
+.igsli_ClaymationTickMajorB
+{
+	position:absolute;
+	font-size:1px;
+	border-left:1px solid #000000;
+	height:5px;
+}
+.igsli_ClaymationTickLastB
+{
+	width:1px;
+	margin-left:-1px;
+}
+.igsli_ClaymationMarginH
+{
+	width:10px;
+	font-size:1px;
+	height:100%;
+}
+.igsli_ClaymationLabelsHolderH
+{
+	position:relative;
+	width:100%;
+	font-family:verdana;
+	font-size:10px;
+	
+}
+/* it should be after margin */
+/* if labels are on edges, then position and margin are disabled by inline style */
+.igsli_ClaymationLabelEdgeH
+{
+	overflow:hidden;
+	text-align:center;
+	width:26px;
+	height:14px;
+	white-space:nowrap;
+	font-family:verdana;
+	font-size:10px;
+	color: #333333;
+}
+.igsli_ClaymationLabelT
+{
+	position:absolute;
+	overflow:hidden;
+	text-align:center;
+	margin-left:-23px;
+	width:46px;
+	height:14px;
+	white-space:nowrap;
+	font-family:verdana;
+	font-size:10px;
+	color: #333333; 
+}
+.igsli_ClaymationLabelB
+{
+	position:absolute;
+	overflow:hidden;
+	text-align:center;
+	margin-left:-23px;
+	width:46px;
+	height:14px;
+	white-space:nowrap;
+	font-family:verdana;
+	font-size:10px;
+	color: #333333;
+}
+.igsli_ClaymationTrackH
+{
+	position:relative;
+	text-align:left;
+	margin-left:-1px;
+	border:1px solid #D2D2D2;
+	background:#F7F7F7;
+	width:100%;
+	font-size:1px;
+	height:2px;
+}
+.igsli_ClaymationTrackValueH
+{
+	position:absolute;
+	background:#999999;
+	height:2px;
+}
+.igsli_ClaymationTrackValue2H
+{
+	position:absolute;
+	background:#696969;
+	height:2px;
+}
+.igsli_ClaymationButton
+{
+	margin:2px;
+	cursor:pointer;
+}
+.igsli_ClaymationThumbsHolderH
+{
+	position:relative;
+	z-index:1;
+	font-size:1px;
+	width:100%;
+}
+.igsli_ClaymationThumbH
+{
+	position:absolute;
+	margin-left:-3px;
+	margin-top:-12px;
+	cursor: hand;
+	z-index:2;
+}
+.igsli_ClaymationValueLabel
+{
+	white-space:nowrap;
+	overflow:hidden;
+	font-family:verdana;
+	font-size:10px;
+	text-align:center;
+	width:46px;
+	color: #808080;
+}
+.igsli_ClaymationValueLabelFloatT
+{
+	position:absolute;
+	background:white;
+	border:1px solid #A9A9A9;
+	filter:alpha(opacity:0);
+	opacity:0;
+	height:13px;
+	overflow:visible;
+	width: auto;
+	min-width: 28px;
+	margin-left:-23px;
+	margin-top:-31px;
+	color: #808080;
+	padding-left:1px;
+	padding-right: 1px;
+}
+.igsli_ClaymationValueLabelFloatB
+{
+	position:absolute;
+	overflow:visible;
+	width: auto;
+	min-width: 28px;
+	background:white;
+	border:1px solid #A9A9A9;
+	filter:alpha(opacity:0);
+	opacity:0;
+	height:13px;
+	margin-left:-23px;
+	margin-top:10px;
+	color: #808080;
+	padding-left:1px;
+	padding-right: 1px;
+}
+
+.igsli_ClaymationTicksHolderL
+{
+	position:relative;
+	height:100%;
+	font-size:1px;
+	width:5px;
+	border-right:0px solid blue;
+	text-align:left;
+	margin-right:2px;
+}
+.igsli_ClaymationTicksHolderR
+{
+	position:relative;
+	height:100%;
+	font-size:1px;
+	width:5px;
+	border-left:0px solid blue;
+	text-align:left;
+	margin-left:2px;
+}
+.igsli_ClaymationTickMinorL
+{
+	position:absolute;
+	font-size:1px;
+	border-top:1px solid #A9A9A9;
+	margin-left:2px;
+	width:3px;
+}
+.igsli_ClaymationTickMajorL
+{
+	position:absolute;
+	font-size:1px;
+	border-top:1px solid #000000;
+	width:5px;
+}
+.igsli_ClaymationTickLastL
+{
+	height:1px;
+	margin-top:-1px;
+}
+.igsli_ClaymationTickMinorR
+{
+	position:absolute;
+	font-size:1px;
+	border-top:1px solid #A9A9A9;
+	width:3px;
+}
+.igsli_ClaymationTickMajorR
+{
+	position:absolute;
+	font-size:1px;
+	border-top:1px solid #000000;
+	width:5px;
+}
+.igsli_ClaymationTickLastR
+{
+	height:1px;
+	margin-top:-1px;
+}
+.igsli_ClaymationMarginV
+{
+	height:10px;
+	font-size:1px;
+}
+/* it should be after margin */
+/* if labels are on edges, then position and margin are disabled by inline style */
+.igsli_ClaymationLabelEdgeV
+{
+	overflow:hidden;
+	white-space:nowrap;
+	width:auto;
+	height:14px;
+	font-family:verdana;
+	font-size:10px;
+	text-align:center;
+	color: #333333;
+}
+.igsli_ClaymationLabelL
+{
+	position:absolute;
+	overflow:hidden;
+	white-space:nowrap;
+	width:40px;
+	height:14px;
+	margin-top:-7px;
+	margin-left: -25px;
+	font-family:verdana;
+	font-size:10px;
+	text-align:right;
+	color: #333333;
+}
+.igsli_ClaymationLabelR
+{
+	position:absolute;
+	overflow:hidden;
+	white-space:nowrap;
+	width:40px;
+	height:14px;
+	margin-top:-7px;
+	margin-left: 5px;
+	font-family:verdana;
+	font-size:10px;
+	color: #333333;
+}
+.igsli_ClaymationLabelsHolderV
+{
+	position:relative;
+	text-align:left;
+	height:100%;
+	font-family:verdana;
+	font-size:10px;
+	width:20px;
+}
+.igsli_ClaymationTrackV
+{
+	position:relative;
+	text-align:left;
+	margin-top:-1px;
+	border:1px solid #D2D2D2;
+	background:#F7F7F7;
+	height:100%;
+	font-size:1px;
+	width:5px;
+}
+.igsli_ClaymationTrackValueV
+{
+	position:absolute;
+	background:#999999;
+	width:100%;
+}
+.igsli_ClaymationTrackValue2V
+{
+	position:absolute;
+	background:#696969;
+	width:100%;
+}
+.igsli_ClaymationThumbsHolderV
+{
+	position:relative;
+	z-index:1;
+	font-size:1px;
+	height:100%;
+}
+.igsli_ClaymationThumbV
+{
+	position:absolute;
+	margin-left:-13px;
+	margin-top:-4px;
+	z-index:2;
+}
+.igsli_ClaymationValueLabelFloatL
+{
+	position:absolute;
+	overflow:visible;
+	background:white;
+	border:1px solid #A9A9A9;
+	filter:alpha(opacity:0);
+	opacity:0;
+	height:13px;
+	text-align:right;
+	margin-top:-7px;	
+	margin-left:-46px;
+	width:auto;
+	min-width: 28px;
+	color: #808080;
+	padding-left: 1px;
+	padding-right: 1px;
+}
+.igsli_ClaymationValueLabelFloatR
+{
+	position:absolute;
+	overflow:visible;
+	background:white;
+	border:1px solid #A9A9A9;
+	filter:alpha(opacity:0);
+	opacity:0;
+	height:13px;
+	text-align:left;
+	margin-left:8px;
+	margin-top:-7px;
+	min-width: 28px;
+	width: auto;
+	color: #808080;
+	padding-left: 1px;
+	padding-right: 1px;
+}
+.igsli_ClaymationValueLabelFloatHover
+{
+	filter:alpha(opacity:100);
+	opacity:1;
+}
+/* applied to control when it has focus and when rounded corners are disabled */
+.igsli_ClaymationFocus
+{
+}
+/* applied to control when mouse moved over it and when rounded corners are disabled */
+.igsli_ClaymationHover
+{
+}
+/* applied to control when it is disabled and when rounded corners are disabled */
+.igsli_ClaymationDisabled
+{
+	background:#C0C0C0;
+}
+/* applied to track bar when control focus and when rounded corners of track are disabled */
+.igsli_ClaymationTrackFocus
+{
+}
+/* applied to track bar when mouse is moved over control and when rounded corners of track are disabled */
+.igsli_ClaymationTrackHover
+{
+}
+/* applied to track bar when control is disabled and when rounded corners of track are disabled */
+.igsli_ClaymationTrackDisabled
+{
+	background:#A0A0A0;
+}
+/* applied to left edge of horizontal track bar */
+.igsli_ClaymationTrackEdgeL
+{
+	position:absolute;
+	width:6px;
+	height:100%;
+	top:0px;
+	left:-5px;
+	background:url(none);
+}
+/* applied to right edge of horizontal track bar */
+.igsli_ClaymationTrackEdgeR
+{
+	position:absolute;
+	width:7px;
+	height:100%;
+	top:0px;
+	left:100%; 
+	background:url(none) top right;
+}
+/* applied to top edge of vertical track bar */
+.igsli_ClaymationTrackEdgeT
+{
+	position:absolute;
+	width:100%;
+	height:0px;
+	top:-0px;
+	left:0px;
+	background:url(none);
+}
+/* applied to left edge of vertical track bar */
+.igsli_ClaymationTrackEdgeB
+{
+	position:absolute;
+	width:100%;
+	height:0px;
+	top:100%;
+	left:0px;
+	background:url(none) left bottom;
+}
+/* applied to left edge of horizontal track bar when TrackValue is enabled */
+.igsli_ClaymationTrackValueEdgeL
+{
+	background:url(none);
+}
+/* applied to bottom edge of vertical track bar when TrackValue is enabled */
+.igsli_ClaymationTrackValueEdgeB
+{
+	background:url(none);
+}

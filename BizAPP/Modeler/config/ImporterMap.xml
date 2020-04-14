@@ -1,0 +1,13 @@
+<ImporterMap>
+	<add key="BizAPP.Modeler.View" value ="BizAPP.Modeler.ImportExport.Importers.ViewImporter, BizAPP.Modeler.ImportExport, Version=1.1.0.36, Culture=neutral, PublicKeyToken=a1008b4e39a732f0" />
+	<add key="BizAPP.Modeler.ViewDef" value ="BizAPP.Modeler.ImportExport.Importers.ViewDefImporter, BizAPP.Modeler.ImportExport, Version=1.1.0.36, Culture=neutral, PublicKeyToken=a1008b4e39a732f0" />
+	<add key="BizAPP.Modeler.Form" value ="BizAPP.Modeler.ImportExport.Importers.FormImporter, BizAPP.Modeler.ImportExport, Version=1.1.0.36, Culture=neutral, PublicKeyToken=a1008b4e39a732f0" />
+	<add key="BizAPP.Modeler.Field" value ="BizAPP.Modeler.ImportExport.Importers.FieldImporter, BizAPP.Modeler.ImportExport, Version=1.1.0.36, Culture=neutral, PublicKeyToken=a1008b4e39a732f0" />
+	<add key="BizAPP.Modeler.BusinessObject" value ="BizAPP.Modeler.ImportExport.Importers.BusinessObjectImporter, BizAPP.Modeler.ImportExport, Version=1.1.0.36, Culture=neutral, PublicKeyToken=a1008b4e39a732f0" />
+	<add key="BizAPP.Modeler.Category" value ="BizAPP.Modeler.ImportExport.Importers.CategoryImporter, BizAPP.Modeler.ImportExport, Version=1.1.0.36, Culture=neutral, PublicKeyToken=a1008b4e39a732f0" />
+	<add key="BizAPP.Modeler.References" value ="BizAPP.Modeler.ImportExport.Importers.ReferencesImporter, BizAPP.Modeler.ImportExport, Version=1.1.0.36, Culture=neutral, PublicKeyToken=a1008b4e39a732f0" />
+	<add key="BizAPP.Modeler.Query" value ="BizAPP.Modeler.ImportExport.Importers.QueryImporter, BizAPP.Modeler.ImportExport, Version=1.1.0.36, Culture=neutral, PublicKeyToken=a1008b4e39a732f0" />
+	<add key="BizAPP.Modeler.Report" value ="BizAPP.Modeler.ImportExport.Importers.ReportImporter, BizAPP.Modeler.ImportExport, Version=1.1.0.36, Culture=neutral, PublicKeyToken=a1008b4e39a732f0" />
+	<add key="BizAPP.Modeler.Chart" value ="BizAPP.Modeler.ImportExport.Importers.ChartImporter, BizAPP.Modeler.ImportExport, Version=1.1.0.36, Culture=neutral, PublicKeyToken=a1008b4e39a732f0" />
+	<add key="BizAPP.Modeler.Activity" value ="BizAPP.Modeler.ImportExport.Importers.ActivityImporter, BizAPP.Modeler.ImportExport, Version=1.1.0.36, Culture=neutral, PublicKeyToken=a1008b4e39a732f0" />
+</ImporterMap>

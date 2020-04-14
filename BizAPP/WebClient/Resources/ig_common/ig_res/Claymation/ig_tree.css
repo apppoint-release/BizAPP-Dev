@@ -1,0 +1,61 @@
+.igtr_ClaymationControl
+{
+	border-width:0px;
+	color:Black;
+}
+
+
+.igtr_ClaymationIsland
+{
+}
+
+
+.igtr_ClaymationNode
+{
+	cursor:hand;
+	color:Black;
+}
+
+
+.igtr_ClaymationParent
+{
+}
+
+
+.igtr_ClaymationLeaf
+{
+}
+
+
+.igtr_ClaymationEdit
+{
+}
+
+
+.igtr_ClaymationRoot
+{
+	font-weight:bold;
+	cursor:hand;
+}
+
+
+.igtr_ClaymationHover
+{
+	color:Black;
+	text-decoration:underline;
+}
+
+
+.igtr_ClaymationSelected
+{
+	background-color:#E5E5E6;
+	color:Black;
+}
+
+
+.igtr_ClaymationDisabled
+{
+	color:#E1E1E1;
+}
+
+

@@ -1,0 +1,199 @@
+.igtbl_RedPlanetControl
+{
+	border:solid 1px DimGray;
+}
+
+
+.igtbl_RedPlanetPagerArea
+{
+	background-position:bottom ;
+	background-image:none;
+	border-width:0px;
+	padding-top:10px;
+	padding-right:10px;
+	padding-bottom:10px;
+}
+
+
+.igtbl_RedPlanetPageCurrent
+{
+	background-repeat:no-repeat;
+	background-image: url(images/submit_hover.gif);
+	font-weight:bold;
+	margin-right:10px;
+	padding:3px 7px 6px 5px;
+	color:White;
+}
+
+
+.igtbl_RedPlanetPageLink
+{
+	margin-right:10px;
+	color:#940019;
+}
+
+
+.igtbl_RedPlanetGroupByBox
+{
+	background-position:bottom ;
+	background-image: url(images/item_back.gif);
+	height: 20px;
+}
+
+
+.igtbl_RedPlanetAddNewBox
+{
+	background-repeat:repeat-x;
+	background-position:bottom ;
+	background-image: url(images/gridbg.gif);
+	border-top:solid 0px WhiteSmoke;
+	border-bottom:solid 1px Gainsboro;
+}
+
+
+TBODY.igtbl_RedPlanetItem TR TD, THEAD.igtbl_RedPlanetItem TR TH, TFOOT.igtbl_RedPlanetItem TR TH, TBODY.igtbl_RedPlanetItem TR TH
+{
+	background-position:bottom ;
+	background-image: url(images/gridbg.gif);
+	border-top:solid 1px Gainsboro;
+}
+
+
+TBODY.igtbl_RedPlanetItem TR TD.igtbl_RedPlanetFxdCell
+{
+}
+
+
+.igtbl_RedPlanetFilterOperandButton
+{
+	background-color:Transparent;
+	background-repeat:no-repeat;
+	background-image: url(images/submit_disabled.gif);
+	border-width:0px;
+	width: 18px;
+}
+
+
+TBODY.igtbl_RedPlanetItem TR.igtbl_RedPlanetAlt TD
+{
+	background-color:White;
+	background-position:bottom ;
+	background-image: url(images/gridbg.gif);
+	border-width:0px;
+	border-top-width:1px;
+}
+
+
+.igtbl_RedPlanetEdit
+{
+	background-color:White;
+	font-size:x-small;
+	font-family: Verdana;
+	border:solid 1px Transparent;
+	padding-top:9px;
+	text-align:left;
+	vertical-align:middle;
+}
+
+
+.igtbl_RedPlanetButton
+{
+}
+
+
+THEAD.igtbl_RedPlanetHeader TR TH, TFOOT.igtbl_RedPlanetHeader TR TH, TBODY.igtbl_RedPlanetHeader TR TH
+{
+	background-position:top ;
+	background-image: url(images/header_large.gif);
+	border-width:0px;
+	padding-top:3px;
+	padding-bottom:4px;
+	height: 18px;
+	color:White;
+	text-align:left;
+}
+
+
+TFOOT.igtbl_RedPlanetFooter TR TH
+{
+	background-image:none;
+}
+
+
+TBODY.igtbl_RedPlanetHeader TR TH.igtbl_RedPlanetLabel
+{
+	background-image:none;
+	border-right:solid 1px LightGrey;
+	border-top-width:1px;
+	border-top-color:White;
+	height: 28px;
+}
+
+
+TBODY.igtbl_RedPlanetHeader TR TH.igtbl_RedPlanetExpArea, TFOOT.igtbl_RedPlanetHeader TR TH.igtbl_RedPlanetExpArea
+{
+	background-color:White;
+	background-image:none;
+	border-top:solid 0px Black;
+}
+
+
+TBODY.igtbl_RedPlanetHeader TR TH.igtbl_RedPlanetGrpItem
+{
+}
+
+
+THEAD.igtbl_RedPlanetHeader TR TH.igtbl_RedPlanetFxdHeader
+{
+}
+
+
+.igtbl_RedPlanetGroupBandLabel
+{
+}
+
+
+TFOOT.igtbl_RedPlanetHeader TR TH.igtbl_RedPlanetFxdFooter
+{
+}
+
+
+.igtbl_RedPlanetDropDown
+{
+	background-color:WhiteSmoke;
+	font-size:xx-small;
+	font-family: Verdana;
+	border:solid 1px #A50819;
+}
+
+
+.igtbl_RedPlanetDropDownSel
+{
+}
+
+
+TBODY.igtbl_RedPlanetItem TR.igtbl_RedPlanetSelected TD, TBODY.igtbl_RedPlanetItem TR TD.igtbl_RedPlanetSelected, .igtbl_RedPlanetSelected
+{
+	background-color:#F0F0F0;
+	background-position:center ;
+	background-image: url(images/gridselected.gif);
+	font-weight:bold;
+	color:White;
+}
+
+
+TBODY.igtbl_RedPlanetItem TR TD.igtbl_RedPlanetActiveBorderTopBottom, .igtbl_RedPlanetActiveBorderTopBottom
+{
+}
+
+
+TBODY.igtbl_RedPlanetItem TR TD.igtbl_RedPlanetActiveBorderLeft, .igtbl_RedPlanetActiveBorderLeft
+{
+}
+
+
+TBODY.igtbl_RedPlanetItem TR TD.igtbl_RedPlanetActiveBorderRight, .igtbl_RedPlanetActiveBorderRight
+{
+}
+
+

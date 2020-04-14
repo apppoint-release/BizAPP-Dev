@@ -1,0 +1,56 @@
+﻿body
+{
+}
+.igpb_HarvestBaseLabel
+{
+	text-align:left;
+	white-space:nowrap;
+	position:absolute;
+	padding:2px;
+}
+.igpb_HarvestBackgroundLabel
+{
+	color:Black;
+}
+.igpb_HarvestForegroundLabel
+{
+	color:Black;
+}
+.igpb_HarvestInnerDiv
+{
+	height:100%;
+	width:100%;
+	position:absolute;
+	overflow:hidden;
+	
+}
+.igpb_HarvestFill_Horiz
+{
+	background-image: url(./images/igpb_horizontalFill.gif);
+	background-position:center;
+	background-repeat: repeat-x;
+	
+	
+}
+.igpb_HarvestFill_Vert
+{
+	background-image: url(./images/igpb_VerticalFill.gif);
+	background-position:center;
+	background-repeat: repeat-y;
+	
+}
+.igpb_HarvestBackground_Horiz
+{
+}
+.igpb_HarvestBackground_Vert
+{
+	
+}
+.igpb_HarvestContainer
+{
+	height:100%;
+	width:100%;
+	position:relative;
+	border: solid 1px #97472D;
+	overflow: hidden;
+}

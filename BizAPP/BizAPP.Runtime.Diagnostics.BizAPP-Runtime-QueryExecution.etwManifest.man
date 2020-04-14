@@ -1,0 +1,74 @@
+<instrumentationManifest xmlns="http://schemas.microsoft.com/win/2004/08/events">
+ <instrumentation xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:win="http://manifests.microsoft.com/win/2004/08/windows/events">
+  <events xmlns="http://schemas.microsoft.com/win/2004/08/events">
+<provider name="BizAPP-Runtime-QueryExecution" guid="{b099b348-8619-545e-d96b-5b2bf4df7370}" resourceFileName="E:\Views\BitBucket\Product\ABRuntime\Runtime.Diagnostics\bin\Release\BizAPP.Runtime.Diagnostics.BizAPP-Runtime-QueryExecution.etwManifest.dll" messageFileName="E:\Views\BitBucket\Product\ABRuntime\Runtime.Diagnostics\bin\Release\BizAPP.Runtime.Diagnostics.BizAPP-Runtime-QueryExecution.etwManifest.dll" symbol="BizAPPRuntimeQueryExecution">
+ <channels>
+  <channel chid="Operational" name="BizAPP-Runtime-QueryExecution/Operational" value="17" type="Operational" enabled="true"/>
+ </channels>
+ <tasks>
+  <task name="QueryExecuting" message="$(string.task_QueryExecuting)" value="1"/>
+  <task name="QueryParsing" message="$(string.task_QueryParsing)" value="2"/>
+  <task name="ExecuteQueryThresholdExceeded" message="$(string.task_ExecuteQueryThresholdExceeded)" value="65529"/>
+  <task name="EventSourceMessage" message="$(string.task_EventSourceMessage)" value="65534"/>
+ </tasks>
+ <opcodes>
+ </opcodes>
+ <keywords>
+  <keyword name="Parse" message="$(string.keyword_Parse)" mask="0x1"/>
+  <keyword name="Execute" message="$(string.keyword_Execute)" mask="0x2"/>
+  <keyword name="Session3" message="$(string.keyword_Session3)" mask="0x100000000000"/>
+  <keyword name="Session2" message="$(string.keyword_Session2)" mask="0x200000000000"/>
+  <keyword name="Session1" message="$(string.keyword_Session1)" mask="0x400000000000"/>
+  <keyword name="Session0" message="$(string.keyword_Session0)" mask="0x800000000000"/>
+ </keywords>
+ <events>
+  <event value="0" version="0" level="win:LogAlways" symbol="EventSourceMessage" task="EventSourceMessage" template="EventSourceMessageArgs"/>
+  <event value="1" version="0" level="win:Informational" symbol="ExecuteQueryStart" keywords="Execute" opcode="win:Start" task="QueryExecuting" template="ExecuteQueryStartArgs"/>
+  <event value="2" version="0" level="win:Informational" symbol="ExecuteQueryStop" keywords="Execute" opcode="win:Stop" task="QueryExecuting" template="ExecuteQueryStopArgs"/>
+  <event value="3" version="0" level="win:Informational" symbol="ParseQueryStart" keywords="Parse" opcode="win:Start" task="QueryParsing" template="ParseQueryStartArgs"/>
+  <event value="4" version="0" level="win:Informational" symbol="ParseQueryStop" keywords="Parse" opcode="win:Stop" task="QueryParsing" template="ParseQueryStopArgs"/>
+  <event value="5" version="0" level="win:Informational" symbol="ExecuteQueryThresholdExceeded" message="$(string.event_ExecuteQueryThresholdExceeded)" task="ExecuteQueryThresholdExceeded" channel="Operational" template="ExecuteQueryThresholdExceededArgs"/>
+ </events>
+ <templates>
+  <template tid="EventSourceMessageArgs">
+   <data name="message" inType="win:UnicodeString"/>
+  </template>
+  <template tid="ExecuteQueryStartArgs">
+   <data name="queryId" inType="win:UnicodeString"/>
+  </template>
+  <template tid="ExecuteQueryStopArgs">
+   <data name="queryId" inType="win:UnicodeString"/>
+  </template>
+  <template tid="ParseQueryStartArgs">
+   <data name="query" inType="win:UnicodeString"/>
+  </template>
+  <template tid="ParseQueryStopArgs">
+   <data name="query" inType="win:UnicodeString"/>
+  </template>
+  <template tid="ExecuteQueryThresholdExceededArgs">
+   <data name="thresholdMilliSeconds" inType="win:Int64"/>
+   <data name="elapsedMilliseconds" inType="win:Int64"/>
+   <data name="queryId" inType="win:UnicodeString"/>
+  </template>
+ </templates>
+</provider>
+</events>
+</instrumentation>
+<localization>
+ <resources culture="en-US">
+  <stringTable>
+   <string id="event_ExecuteQueryThresholdExceeded" value="Query - execution exceeded threshold. Details are provided below.%n%nThreshold(MS):%n%t%1%n%nElapsed(MS):%n%t%2%n%nQueryId:%n%t%3"/>
+   <string id="keyword_Execute" value="Execute"/>
+   <string id="keyword_Parse" value="Parse"/>
+   <string id="keyword_Session0" value="Session0"/>
+   <string id="keyword_Session1" value="Session1"/>
+   <string id="keyword_Session2" value="Session2"/>
+   <string id="keyword_Session3" value="Session3"/>
+   <string id="task_EventSourceMessage" value="EventSourceMessage"/>
+   <string id="task_ExecuteQueryThresholdExceeded" value="ExecuteQueryThresholdExceeded"/>
+   <string id="task_QueryExecuting" value="QueryExecuting"/>
+   <string id="task_QueryParsing" value="QueryParsing"/>
+  </stringTable>
+ </resources>
+</localization>
+</instrumentationManifest>

@@ -1,0 +1,184 @@
+.iglb_RedPlanetControl
+{
+	font-variant:normal;
+	font-size:medium;
+	border:solid 1px Silver;
+	margin-bottom:0px;
+}
+
+
+.iglb_RedPlanetControl_Exp
+{
+	font-size:medium;
+	border:solid 1px Silver;
+}
+
+
+.iglb_RedPlanetButton
+{
+	background-color:#F0F0F0;
+	background-position:top ;
+	background-image: url(images/header_hover3.gif);
+	font-size:11px;
+	padding-top:4px;
+	padding-bottom:3px;
+	padding-left:3px;
+	color:DimGray;
+}
+
+
+.iglb_RedPlanetButtonHover
+{
+	background-position:top ;
+	background-image: url(images/header_large.gif);
+	font-size:11px;
+	padding-top:4px;
+	padding-bottom:3px;
+	padding-left:3px;
+	color:White;
+}
+
+
+.iglb_RedPlanetButtonSelected
+{
+	background-position:top ;
+	background-image: url(images/header_large.gif);
+	font-size:11px;
+	padding-top:4px;
+	padding-bottom:3px;
+	padding-left:3px;
+	color:White;
+}
+
+
+.iglb_RedPlanetHeaderCollapsed
+{
+	background-color:#F0F0F0;
+	background-position:top ;
+	background-image: url(images/header_hover3.gif);
+	font-size:11px;
+	padding-top:4px;
+	padding-bottom:3px;
+	padding-left:3px;
+	color:DimGray;
+}
+
+
+.iglb_RedPlanetHeaderExpanded
+{
+	background-color:#F0F0F0;
+	background-position:top ;
+	background-image: url(images/header_hover3.gif);
+	font-size:11px;
+	padding-top:4px;
+	padding-bottom:3px;
+	padding-left:3px;
+	color:DimGray;
+}
+
+
+.iglb_RedPlanetHeaderHover
+{
+	background-position:top ;
+	background-image: url(images/header_large.gif);
+	font-size:11px;
+	padding-top:4px;
+	padding-bottom:3px;
+	padding-left:3px;
+	color:White;
+}
+
+
+.iglb_RedPlanetGroup
+{
+	background-repeat:repeat-x;
+	background-position:bottom ;
+	background-image:none;
+}
+
+
+.iglb_RedPlanetGroup_Exp
+{
+	background-repeat:repeat-x;
+	background-position:bottom ;
+	margin-bottom:0px;
+}
+
+
+.iglb_RedPlanetItem
+{
+	font-size:xx-small;
+	margin-top:8px;
+	margin-bottom:3px;
+	padding-left:4px;
+	text-align:left;
+}
+
+
+.iglb_RedPlanetItem_Exp
+{
+	background-color:Transparent;
+	font-size:xx-small;
+	margin-top:4px;
+	margin-bottom:0px;
+	padding-bottom:3px;
+	padding-left:4px;
+	cursor:hand;
+	text-align:left;
+}
+
+
+.iglb_RedPlanetItemHover
+{
+	font-size:xx-small;
+	margin-top:8px;
+	margin-bottom:3px;
+	padding-left:4px;
+	cursor:hand;
+	color:#9C2131;
+	text-align:left;
+	text-decoration:underline;
+}
+
+
+.iglb_RedPlanetItemHover_Exp
+{
+	font-size:xx-small;
+	margin-top:4px;
+	margin-bottom:0px;
+	padding-bottom:3px;
+	padding-left:4px;
+	cursor:hand;
+	color:#9C2131;
+	text-align:left;
+	text-decoration:underline;
+}
+
+
+.iglb_RedPlanetItemSelected
+{
+	font-weight:bold;
+	font-size:xx-small;
+	margin-top:8px;
+	margin-bottom:3px;
+	padding-left:4px;
+	cursor:hand;
+	color:#9C2131;
+	text-align:left;
+}
+
+
+.iglb_RedPlanetItemSelected_Exp
+{
+	font-weight:bold;
+	font-size:xx-small;
+	margin-top:4px;
+	margin-bottom:0px;
+	padding-bottom:3px;
+	padding-left:4px;
+	cursor:hand;
+	color:#9C2131;
+	text-align:left;
+}
+
+

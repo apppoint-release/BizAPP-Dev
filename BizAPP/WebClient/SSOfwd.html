@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8" />
+	<script src="resources/javascripts/jquery/jquery.js"></script>
+	<script>		
+		window.addEventListener('message', function (e) {
+			if (e.origin.toLowerCase().indexOf('hirecanvas.com') != -1
+				|| e.origin.toLowerCase().indexOf('rmexchange.com') != -1
+				|| e.origin.toLowerCase().indexOf('bartsuite.com') != -1
+				|| e.origin.toLowerCase().indexOf('rmexcellence.com') != -1
+				|| e.origin.toLowerCase().indexOf('lmexcellence.com') != -1) {
+				$.get('authenticate.aspx').done(function(){
+					var data = e.data;
+					if (data.intent == 'ssoapphub') {
+						data.ajaxParams.success = function (a) {
+							a.intent = 'ssoapphub1';
+							a.success = 1;
+							window.parent.postMessage(a, e.origin);
+						}
+						data.ajaxParams.error = function (jqXHR, textStatus, errorThrown) {
+							var error = JSON.parse(jqXHR.responseText);
+							error.intent = 'ssoapphub1';
+							error.success = 0;
+							window.parent.postMessage(error, e.origin);
+						}
+						var a = $.ajax(data.ajaxParams);
+					}
+				});
+			}
+		});
+	</script>
+</head>
+<body>
+
+</body>
+</html>

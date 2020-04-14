@@ -1,0 +1,53 @@
+.igpnl_RedPlanetControl
+{
+	border:solid 1px Silver;
+}
+
+
+.igpnl_RedPlanetPanel
+{
+	background-color:White;
+	background-repeat:repeat-x;
+	background-position:bottom ;
+	background-image: url(images/gridbg.gif);
+}
+
+
+.igpnl_RedPlanetHeaderExpanded
+{
+	background-position:top ;
+	background-image: url(images/header_large.gif);
+	font-weight:bold;
+	font-size:xx-small;
+	font-family: Verdana;
+	margin-top:3px;
+	margin-bottom:3px;
+	padding-top:2px;
+	padding-bottom:3px;
+	height: 18px;
+	cursor:hand;
+	color:White;
+}
+
+
+.igpnl_RedPlanetHeaderCollapsed
+{
+}
+
+
+.igpnl_RedPlanetHeaderHover
+{
+	background-image: url(images/header_hover2.gif);
+	color:White;
+}
+
+
+.igpnl_RedPlanetGroupBoxControl
+{
+	background-color:White;
+	background-repeat:repeat-x;
+	background-position:bottom ;
+	background-image: url(images/gridbg.gif);
+}
+
+

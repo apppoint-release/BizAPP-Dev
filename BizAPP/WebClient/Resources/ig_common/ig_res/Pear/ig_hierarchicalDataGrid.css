@@ -1,0 +1,226 @@
+﻿.ighg_PearExpandButton
+{
+	cursor: pointer;
+	cursor: hand;
+	padding-left: 5px;
+}
+
+TBODY>TR>TD.ighg_PearExpandableArea
+{
+	padding: 0px 0px 0px 25px;
+}
+
+.ighg_PearExpansionColumn
+{
+	width: 25px;
+	padding: 0 !important;
+}
+
+.ighg_PearExpansionColumnHeader
+{
+	width: 25px;
+    border-color: #C8DA97 #AEC865 #A1BF4C #D5E3B0;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.ighg_PearExpansionColumnFooter
+{
+	width: 25px;
+}
+
+
+/* START -- GroupBy CSS Classes */
+.ighg_PearGroupIndentHeaderCell
+{
+    border-color: #C8DA97 #AEC865 #A1BF4C #D5E3B0;
+    border-style: solid;
+    border-width: 1px;
+}
+
+TBODY>TR.ighg_PearGroupedRow>TD
+{
+	background: #e8efd3 url(images/ighg_GroupedRowBg.png) repeat-x;
+}
+
+
+TBODY>TR>TD.ighg_PearGroupIndentCell
+{
+	border-right: 1px solid #D8D8D8;
+}
+
+.ighg_PearGroupArea
+{
+	background-color: #F3F4F3;
+	border-bottom: 1px solid #4F7600;
+	padding: 10px;
+}
+
+.ighg_PearGroupedColumn
+{
+	display: inline-block;
+	background: url(images/ighg_GroupedColumnBg.png) repeat-x;
+	height: 16px;
+	padding: 3px 5px 0px 10px;
+}
+.ighg_PearGroupedColumnRightEdgeEnd
+{
+	display: inline-block;
+	background: url(images/ighg_GroupedColumnRightEdgeEndBg.gif) no-repeat;		
+	width: 10px;
+	height: 16px;
+	padding-top: 3px;
+}
+.ighg_PearGroupedColumnRightEdge
+{
+	display: inline-block;
+	background: url(images/ighg_GroupedColumnRightEdgeBg.png) no-repeat;
+	width: 10px;
+	height: 16px;
+	padding-top: 3px;
+}
+
+.ighg_PearGroupedColumnLeftEdge
+{
+	display: inline-block;
+	background: url(images/ighg_GroupedColumnLeftEdgeBg.gif) no-repeat;
+	width: 9px;
+	height: 16px;
+	padding-top: 3px;
+}
+
+.ighg_PearGroupedBand
+{
+	display: inline-block;
+	background: url(images/ighg_GroupedBandBg.png) repeat-x;
+	border-left: 1px solid #507601;
+	height: 16px;
+	padding: 3px 0px 0px 10px;
+}
+.ighg_PearGroupedBandRightEdge
+{		
+	display: inline-block;
+	background: url(images/ighg_GroupedBandBg.png) repeat-x;
+	border-right: 1px solid #507601;
+	width: 10px;
+	height: 16px;
+	padding: 3px 0px 0px 0px;
+}
+
+.ighg_PearColumnGroupingTopDragIndicator
+{
+	background-image:url(images/ighg_TopDragIndicator.gif);
+	background-repeat: no-repeat;
+	width:5px; 
+	height:3px;
+	z-index: 100;
+}
+
+.ighg_PearColumnGroupingMiddleDragIndicator
+{
+      background-image:url(images/ighg_MiddleDragIndicator.gif);
+      background-repeat: repeat-y;
+      background-position: center;
+      width:3px; 
+}
+
+.ighg_PearColumnGroupingBottomDragIndicator
+{
+      background-image:url(images/ighg_BottomDragIndicator.gif);
+      background-repeat: no-repeat;
+      width:5px; 
+      height:3px;
+      position: absolute;
+      z-index: 100;   
+}
+/* END -- GroupBy CSS Classes */
+
+/********************/
+/**  Cell Merging  **/
+/********************/
+/*Any future change please port it to WHDG*/
+
+tbody>tr>td.ighg_PearkMergedCellVisible
+{
+    color: Black;
+}
+
+tbody>tr>td.ighg_PearMergedCell /*tbody>tr>td.ighg_PearMergedCellAlt*/
+{
+    color: #FFF;
+    background-color: #fff;
+    background-image: none;
+    
+    border-top-width: 0;
+    border-left:  1px dotted #d8d8d8;
+    border-right: 1px dotted #d8d8d8;
+}
+
+tbody>tr>td.ighg_PearMergedCellTop /*tbody>tr>td.ighg_PearMergedCellAltTop*/
+{
+    color: Black;
+    border-top: 1px solid #d8d8d8;
+}
+
+tbody>tr>td.ighg_PearMergedCell.igg_PearSelectedCell /*tbody>tr>td.ighg_PearMergedCellAlt.igg_PearSelectedCell*/
+{
+    color: #FFFFFF;
+    background-color: #7e8566;
+    
+    border-TOP: 1px solid #d8d8d8;
+    border-left: 1px dotted #d8d8d8;
+    border-right: 1px dotted #d8d8d8;
+}
+
+ 
+tbody>tr>td.ighg_PearMergedCellTop.igg_PearSelectedCell /*tbody>tr>td.ighg_PearMergedCellAltTop.igg_PearSelectedCell*/
+{
+    color: #FFFFFF;
+}
+
+tbody>tr>td.ighg_PearMergedCellExpanded
+{
+    color: Black;
+}
+
+tbody > tr.igg_PearUpdatedRow td.ighg_PearMergedCell
+{
+    color: #666666;
+    font-style: italic;
+}
+
+tbody > tr.igg_PearUpdatedRow td.ighg_PearMergedCellTop.igg_PearSelectedCell
+{
+    color: #FFFFFF;
+    font-style: italic;
+}
+
+tbody > tr.igg_PearUpdatedRow td.ighg_PearMergedCellTop
+{
+    color: #666666;
+    font-style: italic;
+}
+
+tbody > tr.igg_PearUpdatedRow td.ighg_PearMergedCellTop.igg_PearSelectedCell
+{
+    color: #FFFFFF;
+    font-style: italic;
+}
+
+tbody > tr.igg_PearUpdatedRow td.ighg_PearMergedCellBottom.igg_PearSelectedCell
+{
+    color: #FFFFFF;
+    font-style: italic;
+}
+
+tbody>tr>td.ighg_PearMergedCellVisible
+{
+    color: black;
+}
+
+tbody>tr>td.igg_PearActiveCell
+{
+    color: #000;
+}
+
+@media print{.ighg_PearControl, .ighg_PearControl div{width:auto !important; height:auto !important; overflow: visible !important;}}

@@ -1,0 +1,105 @@
+.igte_ClaymationEditWithButtons
+{
+	font-size: 10px;
+	font-family: Segoe UI, Verdana, Arial, Sans-Serif;
+	background-color: #FFFFFF;
+	line-height:1px;
+	height:20px;
+	width: 130px;
+	border:solid 1px #999999;
+}
+
+.igte_ClaymationEdit::-ms-clear, .igte_ClaymationEditInContainer::-ms-clear
+{
+	display: none;
+}
+
+.igte_ClaymationEdit
+{
+	font-size: 12px;
+	font-family: Segoe UI, Verdana, Arial, Sans-Serif;
+	background-color: #FFFFFF;
+	border:solid 1px #999999;
+	outline:0;
+}
+
+.igte_ClaymationTextArea
+{
+	font-size: 12px;
+	font-family: Segoe UI, Verdana, Arial, Sans-Serif;
+	background-color: #FFFFFF;
+	border:solid 1px #999999;
+	outline:0;
+	resize:none;
+}
+
+.igte_ClaymationEditInContainer
+{
+	font-size: 12px;
+	font-family: Segoe UI, Verdana, Arial, Sans-Serif;
+	background-color: Transparent;
+	border-width:0px;
+	outline:0;
+}
+
+.igte_ClaymationFocus
+{
+	background-image: none;
+	background-color: #FFFFFF;
+	border-color: #00BFFF;
+}
+
+
+.igte_ClaymationHover
+{
+	border-color: #00BFFF;
+}
+
+.igte_ClaymationButtonSize
+{
+	width:15px;
+	height:100%;
+}
+
+.igte_ClaymationButton
+{
+	background-color: #C0C0C0;
+	background-image: url(images/igte_spinbuttonbg.gif);
+	background-repeat: repeat-x;
+	line-height:normal;
+	border:solid 1px #999999;
+	cursor: pointer;
+}
+
+.igte_ClaymationButtonFocus
+{
+}
+
+.igte_ClaymationNullText
+{
+	color: #666666;
+}
+ 
+.igte_ClaymationButtonHover
+{
+	background-color: #BBBBBB;
+	background-image: url(images/igte_spinbuttonbghover.gif);
+}
+
+
+.igte_ClaymationButtonPressed
+{
+	background-color: #F1F1F1;
+	background-image: url(images/igte_spinbuttonbgpressed.gif);
+}
+
+
+.igte_ClaymationButtonDisabled
+{
+	background-image: none;
+	background-color: #CCCCCC;
+}
+
+.igte_ClaymationButtonImg
+{
+}

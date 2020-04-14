@@ -1,0 +1,195 @@
+.igwv_ClaymationControl
+{
+	border: 1px solid #9E9E9E;
+}
+
+
+.igwv_ClaymationCaptionHeader
+{
+	background-color:#CECECE;
+	background-repeat:repeat-x;
+	background-image: url(images/monthview_header.jpg);
+	font-weight:bold;
+	border:0px;
+	line-height: 16pt;
+	text-align:center;
+	font-weight:bold;
+	font-size:8pt;
+	padding:3px;
+	color:Black;
+}
+
+
+.igwv_ClaymationDayHeader
+{
+	background-color:#CECECE;
+	background-repeat:repeat-x;
+	background-image: url(images/monthview_header.jpg);
+	border-width:0px;
+	border-top:solid 1px #9E9E9E;
+	border-bottom:solid 1px #9E9E9E;
+	font-size:8pt;
+	vertical-align: middle;
+	text-align: center;
+}
+
+
+.igwv_ClaymationDay
+{
+	background-position:bottom ;
+	background-image: url(images/addnew.gif);
+	font-size:8pt;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+
+.igwv_ClaymationAppointment
+{
+	background-color:White;
+	font-size:8pt;
+	border:solid 1px #999999;
+	cursor: pointer;
+	margin: 1px;
+	padding: 3px;
+	overflow: hidden;
+}
+.igwv_ClaymationSelectedAppointment
+{
+	background-color: #FFFFFF;
+	border-color:#00bfff;
+	font-size:8pt;
+	cursor: pointer;
+	margin: 1px;
+	padding: 3px;
+	overflow: hidden;
+}
+
+.igwv_ClaymationFadedAppointment
+{
+	filter:alpha(opacity=50);
+	-moz-opacity:0.5;
+	-khtml-opacity: 0.5;
+	opacity: 0.5;
+}
+
+.igwv_ClaymationAllDayEvent
+{
+	background-color: #F5F5F5;
+	font-size:8pt;
+	border: solid 1px #c0c0c0;
+	padding: 3px;
+	overflow: hidden;
+	text-align:center;
+}
+
+
+.igwv_ClaymationNavigationButton
+{
+	background-color:Transparent;
+	border-width:0px;
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+	vertical-align:middle;
+}
+
+
+.igwv_ClaymationDayArea
+{
+	border-width: 0px;
+	border-left: solid 1px #9E9E9E;
+}
+
+
+.igwv_ClaymationTodayHeader
+{
+	background-color:White;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(images/active_day_header.jpg);
+	color:#00BFFF;
+	font-weight: bold;
+}
+
+
+.igwv_ClaymationToday
+{
+}
+
+
+.igwv_ClaymationSelectedAppointment
+{
+	background-color: #FFFFFF;
+	border-color:#00bfff;
+	text-align: center;
+}
+
+
+.igwv_ClaymationActiveDayHeader
+{
+	background-color: #929292;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(images/header_hover.gif);
+	font-weight: bold;
+}
+
+
+.igwv_ClaymationActiveDay
+{
+	background-color:#F1F2F4;
+	background-repeat:repeat-x;
+	background-position: bottom;
+	background-image: url(images/day_bg.gif);
+}
+
+
+.igwv_ClaymationResourceButton
+{
+	background: #d3d3d3;
+	border-width: 0;
+	border-right: solid 1px #9E9E9E;   
+	border-bottom: solid 1px #9E9E9E;
+	padding: 4px;
+	font-size: 8pt;
+	color: #333;
+	background-image: url(images/header.gif);
+	background-repeat: repeat-x;
+}
+
+.igwv_ClaymationResourceButton:focus, .igwv_ClaymationResourceButtonActive
+{
+	filter:alpha(opacity=100);
+	-moz-opacity:1.0;
+	-khtml-opacity: 1.0;
+	opacity: 1.0;
+}
+
+.igwv_ClaymationResourceButton:hover
+{
+	filter:alpha(opacity=100);
+	-moz-opacity:1.0;
+	-khtml-opacity: 1.0;
+	opacity: 1.0;
+}
+
+.igwv_ClaymationMultiDayEventArrowLeft
+{
+      background-image: url(images/igws_arrowLeft.gif);
+      background-repeat: no-repeat;
+      background-position: center center;
+      display: inline-block;
+      width: 9px;
+      height: 9px;
+}
+
+.igwv_ClaymationMultiDayEventArrowRight
+{
+      background-image: url(images/igws_arrowRight.gif);
+      background-repeat: no-repeat;
+      background-position: center center;
+      display: inline-block;
+      width: 9px;
+      height: 9px;
+}

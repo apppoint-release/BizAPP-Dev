@@ -1,0 +1,226 @@
+.igmc_LucidDreamControl
+{
+	background-color: #eee;
+	border:1px solid #BBBBBB;
+	width: 225px;
+	height: 200px;
+	padding: 0px;
+	margin: 0px;
+	font-family: Segoe UI, Verdana, Arial, Georgia, Sans-Serif;
+}
+
+.igmc_LucidDreamDOW
+{
+	background-color: #eeeeee;
+	background-repeat:repeat-x;
+	background-position:top;
+	background-image: url(images/igmc_dowbg.gif);
+	font-size: 0.8em;
+	border-width:0px;
+	border-bottom:solid 1px #CCCCCC;
+	padding: 0px ;
+	text-align:center;
+	font-weight: bold;
+	height: 35px;
+}
+
+.igmc_LucidDreamNextPrev
+{
+	margin: 0px;
+	font-size: 0.8em;
+	color: #FFFFFF;
+	padding: 0px 8px;
+}
+
+.igmc_LucidDreamHoverNextPrev
+{
+	cursor: pointer;
+	color: #FF9933;
+}
+
+.igmc_LucidDreamPressedNextPrev
+{
+}
+
+.igmc_LucidDreamFooter
+{
+	background-color: #FFFFFF;
+	background-image: url(images/igmc_footerbg.gif);
+	background-repeat:repeat-x;
+	border-top: 1px solid #dddddd;
+	font-size: 0.8em;
+	text-align:center;	
+	height: 35px;
+}
+
+.igmc_LucidDreamHoverFooter
+{
+	background-color: #F1F1F1;
+	background-image: url(images/igmc_footerbghover.gif);
+	background-repeat:repeat-x;
+	cursor: pointer;
+}
+
+.igmc_LucidDreamPressedFooter
+{
+	background-color: #FFFFFF;
+	background-image: url(images/igmc_footerbgpressed.gif);
+	background-repeat:repeat-x;
+}
+
+.igmc_LucidDreamHeader
+{
+	background-color: #6eb6e5;
+	background-repeat:repeat-x;
+	background-position:top;
+	background-image: url(images/igmc_headerbg.png);
+	border-bottom: 1px solid #6691B8;
+	height: 50px;
+}
+
+.igmc_LucidDreamMonthYear
+{
+	font-size:1em;
+	font-weight:bold;
+	padding:0px 2px;
+	color: #FFFFFF;
+}
+
+.igmc_LucidDreamPressedMonthYear
+{
+	color: #ff9933;
+}
+
+.igmc_LucidDreamHoverMonthYear
+{
+	cursor: pointer;
+	color: #ff9933;
+	
+}
+
+.igmc_LucidDreamDay
+{
+	background-color:#FFFFFF;
+	font-size:0.9em;
+	text-align:center;
+	border: 1px solid #FFFFFF;
+	font-weight: bold;
+}
+
+.igmc_LucidDreamDay.igmc_LucidDreamOtherMonthDay
+{
+	background-image:none;
+	color: #a4a4a4;
+	font-size:0.9em;
+	font-weight:normal;
+}
+
+.igmc_LucidDreamWeekNumber
+{
+	border: 1px solid #F8F8F8;
+	background-color: #F8F8F8;
+	background-repeat:repeat-x;
+	background-position:top;
+	background-image: url(images/igmc_weekbg.gif);
+	font-weight: bold;
+}
+
+.igmc_LucidDreamWeekendDay
+{
+	background-color:#f9f9f9;
+	border: 1px solid #f9f9f9;
+}
+
+.igmc_LucidDreamOtherMonthDay
+{
+	color:#AAAAAA;
+	background-image: none;
+}
+
+.igmc_LucidDreamTodayDay
+{
+	border: 1px solid #ff8000;
+	background-color: #ff9933;
+    color: #FFFFFF;
+}
+
+.igmc_LucidDreamSelectedDay.igmc_LucidDreamTodayDay
+{
+	border: 1px solid #ff8000;
+	background-color: #ff9933;
+	color: #FFFFFF;
+}
+
+.igmc_LucidDreamSelectedDay, .igmc_LucidDreamOtherMonthDay.igmc_LucidDreamFocusDay
+{
+	background-color: #daf0ff;
+	font-weight:bold;
+	color: #696969;
+}
+
+.igmc_LucidDreamFocusDay
+{
+	background-color: #B1D9F3;
+	border: 1px solid #6691B8;
+	font-weight:bold;
+	color: #696969;
+}
+
+.igmc_LucidDreamHoverDay
+{
+	background-color: #ff9933;
+	background-image: url(images/igmc_dayselected.gif);
+	background-repeat: repeat-x;
+	border: 1px solid #ff9933;
+	color:#FFFFFF;
+	font-weight: bold;
+}
+
+.igmc_LucidDreamOtherMonthDay.igmc_LucidDreamHoverDay
+{
+	background-color: #ff9933;
+	background-image: url(images/igmc_dayselected.gif);
+	background-repeat: repeat-x;
+	border: 1px solid #ff9933;
+	color:#FFFFFF;
+	font-weight: bold;
+}
+
+.igmc_LucidDreamDisabledDay
+{
+	color:#EEE;
+}
+
+/* CSS classes for Month and Year selection Popup in header */
+.igmc_LucidDreamList
+{
+	background-color: #fff;
+	border:1px solid #bbb;
+}
+
+.igmc_LucidDreamItem
+{
+	background-color:#fff;
+	border: 1px solid #fff;
+	font-size:1em;
+	text-align: center;
+}
+
+.igmc_LucidDreamSelectedItem
+{
+	background-color: #B1D9F3;
+	border: 1px solid #6691B8;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.igmc_LucidDreamHoverItem
+{
+	background-color: #ff9933;
+	background-image: url(images/igmc_dayselected.gif);
+	background-repeat: repeat-x;
+	border: 1px solid #ff9933;
+	color:#FFFFFF;
+	font-weight: bold;
+	cursor: pointer;
+}

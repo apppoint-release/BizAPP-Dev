@@ -1,0 +1,676 @@
+/* The CSS Class that will be applied to the outer control.*/
+.igiv_PearControl
+{
+	background-color:Transparent;
+	padding-bottom: 50px;
+	padding-left:20px; 
+	padding-right: 20px;
+}
+
+
+/*
+	This class should be used for setting any padding that might be 
+	needed if the Header is placed above the control.
+*/
+.igiv_PearHeaderPadding
+{
+	padding-top: 50px;
+}
+
+
+/*
+	This class should be used for adjusting the padding of the control
+	to account for the additional size of the header and footer.
+*/
+.igiv_PearFooterPadding
+{
+	padding-bottom: 50px;
+}
+
+
+/*
+	The CSS class that will be applied to the header. 
+    The header can be absolutely positoned anywhere in the control, because the WebImageViewerhas an internal DIV that
+    wraps the control with a position set to relative. </para>
+*/
+.igiv_PearHeaderContentArea
+{
+	font-size:10px;
+	position: absolute;
+	top: -20px;
+}
+
+
+/*The CSS class that will be applied to the Left Corner of the Header. */
+.igiv_PearHeaderContentLeft
+{
+}
+
+
+/*The CSS class that will be applied to the actual content of the Header.*/
+.igiv_PearHeaderContent
+{
+	position: relative;
+	color:#0F0F0F;
+}
+
+
+/*The CSS class that will be applied to the Right Corner of the Header. */
+.igiv_PearHeaderContentRight
+{
+}
+
+
+/*
+	A TR that wraps the TopLeft, TopArea, and TopRight elements. 
+    This CSS class is useful in setting the height of the entire row.
+*/
+.igiv_PearHeaderArea
+{
+	border-top-width:0px;
+	margin-top:0px;
+	padding-top:0px;
+	height: 14px;
+}
+
+
+/*
+	The CSS class that will be applied to the footer. 
+    The footer can be absolutely positoned anywhere in the control, because the WebImageViewer has an internal DIV that
+    wraps the control with a position set to relative. </para>
+*/
+.igiv_PearFooterContentArea
+{
+	font-size:10px;
+	padding-right:10px;
+	padding-bottom:4px;
+	position: absolute;
+	bottom: -40px;
+	/* width: 100%;*/
+	float: right;
+	right: 0px;
+	text-align:right;
+}
+
+
+/*The CSS class that will be applied to the Left Corner of the Footer. */
+.igiv_PearFooterContentLeft
+{
+}
+
+
+/*The CSS class that will be applied to the actual content of the Footer.*/
+.igiv_PearFooterContent
+{
+	color:#0F0F0F;
+}
+
+
+/* The CSS class that will be applied to the Right Corner of the Footer. */
+.igiv_PearFooterContentRight
+{
+}
+
+
+/*
+	 A TR that wraps the BottomLeft, BottomArea, and BottomRight elements. 
+     This CSS class is useful in setting the height of the entire row.
+*/
+.igiv_PearFooterArea
+{
+	height: 10px;
+}
+
+
+/*
+	A TD that wraps the Header.
+    This CSS Class should be used for applying a Background-Image along the top border of the control.
+*/
+.igiv_PearEdgeTop
+{
+	background-color:#FF5A76;
+	background-image: url(images/igiv_EdgeTop.gif);
+}
+
+
+/*
+	A TD on the left side of the ImageArea.
+    This CSS Class should be used for applying a Background-Image along the left border of the control.
+*/
+.igiv_PearEdgeLeft
+{
+	background-repeat:repeat-y;
+	background-position:right ;
+	background-image: url(images/igiv_EdgeLeft.gif);
+}
+
+
+/*
+	A TD that wraps the Footer.
+    This CSS Class should be used for applying a Background-Image along the bottom border of the control.
+*/
+.igiv_PearEdgeBottom
+{
+	background-repeat:repeat-x;
+	background-image: url(images/igiv_EdgeBottom.gif);
+}
+
+
+/*
+	 A TD on the right side of the ImageArea.
+     This CSS Class should be used for applying a Background-Image along the right border of the control.
+       
+*/
+.igiv_PearEdgeRight
+{
+	background-repeat:repeat-y;
+	background-position:left ;
+	background-image: url(images/igiv_EdgeRight.gif);
+}
+
+
+/*
+	 The Top Left corner of the control.
+     This CSS Class should be used for rounded corners.
+*/
+.igiv_PearCornerTopLeft
+{
+	background-repeat:no-repeat;
+	background-position:bottom ;
+	background-image: url(images/igiv_CornerTopLeft.gif);
+	position: relative;
+	right: 0px;
+	width: 3px;
+}
+
+
+/*
+	The Top Right corner of the control.
+    This CSS Class should be used for rounded corners.
+*/
+.igiv_PearCornerTopRight
+{
+	background-repeat:no-repeat;
+	background-position:bottom ;
+	background-image: url(images/igiv_CornerTopRight.gif);
+	position: relative;
+	left: 0px;
+	width: 3px;
+}
+
+
+/*
+	The Bottom Left corner of the control.
+    This CSS Class should be used for rounded corners.
+*/
+.igiv_PearCornerBottomLeft
+{
+	background-repeat:no-repeat;
+	background-position:top ;
+	background-image: url(images/igiv_CornerBottomLeft.gif);
+	position: relative;
+	right: 0px;
+}
+
+
+/*
+	The Bottom Right corner of the control.
+    This CSS Class should be used for rounded corners.
+*/
+.igiv_PearCornerBottomRight
+{
+	background-repeat:no-repeat;
+	background-position:top ;
+	background-image: url(images/igiv_CornerBottomRight.gif);
+	position: relative;
+	left: 0px;
+}
+
+
+/*
+	The CSS class that will be applied to the Container of the Previous Button. 
+    This css Class is the TD in which the Image element is rendered. This style can be used
+    to set the vertical-align CSS attribute.
+*/
+.igiv_PearPrevButtonArea
+{
+	margin-left: -10px;
+	padding-left: -10px;
+}
+
+
+/*
+	The CSS class that will be applied to the Previous Button. 
+    The Previous Button can be absolutely positoned anywhere in the control, because the WebImageViewer has an internal DIV that
+    wraps the control with a position set to relative. 
+*/
+.igiv_PearPrevButton
+{
+	position: relative;
+	left: -11px;
+	cursor:pointer;	
+}
+
+
+/*
+	The CSS class that will be applied to the Container of the Next Button. 
+    This css Class is the TD in which the Image element is rendered. This style can be used
+    to set the vetical-align CSS attribute.
+*/
+.igiv_PearNextButtonArea
+{
+
+}
+
+
+/*
+	The CSS class that will be applied to the Next Button. 
+    The Next Button can be absolutely positoned anywhere in the control, because the WebImageViewer has an internal DIV that
+    wraps the control with a position set to relative.
+*/
+.igiv_PearNextButton
+{
+	position: relative;
+	left: 3px;
+	padding-right:1px;
+}
+
+
+/*
+	A TD that contains the ImageArea.
+    If you would like a border around the ImageArea, this is the class to use.
+*/
+.igiv_PearImageAreaContainer
+{
+	border:solid 1px #60712B;
+}
+
+
+/*
+	A DIV that contains all of the Images. 
+    In XHTML, to apply a border around the images a padding-bottom must be set to the size of the 
+	border-top-width plus the border-bottom-width.
+*/
+.igiv_PearImageArea
+{
+	padding-bottom: 2px;
+}
+
+
+/*
+	An IMG element that is contained by the ImageAra.
+    In XHTML, to apply a border around an image a padding-bottom must be set to the size of the 
+	border-top-width plus the border-bottom-width on the ImageArea.
+*/
+.igiv_PearImage
+{
+}
+
+
+/*Applied to an IMG when it is selected.*/
+.igiv_PearImageSelected
+{
+}
+
+
+/*Applied to an IMG when the mouse is over it.*/
+.igiv_PearImageHover
+{
+}
+
+
+/*
+	When an image is hovered, this style gets applied to all other images.
+    A good use of this style is to apply an opacity to all other images that aren't being hovered, 
+	so that the hovered image has more focus.
+*/
+.igiv_PearOtherImageHover
+{
+	background-color:Turquoise;
+	opacity: .5;
+	filter: alpha(opacity=50);
+}
+
+
+/*Applied to an IMG when the image is disabled.*/
+.igiv_PearImageDisabled
+{
+	opacity: .25;
+	filter: alpha(opacity=25);
+}
+
+
+/**************************** VERTICAL ***************************************/
+/*The CSS Class that will be applied to the outer control.*/
+.igiv_PearControl_Vert
+{
+	background-color:Transparent;
+	padding-bottom:50px;
+}
+
+
+/*
+	This class should be used for setting any padding that might be 
+	needed if the Header is placed above the control.
+*/
+.igiv_PearHeaderPadding_Vert
+{
+	padding-top:50px; 
+}
+
+
+/*
+	This class should be used for adjusting the padding of the control
+	to account for the additional size of the header and footer.
+*/
+.igiv_PearFooterPadding_Vert
+{
+	padding-bottom:50px;
+}
+
+
+/*
+	The CSS class that will be applied to the header. 
+    The header can be absolutely positoned anywhere in the control, because the WebImageViewer has an internal DIV that
+    wraps the control with a position set to relative.
+*/
+.igiv_PearHeaderContentArea_Vert
+{
+	font-size:10px;
+	padding-top:3px;
+	position: absolute;
+	width: 100%;
+	top: -22px;
+	color:#0F0F0F;
+	text-align:left;
+}
+
+
+/*The CSS class that will be applied to the Left Corner of the Header. */
+.igiv_PearHeaderContentLeft_Vert
+{
+}
+
+
+/*The CSS class that will be applied to the actual content of the Header.*/
+.igiv_PearHeaderContent_Vert
+{
+	color:#0F0F0F;
+}
+
+
+/*The CSS class that will be applied to the Right Corner of the Header. */
+.igiv_PearHeaderContentRight_Vert
+{
+}
+
+
+/*
+	A TR that wraps the TopLeft_Vert, TopArea_Vert, and TopRight_Vert elements. 
+    This CSS class is useful in setting the height of the entire row.
+*/
+.igiv_PearHeaderArea_Vert
+{
+	height: 14px;
+	text-align:center;
+}
+
+
+/*
+	The CSS class that will be applied to the footer. 
+    The footer can be absolutely positoned anywhere in the control, because the WebImageViewer has an internal DIV that
+    wraps the control with a position set to relative. 
+*/
+.igiv_PearFooterContentArea_Vert
+{
+	font-size:10px;
+	padding-bottom:4px;
+	position: absolute;
+	bottom: -40px;
+	/*width: 100%;*/
+	right: 10px;
+	float: right;
+	color:#0F0F0F;
+	text-align:right;
+}
+
+
+/*The CSS class that will be applied to the Left Corner of the Footer. */
+.igiv_PearFooterContentLeft_Vert
+{
+}
+
+
+/*The CSS class that will be applied to the actual content of the Footer.*/
+.igiv_PearFooterContent_Vert
+{
+}
+
+
+/*The CSS class that will be applied to the Right Corner of the Footer. */
+.igiv_PearFooterContentRight_Vert
+{
+}
+
+
+/*
+	A TR that wraps the BottomLeft_Vert, BottomArea_Vert, and BottomRight_Vert elements. 
+    This CSS class is useful in setting the height of the entire row.
+*/
+.igiv_PearFooterArea_Vert
+{
+	height: 10px;
+	text-align:center;
+}
+
+
+/*
+	A TD that wraps the Header_Vert.
+    This CSS Class should be used for applying a Background-Image along the top border of the control.
+*/
+.igiv_PearEdgeTop_Vert
+{
+	background-repeat:repeat-x;
+	background-image: url(images/igiv_EdgeTop_Vert.gif);
+}
+
+
+/*
+	A TD on the left side of the ImageArea_Vert.
+    This CSS Class should be used for applying a Background-Image along the left border of the control.
+*/
+.igiv_PearEdgeLeft_Vert
+{
+	background-repeat:repeat-y;
+	background-position:right ;
+	background-image: url(images/igiv_EdgeLeft_Vert.gif);
+}
+
+
+/*
+	A TD that wraps the Footer_Vert.
+    This CSS Class should be used for applying a Background-Image along the bottom border of the control.
+*/
+.igiv_PearEdgeBottom_Vert
+{
+	background-repeat:repeat-x;
+	background-image: url(images/igiv_EdgeBottom_Vert.gif);
+}
+
+
+/*
+	A TD on the right side of the ImageArea_Vert.
+    This CSS Class should be used for applying a Background-Image along the right border of the control.
+*/
+.igiv_PearEdgeRight_Vert
+{
+	background-repeat:repeat-y;
+	background-image: url(images/igiv_EdgeRight_Vert.gif);
+}
+
+
+/*
+	The Top Left corner of the control.
+    This CSS Class should be used for rounded corners.
+*/
+.igiv_PearCornerTopLeft_Vert
+{
+	background-repeat:no-repeat;
+	background-position:bottom ;
+	background-image: url(images/igiv_CornerTopLeft_Vert.gif);
+	width: 3px;
+	position: relative;
+	left: 0px;
+}
+
+
+/*
+	The Top Right corner of the control.
+    This CSS Class should be used for rounded corners.
+*/
+.igiv_PearCornerTopRight_Vert
+{
+	background-repeat:no-repeat;
+	background-position:bottom ;
+	background-image: url(images/igiv_CornerTopRight_Vert.gif);
+	width: 3px;
+	position: relative;
+	right: 0px;
+}
+
+
+/*
+	The Bottom Left corner of the control.
+    This CSS Class should be used for rounded corners.
+*/
+.igiv_PearCornerBottomLeft_Vert
+{
+	background-repeat:no-repeat;
+	background-position:top ;
+	background-image: url(images/igiv_CornerBottomLeft_Vert.gif);
+	position: relative;
+	left: 0px;
+}
+
+
+/*
+	The Bottom Right corner of the control.
+    This CSS Class should be used for rounded corners.
+*/
+.igiv_PearCornerBottomRight_Vert
+{
+	background-repeat:no-repeat;
+	background-image: url(images/igiv_CornerBottomRight_Vert.gif);
+}
+
+
+/*
+	The CSS class that will be applied to the Container of the PreviousButton. 
+    This css Class is the TD in which the Image element is rendered. This style can be used
+    to set the text-align CSS attribute.
+*/
+.igiv_PearPrevButtonArea_Vert
+{
+	padding-top: 1px;
+}
+
+
+/*
+	The CSS class that will be applied to the Previous Button. 
+    The Previous Button can be absolutely positoned anywhere in the control, because the WebImageViewer has an internal DIV that
+    wraps the control with a position set to relative. 
+*/
+.igiv_PearPrevButton_Vert
+{
+	position: relative;
+	bottom: 12px;
+	padding-bottom: 1px;
+	cursor:hand;
+}
+
+
+/*
+	The CSS class that will be applied to the Container of the Next Button. 
+    This css Class is the TD in which the Image element is rendered. This style can be used
+    to set the text-align CSS attribute.
+*/
+.igiv_PearNextButtonArea_Vert
+{
+	position: relative;
+}
+
+
+/*
+	The CSS class that will be applied to the Next Button. 
+    The Next Button can be absolutely positoned anywhere in the control, because the WebImageViewer has an internal DIV that
+    wraps the control with a position set to relative. 
+*/
+.igiv_PearNextButton_Vert
+{
+	position: relative;
+	top: 3px;
+	cursor:hand;
+}
+
+
+/*
+	A TD that contains the ImageArea.
+    If you would like a border around the ImageArea, this is the class to use.
+*/
+.igiv_PearImageAreaContainer_Vert
+{
+}
+
+
+/*
+	A DIV that contains all of the Images. 
+    In XHTML, to apply a border around the images a padding-right must be set to the size of the 
+	border-left-width plus the border-right-width.
+*/
+.igiv_PearImageArea_Vert
+{
+}
+
+
+/*
+	An IMG element that is contained by the ImageAra.
+    In XHTML, to apply a border around an image a padding-right must be set to the size of the 
+	border-left-width plus the border-right-width on the ImageArea_Vert.
+*/
+.igiv_PearImage_Vert
+{
+}
+
+
+/*Applied to an IMG when it is selected.*/
+.igiv_PearImageSelected_Vert
+{
+}
+
+
+/*Applied to an IMG when the mouse is over it.*/
+.igiv_PearImageHover_Vert
+{
+}
+
+
+/*
+	When an image is hovered, this style gets applied to all other images.
+    A good use of this style is to apply an opacity to all other images that aren't being hovered, 
+	so that the hovered image has more focus.
+*/
+.igiv_PearOtherImageHover_Vert
+{
+	opacity: .5;
+	filter: alpha(opacity=50);
+}
+
+
+/*Applied to an IMG when the image is disabled.*/
+.igiv_PearImageDisabled_Vert
+{
+	opacity: .25;
+	filter: alpha(opacity=25);
+}
+
+

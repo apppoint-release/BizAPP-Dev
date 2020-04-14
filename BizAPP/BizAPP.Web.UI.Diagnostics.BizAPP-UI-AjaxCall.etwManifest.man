@@ -1,0 +1,63 @@
+<instrumentationManifest xmlns="http://schemas.microsoft.com/win/2004/08/events">
+ <instrumentation xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:win="http://manifests.microsoft.com/win/2004/08/windows/events">
+  <events xmlns="http://schemas.microsoft.com/win/2004/08/events">
+<provider name="BizAPP-UI-AjaxCall" guid="{2a45da55-1355-5315-6269-9fd25ffca99c}" resourceFileName="E:\Views\BitBucket\Product\ABUIWeb\BizAPP.Web.UI.PerformanceCounters\bin\Release\BizAPP.Web.UI.Diagnostics.BizAPP-UI-AjaxCall.etwManifest.dll" messageFileName="E:\Views\BitBucket\Product\ABUIWeb\BizAPP.Web.UI.PerformanceCounters\bin\Release\BizAPP.Web.UI.Diagnostics.BizAPP-UI-AjaxCall.etwManifest.dll" symbol="BizAPPUIAjaxCall">
+ <channels>
+  <channel chid="Operational" name="BizAPP-UI-AjaxCall/Operational" value="17" type="Operational" enabled="true"/>
+ </channels>
+ <tasks>
+  <task name="AjaxCallThresholdExceeded" message="$(string.task_AjaxCallThresholdExceeded)" value="65531"/>
+  <task name="AjaxCall" message="$(string.task_AjaxCall)" value="65533"/>
+  <task name="EventSourceMessage" message="$(string.task_EventSourceMessage)" value="65534"/>
+ </tasks>
+ <opcodes>
+ </opcodes>
+ <keywords>
+  <keyword name="Session3" message="$(string.keyword_Session3)" mask="0x100000000000"/>
+  <keyword name="Session2" message="$(string.keyword_Session2)" mask="0x200000000000"/>
+  <keyword name="Session1" message="$(string.keyword_Session1)" mask="0x400000000000"/>
+  <keyword name="Session0" message="$(string.keyword_Session0)" mask="0x800000000000"/>
+ </keywords>
+ <events>
+  <event value="0" version="0" level="win:LogAlways" symbol="EventSourceMessage" task="EventSourceMessage" template="EventSourceMessageArgs"/>
+  <event value="1" version="0" level="win:Informational" symbol="AjaxCallStart" opcode="win:Start" task="AjaxCall" template="AjaxCallStartArgs"/>
+  <event value="2" version="0" level="win:Informational" symbol="AjaxCallStop" opcode="win:Stop" task="AjaxCall" template="AjaxCallStopArgs"/>
+  <event value="3" version="0" level="win:Informational" symbol="AjaxCallThresholdExceeded" message="$(string.event_AjaxCallThresholdExceeded)" task="AjaxCallThresholdExceeded" channel="Operational" template="AjaxCallThresholdExceededArgs"/>
+ </events>
+ <templates>
+  <template tid="EventSourceMessageArgs">
+   <data name="message" inType="win:UnicodeString"/>
+  </template>
+  <template tid="AjaxCallStartArgs">
+   <data name="type" inType="win:UnicodeString"/>
+   <data name="api" inType="win:UnicodeString"/>
+  </template>
+  <template tid="AjaxCallStopArgs">
+   <data name="type" inType="win:UnicodeString"/>
+   <data name="api" inType="win:UnicodeString"/>
+  </template>
+  <template tid="AjaxCallThresholdExceededArgs">
+   <data name="thresholdMilliSeconds" inType="win:Int64"/>
+   <data name="elapsedMilliseconds" inType="win:Int64"/>
+   <data name="type" inType="win:UnicodeString"/>
+   <data name="api" inType="win:UnicodeString"/>
+  </template>
+ </templates>
+</provider>
+</events>
+</instrumentation>
+<localization>
+ <resources culture="en-US">
+  <stringTable>
+   <string id="event_AjaxCallThresholdExceeded" value="AjaxCall - execution exceeded threshold. Details are provided below.%n%nThreshold(MS):%n%t%1%n%nElapsed(MS):%n%t%2%n%nType:%n%t%3%n%nAPI:%n%t%4"/>
+   <string id="keyword_Session0" value="Session0"/>
+   <string id="keyword_Session1" value="Session1"/>
+   <string id="keyword_Session2" value="Session2"/>
+   <string id="keyword_Session3" value="Session3"/>
+   <string id="task_AjaxCall" value="AjaxCall"/>
+   <string id="task_AjaxCallThresholdExceeded" value="AjaxCallThresholdExceeded"/>
+   <string id="task_EventSourceMessage" value="EventSourceMessage"/>
+  </stringTable>
+ </resources>
+</localization>
+</instrumentationManifest>

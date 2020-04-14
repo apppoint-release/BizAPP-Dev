@@ -1,0 +1,159 @@
+.ig_NautilusControl
+{
+	background-color:White;
+	font-size:xx-small;
+	font-family: verdana;
+	color:Black;
+}
+
+
+.ig_NautilusItem
+{
+	background-color:White;
+	font-size:10px;
+	font-family: verdana;
+	padding-left:1px;
+}
+
+
+.ig_NautilusButton
+{
+	cursor:hand;
+}
+
+
+.ig_NautilusButtonHover
+{
+}
+
+
+.ig_NautilusButtonPressed
+{
+}
+
+
+.ig_NautilusButtonDisabled
+{
+}
+
+
+.ig_NautilusHover
+{
+}
+
+
+.ig_NautilusSelected
+{
+}
+
+
+.ig_NautilusDisabled
+{
+}
+
+
+.ig_NautilusHeader
+{
+}
+
+
+.ig_NautilusFooter
+{
+}
+
+
+.ig_NautilusEditWithButtons
+{
+}
+
+
+.ig_NautilusEdit
+{
+}
+
+
+.ig_NautilusEditInContainer
+{
+}
+
+
+.ig_NautilusAlt
+{
+	border-top:solid 1px #E3EFFF;
+	border-right:solid 0px #FFFFFF;
+	border-bottom:solid 1px #E3EFFF;
+	border-left:solid 0px #FFFFFF;
+}
+
+
+.ig_NautilusDropDown
+{
+}
+
+
+.ig_NautilusEditSelected
+{
+}
+
+
+Body
+{
+}
+
+
+.ms-WPBody .igmc_NautilusControl TD
+{
+	background-color: inherit;
+	font-style:inherit;
+	font-size:xx-small;
+	border-style:inherit;
+}
+
+
+.ms-WPBody .igte_NautilusEditWithButtons TD
+{
+	background-color:Transparent;
+	font-size:1px;
+	border-bottom-style:none;
+}
+
+
+.ms-WPBody .igte_NautilusEditWithButtons TABLE
+{
+	font-size:1px;
+}
+
+
+.ms-WPBody .igdw_NautilusControl TD
+{
+	background-color:White;
+}
+
+
+.ms-wpbody .ig_NautilusControl td
+{
+	background-color: inherit;
+	font-style:inherit;
+	font-size:xx-small;
+	border-bottom-style:none;
+}
+
+
+.ms-wpbody .ig_NautilusControl table
+{
+	font-style:inherit;
+	font-size:xx-small;
+	border-collapse:Separate;
+}
+
+
+.ms-WPBody .igmc_NautilusControl TABLE
+{
+	font-style:inherit;
+	font-size:xx-small;
+}
+
+.ie7_DisplayInlineFix { display: inline-block; }
+.ie7_DisplayInlineFix { display: inline; }
+
+

@@ -1,0 +1,184 @@
+.igmc_ClaymationControl
+{
+	background-color: #eee;
+	border:1px solid #C5C7CB;
+	height: 20px;
+	padding: 0px;
+	margin: 0px;
+}
+
+.igmc_ClaymationDOW
+{
+	background-color: #F3F3F3;
+	font-size:xx-small;
+	border-width:0px;
+	border-bottom:solid 1px #CCCCCC;
+	padding: 3px 5px;
+	height: 14px;
+	text-align:center;
+	font-weight: bold;
+}
+
+.igmc_ClaymationNextPrev
+{
+	margin: 0px;
+	padding: 0px;
+	font-size:xx-small;
+	color: #333333;
+	padding: 0px 5px;
+}
+
+.igmc_ClaymationHoverNextPrev
+{
+	cursor: pointer;
+	color: #00bfff;
+}
+
+.igmc_ClaymationPressedNextPrev
+{
+}
+
+.igmc_ClaymationFooter
+{
+	background-color: #FFFFFF;
+	background-image: url(images/igmc_footerbg.gif);
+	background-repeat:repeat-x;
+	background-position: bottom;
+	border-top: 1px solid #dddddd;
+	padding:2px;
+	font-size:xx-small;
+	text-align:center;
+	height:20px;
+}
+
+.igmc_ClaymationHoverFooter
+{
+	background-color: #F5F5F5;
+	background-image: url(images/igmc_footerbghover.gif);
+	background-repeat:repeat-x;
+	color: #00bfff;
+}
+
+.igmc_ClaymationPressedFooter
+{
+	background-color: #EEEEEE;
+	background-image: url(images/igmc_footerbgpressed.gif);
+	background-repeat:repeat-x;
+}
+
+.igmc_ClaymationHeader
+{
+	background-color: #cccccc;
+	background-repeat:repeat-x;
+	background-position:top;
+	background-image: url(images/igmc_headerbg.png);
+	font-size:10px;
+	height: 20px;
+	border-bottom: 1px solid #BBBBBB;
+}
+
+.igmc_ClaymationMonthYear
+{
+	font-size:10px;
+	font-weight:bold;
+	padding:2px;
+	color: #333333;
+}
+
+.igmc_ClaymationPressedMonthYear
+{
+	color: #ff9933;
+}
+
+.igmc_ClaymationHoverMonthYear
+{
+	cursor: pointer;
+	color: #00BFFF;
+}
+
+.igmc_ClaymationDay
+{
+	background-color:#FFFFFF;
+	font-size:xx-small;
+	text-align:center;
+	padding: 5px;
+}
+
+.igmc_ClaymationWeekNumber
+{
+	border-right: 1px solid #DDDDDD;
+	background-color: #F3F3F3;
+	font-weight: bold;
+}
+
+.igmc_ClaymationWeekendDay
+{
+	background-color:#FAFAFA;
+}
+
+.igmc_ClaymationOtherMonthDay
+{
+	color:#AAAAAA;
+	background-image: none;
+}
+
+.igmc_ClaymationTodayDay
+{
+	background-color: #CCCCCC;
+	color: #FFFFFF;
+}
+
+.igmc_ClaymationSelectedDay
+{
+	background-color: #DDDDDD;
+	font-weight:bold;
+}
+
+.igmc_ClaymationFocusDay
+{
+	background-color: #EFEFEF;
+	color: #000000;
+}
+
+.igmc_ClaymationHoverDay
+{
+	background-color: #00BFFF;
+	color:#FFFFFF;
+	font-weight: bold;
+}
+
+
+
+.igmc_ClaymationDisabledDay
+{
+	color:#FFFFFF;
+}
+
+/* CSS classes for Month and Year selection Popup in header */
+.igmc_ClaymationList
+{
+	background:#FFFFFF;
+	border:1px solid #999999;
+}
+
+.igmc_ClaymationItem
+{
+	font-size: 10px;
+	background:#F1F1F1;
+	padding: 2px;
+	text-align: center;
+}
+
+.igmc_ClaymationSelectedItem
+{
+	background-color: #00BFFF;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+.igmc_ClaymationHoverItem
+{
+	background-color: #CCCCCC;
+	color: #FFFFFF;
+	cursor: pointer;
+}

@@ -1,0 +1,113 @@
+.igcmb_LucidDreamControl
+{
+	background-color:Black;
+	border:solid 1px #ABC1DE;
+}
+
+
+.igcmb_LucidDreamEditWithButtons
+{
+	border:solid 1px #ABC1DE;
+	cursor:hand;
+}
+
+
+.igcmb_LucidDreamPagerArea
+{
+}
+
+
+.igcmb_LucidDreamPageCurrent
+{
+}
+
+
+.igcmb_LucidDreamPageLink
+{
+}
+
+
+.igcmb_LucidDreamItem
+{
+	border:solid 1px Transparent;
+	border-right-color:#D0D7E5;
+	border-bottom-color:#D0D7E5;
+}
+
+
+.igcmb_LucidDreamAlt
+{
+}
+
+
+.igcmb_LucidDreamHeader
+{
+	background-color:Transparent;
+	background-position:bottom ;
+	background-image: url(images/office_grid_header.jpg);
+	border-width:0px;
+	border-color:Transparent;
+	border-right-width:1px;
+	border-right-color:#F29536;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+
+.igcmb_LucidDreamFooter
+{
+}
+
+
+.igcmb_LucidDreamLabel
+{
+	background-color:#E4ECF7;
+	background-image:none;
+	border-right-width:1px;
+	border-right-color:#D0D7E5;
+	border-bottom-width:1px;
+	border-bottom-color:#D0D7E5;
+	padding-top:3px;
+	padding-bottom:3px;
+}
+
+
+.igcmb_LucidDreamSelected
+{
+	background-color:#EAECF5;
+	border:solid 1px #EAECF5;
+}
+
+
+.igcmb_LucidDreamEditSelected
+{
+	background-color:White;
+	font-size:x-small;
+	font-family: Verdana;
+	border:solid 1px Transparent;
+	text-align:left;
+	vertical-align:middle;
+}
+
+
+.igcmb_LucidDreamActiveBorderTopBottom
+{
+	border-top-width:1px;
+	border-top-color:#1E1E1E;
+	border-bottom-width:1px;
+	border-bottom-color:#1E1E1E;
+}
+
+
+.igcmb_LucidDreamActiveBorderLeft
+{
+	border-left:solid 1px #1E1E1E;
+}
+
+
+.igcmb_LucidDreamActiveBorderRight
+{
+	border-right:solid 1px #1E1E1E;
+}
+
+

@@ -1,0 +1,113 @@
+.igte_PearEditWithButtons
+{
+	font-size: 10px;
+	font-family: Segoe UI, Verdana, Arial, Sans-Serif;
+	background-color: #FFFFFF;
+	line-height:1px;
+	height:20px;
+	width: 130px;
+	outline:0;
+	border:solid 1px #BBBBBB;
+}
+
+.igte_PearEdit::-ms-clear, .igte_PearEditInContainer::-ms-clear
+{
+	display: none;
+}
+
+.igte_PearEdit
+{
+	font-size: 12px;
+	font-family: Segoe UI, Verdana, Arial, Sans-Serif;
+	background-color: #FFFFFF;
+	border:solid 1px #BBBBBB;
+	outline:0;
+}
+
+.igte_PearTextArea
+{
+	font-size: 12px;
+	font-family: Segoe UI, Verdana, Arial, Sans-Serif;
+	background-color: #FFFFFF;
+	border:solid 1px #BBBBBB;
+	outline:0;
+	resize:none;
+}
+
+.igte_PearEditInContainer
+{
+	font-size:12px;
+	font-family: Segoe UI, Verdana, Arial, Sans-Serif;
+	background-color: Transparent;
+	border-width:0px;
+	outline:0;
+}
+
+.igte_PearFocus
+{
+	background-color: #F4F6F6;
+	border-color:#507601;
+}
+
+.igte_PearHover
+{
+	border-color:#507601;
+}
+
+.igte_PearInner
+{
+	border-width: 0;
+}
+
+.igte_PearInnerFocus
+{
+}
+
+.igte_PearInnerHover
+{
+}
+
+.igte_PearButtonSize
+{
+	width:15px;
+	height:100%;
+}
+
+.igte_PearButton
+{
+	background-color: #F0F5E2;
+	border:solid 1px #507601;
+	line-height:normal;
+	cursor: pointer;
+}
+
+.igte_PearButtonFocus
+{
+}
+
+.igte_PearNullText
+{
+	color: #999999;
+}
+
+.igte_PearButtonHover
+{
+	background-color: #507601;
+}
+
+
+.igte_PearButtonPressed
+{
+	background-color: #F0F5E2;
+}
+
+
+.igte_PearButtonDisabled
+{
+	background-image: none;
+	background-color: #CCCCCC;
+}
+
+.igte_PearButtonImg
+{
+}

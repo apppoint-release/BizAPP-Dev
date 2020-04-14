@@ -1,0 +1,43 @@
+.igpnl_LucidDreamControl
+{
+	border:solid 1px #DCDCDC;
+}
+
+
+.igpnl_LucidDreamPanel
+{
+	background-color:White;
+	cursor:default;
+}
+
+
+.igpnl_LucidDreamHeaderExpanded
+{
+	background-position:bottom ;
+	background-image: url(images/header.gif);
+	font-size:xx-small;
+	font-family: Verdana;
+	padding-top:3px;
+	padding-bottom:3px;
+	cursor:hand;
+	color:White;
+}
+
+
+.igpnl_LucidDreamHeaderCollapsed
+{
+}
+
+
+.igpnl_LucidDreamHeaderHover
+{
+	background-image: url(images/header_hover.gif);
+	color:White;
+}
+
+
+.igpnl_LucidDreamGroupBoxControl
+{
+}
+
+

@@ -1,0 +1,265 @@
+.igeb_LucidDreamControl
+{
+	background-color:Transparent;
+	font-size:xx-small;
+	font-family: Segoe UI, Verdana, Helvetica, sans-serif;
+	border:solid 1px #CCCCCC;
+	border-top-width:0px;
+	overflow-x: hidden;
+	_overflow: hidden!important;
+	color:Black;
+}
+
+
+.igeb_LucidDreamGroup
+{
+	background-repeat:repeat-x;
+	background-image: url(images/igeb_GroupBg.png);
+	display: block;
+	height: 30px;
+	overflow: hidden;
+	line-height: 30px;
+	color:#003366;
+	vertical-align:middle;
+}
+
+
+.igeb_LucidDreamGroupSelected
+{
+	background-repeat:repeat-x;
+	background-position:0px -60px ;
+	background-image: url(images/igeb_GroupBg.png);
+	color:#003366;
+}
+
+
+.igeb_LucidDreamGroupActive
+{
+	background-repeat:repeat-x;
+	background-position:0px -60px ;
+	background-image: url(images/igeb_GroupBg.png);
+	color:#003366;
+}
+
+
+.igeb_LucidDreamGroupHover
+{
+	background-repeat:repeat-x;
+	background-position:0px -30px ;
+	background-image: url(images/igeb_GroupBg.png);
+	color:#0060BF;
+}
+
+
+.igeb_LucidDreamItem
+{
+	background-color:White;
+}
+
+
+.igeb_LucidDreamItemImage
+{
+	padding-top:5px;
+	padding-right:5px;
+	padding-left:0px;
+	vertical-align:middle;
+}
+
+
+.igeb_LucidDreamItemSelected
+{
+	background-color:#FFCC33;
+	background-repeat:repeat-x;
+	background-position:bottom ;
+	background-image: url(images/igeb_ItemSelectedBg.png);
+	color:White;
+}
+
+
+.igeb_LucidDreamItemActive
+{
+	background-color:#FFCC33;
+	background-repeat:repeat-x;
+	background-position:bottom ;
+	background-image: url(images/igeb_ItemSelectedBg.png);
+	color:White;
+}
+
+
+.igeb_LucidDreamItemHover
+{
+	background-color:#FFCC33;
+	background-repeat:repeat-x;
+	background-position:bottom ;
+	background-image: url(images/igeb_ItemSelectedBg.png);
+}
+
+
+.igeb_LucidDreamItemDisabled
+{
+}
+
+
+.igeb_LucidDreamGroupContents
+{
+	margin-top:0px;
+	margin-bottom:0px;
+	margin-left:0px;
+	padding-top:0px;
+	padding-bottom:0px;
+	padding-left:0px;
+	list-style: none;
+}
+
+
+.igeb_LucidDreamGroupLabel
+{
+	font-weight:bold;
+	font-size:12px;
+	font-family: Segoe UI, Verdana, Sans-Serif;
+	margin-left:5px;
+	padding-left:5px;
+	text-decoration:none;
+}
+
+
+.igeb_LucidDreamGroupDisabled
+{
+	background-repeat:repeat-x;
+	background-position:0px -90px ;
+	background-image: url(images/igeb_GroupBg.png);
+	color:#003366;
+}
+
+
+.igeb_LucidDreamGroupExpanderImage
+{
+	margin-top:5px;
+	margin-right:5px;
+	float: right;
+}
+
+
+.igeb_LucidDreamItemLabel
+{
+	font-weight:normal;
+	font-size:12px;
+	font-family: Segoe UI, Verdana, Arial, Sans-Serif;
+	display: block;
+}
+
+
+.igeb_LucidDreamHolder
+{
+    clear:left;
+}
+
+
+.igeb_LucidDreamGroupLink
+{
+	margin-bottom:0px;
+	padding-bottom:0px;
+	padding-left:6px;
+	display: block;
+	color: inherit;
+	text-decoration:none;
+}
+
+
+.igeb_LucidDreamItemLink
+{
+	padding-top:2px;
+	padding-bottom:2px;
+	display: block;
+	color:#333333;
+	text-decoration:none;
+}
+
+
+.igeb_LucidDreamItemParent
+{
+}
+
+
+.igeb_LucidDreamItemHolder
+{
+}
+
+
+.igeb_LucidDreamGroupActive a
+{
+	color:#003366;
+}
+
+
+/* IE 7 Disabled item fix */
+.igeb_LucidDreamItemDisabled a visited, .igeb_LucidDreamItemDisabled a
+{
+	color:Gray;
+}
+
+
+.igeb_LucidDreamItemContents
+{
+	margin-left:0px;
+	padding-left:0px;
+	list-style: none;
+}
+
+
+.igeb_LucidDreamGroupActive a visited
+{
+	color:#003366;
+}
+
+
+.igeb_LucidDreamGroup a
+{
+	color:#003366;
+}
+
+
+.igeb_LucidDreamGroupHover a
+{
+	color:#0060BF;
+}
+
+
+.igeb_LucidDreamGroupSelected a
+{
+	color:#003366;
+}
+
+
+/* IE 7 fix to icon bad alignment*/
+.igeb_LucidDreamItem ,.igeb_LucidDreamItemActive ,.igeb_LucidDreamItemSelected
+{
+	min-height: 30px!important;
+	_height: 30px;
+}
+
+
+.igeb_LucidDreamGroupHover a visited
+{
+	color:#0060BF;
+}
+
+
+.igeb_LucidDreamGroupSelected a visited
+{
+	color:#003366;
+}
+
+
+.igeb_LucidDreamGroup a visited
+{
+	color:#003366;
+}
+
+
+.igeb_LucidDreamItemHolder img
+{
+	vertical-align:middle;
+}
+
+

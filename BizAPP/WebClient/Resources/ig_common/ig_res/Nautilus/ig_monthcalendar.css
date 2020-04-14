@@ -1,0 +1,215 @@
+.igmc_NautilusControl
+{
+	background-color: #FFFFFF;
+	border:1px solid #24406F;
+	width: 225px;
+	height: 200px;
+	padding: 0px;
+	margin: 0px;
+	font-family: Segoe UI, Verdana, Arial, Georgia, Sans-Serif;
+}
+
+.igmc_NautilusDOW
+{
+	background-color: #F6F9FB;
+	font-size:0.8em;
+	border-width:0px;
+	border-bottom:solid 1px #D0D7E5;
+	padding: 0px;
+	text-align:center;
+	font-weight: bold;
+	height: 35px;
+}
+
+.igmc_NautilusNextPrev
+{
+	margin: 0px;
+	font-size: 0.8em;
+	color: #FFFFFF;
+	padding: 0px 8px;
+}
+
+.igmc_NautilusHoverNextPrev
+{
+	cursor: pointer;
+	color: #FF6600;
+}
+
+.igmc_NautilusPressedNextPrev
+{
+}
+
+.igmc_NautilusFooter
+{
+	background-color: #FFFFFF;
+	background-image: url(images/igmc_footerbg.gif);
+	background-repeat:repeat-x;
+	background-position: bottom;
+	border-top: 1px solid #D0D7E5;
+	font-size: 0.8em;
+	text-align:center;
+	height: 35px;
+}
+
+.igmc_NautilusHoverFooter
+{
+	background-color: #FFFFFF;
+	background-image: url(images/igmc_footerbghover.gif);
+	background-repeat:repeat-x;
+	cursor: pointer;
+}
+
+.igmc_NautilusPressedFooter
+{
+	background-color: #EEEEEE;
+	background-image: url(images/igmc_footerbgpressed.gif);
+	background-repeat:repeat-x;
+}
+
+.igmc_NautilusHeader
+{
+	background-color: #4b709b;
+	background-repeat:repeat-x;
+	background-position:top;
+	background-image: url(images/igmc_headerbg.png);
+	border-bottom: 1px solid #3F4F7D;
+	height: 50px;
+}
+
+.igmc_NautilusMonthYear
+{
+	font-size:1em;
+	font-weight:bold;
+	padding:0px 2px;
+	color: #FFFFFF;
+}
+
+.igmc_NautilusPressedMonthYear
+{
+	color: #FF6600;
+}
+
+.igmc_NautilusHoverMonthYear
+{
+	cursor: pointer;
+	color: #FF6600;
+}
+
+.igmc_NautilusDay
+{
+	background-color:#FFFFFF;
+	font-size:0.9em;
+	text-align:center;
+	border: 1px solid #FFFFFF;
+	font-weight: bold;
+}
+
+.igmc_NautilusDay.igmc_NautilusOtherMonthDay
+{
+	background-image:none;
+	color: #a4a4a4;
+	font-size:0.9em;
+	font-weight:normal;
+}
+
+.igmc_NautilusOtherMonthDay.igmc_NautilusHoverDay
+{
+	background-color: #FF6600;
+	background-image: url(images/igmc_dayselected.gif);
+	background-repeat: repeat-x;
+	border: 1px solid #FF6600;
+	color:#FFFFFF;
+	font-weight: bold;
+}
+
+
+.igmc_NautilusWeekNumber
+{
+	border: 1px solid #F2F4F9;
+	background-color: #F2F4F9;
+	font-weight: bold;
+}
+
+.igmc_NautilusWeekendDay
+{
+	background-color:#f9f9f9;
+	border: 1px solid #f9f9f9;
+}
+
+.igmc_NautilusOtherMonthDay
+{
+	color:#AAAAAA;
+	background-image: none;
+}
+
+.igmc_NautilusSelectedDay
+{
+	background-color: #EEE;
+	font-weight:bold;
+	color: #696969;
+}
+
+.igmc_NautilusTodayDay, .igmc_NautilusSelectedDay.igmc_NautilusTodayDay
+{
+	background-color: #FFAA72;
+	border: 1px solid #ff8B3F;
+	color: #FFFFFF;
+}
+
+.igmc_NautilusFocusDay, .igmc_NautilusOtherMonthDay.igmc_NautilusFocusDay
+{
+	background-color: #D0D7E5;
+	border: 1px solid #a4b2cd;
+	font-weight:bold;
+	color: #696969;
+}
+
+.igmc_NautilusHoverDay, .igmc_NautilusHoverDay.igmc_NautilusTodayDay, .igmc_NautilusOtherMonthDay.igmc_NautilusHoverDay
+
+{
+	background-color: #FF6600;
+	background-image: url(images/igmc_dayselected.gif);
+	background-repeat: repeat-x;
+	border: 1px solid #FF6600;
+	color:#FFFFFF;
+	font-weight: bold;
+}
+
+.igmc_NautilusDisabledDay
+{
+	color:#EEE;
+}
+
+/* CSS classes for Month and Year selection Popup in header */
+.igmc_NautilusList
+{
+	background-color: #fff;
+	border:1px solid #bbb;
+}
+
+.igmc_NautilusItem
+{
+	background-color:#fff;
+	border:1px solid #fff;
+	font-size: 1em;
+	text-align: center;
+}
+
+.igmc_NautilusSelectedItem
+{
+	background-color: #D0D7E5;
+	border: 1px solid #a4b2cd;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.igmc_NautilusHoverItem
+{
+	background-color: #FF6600;
+	background-image: url(images/igmc_dayselected.gif);
+	background-repeat: repeat-x;
+	border: 1px solid #FF6600;
+	color:#FFFFFF;
+	font-weight: bold;
+	cursor:pointer;
+}

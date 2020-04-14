@@ -1,0 +1,56 @@
+﻿body
+{
+}
+.igpb_ClaymationBaseLabel
+{
+	text-align:left;
+	white-space:nowrap;
+	position:absolute;
+	padding:2px;
+}
+.igpb_ClaymationBackgroundLabel
+{
+	color:white;
+}
+.igpb_ClaymationForegroundLabel
+{
+	color:Black;
+}
+.igpb_ClaymationInnerDiv
+{
+	height:100%;
+	width:100%;
+	position:absolute;
+	overflow:hidden;
+	
+}
+.igpb_ClaymationFill_Horiz
+{
+	background-image: url(./images/igpb_horizontalFill.gif);
+	background-repeat: repeat-x;
+	background-color: #A9A9A9;
+	background-position:center;
+}
+.igpb_ClaymationFill_Vert
+{
+	background-image: url(./images/igpb_VerticalFill.gif);
+	background-position:center;
+	background-repeat: repeat-y;
+	background-color: #A9A9A9;
+}
+.igpb_ClaymationBackground_Horiz
+{
+		background-color:#A9A9A9;
+}
+.igpb_ClaymationBackground_Vert
+{
+		background-color:#A9A9A9;
+}
+.igpb_ClaymationContainer
+{
+	height:100%;
+	width:100%;
+	position:relative;
+    border:solid 1px #ACACAC;
+	overflow: hidden;
+}

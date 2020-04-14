@@ -1,0 +1,269 @@
+.igdv_IGControl
+{
+	border: 1px solid #B1B1B1;
+	font-family:'Segoe UI',verdana,sans-serif;
+	font-weight:normal;
+}
+
+
+.igdv_IGCaptionHeader
+{
+	background-color:#FFFFFF;
+	background-image: url(images/igdv_CaptionHeaderBg.gif);
+	background-position:left bottom;
+	border-bottom: 1px solid #E7E7E7;
+	font-weight:bold;
+	font-size:8pt;
+	padding: 5px;
+	line-height: 20px;
+	height: 25px;
+	color: #000000;
+	text-align:center;
+}
+
+
+.igdv_IGDayHeader
+{
+	background-color: #4F4F4F;
+	background-repeat:repeat-x;
+	background-image: url(images/igws_dayheader.jpg);
+	font-size: 8pt;
+	border-width: 0;
+	border-bottom:solid 1px #535353;
+	padding:0 3px;
+	color: #FFFFFF;
+	text-align:center;
+	vertical-align:middle;
+	overflow: hidden;
+	height: 25px;
+}
+
+
+.igdv_IGNonWorkingTimeSlot
+{
+	background-color:#EAEAEA;
+	border-bottom:solid 1px #D4D4D4;
+	height: 27px;
+}
+
+
+.igdv_IGWorkingTimeSlot
+{
+	background-color: #ffffff;
+	border-bottom:solid 1px #E7E7E7;
+	height: 27px;
+}
+
+
+.igdv_IGAllDayEventArea
+{
+	background-image:url(images/igws_alldayeventbg.gif);
+	background-position: left bottom;
+	background-repeat:repeat-x;
+	border-top:1px solid #B1B1B1;
+	border-bottom:1px solid #B1B1B1;
+	border-right:none;
+	height:25px;
+	color:#393939;
+	font-size:8pt;
+	text-align:center;
+}
+
+
+.igdv_IGAllDayEvent
+{
+	background-color:#FFF;
+	font-size:8pt;
+	background-repeat: repeat-x;
+	background-image: url(images/igws_alldayeventbg.gif);
+	padding: 5px;
+	border: 1px solid #B1B1B1;
+	white-space: nowrap;
+	text-align: center;
+	overflow: hidden;
+;
+}
+
+
+.igdv_IGAppointment
+{
+	background-color: #FFF;
+	background-repeat: repeat-x;
+	background-image: url(images/igws_alldayeventbg.gif);
+	background-position: left bottom;
+	font-size:8pt;
+	border:solid 1px #B1B1B1;
+	overflow: hidden;
+	color:#393939;
+	font-size:8pt;
+	text-align:center
+}
+
+.igdv_IGFadedAppointment
+{
+	filter:alpha(opacity=50);
+	-moz-opacity:0.5;
+	-khtml-opacity: 0.5;
+	opacity: 0.5;
+}
+
+.igdv_IGActivityEdge
+{
+	font-size:1px;
+	height: 4px;
+	cursor:n-resize;
+}
+
+
+.igdv_IGActivityEdgeLeft
+{
+	font-size: 2px;
+	width: 6px;
+	cursor: move;
+}
+
+
+.igdv_IGTodayHeader
+{
+	background-color: #2788B1;
+	font-size:8pt;
+	background-position: left top;
+	background-repeat: repeat-x;
+	background-image: url(images/igws_todayheaderbg.gif);
+	border:solid 1px #2788B1;
+	height: 26px;
+	text-align:center;
+	vertical-align:middle;
+	overflow: hidden;
+	color:#FFFFFF;
+}
+
+
+.igdv_IGTimeSlotLabel
+{
+	background-color:#FFFFFF;
+	font-size:15pt;
+	border-right:solid 1px #2788B1;
+	border-bottom:solid 1px #B1B1B1;
+	width: 60px;
+	text-align:center;
+	vertical-align: middle;
+	color:#393939;
+	font-family:'Segoe UI',verdana,sans-serif;
+	font-weight:normal;
+}
+
+.igdv_IGTimeSlotLabelMinutes
+{
+	font-size:8pt;
+	vertical-align:super;
+	text-transform:uppercase;
+}
+
+
+.igdv_IGAllDayEventSelected
+{
+	background-color: #fada82;
+	background-repeat: repeat-x;
+	background-image: url(images/igws_dayheaderbg.gif);
+}
+
+
+.igdv_IGAllDayEventAreaSelected
+{
+	background-color: #DBDEE1;
+}
+
+
+.igdv_IGActivityHover
+{
+	z-index: 10000;
+}
+
+
+.igdv_IGActivityEdgeBusy
+{
+	background-color:#E6EDF7;
+}
+
+
+.igdv_IGActivityEdgeTentative
+{
+	background-color:transparent;
+}
+
+
+.igdv_IGActivityEdgeOutofOffice
+{
+	background-color:#E6EDF7;
+}
+
+
+.igdv_IGActivityEdgeFree
+{
+	background-color:#E6EDF7;
+}
+
+
+.igdv_IGNavigationButton
+{
+	background-color: Transparent;
+	border-width: 0px;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+
+.igdv_IGSelectedAppointment
+{
+	z-index: 9999;
+}
+
+.igdv_IGResourceButton
+{
+	background: #4F4F4F url(images/igws_dayheader.jpg) repeat-x 0 0;
+	padding: 4px;
+	font-size: 8pt;
+	font-family:'Segoe UI',verdana,sans-serif;
+	font-weight:normal;
+	color: #FFFFFF;
+	border-width: 0;
+	border-right: solid 1px #4F4F4F;
+	border-bottom: solid 1px #4F4F4F;
+}
+
+.igdv_IGResourceButton:focus, .igdv_IGResourceButtonActive
+{
+	filter:alpha(opacity=100);
+	-moz-opacity:1.0;
+	-khtml-opacity: 1.0;
+	opacity: 1.0;
+}
+
+.igdv_IGResourceButton:hover
+{
+	filter:alpha(opacity=100);
+	-moz-opacity:1.0;
+	-khtml-opacity: 1.0;
+	opacity: 1.0;
+}
+
+.igdv_IGMultiDayEventArrowLeft
+{
+      background-image: url(images/igws_arrowLeft.gif);
+      background-repeat: no-repeat;
+      background-position: center center;
+      display: inline-block;
+      width: 9px;
+      height: 9px;
+}
+
+.igdv_IGMultiDayEventArrowRight
+{
+      background-image: url(images/igws_arrowRight.gif);
+      background-repeat: no-repeat;
+      background-position: center center;
+      display: inline-block;
+      width: 9px;
+      height: 9px;
+}

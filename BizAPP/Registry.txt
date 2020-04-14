@@ -1,0 +1,18 @@
+[
+  {
+    "ServiceName": null,
+    "EnterpriseName": null,
+    "ServiceID": "AutoUpdaterHostedService",
+    "ServiceType": "BizAPP.Runtime.Core.Service.AutoUpdate.IAutoUpdaterService, BizAPP.Runtime.Core, Version=1.1.0.37, Culture=neutral, PublicKeyToken=5cd91901593ba07f",
+    "ServiceTypeAssemblyQualifiedName": null,
+    "ResourceUri": null,
+    "Properties": null,
+    "UniqueId": "AutoUpdaterHostedService",
+    "IsWCF": true,
+    "WCFEndPoint": "http://ksara:10001/",
+    "IsCloudDeployment": false,
+    "WCFIssuerName": null,
+    "WCFIssuerSecret": null,
+    "CreatedOn": "2019-06-23T21:12:04.2221515+05:30"
+  }
+]

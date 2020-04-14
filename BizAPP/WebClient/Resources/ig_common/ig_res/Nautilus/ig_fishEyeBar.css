@@ -1,0 +1,41 @@
+﻿.igfeb_NautilusControl
+{
+	background-color: Transparent;
+}
+
+.igfeb_NautilusControlHover
+{
+				
+				
+}
+
+.igfeb_NautilusFishEyeItemLabel
+{
+}
+
+.igfeb_NautilusFishEyeItem
+{
+}
+
+.igfeb_NautilusFishEyeItemHover
+{			
+}
+
+.igfeb_NautilusFishEyeItemDisabled
+{
+				
+				
+}
+
+.igfeb_NautilusControlFocus
+{
+				
+				
+}
+
+.igfeb_NautilusFishEyeItemSelected
+{
+	background-position: bottom;
+	background-image: url(images/igfeb_itemselected.png);	
+	background-repeat:  no-repeat;
+}

@@ -1,0 +1,53 @@
+﻿body
+{
+}
+.igpb_ElectricBlueBaseLabel
+{
+	text-align:left;
+	white-space:nowrap;
+	position:absolute;
+	padding:2px;
+}
+.igpb_ElectricBlueBackgroundLabel
+{
+	color:Black;
+}
+.igpb_ElectricBlueForegroundLabel
+{
+	color:white;
+}
+.igpb_ElectricBlueInnerDiv
+{
+	height:100%;
+	width:100%;
+	position:absolute;
+	overflow:hidden;
+	
+}
+.igpb_ElectricBlueFill_Horiz
+{
+	background-image: url(./images/igpb_horizontalFill.gif);
+	background-repeat: repeat-x;
+	background-color: #1E5A91;
+}
+.igpb_ElectricBlueFill_Vert
+{
+	background-image: url(./images/igpb_VerticalFill.gif);
+	background-repeat: repeat-y;
+	background-color: #1E5A91;
+}
+.igpb_ElectricBlueBackground_Horiz
+{
+}
+.igpb_ElectricBlueBackground_Vert
+{
+	
+}
+.igpb_ElectricBlueContainer
+{
+	height:100%;
+	width:100%;
+	position:relative;
+	border: solid 1px #052684;
+	overflow: hidden;
+}

@@ -1,0 +1,417 @@
+/*
+
+Main control CSS class
+*/
+.igdd_ClaymationControl
+{
+}
+
+
+/*
+ Main Control CSS class when it's disabled
+*/
+.igdd_ClaymationControlDisabled
+{
+}
+
+
+/*
+ Main control css class on hover
+*/
+.igdd_ClaymationControlHover
+{
+	background-color:#FAFAFA;
+}
+
+
+/*
+
+*/
+.igdd_ClaymationControlFocus
+{
+	background-color:#FAFAFA;
+	border:solid 1px #999999;
+	table-layout: fixed;
+}
+
+
+.igdd_ClaymationControlArea
+{
+	border:solid 1px #C5C7CB;
+	table-layout: fixed;
+}
+
+
+/*
+CSS class for the actual input field (<input type="text" />)
+*/
+.igdd_ClaymationValueDisplay
+{
+	background-color:Transparent;
+	font-weight:normal;
+	font-size:10pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	border-width:0px;
+	width: 100%;
+	z-index: 0;
+}
+
+
+/*
+
+*/
+.igdd_ClaymationValueDisplayHover
+{
+}
+
+
+/*
+
+*/
+.igdd_ClaymationValueDisplayFocus
+{
+}
+
+
+/*
+
+*/
+.igdd_ClaymationValueDisplayDisabled
+{
+    background-color:Transparent;
+    border:0px;
+    font-family:Verdana,Arial,Helvetica,sans-serif;
+    font-size:10pt;
+    font-weight:normal;
+    width:100%;
+    z-index:0;
+}
+
+
+/*
+
+*/
+.igdd_ClaymationValueDisplayReadOnly
+{
+}
+
+
+/*
+
+*/
+.igdd_ClaymationDropDownList
+{
+	background-color:White;
+	font-size:10pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin:0px;
+	padding:1px;
+}
+
+
+/*
+
+*/
+.igdd_ClaymationDropDownListHover
+{
+}
+
+
+/*
+
+*/
+.igdd_ClaymationDropDownListReadOnly
+{
+}
+
+
+/*
+	
+*/
+.igdd_ClaymationDropDownListContainer
+{
+	background-color:White;
+	border:solid 1px #C5C7CB;
+	float: left;
+}
+
+
+/*
+
+*/
+.igdd_ClaymationDropDownListContainerHover
+{
+}
+
+
+/*
+
+*/
+.igdd_ClaymationDropDownButton
+{
+	width: 17px;
+	z-index: 9999;
+}
+
+.igdd_ClaymationDropDownButton img 
+{
+    display:block;
+}
+
+
+/*
+
+*/
+.igdd_ClaymationDropDownButtonHover
+{
+}
+
+
+/*
+CSS class that controls the style of the LI items in the list
+*/
+.igdd_ClaymationListItem
+{
+	font-size:10pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	border:solid 1px Transparent;
+	padding:3px 5px 3px 5px;
+	list-style-type: none;
+	width: auto;
+	min-height: 15px;
+	height: auto !important;
+	cursor:pointer;
+}
+	/* IE 6 fix */
+	.ie6 .igdd_ClaymationListItem {
+		border:solid 1px white;
+	}
+
+/*
+
+*/
+.igdd_ClaymationListItemActive
+{
+	background-color:#AAAAAA;
+	border:solid 1px #00BFFF;
+	list-style-type: none;
+}
+
+
+/*
+
+*/
+.igdd_ClaymationListItemHover
+{
+	background-color:DeepSkyBlue;
+	list-style-type: none;
+}
+	/* IE 6 fix */
+	.ie6 .igdd_ClaymationListItemHover {
+		border:solid 1px white;
+	}
+
+/*
+
+*/
+.igdd_ClaymationListItemSelected
+{
+	background-color:#DDDDDD;
+	list-style-type: none;
+}
+
+
+/*
+
+*/
+.igdd_ClaymationListItemDisabled
+{
+	list-style-type: none;
+	width: auto;
+	cursor:default;
+}
+
+
+/*
+Applied to the whole pager
+*/
+.igdd_ClaymationPager
+{
+	background-color:WhiteSmoke;
+	border-top:solid 1px #C5C7CB;
+	vertical-align:middle;
+}
+
+
+/*
+Loading message container
+*/
+.igdd_ClaymationLoadingItemsMessage
+{
+	background-color:DeepSkyBlue;
+	font-weight:bold;
+	font-size:10pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin:1px 0px 0px 1px;
+	padding:3px;
+	color:White;
+}
+
+
+/*
+Styles the current page link only
+*/
+.igdd_ClaymationPageCurrent
+{
+	font-size:8pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin-top:5px;
+	margin-right:3px;
+	float: left;
+	cursor:pointer;
+	color:DeepSkyBlue;
+	text-decoration:underline;
+	vertical-align:middle;
+}
+
+
+/*
+Styles all page links in general 
+*/
+.igdd_ClaymationPageLink
+{
+	font-size:8pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin-top:5px;
+	margin-right:3px;
+	float: left;
+	cursor:pointer;
+	color:#333333;
+	vertical-align:middle;
+}
+
+
+/*
+
+*/
+.igdd_ClaymationDropDownListFocus
+{
+}
+
+
+.igdd_ClaymationListItem a:active
+{
+}
+
+
+/*
+
+*/
+.igdd_ClaymationDropDownListDisabled
+{
+}
+
+
+/*
+Styling for anchor when hovered anywhere on ListItem
+*/
+.igdd_ClaymationListItemHover a:link
+{
+	color:White;
+	text-decoration:none;
+}
+
+
+/*
+For Disabled=True of a DropDownItem
+*/
+.igdd_ClaymationListItemDisabled a:link
+{
+	cursor:default;
+	color:#CCCCCC;
+}
+
+
+.igdd_ClaymationListItemActive a:link
+{
+	color:White;
+	text-decoration:none;
+}
+
+
+/*
+	
+*/
+.igdd_ClaymationDropDownButtonFocus
+{
+}
+
+
+.igdd_ClaymationListItem a:visited
+{
+	color:#333333;
+	text-decoration:none;
+}
+
+
+/*
+ CSS class for the table that accomodates the value display and the drop down button, and which is a 
+ child of the main control (div)
+*/
+.igdd_ClaymationValueDisplayTable
+{
+}
+
+
+/*
+
+*/
+.igdd_ClaymationDropDownButtonDisabled
+{
+}
+
+
+/*
+
+*/
+.igdd_ClaymationDropDownListContainerFocus
+{
+}
+
+
+.igdd_ClaymationListItem a:link
+{
+	color:#333333;
+	text-decoration:none;
+}
+
+
+.igdd_ClaymationListItem a:hover
+{
+}
+
+
+/*
+pseudo class used so Value Display input does not have focus
+glow in some browsers like GoogleChrome or AppleSafari
+*/
+input:focus
+{
+	outline: none;
+}
+
+
+/*
+
+*/
+.igdd_ClaymationListItemFocus
+{
+	list-style-type: none;
+	width: auto;
+}
+
+/* hide IE 10 clear button */
+.igdd_ClaymationValueDisplay::-ms-clear
+{
+    display : none;
+}

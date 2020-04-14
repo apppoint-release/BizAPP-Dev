@@ -1,0 +1,41 @@
+﻿.igfeb_ClaymationControl
+{
+	background-color: Transparent;
+}
+
+.igfeb_ClaymationControlHover
+{
+				
+				
+}
+
+.igfeb_ClaymationFishEyeItemLabel
+{
+}
+
+.igfeb_ClaymationFishEyeItem
+{
+}
+
+.igfeb_ClaymationFishEyeItemHover
+{			
+}
+
+.igfeb_ClaymationFishEyeItemDisabled
+{
+				
+				
+}
+
+.igfeb_ClaymationControlFocus
+{
+				
+				
+}
+
+.igfeb_ClaymationFishEyeItemSelected
+{
+	background-position: bottom;
+	background-image: url(images/igfeb_itemselected.png);	
+	background-repeat:  no-repeat;
+}

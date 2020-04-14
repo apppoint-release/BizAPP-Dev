@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<modules>
+	<!--
+	<externalproviders>
+		<assemblies>
+			<assembly name="BizAPP.ExternalDataSource.MPhasisAppGate, Version=1.1.0.1, Culture=neutral, PublicKeyToken=bc1aabc9722d6b0e" />
+		</assemblies>
+	</externalproviders>
+	<complexeventprocessing>
+		<assemblies>
+			<assembly name="BizAPP.Runtime.ComplexEventProcessing.Nesper, Version=1.1.0.37, Culture=neutral, PublicKeyToken=9cb953fb35345810" />
+		</assemblies>
+	</complexeventprocessing>
+	<tenantcacheproviders>
+		<assemblies>
+			<assembly name="BizAPP.Runtime.Core.Framework, Version=1.1.0.1, Culture=neutral, PublicKeyToken=5cd91901593ba07f" />
+		</assemblies>
+	</tenantcacheproviders>
+	<sessioncacheproviders>
+		<assemblies>
+			<assembly name="BizAPP.Runtime.Core.Framework, Version=1.1.0.1, Culture=neutral, PublicKeyToken=5cd91901593ba07f" />
+		</assemblies>
+	</sessioncacheproviders>
+	<biometricproviders>
+		<assemblies>
+			<assembly name="BizAPP.Runtime.Biometric.M2Sys, Version=1.1.0.37, Culture=neutral, PublicKeyToken=bc1aabc9722d6b0e" />
+		</assemblies>
+	</biometricproviders>
+	<ocrproviders>
+		<assemblies>
+			<assembly name="BizAPP.Runtime.OCR.CoreLogic, Version=1.1.0.37, Culture=neutral, PublicKeyToken=bc1aabc9722d6b0e" />
+		</assemblies>
+	</ocrproviders>
+	<translationengineproviders>
+		<assemblies>
+			<assembly name="BizAPP.Translation.MS, Version=1.1.0.37, Culture=neutral, PublicKeyToken=bc1aabc9722d6b0e" />
+		</assemblies>
+	</translationengineproviders>
+	<smssendengineproviders>
+		<assemblies>
+			<assembly name="BizAPP.Runtime.Core.Framework, Version=1.1.0.1, Culture=neutral, PublicKeyToken=5cd91901593ba07f" />
+		</assemblies>
+	</smssendengineproviders>
+	<smssendproviders>
+		<assemblies>
+			<assembly name="BizAPP.SMS.Sender.SMSCountry, Version=1.1.0.37, Culture=neutral, PublicKeyToken=bc1aabc9722d6b0e" />
+			<assembly name="BizAPP.SMS.Sender.Way2Mint, Version=1.1.0.37, Culture=neutral, PublicKeyToken=bc1aabc9722d6b0e" />
+		</assemblies>
+	</smssendproviders>
+	<objectmessaging>
+		<assemblies>
+			<assembly name="BizAPP.Runtime.Core.Framework.Messaging, Version=1.1.0.37, Culture=neutral, PublicKeyToken=5cd91901593ba07f" />
+		</assemblies>
+	</objectmessaging>
+	<backgroundtransienttasks>
+		<assemblies>
+			<assembly name="BizAPP.Runtime.Core.Framework.BackgroundTransientTaskAgent, Version=1.1.0.37, Culture=neutral, PublicKeyToken=5cd91901593ba07f" />
+		</assemblies>
+	</backgroundtransienttasks>
+	<jobhandlers>
+		<assemblies>
+			<assembly name="BizAPP.AsyncServices.Services.Job, Version=1.1.0.37, Culture=neutral, PublicKeyToken=895b644ef4b347d4" />
+		</assemblies>
+	</jobhandlers>
+	-->
+</modules>

@@ -1,0 +1,89 @@
+.igmn_PearControl
+{
+	background-color:#BBD17E;
+	background-repeat:repeat-x;
+	border-color:Transparent;
+}
+
+
+.igmn_PearIsland
+{
+	background-color:#E5ECCF;
+	border:solid 1px #C3C3C3;
+}
+
+
+.igmn_PearItem
+{
+	background-color:Transparent;
+	border:solid 1px Transparent;
+	height: 20px;
+	cursor:hand;
+}
+
+
+.igmn_PearLeaf
+{
+}
+
+
+.igmn_PearParent
+{
+}
+
+
+.igmn_PearTopLevelLeaf
+{
+}
+
+
+.igmn_PearTopLevelParent
+{
+}
+
+
+.igmn_PearHeader
+{
+}
+
+
+.igmn_PearSeparator
+{
+	background-color:Yellow;
+	color:Black;
+}
+
+
+.igmn_PearHover
+{
+	background-color:#BBD17E;
+	border:solid 1px #FFFDFD;
+	padding:0px;
+	height: 20px;
+	color:White;
+}
+
+
+.igmn_PearTopLevelHover
+{
+	background-color:#636A4C;
+	border:solid 1px #FFFDFD;
+	padding:0px;
+	height: 20px;
+	color:White;
+}
+
+
+.igmn_PearTopSelected
+{
+}
+
+
+.igmn_PearDisabled
+{
+	font-size:xx-small;
+	font-family: Verdana;
+	color:#B4B4B4;
+}
+
+

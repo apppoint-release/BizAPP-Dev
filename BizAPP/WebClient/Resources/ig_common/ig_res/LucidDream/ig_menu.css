@@ -1,0 +1,89 @@
+.igmn_LucidDreamControl
+{
+	background-color:#E3EFFF;
+	background-image: url(images/groupbyheader.gif);
+	border-color:WhiteSmoke;
+}
+
+
+.igmn_LucidDreamIsland
+{
+	background-color:White;
+	background-repeat:repeat-y;
+	background-position:left ;
+	background-image: url(images/buttonbg.png);
+	border:solid 1px #E1E1E1;
+}
+
+
+.igmn_LucidDreamItem
+{
+	background-color:Transparent;
+	background-image:none;
+	border:solid 1px Transparent;
+	padding-top:5px;
+	padding-bottom:5px;
+	cursor:hand;
+}
+
+
+.igmn_LucidDreamLeaf
+{
+}
+
+
+.igmn_LucidDreamParent
+{
+}
+
+
+.igmn_LucidDreamTopLevelLeaf
+{
+}
+
+
+.igmn_LucidDreamTopLevelParent
+{
+}
+
+
+.igmn_LucidDreamHeader
+{
+}
+
+
+.igmn_LucidDreamSeparator
+{
+}
+
+
+.igmn_LucidDreamHover
+{
+	background-position:center ;
+	background-image: url(images/header.gif);
+	border:solid 1px #699BC9;
+	color:White;
+}
+
+
+.igmn_LucidDreamTopLevelHover
+{
+	background-position:center ;
+	background-image: url(images/header.gif);
+	border:solid 1px #699BC9;
+}
+
+
+.igmn_LucidDreamTopSelected
+{
+}
+
+
+.igmn_LucidDreamDisabled
+{
+	font-size:x-small;
+	font-family: Verdana;
+	color:#D2D2D2;
+}
+
+

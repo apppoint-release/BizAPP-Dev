@@ -1,0 +1,96 @@
+.igcv_ClaymationControl
+{
+}
+
+
+.igcv_ClaymationCaptionHeader
+{
+	background-color:#F0F0F0;
+	font-size:8pt;
+	padding:3px;
+	width: 100%;
+	white-space: nowrap;
+	color:Black;
+	text-align:center;
+}
+
+
+.igcv_ClaymationDayHeader
+{
+	font-size:11px;
+	border-width:0px;
+	border-bottom:solid 1px #9199A4;
+	padding:5px 0px 0px 0px;
+}
+
+
+.igcv_ClaymationDay
+{
+	background-image: url(images/day_bg.jpg);
+	font-size:11px;
+	border-width:0px;
+	cursor:hand;
+	text-align:center;
+}
+
+
+.igcv_ClaymationFooter
+{
+	background-color:#EEEEEE;
+
+	font-size:8pt;
+	padding:3px;
+	white-space: nowrap;
+	cursor:pointer;
+	text-align:left;
+}
+
+
+.igcv_ClaymationDropDown
+{
+	font-size:8pt;
+}
+
+
+.igcv_ClaymationOtherMonthDay
+{
+	background-color:White;
+	color:#B3B3B3;
+}
+
+
+.igcv_ClaymationWeekendDay
+{
+	background-color:#FAFAFA;
+}
+
+
+.igcv_ClaymationNavigationButton
+{
+	background-color:#F0F0F0;
+	padding-right:3px;
+	padding-left:3px;
+	cursor:pointer;
+}
+
+
+.igcv_ClaymationTodayDay
+{
+	border:solid 1px #696969;
+}
+
+
+.igcv_ClaymationActivityDay
+{
+	font-weight:bold;
+}
+
+
+.igcv_ClaymationActiveDay
+{
+	background-color:#5A5A5A;
+	background-image:none;
+	color:White;
+}
+
+
