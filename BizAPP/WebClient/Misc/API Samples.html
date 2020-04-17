@@ -1,0 +1,161 @@
+﻿<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<title>API Samples</title>
+</head>
+
+<body>
+	<div id="login" class="w-50 m-auto pt-4">
+		<h1>Login</h1>
+		<div class="form-group">
+			<label for="exampleInputEmail1">Email address</label>
+			<input type="email" class="form-control" id="un" aria-describedby="emailHelp">
+		</div>
+		<div class="form-group">
+			<label for="exampleInputPassword1">Password</label>
+			<input type="password" class="form-control" id="pw">
+		</div>
+
+		<span class="btn btn-primary float-right" onclick="loginUNPW()">Login</span>
+	</div>
+
+	<div id="home" style="display:none">
+		<span class="h1">Home</span>
+		<img src="" id="photo" />
+		<span class="btn btn-primary float-right" onclick="logout()">Logout</span>
+
+		<div id="json"></div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-jsonview/1.2.3/jquery.jsonview.min.css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-jsonview/1.2.3/jquery.jsonview.min.js"></script>
+
+	<!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script> -->
+	<script>
+		var baseURI = 'http://localhost',
+			secondBaseURI = 'https://homelink.apppoint.com',
+			sessionId = '',
+			photoid = 'HLUser27c9e2';
+
+		function loginUNPW() {
+			var un = $('#un').val(),
+				pw = $('#pw').val();
+			if (!un) un = "admin";
+			if (!pw) pw = "admin";
+
+			var data = {
+				"userName": un,
+				"password": pw,
+				"enterprise": "Homelink_U",
+				"provider": "BizAPP"
+			};
+			$.ajax({
+				url: baseURI + '/authenticate.svc/jsonn/Login',
+				method: 'get',
+				dataType: 'json',
+				contentType: "application/jsonn; charset=utf-8",
+				data: data,
+				success: function (a, b, c) {
+					sessionId = a
+					if (sessionId) {
+						$('#login').hide()
+						$('#home').show()
+						//executeQuery('EHLMaster9c19f');
+
+						loadPhoto(photoid)
+						//executeQuery1('EHomelink_Mb9d67')
+						executeQuery1('EHomelink_Mb9e15', { organizationid: 'HLUser1c65a4', selecteddate: '24-Jun-2017 03:21:24 AM' })
+					}
+				}
+			})
+		}
+
+		function logout() {
+			var data = {
+				"cookie": sessionId
+			};
+			$.ajax({
+				url: baseURI + '/authenticate.svc/jsonn/Logout',
+				method: 'get',
+				dataType: 'json',
+				contentType: "application/jsonn; charset=utf-8",
+				data: data
+			})
+
+			$('#login').show()
+			$('#home').hide()
+		}
+
+		function evalExpr(exp, callback) {
+			var data = JSON.stringify({
+				"type": "HelperEx",
+				"enterpriseName": "",
+				"sessionId": "",
+				"args": ["EvaluateExpression", exp, "false", "false", "", true],
+				"id": 2
+			})
+			$.ajax({
+				url: baseURI + '/silverlightdataaccess.asmx/jsonajaxcall',
+				method: 'post',
+				dataType: 'text',
+				contentType: "application/json; charset=utf-8",
+				data: data,
+				success: function (a, b, c) {
+					a = JSON.parse(a).d
+					callback(a)
+				}
+			})
+		}
+
+		function loadPhoto(pid) {
+			evalExpr('$currentuserid$', function (a) {
+				$('#photo').attr('src', baseURI + '/testresource.aspx?aid=' + pid + '&id2=ESystema4d6a')// a[1].replace(/"/g, '')
+			})
+		}
+
+		function executeQuery(qid) {
+			$.get(baseURI + '/customobjects/qbyeid/' + qid + 'Page0/20').done(function (a) {
+				$("#json").JSONView(a);
+			}).fail(function (a) {
+				$("#json").JSONView(JSON.parse(a.responseText));
+			}) //Page{pagenumber}/{pagesize}
+		}
+
+		function executeQuery1(qid, viewparams) {
+			var data = JSON.stringify({
+				"type": "HelperEx",
+				"enterpriseName": "",
+				"sessionId": "",
+				"args": ["ExecuteQuery", qid, "", "10", "0", "false"],
+				"id": 2
+			})
+			if (viewparams) {
+				var headers = {
+					"Bza-Options": JSON.stringify({ viewparams: viewparams })
+				}
+			}
+			$.ajax({
+				url: baseURI + '/silverlightdataaccess.asmx/jsonajaxcall',
+				method: 'post',
+				dataType: 'text',
+				contentType: "application/json; charset=utf-8",
+				data: data,
+				headers: headers,
+				success: function (a, b, c) {
+					a = JSON.parse(a).d[1];
+					$("#json").JSONView(JSON.parse(a));
+				}
+			})
+		}
+	</script>
+</body>
+
+</html>

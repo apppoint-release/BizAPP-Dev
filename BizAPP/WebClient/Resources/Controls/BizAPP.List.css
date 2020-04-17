@@ -1,0 +1,364 @@
+.fullscreen {
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1050;
+  width: 100%!important;
+  background: #FFF;
+}
+
+/*table.dataTable thead th {
+  padding: 8px 18px 8px 8px;
+}*/
+
+table.dataTable {
+  border-collapse: collapse;
+}
+
+table.dataTable thead th {
+  padding: 8px;
+  border-right: 1px solid #ccc; 
+  border-left: 1px solid #ccc; 
+  border-top: 1px solid #ccc; 
+}
+
+table.dataTable thead .sorting {
+  margin-left: 10px;
+  background-image: unset;
+}
+
+.tableHeader {
+  display:inline-block;
+  margin-right:5px; 
+  max-width: 75%; 
+  text-overflow: ellipsis;
+}
+
+.fiterContainer {
+  display:inline-block;
+  width: 20%;
+  min-width: 18px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.fiterContainer button {
+  border: none;
+  z-index: 1060;
+}
+
+.filterRow th {
+  padding: 8px !important;
+}
+
+.filter_column {
+  padding: 8px;
+}
+
+.dataTables_length{
+  padding-left: 5px;
+}
+
+.showCountLink {
+	float: right;
+  margin: 5px;
+  /*font-weight: 700;*/
+}
+
+.showCountLink > div
+{
+  display: inline-block;
+  margin: 5px;
+  margin-right: 0;
+}
+
+table.dataTable.dtr-inline.collapsed>tbody>tr[role="row"]>td:first-child:before, table.dataTable.dtr-inline.collapsed>tbody>tr[role="row"]>th:first-child:before {
+  top: auto;
+}
+
+table.dataTable th {
+  border-bottom: 0;
+}
+
+.filter-container {
+  position: fixed;
+  padding: 10px;
+  width: 150px;
+  height: 80px;
+  /*border: 2px solid blue;*/
+}
+
+.dropdown-menu {
+  min-width: 155px;
+}
+
+.fa.fa-filter{
+  color: transparent;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
+}
+
+.no_sort::before {
+  display: none;
+}
+
+.first_col::before {
+  display: none;
+}
+
+.sortBy {
+    /*max-width: 200px;*/
+    position: relative;
+    float: left;
+}
+#searchclear {
+    position: absolute;
+    right: 7px;
+    top: 4px;
+    bottom: 0;
+    height: 14px;
+    margin: auto;
+    font-size: 10px;
+    cursor: pointer;
+    color: #999;
+    z-index: 2;
+}
+
+.filterIcn{
+  color: transparent;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
+}
+
+.filterIcn.selected {
+  /*color: #00b400;*/
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+
+.searchinput {
+  width: 110px;
+}
+
+.gridcell-first {
+  min-width: 100px;
+}
+
+.gridcell-common {
+  min-width: 100px;
+  max-width: 200px;
+  /*overflow: hidden;*/
+  text-overflow: ellipsis;
+}
+
+th.gridcell-first.sorting {
+  border-left: 0;
+}
+
+td.gridcell-common {
+  min-width: 100px;
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.gridcell-date {
+  min-width: 100px;
+  max-width: 200px;
+}
+
+.dataTables_wrapper .dataTables_paginate {
+  width: 100%;
+  padding-top: 10px;
+}
+
+.dtChkBox {
+  width: 18px;
+  height: 18px;
+  /*top: 6px;
+  left: -10px;*/
+  float: left;
+  /*margin: 0 !important;*/
+  font-size: 18px;
+  position: relative;
+  margin: 0px 0px 0px 10px!important;
+  padding: 10px !important;
+}
+
+.dtChkBoxText {
+  height: 20px;
+}
+
+.dtChkBoxText .glyphicon::before{
+  font-size: 18px;
+}
+
+#bTable{
+  /*margin: 0 auto;*/
+  width: 100%;
+  clear: both;
+  border-collapse: collapse;
+  /*table-layout: fixed; */
+  word-wrap:break-word; 
+}
+
+.no_record_row {
+  display: none;
+  text-align: center;
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+
+a {
+  text-decoration: none;
+}
+a:focus, a:hover {
+  color: #23527c;
+  text-decoration: none;
+}
+.input-group {
+position: unset !important;
+}	
+a.tree-anchor {
+    position: relative;
+}
+
+a.i_edit {	
+  position: absolute;
+  right: 7px;
+}
+a.i_ok .fa.fa-check {
+  margin-left: 5px;
+  font-size:16px;
+}
+a.i_ok i, a.i_cancel i {
+  margin-right:0px;
+  font-size:16px;
+  width:35px;
+  text-align:center;
+}
+a.i_edit .fa.fa-pencil {
+  font-size:16px
+}
+
+/*.sortBy {
+  width: 80%;
+}*/
+
+/*.navigation.dropdown-menu.fieldPickerDropdown.show > span {
+  position: absolute;
+  left: 80px;
+  width: 20px;
+  height: 20px;
+  top: -12px;
+  width: 0;
+  height: 0;
+  content: '';
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #3c8dbc;
+}*/
+
+/*right: 0;left: unset;top: 35px;border: 2px solid #3c8dbc;
+    border-top: 2px solid #3c8dbc !important;box-shadow: 1px 6px 12px rgba(1,2,3,0.475);*/
+/*<i class="fab fa-elementor"></i>*/
+.fieldPickerDropdown {
+  border: 2px solid #3c8dbc;
+  border-top: 2px solid #3c8dbc !important;
+  box-shadow: 1px 6px 12px rgba(1,2,3,0.475);
+}
+
+span.disabled {
+  color: #ccc;
+}
+
+.dropdown-menu>li>a>.glyphicon,.dropdown-menu>li>a>.fa,.dropdown-menu>li>a>.fas,.dropdown-menu>li>a>.ion {
+  margin-right: 10px
+}
+
+i.fa-file-excel-o{
+  color: green;
+}
+
+i.fa-file-word-o{
+  color: blue;
+}
+
+i.fa-file-pdf-o{
+  color: red;
+}
+
+i.fa-file {
+  color: lightblue;
+}
+
+.filterBtn {
+  height: 34px;
+}
+
+.no_cell_border {
+  border-right: none !important;
+}
+
+.multiselect-chkbox {
+  padding: 0;
+  border-right: none !important;
+}
+
+.popUp{
+  background-clip: padding-box;
+  background-color: #FFF;
+  border: 1px solid #aaaaaa;
+  border-radius: 4px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  display: block;
+  list-style: none;
+  min-width: 160px;
+  padding: 10px;
+  position: absolute;
+  width: 100%;
+  right: 0;
+  top:25px;
+ }
+   
+  .popUp .bza-caret {width: 20px;
+  width: 20px;
+  height: 3px;
+  top: -7px;
+  right: 15px;
+  overflow: hidden;
+  padding: 3px;
+  right:7px;
+  position: absolute;}
+   
+  .popUp .bza-caret i {background: #FFF;
+  border: 5px solid #aaaaaa;
+  display: block;
+  height: 10px;
+  transform: rotate(-45deg);
+  width: 10px;
+  }
+  .popUp button.btn.btn-default.filterBtn.dropdown-toggle {
+  background:#ecedef !important;
+  }
+  .popUp .filterIcn {
+  color:#6d6d6d;
+  line-height:20px;
+  font-size:11px !important
+  }
+
+
+  .fiterContainer {
+    display:unset !important;
+    position: absolute;
+    right: 0px;
+    width:30px;
+ padding-left:5px
+}
+ 
+span.bza-filter-icon.filter-icon-visible.filter-icon-fa {
+        color: #000000;
+    font-size: 10px;
+}
+
